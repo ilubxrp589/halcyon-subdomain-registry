@@ -1,0 +1,118 @@
+{
+  "category": "movements",
+  "description": "Historical and contemporary art movements",
+  "styles": {
+    "impressionist": {
+      "id": "impressionist",
+      "name": "Impressionist",
+      "prompt": "impressionist painting {prompt} . loose brushwork, vibrant color, light and shadow play, captures feeling over form, painterly texture, visible brushstrokes, plein air painting, soft edges",
+      "negative": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy, sharp edges, 3d render, digital art, CGI, hyperrealistic, 8k",
+      "settings": {
+        "cfg": 5,
+        "steps": 30,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "expressionist": {
+      "id": "expressionist",
+      "name": "Expressionist",
+      "prompt": "expressionist painting {prompt} . raw, emotional, dynamic, distortion for emotional effect, vibrant, use of unusual colors, bold brushwork, painted on canvas, visible paint texture, thick paint strokes",
+      "negative": "realism, symmetry, quiet, calm, photo, photorealistic, 3d render, digital art, CGI, smooth, hyperrealistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 28,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "pop_art": {
+      "id": "pop_art",
+      "name": "Pop Art",
+      "prompt": "Pop Art style {prompt} . bright colors, bold outlines, popular culture themes, ironic or kitsch, Ben-Day dots, high contrast",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, minimalist",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "art_deco": {
+      "id": "art_deco",
+      "name": "Art Deco",
+      "prompt": "Art Deco style {prompt} . geometric shapes, bold colors, luxurious, elegant, decorative, symmetrical, ornate, detailed, gold accents",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist",
+      "settings": {
+        "cfg": 5,
+        "steps": 30,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "art_nouveau": {
+      "id": "art_nouveau",
+      "name": "Art Nouveau",
+      "prompt": "Art Nouveau style {prompt} . elegant, decorative, curvilinear forms, nature-inspired, ornate, detailed, flowing lines, organic shapes",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist, industrial, mechanical",
+      "settings": {
+        "cfg": 5,
+        "steps": 30,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "cubist": {
+      "id": "cubist",
+      "name": "Cubist",
+      "prompt": "cubist artwork {prompt} . geometric shapes, abstract, innovative, revolutionary, multiple perspectives, fragmented forms",
+      "negative": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy, realistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 28,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "renaissance": {
+      "id": "renaissance",
+      "name": "Renaissance",
+      "prompt": "Renaissance style {prompt} . realistic, perspective, chiaroscuro, religious or mythological themes, highly detailed, classical composition, oil painting on wood panel, sfumato technique, Old Masters painting",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, modernist, minimalist, abstract, cartoon, 3d render, digital art, CGI, photograph, neon",
+      "settings": {
+        "cfg": 5,
+        "steps": 35,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "baroque": {
+      "id": "baroque",
+      "name": "Baroque",
+      "prompt": "Baroque painting {prompt} . dramatic, exuberant, grandeur, baroque art, rich oil colors, dynamic composition, tenebrism, chiaroscuro, ornate details, Old Masters, Caravaggio lighting, painterly",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, minimalist, simple, 3d render, digital art, CGI, photograph, modern",
+      "settings": {
+        "cfg": 5,
+        "steps": 35,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    }
+  }
+}

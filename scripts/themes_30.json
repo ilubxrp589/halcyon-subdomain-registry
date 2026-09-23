@@ -1,0 +1,156 @@
+{
+  "business": {
+    "1_fintech": {
+      "name": "Fintech",
+      "modifiers": "futuristic stock trading hologram, glowing cryptocurrency coins floating, digital wealth visualization, golden binary rain, sleek financial dashboard interface, wealth management AI",
+      "negative": "cartoon, childish, messy, low quality"
+    },
+    "2_healthcare": {
+      "name": "Healthcare",
+      "modifiers": "glowing DNA double helix structure, medical nanobots in bloodstream, holographic heart scan, bioluminescent cellular network, healing light rays, advanced medical technology",
+      "negative": "gore, blood, scary, dark, horror"
+    },
+    "3_legal": {
+      "name": "Legal",
+      "modifiers": "majestic golden scales of justice floating in marble courthouse, ancient law tomes with glowing runes, gavel striking with energy waves, pillars of justice, authoritative presence",
+      "negative": "casual, messy, cartoon, playful"
+    },
+    "4_realestate": {
+      "name": "Real Estate",
+      "modifiers": "floating crystal skyscrapers, holographic architectural blueprints, golden key unlocking portal to luxury mansion, cityscape of dreams, premium property showcase",
+      "negative": "run down, broken, cheap, low quality"
+    },
+    "5_consulting": {
+      "name": "Consulting",
+      "modifiers": "strategic mind map visualization, glowing network of connected ideas, chess pieces on holographic board, executive vision, wisdom crystallized in light",
+      "negative": "casual, unprofessional, messy, cartoon"
+    },
+    "6_logistics": {
+      "name": "Logistics",
+      "modifiers": "global shipping network visualization, cargo ships and planes as light trails around Earth, interconnected supply chain glowing paths, worldwide delivery constellation",
+      "negative": "broken, damaged, messy, disorganized"
+    },
+    "7_manufacturing": {
+      "name": "Manufacturing",
+      "modifiers": "precision robotic assembly line with laser welding, molten metal pouring into perfect molds, factory of the future with holographic quality control, industrial symphony",
+      "negative": "broken, rusty, abandoned, dirty"
+    },
+    "8_energy": {
+      "name": "Energy",
+      "modifiers": "fusion reactor core with plasma containment, solar panels absorbing sun rays in space, wind turbine field at golden hour, clean energy lightning, power grid constellation",
+      "negative": "pollution, dirty, dark, apocalyptic"
+    },
+    "9_aerospace": {
+      "name": "Aerospace",
+      "modifiers": "sleek spacecraft approaching space station, rocket launch with dramatic flames, satellite constellation orbiting Earth, astronaut floating among stars, cosmic engineering marvel",
+      "negative": "crash, explosion, destruction, broken"
+    },
+    "10_hospitality": {
+      "name": "Hospitality",
+      "modifiers": "grand hotel lobby with crystal chandeliers, infinity pool overlooking paradise sunset, five-star service with golden bells, luxury resort oasis, ultimate comfort destination",
+      "negative": "cheap, dirty, broken, uncomfortable"
+    },
+    "11_agriculture": {
+      "name": "Agriculture",
+      "modifiers": "drone swarm over golden wheat fields at sunset, smart greenhouse with glowing crops, vertical farm towers in the sky, harvest moon blessing, agricultural technology paradise",
+      "negative": "dead plants, drought, destruction, barren"
+    },
+    "12_insurance": {
+      "name": "Insurance",
+      "modifiers": "protective energy shield dome over city, guardian angel with wings of light, safety net catching falling stars, umbrella of protection against storm, fortress of security",
+      "negative": "disaster, destruction, fear, chaos"
+    },
+    "13_telecom": {
+      "name": "Telecommunications",
+      "modifiers": "5G signal waves emanating from tower, fiber optic cables as rivers of light, satellite dish receiving cosmic data, global communication web, connected world visualization",
+      "negative": "disconnected, broken, static, interference"
+    },
+    "14_automotive": {
+      "name": "Automotive",
+      "modifiers": "futuristic supercar with light trail on neon highway, electric vehicle charging with energy aura, concept car reveal with dramatic lighting, automotive perfection",
+      "negative": "crash, damaged, rusty, broken"
+    },
+    "15_biotech": {
+      "name": "Biotechnology",
+      "modifiers": "CRISPR gene editing visualization, glowing petri dish with engineered cells, laboratory of miracles with bioluminescent experiments, DNA strand manipulation, life science breakthrough",
+      "negative": "mutation, horror, monster, scary"
+    }
+  },
+  "exotic": {
+    "16_vaporwave": {
+      "name": "Vaporwave",
+      "modifiers": "pink sunset over endless ocean grid, floating greek statue heads, retro computer interface, palm trees silhouette, VHS aesthetic with glitch art, nostalgic digital dreamscape",
+      "negative": "realistic, modern, corporate, plain"
+    },
+    "17_solarpunk": {
+      "name": "Solarpunk",
+      "modifiers": "utopian treehouse city with solar leaves, art nouveau organic architecture, moss-covered skyscrapers, butterfly wind turbines, harmonious nature technology fusion, hopeful green future",
+      "negative": "dystopian, dark, polluted, industrial"
+    },
+    "18_biopunk": {
+      "name": "Biopunk",
+      "modifiers": "living organic computer with neural pathways, flesh and chrome merged creature, bioluminescent circuitry veins, grown machinery, symbiotic technology organism, alien beauty",
+      "negative": "clean, sterile, purely mechanical, simple"
+    },
+    "19_crystalpunk": {
+      "name": "Crystalpunk",
+      "modifiers": "crystalline computer core with prismatic light, geode power generator, faceted gemstone machinery, amethyst and quartz technology, mineral-based energy system, precious stone aesthetics",
+      "negative": "dull, matte, plain, organic"
+    },
+    "20_deepocean": {
+      "name": "Deep Ocean",
+      "modifiers": "bioluminescent jellyfish swarm in abyss, underwater ancient temple ruins, giant squid near submarine, deep sea hydrothermal vents glowing, mysterious oceanic wonders",
+      "negative": "surface, sky, dry, desert, land"
+    },
+    "21_dreamcore": {
+      "name": "Dreamcore",
+      "modifiers": "impossible staircase to nowhere, floating furniture in endless sky, surreal doorway to other dimensions, melting clocks and distorted reality, lucid dream landscape",
+      "negative": "realistic, harsh, sharp, industrial"
+    },
+    "22_clockwork": {
+      "name": "Clockwork",
+      "modifiers": "giant brass clock mechanism interior, intricate golden gears and springs, steampunk automaton with glowing eyes, mechanical heart beating, horological masterpiece",
+      "negative": "digital, modern, electronic, simple"
+    },
+    "23_arctic": {
+      "name": "Arctic Aurora",
+      "modifiers": "northern lights dancing over ice palace, frozen cathedral with aurora reflection, polar bear silhouette under cosmic sky, crystalline ice formations, arctic magic",
+      "negative": "tropical, warm, desert, fire"
+    },
+    "24_volcanic": {
+      "name": "Volcanic",
+      "modifiers": "volcano erupting with lightning storm, lava river flowing through obsidian canyon, fire elemental rising from magma, primal earth power unleashed, volcanic forge of creation",
+      "negative": "cold, ice, water, calm, peaceful"
+    },
+    "25_quantum": {
+      "name": "Quantum",
+      "modifiers": "quantum computer with superposition visualization, particles existing in multiple states, entanglement strings between atoms, probability wave collapse, subatomic reality fabric",
+      "negative": "macro, large scale, simple, plain"
+    },
+    "26_mythic": {
+      "name": "Mythic Legends",
+      "modifiers": "phoenix rising from golden flames, dragon guarding treasure hoard, legendary sword in stone with light beams, mythological creatures gathering, epic fantasy scene",
+      "negative": "modern, mundane, ordinary, technological"
+    },
+    "27_zen": {
+      "name": "Zen Garden",
+      "modifiers": "perfectly raked sand patterns around stones, cherry blossoms falling on still water, bamboo grove in morning mist, meditation temple at dawn, peaceful Japanese garden",
+      "negative": "chaotic, busy, loud, cluttered, neon"
+    },
+    "28_neonoir": {
+      "name": "Neo Noir",
+      "modifiers": "rain-soaked city street with neon signs reflecting, mysterious figure in trench coat, smoky jazz bar interior, venetian blind shadows, cinematic detective scene",
+      "negative": "bright, cheerful, daytime, colorful, happy"
+    },
+    "29_celestial": {
+      "name": "Celestial",
+      "modifiers": "zodiac wheel with constellation creatures, cosmic goddess among nebulas, celestial navigation astrolabe floating in space, star map coming alive, heavenly astronomical art",
+      "negative": "earthly, mundane, ground level, plain"
+    },
+    "30_tribal": {
+      "name": "Tribal Tech",
+      "modifiers": "ancient tribal mask with holographic patterns, sacred geometry merged with circuit boards, totem pole with glowing energy, ancestral spirits in digital form, cultural technology fusion",
+      "negative": "plain, corporate, sterile, boring"
+    }
+  }
+}

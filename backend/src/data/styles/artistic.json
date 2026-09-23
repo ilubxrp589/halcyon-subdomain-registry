@@ -1,0 +1,130 @@
+{
+  "category": "artistic",
+  "description": "Traditional artistic mediums and techniques",
+  "styles": {
+    "watercolor": {
+      "id": "watercolor",
+      "name": "Watercolor",
+      "prompt": "ral-wtrclr masterful traditional watercolor painting on cold press paper, {prompt} . wet-on-wet and wet-on-dry techniques, bold confident brush strokes with visible bristle marks, pigment bleeding and cauliflower blooms, transparent luminous color washes layered over white paper, rough paper texture showing through in highlights, soft diffused edges blending into white space, granulating earth pigments settling into paper valleys, brilliant glazed color depth, foreground detail dissolving into atmospheric wash, handpainted watercolor illustration with artistic imperfections",
+      "negative": "anime, photorealistic, 35mm film, digital art, smooth, airbrushed, CGI, 3d render, plastic, oversaturated, sharp edges, vector, flat color, deformed, glitch, mutation, poorly drawn, bad anatomy, disfigured, extra limbs, fused fingers, malformed, blurry, noisy, low contrast, worst quality, low quality, jpeg artifacts, watermark, text, signature, out of frame, cropped, duplicate",
+      "settings": {
+        "cfg": 8.0,
+        "steps": 42,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": {
+        "name": "ral-wtrclr-sdxl",
+        "strength": 0.94
+      }
+    },
+    "oil_painting": {
+      "id": "oil_painting",
+      "name": "Oil Painting",
+      "prompt": "oil painting masterwork on stretched linen canvas, {prompt} . thick visible impasto brushstrokes with palette knife texture, rich layered oil pigments with luminous depth, alla prima wet-on-wet blending, canvas weave texture showing through thin passages, bold confident gestural marks, warm undertones glowing through translucent glazes, classical chiaroscuro light and shadow, museum quality fine art painting with painterly atmosphere",
+      "negative": "anime, cartoon, graphic, text, crayon, graphite, glitch, deformed, mutated, ugly, disfigured, 3d render, digital art, CGI, smooth airbrush, photorealistic, photograph, hyperrealistic, sharp focus, 8k, unreal engine, flat color, vector, plastic, blurry, noisy, low quality, worst quality, jpeg artifacts, watermark, signature, out of frame, cropped",
+      "settings": {
+        "cfg": 7,
+        "steps": 40,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": {
+        "name": "ClassipeintXL2.1",
+        "strength": 1.13
+      }
+    },
+    "pencil_sketch": {
+      "id": "pencil_sketch",
+      "name": "Pencil Sketch",
+      "prompt": "(black and white:1.4), (monochrome:1.4), (graphite pencil drawing:1.3) {prompt} . (black pencil shading on white paper:1.2), detailed crosshatching and hatching techniques, varied pencil pressure from bold dark strokes to delicate light lines, visible paper grain texture, precise linework with expressive gestural marks, tonal range from deep charcoal blacks to subtle graphite grays, (monochrome black and white only:1.3), fine art pencil illustration, no color",
+      "negative": "(color:1.5), (colorful:1.4), (vibrant:1.3), (saturated:1.3), colors, colored, rgb, paint, painted, red, blue, green, yellow, orange, purple, pink, warm tones, cool tones, color palette, amber, burgundy, golden, cyan, crimson, ugly, deformed, noisy, blurry, low contrast, photograph, realistic, photorealistic, 3d render, digital art, CGI, painting, oil paint, watercolor, anime, cartoon, worst quality, low quality, jpeg artifacts, watermark, text, signature",
+      "settings": {
+        "cfg": 6,
+        "steps": 30,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": {
+        "name": "Black_pencil_drawing-000001",
+        "strength": 0.918
+      }
+    },
+    "ink_drawing": {
+      "id": "ink_drawing",
+      "name": "Ink Drawing",
+      "prompt": "ArsMJStyle, Zen Ink Wash Sumi-e, (Japanese ink wash painting:1.4) {prompt} . (bold black ink brushstrokes on rice paper:1.3), (strong ink linework and contours:1.3), (monochrome ink dominant:1.2), dramatic composition with strong singular focal point, asymmetric balance and dynamic angle, traditional sumi-e technique with dry brush and wet ink contrast, deep black ink dominating the composition, color limited to sparse accent washes only, atmospheric mist and negative space, (ink bleeding and feathering on absorbent paper:1.2), stark contrast between ink marks and bare paper, expressive gestural marks with varied brush pressure, traditional East Asian ink art masterwork",
+      "negative": "(photorealistic:1.4), (photograph:1.4), (realistic lighting:1.3), (realistic rendering:1.3), oversaturated, neon, garish, loud colors, (colorful:1.3), watercolor painting, colorful washes, bright colors, painted, heavy color, ugly, deformed, noisy, blurry, low contrast, 3d render, digital art, CGI, anime, cartoon, oil paint, acrylic, worst quality, low quality, jpeg artifacts, watermark, text, signature, flat composition, centered symmetrical",
+      "settings": {
+        "cfg": 8.5,
+        "steps": 38,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": {
+        "name": "Zen_Ink_Wash_Sumi-e",
+        "strength": 1.18
+      }
+    },
+    "colored_pencil": {
+      "id": "colored_pencil",
+      "name": "Colored Pencil",
+      "prompt": "colored pencil art {prompt} . colored pencil strokes, light color, visible paper texture, colored pencil illustration, artistic",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic, digital art",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "marker": {
+      "id": "marker",
+      "name": "Marker Drawing",
+      "prompt": "marker drawing {prompt} . bold marker lines, visible paper texture, marker illustration, vibrant colors, artistic",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "charcoal": {
+      "id": "charcoal",
+      "name": "Charcoal",
+      "prompt": "charcoal drawing {prompt} . black and white, high contrast, tone, texture, detailed, artistic charcoal sketch, smudged edges",
+      "negative": "colorful, vibrant, noisy, blurry, deformed, photograph, realistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "gouache": {
+      "id": "gouache",
+      "name": "Gouache",
+      "prompt": "gouache painting {prompt} . painterly, bold colors, textured brushwork, opaque watercolor, matte finish, artistic illustration",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 28,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    }
+  }
+}

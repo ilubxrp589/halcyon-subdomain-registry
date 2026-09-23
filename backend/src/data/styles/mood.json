@@ -1,0 +1,118 @@
+{
+  "category": "mood",
+  "description": "Mood, atmosphere, and aesthetic styles",
+  "styles": {
+    "dark_moody": {
+      "id": "dark_moody",
+      "name": "Dark & Moody",
+      "prompt": "dark moody atmosphere {prompt} . dramatic, mysterious, dark moody atmosphere, deep shadows, low key lighting, atmospheric",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, vibrant, colorful, bright, cheerful",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "dreamy": {
+      "id": "dreamy",
+      "name": "Dreamy",
+      "prompt": "dreamscape {prompt} . surreal, ethereal, dreamy, mysterious, fantasy, highly detailed, soft focus, hazy, otherworldly",
+      "negative": "realistic, concrete, ordinary, mundane, harsh, sharp",
+      "settings": {
+        "cfg": 5,
+        "steps": 30,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "gothic": {
+      "id": "gothic",
+      "name": "Gothic",
+      "prompt": "gothic style {prompt} . dark, mysterious, haunting, dramatic, ornate, detailed, Victorian architecture, brooding atmosphere",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, cheerful, optimistic, bright",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "cyberpunk": {
+      "id": "cyberpunk",
+      "name": "Cyberpunk",
+      "prompt": "neonpunk style {prompt} . cyberpunk, vaporwave, neon, vibes, vibrant, stunningly beautiful, crisp, detailed, sleek, ultramodern, magenta highlights, dark purple shadows, high contrast, cinematic, ultra detailed, intricate, professional",
+      "negative": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured, natural, rustic",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "steampunk": {
+      "id": "steampunk",
+      "name": "Steampunk",
+      "prompt": "steampunk style {prompt} . antique, mechanical, brass and copper tones, gears, intricate, detailed, Victorian era, industrial revolution, retrofuturistic",
+      "negative": "deformed, glitch, noisy, low contrast, anime, photorealistic, modern, digital",
+      "settings": {
+        "cfg": 5,
+        "steps": 30,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "horror": {
+      "id": "horror",
+      "name": "Horror",
+      "prompt": "horror-themed {prompt} . eerie, unsettling, dark, spooky, suspenseful, grim, highly detailed, ominous atmosphere, dread",
+      "negative": "cheerful, bright, vibrant, light-hearted, cute, happy",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "fairy_tale": {
+      "id": "fairy_tale",
+      "name": "Fairy Tale",
+      "prompt": "fairy tale {prompt} . magical, fantastical, enchanting, storybook style, highly detailed, whimsical, wonder, illustrated",
+      "negative": "realistic, modern, ordinary, mundane, dark, horror",
+      "settings": {
+        "cfg": 5,
+        "steps": 28,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "dystopian": {
+      "id": "dystopian",
+      "name": "Dystopian",
+      "prompt": "dystopian style {prompt} . bleak, post-apocalyptic, somber, dramatic, highly detailed, desolate, industrial decay, oppressive atmosphere",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful, utopian",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    }
+  }
+}

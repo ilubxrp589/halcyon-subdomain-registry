@@ -1,0 +1,1662 @@
+{
+  "business": {
+    "01_restaurant": {
+      "name": "Restaurant",
+      "modifiers": "elegant fine dining restaurant interior, gourmet dishes artfully plated, warm ambient lighting, wine glasses and candles, michelin star atmosphere, culinary excellence"
+    },
+    "02_coffee_shop": {
+      "name": "Coffee Shop",
+      "modifiers": "cozy artisan coffee shop, steaming latte art, exposed brick walls, vintage espresso machine, warm morning light through windows, barista crafting drinks"
+    },
+    "03_bakery": {
+      "name": "Bakery",
+      "modifiers": "charming french bakery, fresh croissants and pastries display, golden morning light, flour dusted wooden counters, artisan bread loaves, warm inviting atmosphere"
+    },
+    "04_food_truck": {
+      "name": "Food Truck",
+      "modifiers": "vibrant gourmet food truck, street food festival atmosphere, colorful menu board, urban setting, delicious street cuisine, hungry customers gathering"
+    },
+    "05_grocery": {
+      "name": "Grocery Store",
+      "modifiers": "modern premium grocery store, fresh produce display, organic vegetables, artisan cheese section, clean bright aisles, farm to table freshness"
+    },
+    "06_boutique": {
+      "name": "Clothing Boutique",
+      "modifiers": "upscale fashion boutique interior, designer clothing on elegant racks, soft lighting, velvet curtains, luxury shopping experience, curated collection"
+    },
+    "07_ecommerce": {
+      "name": "E-commerce",
+      "modifiers": "futuristic online shopping visualization, floating product displays, digital marketplace, holographic cart interface, global shipping network, seamless digital retail"
+    },
+    "08_bookstore": {
+      "name": "Bookstore",
+      "modifiers": "enchanting independent bookstore, towering wooden shelves, leather armchairs, warm reading lamps, literary sanctuary, stacks of classic novels"
+    },
+    "09_electronics": {
+      "name": "Electronics Store",
+      "modifiers": "sleek modern electronics showroom, glowing devices on display, cutting edge technology, minimalist design, premium gadgets, tech paradise"
+    },
+    "10_hardware": {
+      "name": "Hardware Store",
+      "modifiers": "well-organized hardware store, tools neatly arranged, lumber section, helpful service, DIY paradise, home improvement haven"
+    },
+    "11_plumbing": {
+      "name": "Plumbing Service",
+      "modifiers": "professional plumber at work, copper pipes gleaming, precision tools, water systems, expert craftsmanship, reliable repair service"
+    },
+    "12_electrical": {
+      "name": "Electrical Contractor",
+      "modifiers": "electrician working on panel, sparks of electricity, wiring expertise, safety equipment, power infrastructure, skilled tradesperson"
+    },
+    "13_hvac": {
+      "name": "HVAC Services",
+      "modifiers": "HVAC technician with equipment, climate control systems, ventilation ducts, professional service, temperature comfort, modern heating cooling"
+    },
+    "14_landscaping": {
+      "name": "Landscaping",
+      "modifiers": "beautiful landscaped garden, manicured lawn, flowering plants, stone pathways, professional gardener, outdoor paradise creation"
+    },
+    "15_cleaning": {
+      "name": "Cleaning Services",
+      "modifiers": "sparkling clean interior, professional cleaning team, gleaming surfaces, organized space, pristine environment, transformation from mess to perfection"
+    },
+    "16_painting": {
+      "name": "House Painting",
+      "modifiers": "house painter on ladder, fresh paint colors, brush strokes on wall, color transformation, home renovation, professional finish"
+    },
+    "17_auto_repair": {
+      "name": "Auto Repair",
+      "modifiers": "professional auto mechanic shop, car on lift, tools organized, engine repair, skilled technician, automotive expertise"
+    },
+    "18_car_wash": {
+      "name": "Car Wash",
+      "modifiers": "premium car wash facility, soap suds and water jets, gleaming vehicles, rainbow in mist, automatic brushes, spotless finish"
+    },
+    "19_hair_salon": {
+      "name": "Hair Salon",
+      "modifiers": "stylish modern hair salon, hairdresser at work, elegant mirrors, styling tools, glamorous transformation, beauty expertise"
+    },
+    "20_nail_spa": {
+      "name": "Nail Spa",
+      "modifiers": "luxurious nail spa interior, manicure station, colorful polish collection, relaxing atmosphere, pampering experience, beauty treatment"
+    },
+    "21_fitness_gym": {
+      "name": "Fitness Gym",
+      "modifiers": "modern fitness gym interior, weight training equipment, motivated athletes, energy and power, workout intensity, health transformation"
+    },
+    "22_yoga_studio": {
+      "name": "Yoga Studio",
+      "modifiers": "serene yoga studio, practitioners in poses, natural light streaming, bamboo elements, peaceful meditation, mindful wellness"
+    },
+    "23_pet_grooming": {
+      "name": "Pet Grooming",
+      "modifiers": "adorable pet grooming salon, fluffy dog being pampered, grooming tools, bubbles and bows, happy pets, professional care"
+    },
+    "24_veterinary": {
+      "name": "Veterinary Clinic",
+      "modifiers": "caring veterinarian with animals, clinic interior, medical equipment, healing pets, compassionate care, animal wellness"
+    },
+    "25_daycare": {
+      "name": "Daycare Center",
+      "modifiers": "colorful daycare center, happy children playing, educational toys, safe nurturing environment, joyful learning, caring staff"
+    },
+    "26_tutoring": {
+      "name": "Tutoring Services",
+      "modifiers": "focused tutoring session, student and teacher, books and learning materials, educational breakthrough, knowledge transfer, academic success"
+    },
+    "27_online_courses": {
+      "name": "Online Courses",
+      "modifiers": "digital learning platform visualization, virtual classroom, floating educational content, global students connected, knowledge streaming, e-learning future"
+    },
+    "28_consulting": {
+      "name": "Consulting Firm",
+      "modifiers": "executive consulting meeting, glass boardroom, strategic presentations, business insights, professional advisors, corporate excellence"
+    },
+    "29_accounting": {
+      "name": "Accounting Services",
+      "modifiers": "professional accountant at work, financial documents, calculator and spreadsheets, number precision, tax expertise, financial clarity"
+    },
+    "30_graphic_design": {
+      "name": "Graphic Design",
+      "modifiers": "creative graphic designer workspace, digital art on screens, color palettes, design tools, artistic vision, visual creativity"
+    },
+    "31_web_dev": {
+      "name": "Web Development",
+      "modifiers": "web developer coding, multiple monitors with code, modern office, programming interface, digital creation, tech innovation"
+    },
+    "32_digital_marketing": {
+      "name": "Digital Marketing",
+      "modifiers": "digital marketing dashboard, analytics graphs, social media metrics, campaign visualization, online reach, marketing success"
+    },
+    "33_social_media": {
+      "name": "Social Media Management",
+      "modifiers": "social media content creation, multiple platform feeds, engagement metrics, viral content, influencer aesthetic, digital presence"
+    },
+    "34_photography": {
+      "name": "Photography Business",
+      "modifiers": "professional photographer with camera, studio lighting setup, capturing perfect moment, artistic vision, creative lens, visual storytelling"
+    },
+    "35_event_planning": {
+      "name": "Event Planning",
+      "modifiers": "spectacular event setup, elegant decorations, coordinated design, celebration preparation, party planning perfection, memorable occasions"
+    },
+    "36_wedding_venue": {
+      "name": "Wedding Venue",
+      "modifiers": "romantic wedding venue, floral arch, elegant chairs arranged, dreamy lighting, celebration of love, fairy tale setting"
+    },
+    "37_hotel": {
+      "name": "Hotel & B&B",
+      "modifiers": "luxury hotel lobby, grand chandelier, elegant furnishings, welcoming atmosphere, hospitality excellence, premium accommodation"
+    },
+    "38_real_estate": {
+      "name": "Real Estate Agency",
+      "modifiers": "real estate showcase, beautiful homes for sale, property listings, dream house, keys to new home, successful deals"
+    },
+    "39_property_mgmt": {
+      "name": "Property Management",
+      "modifiers": "property manager with building portfolio, apartment complex, tenant services, building maintenance, real estate oversight, professional management"
+    },
+    "40_construction": {
+      "name": "Construction Company",
+      "modifiers": "construction site at golden hour, cranes and scaffolding, building rising, hard hats and blueprints, urban development, engineering marvel"
+    },
+    "41_saas": {
+      "name": "SaaS Platform",
+      "modifiers": "futuristic software interface, cloud computing visualization, subscription dashboard, digital service delivery, tech startup aesthetic, scalable platform"
+    },
+    "42_freelance_writing": {
+      "name": "Freelance Writing",
+      "modifiers": "writer at creative desk, manuscript pages, vintage typewriter meets modern laptop, coffee and inspiration, wordsmith at work, content creation"
+    },
+    "43_dropshipping": {
+      "name": "Dropshipping",
+      "modifiers": "global dropshipping network visualization, packages in transit, supplier connections, e-commerce fulfillment, worldwide shipping, business automation"
+    },
+    "44_manufacturing": {
+      "name": "Manufacturing",
+      "modifiers": "modern manufacturing facility, precision machinery, assembly line, quality products, industrial efficiency, production excellence"
+    },
+    "45_brewery": {
+      "name": "Craft Brewery",
+      "modifiers": "artisan craft brewery, copper brewing tanks, beer tasting flight, hops and barley, brewmaster at work, craft beer culture"
+    },
+    "46_courier": {
+      "name": "Courier Service",
+      "modifiers": "delivery courier in action, packages being delivered, fast shipping, doorstep delivery, logistics network, reliable service"
+    },
+    "47_moving": {
+      "name": "Moving Company",
+      "modifiers": "professional moving service, furniture being loaded, moving truck, new home transition, careful handling, relocation experts"
+    },
+    "48_security": {
+      "name": "Security Services",
+      "modifiers": "professional security guard, surveillance systems, protection services, safety monitoring, secure premises, vigilant protection"
+    },
+    "49_printing": {
+      "name": "Print Shop",
+      "modifiers": "professional printing press, colorful prints emerging, sign making, large format printing, creative signage, print production"
+    },
+    "50_catering": {
+      "name": "Catering Company",
+      "modifiers": "elegant catering setup, gourmet food stations, uniformed staff serving, event cuisine, culinary presentation, hospitality excellence"
+    }
+  },
+  "exotic": {
+    "51_melting_clocks": {
+      "name": "Melting Clocks",
+      "modifiers": "surreal melting clocks draped over desert landscape, Salvador Dali inspired, distorted time, barren dreamscape, impossible physics, existential imagery"
+    },
+    "52_biolum_city": {
+      "name": "Bioluminescent City",
+      "modifiers": "bioluminescent underwater city at midnight, glowing coral buildings, neon sea creatures, deep ocean metropolis, ethereal blue light, aquatic civilization"
+    },
+    "53_floating_islands": {
+      "name": "Floating Islands",
+      "modifiers": "floating islands with upside-down waterfalls defying gravity, lush vegetation, impossible geography, fantasy landscape, magical realm, dreamlike scenery"
+    },
+    "54_cyber_samurai": {
+      "name": "Cyber Samurai",
+      "modifiers": "cyberpunk samurai warrior in neon rain, katana glowing, futuristic Tokyo streets, rain reflections, tech armor, blade runner aesthetic"
+    },
+    "55_ghost_forest": {
+      "name": "Ghost Forest",
+      "modifiers": "ethereal ghost forest with glowing spirits wandering, misty trees, supernatural light, haunted woods, spectral beings, otherworldly atmosphere"
+    },
+    "56_airship_battle": {
+      "name": "Airship Battle",
+      "modifiers": "steampunk airship battle in dramatic storm clouds, brass vessels, cannon fire, lightning strikes, Victorian sky combat, epic confrontation"
+    },
+    "57_flying_books": {
+      "name": "Flying Library",
+      "modifiers": "dreamlike infinite library where books fly like birds, magical pages fluttering, endless shelves, whimsical wisdom, literary fantasy, enchanted knowledge"
+    },
+    "58_cosmic_whale": {
+      "name": "Cosmic Whale",
+      "modifiers": "cosmic whale swimming majestically through colorful nebulae, space leviathan, stardust trail, galactic creature, celestial giant, universe traveler"
+    },
+    "59_overgrown_ruins": {
+      "name": "Overgrown Metropolis",
+      "modifiers": "post-apocalyptic overgrown ruined metropolis, nature reclaiming skyscrapers, vines on buildings, urban jungle, civilization remnants, beautiful decay"
+    },
+    "60_gothic_mansion": {
+      "name": "Gothic Mansion",
+      "modifiers": "Victorian gothic mansion haunted by shadows, dark spires, lightning illumination, creepy atmosphere, supernatural presence, horror elegance"
+    },
+    "61_geometric_portal": {
+      "name": "Geometric Portal",
+      "modifiers": "abstract geometric portal to another dimension, impossible shapes, sacred geometry, reality fracture, mathematical beauty, dimensional gateway"
+    },
+    "62_crystal_phoenix": {
+      "name": "Crystal Phoenix",
+      "modifiers": "mythical phoenix rising from crystal ashes, prismatic fire wings, rebirth moment, gemstone flames, legendary bird, transformation glory"
+    },
+    "63_synthwave_highway": {
+      "name": "Synthwave Highway",
+      "modifiers": "retro-futuristic 80s synthwave highway at dusk, neon grid, chrome sports car, sunset gradient, outrun aesthetic, nostalgic future"
+    },
+    "64_magic_mirror": {
+      "name": "Magic Mirror",
+      "modifiers": "enchanted mirror reflecting alternate realities, multiple dimensions visible, ornate frame, parallel worlds, reality reflection, mystical glass"
+    },
+    "65_ice_palace": {
+      "name": "Ice Palace",
+      "modifiers": "magnificent ice crystal palace under aurora borealis, frozen architecture, northern lights dancing, winter majesty, glacial beauty, arctic wonder"
+    },
+    "66_mech_heart": {
+      "name": "Mechanical Heart",
+      "modifiers": "mechanical heart beating inside transparent human chest, clockwork organs, steam and gears, biomechanical fusion, life machinery, artistic anatomy"
+    },
+    "67_living_chess": {
+      "name": "Living Chess",
+      "modifiers": "surreal giant chessboard where pieces are alive and battling, strategic warfare, animated royalty, game of life, dramatic confrontation, fantasy strategy"
+    },
+    "68_alien_jungle": {
+      "name": "Alien Jungle",
+      "modifiers": "alien jungle with towering bioluminescent fungi, exotic flora, strange creatures, otherworldly ecosystem, xenobiology, extraterrestrial nature"
+    },
+    "69_time_traveler": {
+      "name": "Time Traveler",
+      "modifiers": "time traveler stepping through shattered hourglass, sand of time flowing, temporal disruption, chronological journey, moment frozen, time manipulation"
+    },
+    "70_space_blossoms": {
+      "name": "Space Blossoms",
+      "modifiers": "floating cherry blossom island drifting in space, sakura petals among stars, cosmic garden, peaceful astronomy, Japanese space fantasy, serene orbit"
+    },
+    "71_grim_reaper": {
+      "name": "Grim Reaper",
+      "modifiers": "dark fantasy grim reaper in misty graveyard, scythe gleaming, tombstones and fog, death personified, gothic horror, supernatural presence"
+    },
+    "72_fractal_mandala": {
+      "name": "Fractal Mandala",
+      "modifiers": "psychedelic fractal mandala exploding with colors, infinite patterns, consciousness expansion, geometric harmony, trippy visuals, kaleidoscope beauty"
+    },
+    "73_atlantis": {
+      "name": "Atlantis",
+      "modifiers": "underwater Atlantis with mermaids swimming among ancient ruins, sunken civilization, coral covered temples, oceanic mystery, mythical city, aquatic wonder"
+    },
+    "74_cyber_cat": {
+      "name": "Cyber Cat",
+      "modifiers": "neon cyber cat with holographic whiskers, digital feline, glowing circuitry fur, futuristic pet, tech animal, cyberpunk creature"
+    },
+    "75_egyptian_future": {
+      "name": "Egyptian Future",
+      "modifiers": "ancient Egyptian gods towering over modern city skyline, Anubis and Ra, civilization clash, mythological presence, timeless power, divine urban"
+    },
+    "76_cloud_city": {
+      "name": "Cloud City",
+      "modifiers": "whimsical cloud city with cotton candy architecture, pastel buildings, fluffy streets, dreamlike metropolis, fantasy skyline, imaginative urban"
+    },
+    "77_elder_god": {
+      "name": "Elder God",
+      "modifiers": "Lovecraftian elder god emerging from stormy ocean, tentacles and eyes, cosmic horror, ancient terror, Cthulhu rising, eldritch nightmare"
+    },
+    "78_comet_garden": {
+      "name": "Comet Garden",
+      "modifiers": "minimalist zen garden on a comet tail, raked stardust, meditation rocks in space, cosmic tranquility, celestial peace, astronomical zen"
+    },
+    "79_vampire_ball": {
+      "name": "Vampire Ballroom",
+      "modifiers": "vampire ballroom dance under blood moon, gothic elegance, immortal dancers, chandelier glow, dark romance, eternal waltz"
+    },
+    "80_solarpunk_village": {
+      "name": "Solarpunk Village",
+      "modifiers": "solarpunk eco-village with vine-covered sustainable tech, green energy, harmonious nature, utopian community, ecological future, hopeful tomorrow"
+    },
+    "81_rage_storm": {
+      "name": "Rage Storm",
+      "modifiers": "abstract emotion visualization of rage as fire storm, anger personified, flames and fury, emotional tempest, passionate destruction, feeling made visible"
+    },
+    "82_candy_cottage": {
+      "name": "Candy Cottage",
+      "modifiers": "fairy tale cottage made entirely of living candy, gingerbread walls, lollipop garden, sweet architecture, Hansel and Gretel, sugary fantasy"
+    },
+    "83_quantum_lovers": {
+      "name": "Quantum Lovers",
+      "modifiers": "quantum entanglement lovers in parallel universes reaching for each other, split reality, cosmic connection, scientific romance, dimensional love"
+    },
+    "84_volcano_dragon": {
+      "name": "Volcano Dragon",
+      "modifiers": "volcanic dragon perched on erupting mountain, magma scales, fire breath, lava flows, legendary beast, elemental fury, primal power"
+    },
+    "85_vaporwave_statue": {
+      "name": "Vaporwave Statue",
+      "modifiers": "retro vaporwave marble statue in pastel void, Greek bust, glitch effects, aesthetic nostalgia, digital ancient, 90s internet art"
+    },
+    "86_sky_eye": {
+      "name": "Sky Eye",
+      "modifiers": "surreal giant eye floating in endless sky, cosmic observation, dreamlike vision, all-seeing presence, surrealist masterpiece, existential gaze"
+    },
+    "87_insect_swarm": {
+      "name": "Mechanical Swarm",
+      "modifiers": "mechanical insect swarm forming human shape, robot butterflies, collective intelligence, technological nature, biomechanical art, emergent form"
+    },
+    "88_star_leaves": {
+      "name": "Star Leaves",
+      "modifiers": "enchanted autumn forest with falling star leaves, glowing foliage, magical woods, celestial nature, fairy tale setting, luminous trees"
+    },
+    "89_eclipse_city": {
+      "name": "Eclipse City",
+      "modifiers": "dystopian megacity under perpetual eclipse, eternal darkness, neon lights, oppressive atmosphere, dark future, solar blockade"
+    },
+    "90_saturn_dancer": {
+      "name": "Saturn Dancer",
+      "modifiers": "celestial ballet dancer performing on rings of Saturn, cosmic performance, space elegance, astronomical art, graceful orbit, stellar beauty"
+    },
+    "91_chaos_harmony": {
+      "name": "Chaos Harmony",
+      "modifiers": "abstract ink painting of chaos transforming into harmony, yin yang motion, order from disorder, artistic balance, dynamic equilibrium, flowing transition"
+    },
+    "92_unicorn_herd": {
+      "name": "Unicorn Herd",
+      "modifiers": "mythical unicorn herd charging through aurora borealis, magical horses, rainbow manes, legendary stampede, fantasy wildlife, majestic creatures"
+    },
+    "93_twilight_park": {
+      "name": "Twilight Park",
+      "modifiers": "abandoned amusement park at eternal twilight, rusted ferris wheel, nostalgic decay, liminal space, forgotten joy, melancholic beauty"
+    },
+    "94_holo_duel": {
+      "name": "Holographic Duel",
+      "modifiers": "holographic samurai duel in digital rain, virtual warriors, data katanas, matrix combat, cyber battle, futuristic honor"
+    },
+    "95_crystal_cave": {
+      "name": "Crystal Cave",
+      "modifiers": "vast crystal cave with glowing alien flora, underground garden, luminescent minerals, subterranean wonder, geological magic, cavern paradise"
+    },
+    "96_melting_face": {
+      "name": "Melting Portrait",
+      "modifiers": "surreal melting face portrait in desert heat, identity dissolving, Dali inspired, existential art, liquid features, dreamlike horror"
+    },
+    "97_lost_continent": {
+      "name": "Lost Continent",
+      "modifiers": "steampunk explorer discovering lost continent, ancient technology, brass telescope, uncharted territory, Victorian adventure, mysterious civilization"
+    },
+    "98_glass_wings": {
+      "name": "Glass Wings",
+      "modifiers": "ethereal angel with wings made of shattered glass, fragile beauty, light refraction, divine fragmentation, broken holiness, painful grace"
+    },
+    "99_star_library": {
+      "name": "Star Library",
+      "modifiers": "cosmic library where stars are books on infinite shelves, universe of knowledge, galactic wisdom, celestial archives, astronomical literature"
+    },
+    "100_apocalypse_bloom": {
+      "name": "Apocalypse Bloom",
+      "modifiers": "apocalyptic flower blooming from cracked earth, hope in destruction, life persisting, beautiful resilience, end and beginning, nature prevails"
+    }
+  },
+  "jobs": {
+    "101_snake_milker": {
+      "name": "Snake Venom Milker",
+      "modifiers": "professional snake handler extracting venom from deadly cobra, careful precision, laboratory setting, antivenom production, fangs dripping into collection vial, dangerous expertise"
+    },
+    "102_chick_sexer": {
+      "name": "Chick Sexer",
+      "modifiers": "skilled worker sorting day-old chicks at hatchery, fluffy yellow chicks, conveyor belt, expert hands, agricultural profession, poultry industry, rapid identification"
+    },
+    "103_mattress_tester": {
+      "name": "Professional Sleeper",
+      "modifiers": "professional mattress tester in luxury showroom, sleeping on premium bed, comfort evaluation, sleep quality assessment, dream job literally, plush bedding"
+    },
+    "104_pet_food_taster": {
+      "name": "Pet Food Taster",
+      "modifiers": "quality control specialist tasting premium pet food, laboratory setting, flavor analysis notes, dog and cat food samples, sensory evaluation, unusual profession"
+    },
+    "105_feng_shui": {
+      "name": "Feng Shui Consultant",
+      "modifiers": "feng shui master arranging elegant living space, compass in hand, energy flow visualization, harmonious interior, Chinese aesthetic, balance and prosperity symbols"
+    },
+    "106_odor_judge": {
+      "name": "Odor Judge",
+      "modifiers": "professional odor tester in sterile lab, sniffing samples, deodorant efficacy testing, scientific evaluation, sensory analysis equipment, clinical environment"
+    },
+    "107_golf_ball_diver": {
+      "name": "Golf Ball Diver",
+      "modifiers": "scuba diver collecting golf balls from murky pond, golf course water hazard, mesh bag full of balls, underwater treasure hunting, wet suit, submerged profession"
+    },
+    "108_line_stander": {
+      "name": "Professional Line Stander",
+      "modifiers": "professional queue holder outside Apple store, camping chair, product launch crowd, patience for hire, urban sidewalk, waiting as career"
+    },
+    "109_pro_mourner": {
+      "name": "Professional Mourner",
+      "modifiers": "elegantly dressed mourner crying at funeral ceremony, black veil, genuine tears, solemn atmosphere, cemetery backdrop, emotional service provider"
+    },
+    "110_waterslide_tester": {
+      "name": "Waterslide Tester",
+      "modifiers": "waterslide tester splashing down colorful tube slide, water park paradise, safety evaluation, thrilling descent, summer job dream, amusement park"
+    },
+    "111_wedding_extra": {
+      "name": "Fake Wedding Guest",
+      "modifiers": "hired wedding guest mingling at elegant reception, champagne in hand, pretending to know the couple, filling empty tables, celebration ambiance, social actor"
+    },
+    "112_deodorant_tester": {
+      "name": "Armpit Sniffer",
+      "modifiers": "lab technician conducting armpit odor test, clinical setting, deodorant effectiveness study, participant with raised arm, scientific sniffing, hygiene research"
+    },
+    "113_paper_sniffer": {
+      "name": "Paper Towel Sniffer",
+      "modifiers": "quality control worker smelling paper products, manufacturing facility, odor detection, product samples, sensory evaluation station, consumer goods testing"
+    },
+    "114_dice_inspector": {
+      "name": "Dice Inspector",
+      "modifiers": "casino dice inspector with precision calipers, perfectly balanced dice, gaming commission, quality control, red casino dice, anti-cheating verification"
+    },
+    "115_balloon_pilot": {
+      "name": "Hot Air Balloon Pilot",
+      "modifiers": "hot air balloon pilot in wicker basket at sunrise, colorful balloon envelope, burner flames, floating over countryside, aerial adventure, peaceful flight"
+    },
+    "116_crime_cleaner": {
+      "name": "Crime Scene Cleaner",
+      "modifiers": "biohazard cleanup specialist in protective suit, crime scene tape, professional cleaning equipment, hazmat gear, somber duty, restoration work"
+    },
+    "117_bounty_hunter": {
+      "name": "Bounty Hunter",
+      "modifiers": "modern bounty hunter with tactical gear, fugitive recovery agent, urban night pursuit, badge and handcuffs, skip tracer, law enforcement adjacent"
+    },
+    "118_ethical_hacker": {
+      "name": "Ethical Hacker",
+      "modifiers": "penetration tester at multiple monitors, code streaming, cybersecurity professional, finding vulnerabilities, hoodie and energy drinks, digital fortress breaker"
+    },
+    "119_voice_artist": {
+      "name": "Voice-Over Artist",
+      "modifiers": "voice actor in professional recording booth, microphone and pop filter, animation script, expressive performance, soundproof studio, vocal talent"
+    },
+    "120_foley_artist": {
+      "name": "Foley Artist",
+      "modifiers": "foley artist creating sound effects in studio, coconut shells for hooves, props collection, film production, creative audio work, movie magic sounds"
+    },
+    "121_sommelier": {
+      "name": "Sommelier",
+      "modifiers": "master sommelier swirling wine in crystal glass, cellar backdrop, tasting notes, wine expertise, elegant service, vintage collection"
+    },
+    "122_mixologist": {
+      "name": "Craft Mixologist",
+      "modifiers": "creative mixologist crafting artisan cocktail, flaming garnish, molecular mixology, craft bar setting, exotic ingredients, liquid art"
+    },
+    "123_paleontologist": {
+      "name": "Paleontologist",
+      "modifiers": "paleontologist carefully excavating dinosaur fossil, desert dig site, brushes and tools, prehistoric bones emerging, scientific discovery, ancient history"
+    },
+    "124_volcanologist": {
+      "name": "Volcanologist",
+      "modifiers": "volcanologist in heat suit near active lava flow, molten rock glowing, scientific instruments, volcanic eruption, extreme research, geological danger"
+    },
+    "125_storm_chaser": {
+      "name": "Storm Chaser",
+      "modifiers": "storm chaser photographing massive tornado, chase vehicle, dramatic sky, swirling funnel cloud, meteorological pursuit, extreme weather documentation"
+    },
+    "126_cryptographer": {
+      "name": "Cryptographer",
+      "modifiers": "cryptographer surrounded by encryption algorithms, mathematical formulas floating, code breaking visualization, secure communications, cipher expertise, digital security"
+    },
+    "127_pyrotechnician": {
+      "name": "Pyrotechnician",
+      "modifiers": "pyrotechnician preparing fireworks display, colorful explosives, safety equipment, night sky canvas, celebration specialist, controlled fire art"
+    },
+    "128_stunt_performer": {
+      "name": "Stunt Performer",
+      "modifiers": "stunt performer mid-air during action sequence, film set rigging, safety harness, explosive backdrop, movie double, death-defying leap"
+    },
+    "129_game_voice_actor": {
+      "name": "Video Game Voice Actor",
+      "modifiers": "voice actor performing intense game dialogue, motion capture dots, dramatic expression, gaming studio, character embodiment, interactive entertainment"
+    },
+    "130_toy_designer": {
+      "name": "Toy Designer",
+      "modifiers": "toy designer surrounded by colorful prototypes, 3D printed models, playful workshop, children's joy creation, imagination made real, product development"
+    },
+    "131_escape_designer": {
+      "name": "Escape Room Designer",
+      "modifiers": "escape room designer building elaborate puzzle, mysterious props, hidden mechanisms, themed environment, puzzle crafting, immersive experience creation"
+    },
+    "132_pro_cuddler": {
+      "name": "Professional Cuddler",
+      "modifiers": "professional cuddler in cozy therapy setting, comfortable blankets, platonic comfort service, emotional support, warm atmosphere, human connection"
+    },
+    "133_netflix_tagger": {
+      "name": "Netflix Tagger",
+      "modifiers": "content analyst watching multiple screens, categorization interface, streaming service office, genre classification, binge-watching professionally, algorithm feeding"
+    },
+    "134_marmalade_wrestler": {
+      "name": "Marmalade Wrestler",
+      "modifiers": "wrestler grappling in pool of orange marmalade, sticky competition, unusual sport, crowd cheering, citrus combat, entertainment oddity"
+    },
+    "135_furniture_tester": {
+      "name": "Furniture Tester",
+      "modifiers": "furniture durability tester jumping on sofa, quality assessment, showroom setting, stress testing, comfort evaluation, product certification"
+    },
+    "136_human_statue": {
+      "name": "Human Statue",
+      "modifiers": "living statue street performer painted in gold, frozen pose, tourist plaza, coins in hat, incredible stillness, performance art"
+    },
+    "137_iceberg_mover": {
+      "name": "Iceberg Mover",
+      "modifiers": "maritime specialist redirecting massive iceberg, tugboat operation, arctic waters, shipping lane protection, frozen giant, ocean safety"
+    },
+    "138_flavourist": {
+      "name": "Flavourist",
+      "modifiers": "flavor scientist creating artificial tastes in lab, chemical compounds, taste testing station, food science, molecular flavor design, sensory creation"
+    },
+    "139_listening_officer": {
+      "name": "Chief Listening Officer",
+      "modifiers": "corporate executive analyzing customer feedback dashboard, social media monitoring, brand sentiment, executive suite, consumer insights, reputation management"
+    },
+    "140_dog_surf_instructor": {
+      "name": "Dog Surfing Instructor",
+      "modifiers": "instructor teaching dog to surf at beach, surfboard with pup, ocean waves, patient training, unique skill, canine athlete"
+    },
+    "141_yacht_rock_musician": {
+      "name": "Yacht Rock Musician",
+      "modifiers": "smooth yacht rock musician on luxury boat, sunset performance, soft rock vibes, nautical setting, 70s aesthetic, smooth sailing sounds"
+    },
+    "142_sleep_study_subject": {
+      "name": "Sleep Study Participant",
+      "modifiers": "professional sleeper in medical research facility, EEG electrodes attached, monitoring equipment, sleep laboratory, scientific rest, dream research"
+    },
+    "143_lip_dub_coordinator": {
+      "name": "Lip Dub Coordinator",
+      "modifiers": "lip dub director orchestrating massive group video, colorful costumes, choreographed movement, music video production, viral content creation, synchronized performance"
+    },
+    "144_emoji_translator": {
+      "name": "Emoji Translator",
+      "modifiers": "linguist translating emoji sequences on screen, digital communication expert, symbol interpretation, cross-cultural messaging, modern language specialist, pictograph decoder"
+    },
+    "145_cloud_architect": {
+      "name": "Cloud Architect",
+      "modifiers": "cloud computing architect designing infrastructure, holographic server diagrams, AWS and Azure logos, scalable systems, tech leadership, digital infrastructure"
+    },
+    "146_vr_designer": {
+      "name": "VR Experience Designer",
+      "modifiers": "VR designer testing immersive world with headset, virtual reality creation, 3D environment building, motion controllers, digital realm architect, future entertainment"
+    },
+    "147_quantum_researcher": {
+      "name": "Quantum Computing Researcher",
+      "modifiers": "quantum physicist with supercooled computer, cryogenic chamber, qubit visualization, cutting edge science, IBM quantum lab, future computing pioneer"
+    },
+    "148_food_stylist": {
+      "name": "Food Stylist",
+      "modifiers": "food stylist perfecting burger for photo shoot, tweezers and brushes, commercial photography, artificial perfection, appetizing arrangement, culinary deception art"
+    },
+    "149_train_pusher": {
+      "name": "Train Pusher",
+      "modifiers": "Tokyo subway pusher cramming passengers into train, rush hour chaos, white gloves, crowded platform, professional packer, urban necessity"
+    },
+    "150_face_feeler": {
+      "name": "Face Feeler",
+      "modifiers": "cosmetic researcher testing facial product texture, skincare evaluation, beauty lab, sensory analysis, product development, touch expertise"
+    }
+  },
+  "fantasy": {
+    "151_crimson_moon": {
+      "name": "Crimson Moon Desert",
+      "modifiers": "massive crimson blood moon rising over endless red desert dunes, otherworldly landscape, alien vista, scarlet sands stretching to horizon, eerie beauty"
+    },
+    "152_clockwork_birds": {
+      "name": "Clockwork Migration",
+      "modifiers": "mechanical clockwork birds migrating through rusted autumn skies, brass feathers gleaming, steampunk nature, gear-driven flight, metallic flock"
+    },
+    "153_cyber_orchid": {
+      "name": "Cyber Orchid Garden",
+      "modifiers": "neon-lit cyber-orchid garden in perpetual twilight, glowing synthetic flowers, cyberpunk botany, electric petals, bioluminescent greenhouse"
+    },
+    "154_glass_cathedral": {
+      "name": "Feather Storm Cathedral",
+      "modifiers": "giant transparent glass cathedral floating in a storm of white feathers, sacred architecture, impossible physics, divine turbulence, ethereal worship"
+    },
+    "155_shadow_puppets": {
+      "name": "Shadow Puppet War",
+      "modifiers": "intricate shadow puppets performing epic battles on ancient cave walls, flickering firelight, mythological combat, silhouette drama, primordial theater"
+    },
+    "156_polar_guardian": {
+      "name": "Aurora Bear Spirit",
+      "modifiers": "majestic aurora-veiled polar bear spirit guardian, northern lights coursing through translucent form, arctic mysticism, celestial protector, ice realm deity"
+    },
+    "157_coral_ribcage": {
+      "name": "Fractal Coral Anatomy",
+      "modifiers": "fractal coral reef growing impossibly inside a human ribcage, organic fusion, surreal biology, ocean meets anatomy, living sculpture"
+    },
+    "158_pixel_gods": {
+      "name": "Arcade Universe",
+      "modifiers": "retro arcade machine universe with pixelated gods battling, 8-bit divinity, gaming mythology, neon cabinet cosmos, digital worship"
+    },
+    "159_memory_willow": {
+      "name": "Memory Willow",
+      "modifiers": "ancient whispering willow tree shedding glowing orbs of memories, luminescent recollections falling, nostalgic magic, dream tree, gentle sorrow"
+    },
+    "160_zeppelin_graveyard": {
+      "name": "Dieselpunk Zeppelin Graveyard",
+      "modifiers": "haunting dieselpunk zeppelin graveyard in thunderhead clouds, crashed airships, lightning illumination, industrial decay, sky cemetery"
+    },
+    "161_infinite_mirrors": {
+      "name": "Infinite Mirror Maze",
+      "modifiers": "endless mirror maze reflecting infinite fractured selves, identity shattered, recursive reflections, psychological labyrinth, self multiplied"
+    },
+    "162_jellyfish_stars": {
+      "name": "Jellyfish Constellation",
+      "modifiers": "bioluminescent giant jellyfish forming constellation patterns in deep space, cosmic marine life, glowing tentacles among stars, space ocean"
+    },
+    "163_golem_blossoms": {
+      "name": "Golem Awakening",
+      "modifiers": "ancient stone golem awakening beneath shower of cherry blossom petals, earth elemental, spring ritual, granite giant, nature magic"
+    },
+    "164_cloud_banquet": {
+      "name": "Cloud Banquet",
+      "modifiers": "surreal royal banquet where all food is made of sculpted clouds, cumulus cuisine, ethereal feast, sky dining, impossible gastronomy"
+    },
+    "165_void_walker": {
+      "name": "Ink Ocean Walker",
+      "modifiers": "mysterious void walker traversing black-and-white ink ocean, monochrome journey, calligraphy seas, brushstroke waves, zen wanderer"
+    },
+    "166_solar_butterflies": {
+      "name": "Mechanical Butterfly Migration",
+      "modifiers": "mechanical butterflies migrating across solar flares, brass wings surviving fire, sun journey, impossible beauty, stellar metamorphosis"
+    },
+    "167_zero_g_carousel": {
+      "name": "Haunted Zero-G Carousel",
+      "modifiers": "abandoned haunted carousel spinning eternally in zero gravity, horses floating, carnival in space, eerie weightlessness, cosmic fairground"
+    },
+    "168_emerald_dragon": {
+      "name": "Emerald Moon Dragon",
+      "modifiers": "massive emerald dragon coiled protectively around a crumbling dying moon, cosmic serpent, lunar guardian, scales of jade, celestial beast"
+    },
+    "169_glitch_temple": {
+      "name": "Glitchy Vaporwave Temple",
+      "modifiers": "pastel vaporwave temple corrupted by digital glitches in dreamscape, aesthetic shrine, pixelated meditation, retro-digital sacred space"
+    },
+    "170_silk_weaver": {
+      "name": "Starlight Silk Weaver",
+      "modifiers": "ethereal celestial being spinning threads of pure starlight into silk, cosmic weaver, light textile, astral crafting, luminous artisan"
+    },
+    "171_face_forest": {
+      "name": "Human Face Forest",
+      "modifiers": "post-human forest where ancient trees have evolved human faces, bark expressions, woodland consciousness, nature awakened, eerie grove"
+    },
+    "172_teacup_storm": {
+      "name": "Quantum Teacup Storm",
+      "modifiers": "impossible quantum storm brewing inside delicate porcelain teacup, miniature tempest, physics defying, contained chaos, afternoon apocalypse"
+    },
+    "173_midnight_sun_carnival": {
+      "name": "Midnight Sun Carnival",
+      "modifiers": "forgotten carnival under perpetual midnight sun, eternal twilight fairground, abandoned rides, liminal celebration, polar amusement"
+    },
+    "174_obsidian_phoenix": {
+      "name": "Obsidian Phoenix Birth",
+      "modifiers": "magnificent phoenix hatching from volcanic obsidian egg, magma feathers emerging, rebirth from glass, fire bird genesis, molten awakening"
+    },
+    "175_living_graffiti": {
+      "name": "Living Neon Graffiti",
+      "modifiers": "neon street graffiti coming alive on cyber-brick walls, animated art, urban magic, spray paint spirits, electric murals dancing"
+    },
+    "176_black_hole_library": {
+      "name": "Black Hole Library",
+      "modifiers": "floating ancient library shelves orbiting around hungry black hole, knowledge spiral, gravitational archives, event horizon reading room"
+    },
+    "177_water_mirror_hand": {
+      "name": "Water Mirror Reach",
+      "modifiers": "surreal pale hand reaching desperately out from rippling water mirror surface, boundary breaking, reflection escape, liquid portal"
+    },
+    "178_sky_mechanic": {
+      "name": "Steampunk Sky Octopus",
+      "modifiers": "steampunk octopus mechanic with brass tentacles repairing cracks in the sky, celestial maintenance, cephalopod engineer, atmospheric repair"
+    },
+    "179_fungal_network": {
+      "name": "Glowing Fungal Ruins",
+      "modifiers": "vast glowing fungal mycelium network connecting and consuming ancient temple ruins, bioluminescent decay, nature reclaiming, mushroom civilization"
+    },
+    "180_nuclear_cherry": {
+      "name": "Nuclear Cherry Blossom",
+      "modifiers": "single apocalyptic cherry tree blooming with radioactive glowing petals, post-nuclear beauty, mutant sakura, fallout spring, toxic elegance"
+    },
+    "181_comet_chess": {
+      "name": "Celestial Comet Chess",
+      "modifiers": "celestial chess game played by gods using comets as pieces across galaxy board, cosmic strategy, stellar competition, universe at stake"
+    },
+    "182_childhood_swirl": {
+      "name": "Forgotten Dreams Swirl",
+      "modifiers": "abstract colorful swirl composed of forgotten childhood dreams and memories, nostalgia vortex, innocence spiral, remembered magic"
+    },
+    "183_mammoth_aurora": {
+      "name": "Aurora Mammoth Herd",
+      "modifiers": "prehistoric ice age mammoth herd charging majestically through dancing aurora borealis fields, ancient giants, northern lights stampede"
+    },
+    "184_digital_geisha": {
+      "name": "Holographic Geisha",
+      "modifiers": "holographic geisha performer dancing gracefully in digital cherry blossom storm, cyber tradition, pixel petals, virtual elegance"
+    },
+    "185_screaming_library": {
+      "name": "Lovecraftian Library",
+      "modifiers": "Lovecraftian nightmare library filled with ancient books that scream when opened, eldritch knowledge, forbidden reading, cosmic horror archives"
+    },
+    "186_plasma_surfer": {
+      "name": "Solar Flare Surfer",
+      "modifiers": "fearless solar flare surfer riding massive waves of stellar plasma, sun sport, cosmic extreme, heat rider, star athlete"
+    },
+    "187_lantern_souls": {
+      "name": "Paper Lantern Souls",
+      "modifiers": "whispering wind carrying thousands of paper lantern souls across twilight sky, spirit journey, luminous migration, peaceful passing"
+    },
+    "188_neon_heart_tree": {
+      "name": "Biomechanical Heart Tree",
+      "modifiers": "massive biomechanical heart tree pulsing with neon veins in cyberpunk jungle, organic machine, techno-nature, synthetic life"
+    },
+    "189_crater_diner": {
+      "name": "Crater Edge Diner",
+      "modifiers": "retro-futuristic chrome diner perched on the edge of massive lunar crater, space americana, cosmic roadside, moon dining"
+    },
+    "190_galaxy_eye": {
+      "name": "Galaxy Spiral Eye",
+      "modifiers": "surreal giant eye with iris made of swirling galaxy spirals, cosmic vision, universe gaze, all-seeing nebula, celestial observation"
+    },
+    "191_lantern_sea": {
+      "name": "Floating Lantern Sea",
+      "modifiers": "endless floating lantern festival drifting over infinite misty sea at dusk, light flotilla, peaceful celebration, reflections multiplied"
+    },
+    "192_backward_clock": {
+      "name": "Reverse Time Tower",
+      "modifiers": "mysterious clock tower where time visibly flows backward in the rain, temporal anomaly, reverse drops, chronological paradox"
+    },
+    "193_kraken_skyscraper": {
+      "name": "Kraken Embrace",
+      "modifiers": "mythical giant kraken lovingly embracing a sunken art deco skyscraper, deep sea romance, tentacle architecture, underwater monument"
+    },
+    "194_void_lotus": {
+      "name": "Psychedelic Void Lotus",
+      "modifiers": "psychedelic sacred lotus blooming with impossible colors in absolute void blackness, enlightenment flower, cosmic meditation, pure contrast"
+    },
+    "195_ghost_train": {
+      "name": "Victorian Ghost Train",
+      "modifiers": "Victorian era ghost train speeding through shimmering aurora borealis, spectral locomotive, northern lights railway, haunted journey"
+    },
+    "196_nebula_deer": {
+      "name": "Frozen Nebula Deer",
+      "modifiers": "ethereal crystal deer herd galloping gracefully across frozen nebula landscape, cosmic wildlife, stellar ice, space nature"
+    },
+    "197_glass_rage": {
+      "name": "Shattering Glass Rage",
+      "modifiers": "abstract visualization of pure rage as storm of shattering glass and lightning, emotion explosion, anger manifest, feeling visible"
+    },
+    "198_living_typewriter": {
+      "name": "Enchanted Typewriter",
+      "modifiers": "magical enchanted typewriter with keys that write living stories into reality, creation machine, narrative magic, words become world"
+    },
+    "199_acid_flower_market": {
+      "name": "Acid Rain Flower Market",
+      "modifiers": "dystopian underground flower market thriving under acid rain neon lights, toxic beauty, resilient blooms, cyberpunk botany"
+    },
+    "200_event_horizon_ballerina": {
+      "name": "Event Horizon Ballerina",
+      "modifiers": "cosmic ballerina in flowing stardust dress pirouetting eternally on black hole event horizon, gravity dance, celestial performance, eternal spin"
+    }
+  },
+  "fractal": {
+    "201_fractal_eyes": {
+      "name": "Fractal Eyes",
+      "modifiers": "endless nested fractal eyes staring back from every surface, recursive vision, infinite observation, psychedelic surveillance, eyes within eyes within eyes"
+    },
+    "202_mandelbrot_mandala": {
+      "name": "Mandelbrot Mandala",
+      "modifiers": "Mandelbrot zoom collapsing into living breathing mandalas, mathematical infinity, fractal meditation, pulsing geometric life, sacred mathematics"
+    },
+    "203_kaleidoscope_shatter": {
+      "name": "Kaleidoscope Shatter",
+      "modifiers": "kaleidoscopic symmetry shattering into rainbow shrapnel vortices, prismatic explosion, chromatic chaos, fragmenting beauty, color detonation"
+    },
+    "204_sacred_geometry_pulse": {
+      "name": "Sacred Geometry Pulse",
+      "modifiers": "sacred geometry lattice breathing and pulsing with ultraviolet veins, living mathematics, cosmic blueprint, divine patterns, geometric heartbeat"
+    },
+    "205_infinite_spiral": {
+      "name": "Infinite Spiral Tunnel",
+      "modifiers": "infinite spiral tunnel of ever-smaller identical cosmic patterns, recursive descent, fractal infinity, hypnotic depth, pattern within pattern"
+    },
+    "206_dmt_portal": {
+      "name": "DMT Portal",
+      "modifiers": "DMT breakthrough portal opening inside a human pupil, psychedelic gateway, consciousness expansion, iris dimension, inner universe doorway"
+    },
+    "207_nebula_brain": {
+      "name": "Nebula Brain",
+      "modifiers": "nebula brain exploding into synaptic starfire fireworks, cosmic cognition, neural galaxy, thought supernova, mind universe"
+    },
+    "208_galaxy_serpent": {
+      "name": "Galaxy Serpent",
+      "modifiers": "galaxy serpent devouring its own tail in void hyperspace, cosmic ouroboros, eternal cycle, stellar snake, infinite consumption"
+    },
+    "209_lotus_universe": {
+      "name": "Lotus Universe",
+      "modifiers": "floating lotus universe blooming from a single glowing thought, consciousness flower, mind blossom, idea becoming cosmos, thought creation"
+    },
+    "210_black_hole_heart": {
+      "name": "Black Hole Heart",
+      "modifiers": "black hole heart pumping liquid starlight through veins of color, cosmic circulation, stellar blood, gravitational pulse, universe anatomy"
+    },
+    "211_neon_syrup_city": {
+      "name": "Neon Syrup City",
+      "modifiers": "entire cityscape liquefying into neon syrup rivers, melting metropolis, urban dissolution, fluorescent flood, architecture flowing"
+    },
+    "212_ascending_waterfall": {
+      "name": "Ascending Waterfall",
+      "modifiers": "human silhouette melting upward into ascending color waterfalls, reverse gravity, chromatic ascension, body becoming light, upward dissolution"
+    },
+    "213_dripping_clocks": {
+      "name": "Dripping Dream Clocks",
+      "modifiers": "clock faces dripping like wax through warped dream time, temporal melt, Dali nightmare, liquid hours, time dissolving"
+    },
+    "214_bleeding_screen": {
+      "name": "Bleeding Digital Memory",
+      "modifiers": "smartphone screen bleeding digital memories into physical puddles, technology tears, pixel overflow, data leaking, virtual becoming real"
+    },
+    "215_psychedelic_meltdown": {
+      "name": "Psychedelic Meltdown",
+      "modifiers": "ice cream mountains slowly collapsing under psychedelic heat waves, sweet apocalypse, dessert dissolution, trippy melt, sugar dreams"
+    },
+    "216_fractal_mushrooms": {
+      "name": "Fractal Mushroom City",
+      "modifiers": "giant mushrooms breathing fog that forms fractal cities, fungal urbanism, spore architecture, mycelium metropolis, breathing buildings"
+    },
+    "217_inverted_aurora_forest": {
+      "name": "Inverted Aurora Forest",
+      "modifiers": "upside-down forest with roots exploding into neon auroras, reversed nature, root lightning, underground sky, inverted reality"
+    },
+    "218_dna_eye_flowers": {
+      "name": "DNA Eye Flowers",
+      "modifiers": "DNA helix vines strangling and blooming into eye-flowers, genetic gardens, biological surveillance, helix flora, watching genetics"
+    },
+    "219_portal_leaf_jungle": {
+      "name": "Portal Leaf Jungle",
+      "modifiers": "bioluminescent jungle where leaves are tiny portal windows, dimensional foliage, gateway garden, window leaves, infinite vegetation"
+    },
+    "220_ribcage_reef": {
+      "name": "Ribcage Coral Reef",
+      "modifiers": "rainbow coral reef growing inside a floating human ribcage, anatomical ocean, bone aquarium, skeletal ecosystem, body as sea"
+    },
+    "221_galaxy_face": {
+      "name": "Galaxy Face",
+      "modifiers": "face constructed entirely from swirling galaxy arms, cosmic portrait, stellar features, nebula visage, universe as identity"
+    },
+    "222_alien_ocean_body": {
+      "name": "Alien Ocean Body",
+      "modifiers": "body silhouette overflowing with an inner alien ocean storm, internal tempest, anatomy as sea, storming within, aquatic soul"
+    },
+    "223_quantum_brain_petals": {
+      "name": "Quantum Brain Petals",
+      "modifiers": "brain petals unfolding to reveal dancing quantum fireflies, neural bloom, thought insects, mind garden, consciousness butterflies"
+    },
+    "224_infinite_pupil": {
+      "name": "Infinite Pupil Recursion",
+      "modifiers": "infinite pupil recursion showing eyes within eyes forever, endless depth, recursive vision, seeing seeing seeing, fractal gaze"
+    },
+    "225_stained_glass_skin": {
+      "name": "Stained Glass Soul",
+      "modifiers": "stained-glass skin cracking to release chromatic soul butterflies, cathedral body, light fragment, sacred shattering, spirit escape"
+    },
+    "226_escher_singularity": {
+      "name": "Escher Singularity",
+      "modifiers": "Escher staircase spiraling into a glowing singularity core, impossible architecture, gravity paradox, infinite descent, mathematical madness"
+    },
+    "227_breathing_cathedral": {
+      "name": "Breathing Cathedral",
+      "modifiers": "breathing cathedral walls made of living neon veins, organic architecture, pulsing sanctuary, alive church, fluorescent worship"
+    },
+    "228_acid_mirror_hall": {
+      "name": "Acid Mirror Hall",
+      "modifiers": "mirror hallway where reflections live independent acid lives, autonomous doubles, psychedelic twins, reflection rebellion, self multiplied"
+    },
+    "229_infinite_neon_mall": {
+      "name": "Infinite Neon Bazaar",
+      "modifiers": "abandoned mall corridor opening to infinite neon bazaars, liminal commerce, endless shopping, fluorescent markets, retail infinity"
+    },
+    "230_teacup_dimension": {
+      "name": "Teacup Dimension",
+      "modifiers": "floating teacup dimension with orbiting Victorian eye furniture, surreal tea party, watching chairs, cosmic porcelain, impossible afternoon"
+    },
+    "231_paisley_wormhole": {
+      "name": "Paisley Wormhole",
+      "modifiers": "1960s van tunneling through breathing paisley wormholes, hippie hyperspace, groovy travel, psychedelic journey, pattern tunnel"
+    },
+    "232_fractal_tv": {
+      "name": "Fractal Antenna TV",
+      "modifiers": "vintage TV sprouting organic fractal antenna limbs, technology growth, electronic evolution, tube mutation, signal organism"
+    },
+    "233_blacklight_alive": {
+      "name": "Living Blacklight Poster",
+      "modifiers": "blacklight poster world coming alive in dripping day-glo ink, fluorescent animation, UV awakening, neon reality, poster dimension"
+    },
+    "234_vinyl_planet": {
+      "name": "Vinyl Planet",
+      "modifiers": "melting vinyl record planet with groove highways of light, musical world, spinning globe, audio geography, rhythm landscape"
+    },
+    "235_pinball_cosmos": {
+      "name": "Pinball Cosmos",
+      "modifiers": "pinball machine cosmos bouncing Earth through color bumpers, arcade universe, planetary gameplay, cosmic score, flipper galaxy"
+    },
+    "236_enlightenment_tree": {
+      "name": "Enlightenment Tree",
+      "modifiers": "inverted tree of life raining fractal enlightenment sparks, wisdom falling, knowledge roots, understanding shower, illumination drops"
+    },
+    "237_reality_explosion": {
+      "name": "Reality Explosion",
+      "modifiers": "white-light singularity implosion birthing hyper-reality explosion, big bang consciousness, creation moment, everything from nothing, genesis burst"
+    },
+    "238_machine_elf_choir": {
+      "name": "Machine Elf Choir",
+      "modifiers": "machine elf choir harmonizing in chrome geometry temple, DMT entities, mathematical singing, hyperspace worship, entity congregation"
+    },
+    "239_consciousness_lotus": {
+      "name": "Consciousness Lotus",
+      "modifiers": "lotus of pure consciousness petals made of nested universes, awareness flower, mind bloom, infinite layers, cosmic enlightenment"
+    },
+    "240_rainbow_serpent": {
+      "name": "Rainbow Serpent Shed",
+      "modifiers": "rainbow serpent shedding skin to reveal new dimensional truths, chromatic rebirth, spectrum snake, color molting, prismatic revelation"
+    },
+    "241_impossible_elephant": {
+      "name": "Impossible Elephant",
+      "modifiers": "elephant balanced impossibly on a single desert tree branch under twin melting moons, surreal equilibrium, lunar drip, impossible physics, dreamscape"
+    },
+    "242_butterfly_silhouette": {
+      "name": "Butterfly Swarm Silhouette",
+      "modifiers": "woman silhouette filled with neon butterfly swarm reflection, luminous lepidoptera, glowing feminine, insect constellation, body as flight"
+    },
+    "243_wonka_eclipse": {
+      "name": "Wonka Eclipse",
+      "modifiers": "Willy Wonka eclipse with Oompa Loompa sun halo in fuchsia shockwaves, candy cosmos, chocolate factory space, sweet astronomical event"
+    },
+    "244_surreal_sushi": {
+      "name": "Surreal Sushi Sea",
+      "modifiers": "surreal sushi feast underwater with fisheye sharks circling, Japanese ocean, raw fish dreamscape, aquatic dining, marine cuisine"
+    },
+    "245_fractal_library": {
+      "name": "Fractal Bird Library",
+      "modifiers": "cosmic library books flying as fractal birds whispering geometries, literary flight, mathematical wings, knowledge migration, reading takes flight"
+    },
+    "246_emotion_marketplace": {
+      "name": "Emotion Marketplace",
+      "modifiers": "alien marketplace trading emotions as glowing synesthetic orbs, feeling commerce, sentiment exchange, mood bazaar, psychic economy"
+    },
+    "247_vein_rollercoaster": {
+      "name": "Vein Rollercoaster",
+      "modifiers": "psychedelic rollercoaster veins pulsing through screaming color void, circulatory thrill, blood ride, anatomical amusement, body as park"
+    },
+    "248_amoeba_city": {
+      "name": "Amoeba City",
+      "modifiers": "giant amoeba engulfing city turning buildings into cellular mandalas, microbe metropolis, single-cell urbanism, biological consumption, organelle architecture"
+    },
+    "249_victorian_orbit": {
+      "name": "Victorian Sun Orbit",
+      "modifiers": "floating Victorian furniture orbiting a screaming neon sun, antique astronomy, furniture cosmos, decorative gravity, parlor planets"
+    },
+    "250_ultimate_breakthrough": {
+      "name": "Ultimate Breakthrough",
+      "modifiers": "ultimate breakthrough everything dissolving into infinite white point then erupting back in hyper-vivid overload, total dissolution, rebirth explosion, consciousness reset, existence restart"
+    }
+  },
+  "nature": {
+    "301_wildlife_tracking": {
+      "name": "Wildlife Tracking",
+      "modifiers": "animal footprints pressed into forest mud, naturalist studying wildlife scat samples with field guide, detailed track illustrations, wilderness detective work, tracking marks in soft earth, morning dew on prints"
+    },
+    "302_bird_migration": {
+      "name": "Bird Migration",
+      "modifiers": "vast V-formation of migrating geese against sunset sky, seasonal bird movements, flight patterns across continents, resting flocks at wetland stopover, compass instincts, epic journey south"
+    },
+    "303_pollinator_gardens": {
+      "name": "Pollinator Gardens",
+      "modifiers": "vibrant pollinator garden buzzing with honeybees and butterflies, nectar-rich wildflowers, monarch on milkweed, fuzzy bumblebee on lavender, ecological harmony, garden sanctuary"
+    },
+    "304_nocturnal_life": {
+      "name": "Nocturnal Life",
+      "modifiers": "moonlit forest scene with glowing owl eyes, nocturnal creatures emerging at dusk, fox hunting in starlight, bats silhouetted against full moon, night vision mystery, twilight activity"
+    },
+    "305_pond_dipping": {
+      "name": "Pond Dipping",
+      "modifiers": "clear pond water teeming with tadpoles and water striders, dragonfly larvae, freshwater snails, magnifying glass revealing aquatic life, muddy boots, discovery jar"
+    },
+    "306_bug_safari": {
+      "name": "Bug Safari",
+      "modifiers": "macro view of forest floor invertebrates, iridescent beetle on bark, spider spinning morning web, earthworm tunnel cross-section, log ecosystem, tiny creature expedition"
+    },
+    "307_animal_architecture": {
+      "name": "Animal Architecture",
+      "modifiers": "intricate beaver dam engineering on forest stream, bird nest woven with precision, spider web jeweled with dew, termite mound cathedral, wasp paper palace, natural construction mastery"
+    },
+    "308_camouflage": {
+      "name": "Camouflage",
+      "modifiers": "hidden animals perfectly blending with environment, leaf-tailed gecko on bark, arctic hare in snow, stick insect among branches, spot-the-creature challenge, nature's disguise masters"
+    },
+    "309_hibernation": {
+      "name": "Hibernation",
+      "modifiers": "cozy bear den during winter hibernation, dormouse curled in leaf nest, groundhog burrow cross-section, slow heartbeat visualization, fat reserves, deep winter sleep survival"
+    },
+    "310_life_cycles": {
+      "name": "Life Cycles",
+      "modifiers": "complete frog metamorphosis from egg to adult, butterfly emerging from chrysalis, salmon spawning journey, acorn to oak progression, circular life diagram, transformation stages"
+    },
+    "311_photosynthesis": {
+      "name": "Photosynthesis",
+      "modifiers": "sunlight streaming through translucent green leaves, chlorophyll converting light to energy, leaf cross-section showing cells, sugar molecule formation, plant breathing, green magic process"
+    },
+    "312_seed_dispersal": {
+      "name": "Seed Dispersal",
+      "modifiers": "dandelion seeds floating on wind currents, burrs clinging to animal fur, birds carrying berries, maple helicopter seeds spinning, coconut floating on ocean waves, nature's travel methods"
+    },
+    "313_ancient_trees": {
+      "name": "Ancient Trees",
+      "modifiers": "massive ancient redwood with detailed growth rings, thousand-year-old bristlecone pine, old-growth forest cathedral, gnarled oak with stories to tell, tree core sample, living history"
+    },
+    "314_wildflowers": {
+      "name": "Wildflowers",
+      "modifiers": "wildflower meadow in full summer bloom, native prairie flowers swaying, poppies and cornflowers, botanical identification guide, pressed flower collection, meadow color symphony"
+    },
+    "315_fungi_kingdom": {
+      "name": "Fungi Kingdom",
+      "modifiers": "magical mushroom forest floor with diverse fungi species, decomposers at work, fairy ring formation, bioluminescent ghost mushrooms, mycelium network below, fungal diversity"
+    },
+    "316_moss_lichens": {
+      "name": "Moss & Lichens",
+      "modifiers": "miniature moss forest covering ancient stones, lichen patterns on tree bark, micro-landscape with tiny sporophytes, rock garden ecosystem, slow-growing pioneers, patient colonizers"
+    },
+    "317_edible_foraging": {
+      "name": "Edible Foraging",
+      "modifiers": "wild berry identification in forest setting, foraging basket with edible mushrooms, herb gathering with field guide, safely identified plants, hedgerow harvest, woodland pantry"
+    },
+    "318_seasonal_trees": {
+      "name": "Seasonal Trees",
+      "modifiers": "deciduous forest showing all four seasons, evergreen pines beside autumn maples, leaf color change progression, winter bare branches, spring bud burst, nature's calendar"
+    },
+    "319_garden_harvest": {
+      "name": "Garden Harvest",
+      "modifiers": "bountiful vegetable garden at harvest time, composting bin transforming scraps, tomatoes on vine, homegrown food celebration, garden-to-table freshness, sustainable growing"
+    },
+    "320_wood_wide_web": {
+      "name": "Wood Wide Web",
+      "modifiers": "underground forest network visualization, tree roots connected by mycelium threads, nutrient sharing between trees, forest communication system, mother tree network, hidden connections"
+    },
+    "321_geology_gems": {
+      "name": "Geology & Gems",
+      "modifiers": "crystal geode split open revealing amethyst, rock collection with labeled specimens, mineral identification chart, gemstone formation diagram, geological treasure, earth's jewels"
+    },
+    "322_water_cycle": {
+      "name": "Water Cycle",
+      "modifiers": "complete water cycle visualization over landscape, evaporation from ocean, cloud condensation, mountain precipitation, river returning to sea, endless journey droplet"
+    },
+    "323_cloud_gazing": {
+      "name": "Cloud Gazing",
+      "modifiers": "dramatic sky with cumulus towers and wispy cirrus, cloud type identification chart, weather prediction from clouds, anvil thunderhead forming, cotton sky parade, atmospheric art"
+    },
+    "324_soil_health": {
+      "name": "Soil Health",
+      "modifiers": "soil cross-section showing rich layers and organisms, earthworm aerating earth, root systems in healthy dirt, decomposition process, living soil ecosystem, ground beneath our feet"
+    },
+    "325_fossil_hunting": {
+      "name": "Fossil Hunting",
+      "modifiers": "paleontologist carefully excavating ammonite fossil, prehistoric shell imprints in rock, dinosaur bone discovery, geological hammer and brush, ancient life preserved in stone, time capsule earth"
+    },
+    "326_volcanoes": {
+      "name": "Volcanoes",
+      "modifiers": "dramatic volcanic eruption with lava flows, geothermal hot springs and geysers, magma chamber cross-section, volcanic island formation, ring of fire power, earth's molten heart"
+    },
+    "327_ocean_tides": {
+      "name": "Ocean Tides",
+      "modifiers": "tidal pool at low tide revealing sea life, moon phases controlling ocean levels, coastal tide charts, hermit crabs and anemones exposed, twice-daily rhythm, lunar ocean dance"
+    },
+    "328_starry_nights": {
+      "name": "Starry Nights",
+      "modifiers": "crystal clear night sky over natural landscape, constellation identification chart, Milky Way arching overhead, meteor shower streaking, telescope pointed at stars, cosmic wonder"
+    },
+    "329_weather_patterns": {
+      "name": "Weather Patterns",
+      "modifiers": "dramatic weather front moving across landscape, storm clouds gathering, rainbow after rain, weather station instruments, atmospheric pressure visualization, nature's moods"
+    },
+    "330_river_systems": {
+      "name": "River Systems",
+      "modifiers": "river carving through mountain valley, meandering stream with oxbow lakes, watershed diagram, salmon swimming upstream, erosion shaping landscape, water finding its way"
+    },
+    "331_upcycling_nature": {
+      "name": "Upcycling Nature",
+      "modifiers": "bird feeder crafted from recycled materials, nature art from found objects, trash transformed into garden decoration, creative reuse workshop, environmental creativity, waste to wonder"
+    },
+    "332_renewable_energy": {
+      "name": "Renewable Energy",
+      "modifiers": "wind turbines on green hillside, solar panels in harmony with nature, hydroelectric dam on flowing river, clean energy powering community, sustainable future, nature's power harnessed"
+    },
+    "333_endangered_species": {
+      "name": "Endangered Species",
+      "modifiers": "majestic endangered animals in their habitats, conservation awareness illustration, species on the brink, protection efforts, biodiversity crisis, every creature matters"
+    },
+    "334_plastic_free_oceans": {
+      "name": "Plastic-Free Oceans",
+      "modifiers": "pristine ocean waters with healthy marine life, beach cleanup volunteers, sea turtle swimming freely, coral reef thriving, ocean conservation, waves without waste"
+    },
+    "335_urban_nature": {
+      "name": "Urban Nature",
+      "modifiers": "wildlife thriving in city environment, peregrine falcon on skyscraper, fox in urban garden, green roof habitat, nature in concrete jungle, coexistence in the city"
+    },
+    "336_water_conservation": {
+      "name": "Water Conservation",
+      "modifiers": "rain barrel collecting precious water, drip irrigation in garden, water-wise landscaping, drought-resistant plants, every drop counts, sustainable water use"
+    },
+    "337_reforestation": {
+      "name": "Reforestation",
+      "modifiers": "tree planting ceremony on deforested hillside, young saplings with protective guards, forest regeneration over time, carbon capture visualization, healing the land, green return"
+    },
+    "338_zero_waste_living": {
+      "name": "Zero-Waste Living",
+      "modifiers": "sustainable lifestyle with reusable containers, composting kitchen scraps, bulk shopping with cloth bags, minimal packaging choices, circular economy, waste-free home"
+    },
+    "339_protecting_habitats": {
+      "name": "Protecting Habitats",
+      "modifiers": "wetland preservation with diverse wildlife, forest conservation boundary, marine protected area, habitat restoration project, ecosystem guardianship, safe haven for nature"
+    },
+    "340_climate_resilience": {
+      "name": "Climate Resilience",
+      "modifiers": "nature adapting to changing climate, drought-resistant vegetation, species migration patterns, ecosystem resilience, adaptation strategies, life finding a way"
+    },
+    "341_nature_journaling": {
+      "name": "Nature Journaling",
+      "modifiers": "open nature journal with detailed sketches and notes, watercolor field observations, pressed specimens on page, outdoor sketching setup, scientific art, documenting wonder"
+    },
+    "342_macro_photography": {
+      "name": "Macro Photography",
+      "modifiers": "extreme close-up of dewdrop on flower petal, compound insect eye detail, frost crystal patterns, tiny world revealed, macro lens magic, hidden beauty magnified"
+    },
+    "343_eco_art": {
+      "name": "Eco-Art",
+      "modifiers": "environmental art installation from natural materials, land art sculpture in landscape, twig and leaf arrangements, Andy Goldsworthy inspired, ephemeral nature art, earth as canvas"
+    },
+    "344_nature_soundscapes": {
+      "name": "Nature Soundscapes",
+      "modifiers": "dawn chorus bird symphony visualization, forest sounds audio waves, rainfall rhythm patterns, wind through trees music, natural acoustic environment, listening to earth"
+    },
+    "345_biomimicry": {
+      "name": "Biomimicry",
+      "modifiers": "technology inspired by nature designs, lotus leaf water repellent surface, gecko adhesion innovation, kingfisher beak bullet train, shark skin efficiency, nature's engineering"
+    },
+    "346_natural_pigments": {
+      "name": "Natural Pigments",
+      "modifiers": "creating art with berry ink and earth pigments, natural dye extraction, walnut shell paint, turmeric and beet colors, sustainable art materials, painting with nature"
+    },
+    "347_nature_mandalas": {
+      "name": "Nature Mandalas",
+      "modifiers": "circular arrangement of petals leaves and stones, symmetrical natural pattern, outdoor meditation art, seasonal material mandala, temporary forest floor art, radial nature design"
+    },
+    "348_seasons_art": {
+      "name": "Seasons Art",
+      "modifiers": "four seasons artistic interpretation of same landscape, autumn color palette versus spring pastels, seasonal nature crafts, solstice celebration, year-round beauty, time passage in nature"
+    },
+    "349_wilderness_survival": {
+      "name": "Wilderness Survival",
+      "modifiers": "bushcraft shelter building in forest, fire starting with natural materials, wild water purification, edible plant identification, primitive skills, self-reliance in nature"
+    },
+    "350_natures_geometry": {
+      "name": "Nature's Geometry",
+      "modifiers": "Fibonacci spirals in nautilus shell and sunflower, fractal patterns in fern fronds, hexagonal honeycomb, branching tree algorithms, mathematical nature, organic sacred geometry"
+    }
+  },
+  "space": {
+    "01_nebula_nursery": {
+      "name": "Nebula Nursery",
+      "modifiers": "cosmic nebula star formation region, colorful swirling gas clouds, newborn stars igniting, pillars of creation, ethereal cosmic dust, purple and pink celestial colors, deep space wonder"
+    },
+    "02_black_hole_horizon": {
+      "name": "Black Hole Horizon",
+      "modifiers": "massive black hole event horizon, swirling accretion disk, gravitational lensing of light, warped spacetime, orange and red superheated plasma, cosmic destruction and beauty"
+    },
+    "03_lunar_colony": {
+      "name": "Lunar Colony",
+      "modifiers": "futuristic moon colony under glass domes, Earth rising on horizon, lunar landscape, astronauts walking, modular habitats, gray lunar surface, human settlement on the moon"
+    },
+    "04_mars_terraforming": {
+      "name": "Mars Terraforming",
+      "modifiers": "Mars planet being terraformed, red planet turning green and blue, atmospheric generators, early oceans forming, pioneer settlements, two moons in sky, planetary transformation"
+    },
+    "05_asteroid_mining": {
+      "name": "Asteroid Mining Station",
+      "modifiers": "industrial asteroid mining operation, robotic extractors, precious metals ore, space station attached to asteroid, mining lasers, cargo ships loading, resource extraction in space"
+    },
+    "06_space_elevator": {
+      "name": "Space Elevator",
+      "modifiers": "massive space elevator tether rising from Earth, orbital platform at top, elevator cars ascending, Earth curvature visible, carbon nanotube cable, gateway to space"
+    },
+    "07_dyson_sphere": {
+      "name": "Dyson Sphere",
+      "modifiers": "enormous Dyson sphere megastructure, star enclosed within, energy harvesting panels, impossibly large scale, advanced alien civilization, stellar engineering marvel"
+    },
+    "08_wormhole_gateway": {
+      "name": "Wormhole Gateway",
+      "modifiers": "shimmering wormhole portal in space, folded spacetime, ships entering the gateway, distant galaxy visible through, gravitational distortion, interstellar shortcut"
+    },
+    "09_interstellar_ark": {
+      "name": "Interstellar Ark",
+      "modifiers": "massive generation ship traveling between stars, rotating habitat ring, nuclear pulse engines, self-contained ecosystem, centuries-long voyage, ark carrying humanity"
+    },
+    "10_alien_megacity": {
+      "name": "Alien Megacity",
+      "modifiers": "vast extraterrestrial city, non-human architecture, bioluminescent buildings, alien species walking streets, exotic alien plants, otherworldly civilization"
+    },
+    "11_pulsar_lighthouse": {
+      "name": "Pulsar Lighthouse",
+      "modifiers": "rapidly spinning pulsar neutron star, intense beams of radiation, magnetic field lines, cosmic lighthouse, extreme physics, stellar remnant, pulsar timing beacon"
+    },
+    "12_comet_rider": {
+      "name": "Comet Rider",
+      "modifiers": "spacecraft surfing alongside comet, glowing ion tail, icy nucleus surface, dust and gas jets, Sun in background, comet chaser mission, frozen wanderer"
+    },
+    "13_saturn_ring_station": {
+      "name": "Saturn Ring Station",
+      "modifiers": "space station floating within Saturn rings, ice particles surrounding, massive planet backdrop, ring shepherd base, golden Saturn glow, majestic ring system"
+    },
+    "14_europa_ocean": {
+      "name": "Europa Ocean",
+      "modifiers": "underwater scene beneath Europa ice, bioluminescent alien life, hydrothermal vents, dark ocean depths, Jupiter visible through ice above, extraterrestrial marine life"
+    },
+    "15_galactic_core": {
+      "name": "Galactic Core",
+      "modifiers": "blazing center of Milky Way galaxy, millions of stars densely packed, supermassive black hole, intense radiation, stellar chaos, heart of the galaxy"
+    },
+    "16_supernova_remnant": {
+      "name": "Supernova Remnant",
+      "modifiers": "colorful supernova explosion aftermath, expanding shell of gas, neutron star at center, shock waves in space, stellar death and rebirth, cosmic fireworks"
+    },
+    "17_zero_g_garden": {
+      "name": "Zero-G Garden",
+      "modifiers": "floating botanical garden in space station, plants growing in zero gravity, water droplets suspended, astronaut tending crops, green sanctuary in space, orbital greenhouse"
+    },
+    "18_orbital_shipyard": {
+      "name": "Orbital Shipyard",
+      "modifiers": "massive spacecraft under construction in orbit, welding sparks, robotic arms assembling hull, dry dock in space, workers in spacesuits, ship being born"
+    },
+    "19_quantum_stargate": {
+      "name": "Quantum Stargate",
+      "modifiers": "ancient alien stargate portal, quantum energy rippling, glowing glyphs and symbols, gateway to distant world, mysterious advanced technology, portal activation"
+    },
+    "20_titan_methane_lakes": {
+      "name": "Titan Methane Lakes",
+      "modifiers": "orange hazy sky over Titan methane lakes, Saturn visible through clouds, hydrocarbon rain, alien shoreline, thick atmosphere, Saturn largest moon landscape"
+    },
+    "21_solar_sail_fleet": {
+      "name": "Solar Sail Fleet",
+      "modifiers": "fleet of solar sail spacecraft, massive reflective sails catching sunlight, graceful space sailing, photon propulsion, armada of light riders, cosmic regatta"
+    },
+    "22_exoplanet_vista": {
+      "name": "Exoplanet Vista",
+      "modifiers": "breathtaking view from alien exoplanet surface, multiple moons in sky, strange rock formations, alien vegetation, distant sun, unexplored world panorama"
+    },
+    "23_space_whale_pod": {
+      "name": "Space Whale Pod",
+      "modifiers": "pod of enormous space whales swimming through cosmos, bioluminescent patterns, cosmic migration, living starships, gentle giants of the void, celestial leviathans"
+    },
+    "24_antimatter_factory": {
+      "name": "Antimatter Factory",
+      "modifiers": "antimatter production facility in space, magnetic containment fields glowing, particle accelerator rings, extreme energy generation, dangerous power source"
+    },
+    "25_crystalline_asteroid": {
+      "name": "Crystalline Asteroid",
+      "modifiers": "asteroid made of giant crystals, gemstone caverns, prismatic light refraction, mineral wealth, crystal formations in space, geological wonder, precious space rock"
+    },
+    "26_binary_star_sunset": {
+      "name": "Binary Star Sunset",
+      "modifiers": "two suns setting on alien world horizon, binary star system, double shadows, orange and blue stars, exotic twilight, dual sunset spectacular view"
+    },
+    "27_orbital_casino": {
+      "name": "Orbital Casino",
+      "modifiers": "luxurious casino space station, neon lights and holographic displays, zero-g gaming tables, wealthy patrons, Earth view windows, decadent entertainment in orbit"
+    },
+    "28_debris_field": {
+      "name": "Debris Field Navigator",
+      "modifiers": "spacecraft navigating through dangerous debris field, destroyed ships and satellites, pilot weaving through wreckage, collision warning, space junkyard"
+    },
+    "29_ice_moon_base": {
+      "name": "Ice Moon Base",
+      "modifiers": "research station on frozen moon surface, ice geysers erupting, drilling operations, habitat modules, extreme cold environment, isolated outpost, icy world"
+    },
+    "30_plasma_storm": {
+      "name": "Plasma Storm",
+      "modifiers": "massive electromagnetic plasma storm in space, colorful energy discharges, ship caught in storm, lightning in vacuum, solar wind chaos, cosmic tempest"
+    },
+    "31_ringworld_horizon": {
+      "name": "Ringworld Horizon",
+      "modifiers": "standing on ringworld megastructure, world curving upward into sky, artificial habitat ring, distant walls rising to space, impossible engineering marvel"
+    },
+    "32_void_monastery": {
+      "name": "Void Monastery",
+      "modifiers": "isolated monastery floating in deep space, monks in meditation, contemplative architecture, stars visible through windows, spiritual retreat among stars"
+    },
+    "33_cosmic_observatory": {
+      "name": "Cosmic Observatory",
+      "modifiers": "advanced space telescope station, massive mirror arrays, astronomers at work, deep space imaging, distant galaxies on screens, eye on the universe"
+    },
+    "34_stellar_forge": {
+      "name": "Stellar Forge",
+      "modifiers": "region where new stars ignite and form, protostellar disks, intense radiation, birth of solar systems, cosmic nursery, stellar evolution in progress"
+    },
+    "35_rogue_planet": {
+      "name": "Rogue Planet",
+      "modifiers": "frozen rogue planet drifting through starless void, no sun in sky, eternal darkness, ice-covered surface, wandering world, lonely planet without a star"
+    },
+    "36_space_citadel": {
+      "name": "Space Citadel",
+      "modifiers": "massive military space fortress, defensive weapons arrays, armored hull, fleet of warships docked, imposing architecture, orbital stronghold"
+    },
+    "37_cosmic_jellyfish": {
+      "name": "Cosmic Jellyfish",
+      "modifiers": "enormous bioluminescent space jellyfish creatures, translucent bodies glowing, tentacles trailing through nebula, living in vacuum, ethereal space beings"
+    },
+    "38_neutron_star_surface": {
+      "name": "Neutron Star Surface",
+      "modifiers": "impossible landscape of neutron star surface, extreme gravity crushing everything, magnetic poles with energy jets, dense matter, hellish conditions"
+    },
+    "39_oort_cloud_frontier": {
+      "name": "Oort Cloud Frontier",
+      "modifiers": "distant Oort cloud at edge of solar system, countless icy bodies, dim distant Sun, frontier of known space, cometary reservoir, outer reaches"
+    },
+    "40_terraform_dome": {
+      "name": "Terraform Dome",
+      "modifiers": "green oasis inside geodesic dome on barren world, thriving ecosystem enclosed, contrast with dead landscape outside, life support engineering, bubble of life"
+    },
+    "41_gravity_well_city": {
+      "name": "Gravity Well City",
+      "modifiers": "city built into curved spacetime near massive object, warped architecture, time dilation effects visible, relativistic metropolis, physics-bending"
+    },
+    "42_asteroid_belt_bazaar": {
+      "name": "Asteroid Belt Bazaar",
+      "modifiers": "trading post station in asteroid belt, merchant ships docked, diverse alien traders, goods from across galaxy, tumbling rocks visible, cosmic marketplace"
+    },
+    "43_solar_flare_surfer": {
+      "name": "Solar Flare Surfer",
+      "modifiers": "spacecraft riding massive solar flare eruption, plasma waves, extreme solar activity, corona surfing, dangerous stunt, solar storm rider"
+    },
+    "44_deep_space_beacon": {
+      "name": "Deep Space Beacon",
+      "modifiers": "lonely signal beacon station in deep space, blinking lights, relay antenna, vast emptiness surrounding, communication lifeline, isolated but essential"
+    },
+    "45_first_contact_embassy": {
+      "name": "First Contact Embassy",
+      "modifiers": "diplomatic meeting place for humans and aliens, neutral architecture, first contact moment, different species negotiating, universal translator, historic"
+    },
+    "46_cosmic_reef": {
+      "name": "Cosmic Reef",
+      "modifiers": "colorful space ecosystem like coral reef, living nebula, symbiotic space organisms, diverse alien life forms, cosmic biodiversity, living cloud of creatures"
+    },
+    "47_starship_graveyard": {
+      "name": "Starship Graveyard",
+      "modifiers": "field of derelict abandoned starships, ancient wrecks floating, ghost fleet, mysterious past battle, silent tombs in space, eerie spacecraft cemetery"
+    },
+    "48_dimensional_rift": {
+      "name": "Dimensional Rift",
+      "modifiers": "tear in fabric of spacetime, reality fracturing, glimpse into other dimension, unstable anomaly, dangerous phenomenon, crack in the universe"
+    },
+    "49_quantum_relay_hub": {
+      "name": "Quantum Relay Hub",
+      "modifiers": "quantum entanglement communication station, instant data transmission, glowing quantum cores, network nexus, information hub, FTL communication center"
+    },
+    "50_event_horizon_hotel": {
+      "name": "Event Horizon Hotel",
+      "modifiers": "luxury resort station orbiting near black hole, time dilation tourism, spectacular views of singularity, wealthy guests, edge of reality vacation"
+    }
+  },
+  "anime": {
+    "01_magical_girl": {
+      "name": "Magical Girl",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, magical girl transformation, sparkling effects, elegant frilly costume, ribbon, wand, glowing magic circles, dramatic pose, sparkles and stars, vibrant colors, intricate details"
+    },
+    "02_mecha_pilot": {
+      "name": "Mecha Pilot",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, mecha pilot in cockpit, giant robot, futuristic control panel, glowing screens, detailed pilot suit, intense expression, cinematic lighting, intricate mechanical details"
+    },
+    "03_isekai_hero": {
+      "name": "Isekai Hero",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, isekai protagonist, fantasy world, medieval town background, elegant adventurer outfit, magical aura, determined expression, light novel cover art"
+    },
+    "04_school_life": {
+      "name": "School Life",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, japanese high school, elegant school uniform, cherry blossoms falling, classroom window, soft afternoon light, peaceful atmosphere, beautiful scenery"
+    },
+    "05_cyberpunk_anime": {
+      "name": "Cyberpunk Anime",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, cyberpunk style, neon city lights, holographic displays, sleek cyber implants, stylish futuristic jacket, rain reflections, cinematic atmosphere"
+    },
+    "06_samurai_spirit": {
+      "name": "Samurai Spirit",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, noble samurai warrior, elegant katana sword, traditional hakama, cherry blossom petals, dramatic wind, moonlight, dignified stance"
+    },
+    "07_idol_stage": {
+      "name": "Idol Stage",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, idol concert stage, colorful spotlights, glowsticks in crowd, elegant performance costume, microphone, graceful pose, sparkling effects"
+    },
+    "08_beach_episode": {
+      "name": "Beach Episode",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, beautiful beach scene, summer day, crystal clear ocean waves, pristine sandy beach, tropical paradise, bright sunny sky, vacation atmosphere"
+    },
+    "09_fantasy_adventure": {
+      "name": "Fantasy Adventure",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, epic fantasy party, elegant sword and magic, mystical dungeon entrance, ornate adventurer gear, enchanted forest, grand quest atmosphere"
+    },
+    "10_ninja_shadow": {
+      "name": "Ninja Shadow",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, skilled ninja in action, moonlit rooftop, shuriken, elegant stealth pose, sleek dark outfit, dramatic shadows, cinematic composition"
+    },
+    "11_demon_slayer": {
+      "name": "Demon Slayer",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, noble demon hunter, elegant katana with special effects, breathing technique visualization, intense battle stance, dynamic action pose, cinematic lighting"
+    },
+    "12_chibi_cute": {
+      "name": "Chibi Cute",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, chibi style, super deformed, big head small body, adorable expression, clean cute background, soft pastel colors, polished kawaii aesthetic"
+    },
+    "13_shonen_battle": {
+      "name": "Shonen Battle",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, powerful protagonist, majestic power up aura, energy effects, determined expression, heroic battle stance, dramatic background"
+    },
+    "14_romance_scene": {
+      "name": "Romance Scene",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, elegant romantic moment, sakura petals falling, golden sunset, tender atmosphere, soft beautiful lighting, emotional scene"
+    },
+    "15_horror_anime": {
+      "name": "Horror Anime",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, refined horror atmosphere, elegant creepy shadows, unsettling mood, sophisticated dark color palette, psychological terror, artistic eerie lighting"
+    },
+    "16_sports_anime": {
+      "name": "Sports Anime",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, athletic excellence, graceful motion, determination, dramatic victory moment, stadium lights, dynamic composition"
+    },
+    "17_cooking_anime": {
+      "name": "Cooking Anime",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, elegant chef cooking, gourmet delicious food, steam rising, professional kitchen setting, refined presentation"
+    },
+    "18_music_anime": {
+      "name": "Music Anime",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, talented musician playing instrument, elegant band performance, passion and emotion, artistic stage lighting"
+    },
+    "19_yokai_encounter": {
+      "name": "Yokai Encounter",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, mystical japanese yokai spirits, ethereal supernatural atmosphere, elegant traditional japanese setting, mysterious fog, enchanting spirit world"
+    },
+    "20_space_opera": {
+      "name": "Space Opera",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, distinguished space battleship crew, elegant starship bridge, galactic adventure, refined futuristic uniforms, majestic space vista"
+    },
+    "21_gothic_lolita": {
+      "name": "Gothic Lolita",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, exquisite gothic lolita fashion, elegant dark dress, fine ribbons and lace, ornate parasol, victorian elegance, roses, sophisticated dark aesthetic"
+    },
+    "22_steampunk_anime": {
+      "name": "Steampunk Anime",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, refined steampunk style, polished brass gears and pipes, elegant victorian clothing, majestic airship background, intricate mechanical details"
+    },
+    "23_underwater_world": {
+      "name": "Underwater World",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, enchanting underwater scene, elegant mermaid or diver, crystal clear ocean depths, vibrant coral reef, beautiful sunlight rays, aquatic fantasy"
+    },
+    "24_winter_wonderland": {
+      "name": "Winter Wonderland",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, serene winter scene, gentle falling snow, elegant warm winter clothes, cozy atmosphere, pristine snowy landscape, soft beautiful lighting"
+    },
+    "25_festival_night": {
+      "name": "Festival Night",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, enchanting japanese summer festival, magnificent fireworks in sky, elegant yukata traditional clothing, festival stalls, romantic lantern lights"
+    },
+    "ls_01_cherry_blossom": {
+      "name": "Cherry Blossom Path",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, magnificent cherry blossom trees in full bloom, delicate pink petals falling, elegant traditional stone path, serene spring atmosphere, beautiful soft sunlight, no people"
+    },
+    "ls_02_sunset_shrine": {
+      "name": "Sunset Shrine",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, majestic japanese shinto shrine at sunset, elegant torii gate silhouette, stunning orange sky, sacred atmosphere, mountain backdrop, no people"
+    },
+    "ls_03_floating_islands": {
+      "name": "Floating Islands",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, magnificent fantasy floating islands in sky, majestic waterfalls cascading into clouds, lush verdant greenery, magical atmosphere, studio ghibli inspired"
+    },
+    "ls_04_neon_city": {
+      "name": "Neon Cityscape",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, stunning cyberpunk city at night, elegant neon signs reflecting on wet streets, majestic towering skyscrapers, cinematic rain, futuristic urban scenery"
+    },
+    "ls_05_enchanted_forest": {
+      "name": "Enchanted Forest",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, mystical magical forest with glowing plants, elegant bioluminescent mushrooms, fairy lights, enchanting ethereal lighting"
+    },
+    "ls_06_ocean_cliff": {
+      "name": "Ocean Cliffs",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, majestic dramatic ocean cliffs, powerful crashing waves below, elegant lighthouse in distance, beautiful golden hour lighting"
+    },
+    "ls_07_mountain_temple": {
+      "name": "Mountain Temple",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, ancient majestic temple on misty mountain, clouds below, elegant stone stairs winding up, peaceful zen atmosphere, refined traditional architecture"
+    },
+    "ls_08_autumn_village": {
+      "name": "Autumn Village",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, charming quaint countryside village, magnificent autumn foliage, vibrant red and orange leaves, cozy wooden houses, warm nostalgic atmosphere"
+    },
+    "ls_09_starry_meadow": {
+      "name": "Starry Meadow",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, serene open meadow under magnificent starry night sky, beautiful milky way visible, tall grass swaying, fireflies glowing, romantic peaceful night"
+    },
+    "ls_10_crystal_cave": {
+      "name": "Crystal Cave",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, magnificent underground crystal cavern, elegant glowing crystals of various colors, crystal clear underground lake reflection, magical fantasy cave"
+    },
+    "ls_11_bamboo_grove": {
+      "name": "Bamboo Grove",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, majestic tall bamboo forest, beautiful sunlight filtering through, serene green atmosphere, elegant traditional japanese scenery, peaceful zen"
+    },
+    "ls_12_volcanic_land": {
+      "name": "Volcanic Landscape",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, dramatic majestic volcanic terrain, glowing lava rivers, smoke and ash, fiery sky, powerful apocalyptic beauty, cinematic atmosphere"
+    },
+    "sf_01_cyberpunk_city": {
+      "name": "Cyberpunk City",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, cyberpunk cityscape, neon lights reflecting on wet streets, holographic advertisements, futuristic skyscrapers, rain, dark atmospheric, blade runner aesthetic, night city"
+    },
+    "sf_02_space_station": {
+      "name": "Space Station",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, orbital space station interior, sleek white corridors, holographic displays, zero gravity, Earth visible through windows, sci-fi technology, clean futuristic design"
+    },
+    "sf_03_android": {
+      "name": "Android",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, elegant android character, synthetic skin with visible circuitry, glowing eyes, sleek metallic parts, futuristic aesthetic, human-like beauty, technological elegance"
+    },
+    "sf_04_starship_bridge": {
+      "name": "Starship Bridge",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, starship command bridge, holographic star maps, captain's chair, crew stations, viewscreen showing space, dramatic lighting, epic sci-fi atmosphere"
+    },
+    "sf_05_virtual_world": {
+      "name": "Virtual World",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, digital virtual reality world, floating data streams, geometric shapes, neon grid landscape, avatar character, matrix-like aesthetic, glowing particles"
+    },
+    "sf_06_mech_hangar": {
+      "name": "Mech Hangar",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, giant mecha hangar bay, towering robots being maintained, sparks flying, technicians working, industrial sci-fi, dramatic scale, mechanical details"
+    },
+    "sf_07_alien_planet": {
+      "name": "Alien Planet",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, exotic alien planet landscape, strange flora, multiple moons in sky, bioluminescent plants, otherworldly atmosphere, vibrant unusual colors, sci-fi exploration"
+    },
+    "sf_08_hacker": {
+      "name": "Hacker",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, elite hacker character, multiple holographic screens, dark room lit by monitors, hooded figure, code streaming, cyberpunk aesthetic, digital infiltration"
+    },
+    "sf_09_bio_lab": {
+      "name": "Bio Lab",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, futuristic biology laboratory, glowing specimen tubes, DNA hologram displays, scientist character, sterile white and blue lighting, advanced genetic research"
+    },
+    "sf_10_post_apocalyptic": {
+      "name": "Post-Apocalyptic",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, post-apocalyptic survivor, ruined city overgrown with nature, makeshift gear, dramatic cloudy sky, hopeful determination, beautiful desolation, anime wasteland"
+    },
+    "sf_11_time_traveler": {
+      "name": "Time Traveler",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, time traveler character, swirling temporal vortex, clock gears and mechanisms, past and future blending, mysterious elegant outfit, chronological energy"
+    },
+    "sf_12_space_pilot": {
+      "name": "Space Pilot",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, ace space pilot in cockpit, sleek flight suit, helmet with HUD display, stars streaking past, confident expression, dramatic cockpit lighting, interstellar flight"
+    },
+    "cr_01_dragon": {
+      "name": "Majestic Dragon",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, majestic eastern dragon, serpentine body, flowing whiskers, glowing eyes, scales shimmering, clouds swirling around, mythical power, ancient wisdom, breathtaking creature design"
+    },
+    "cr_02_phoenix": {
+      "name": "Phoenix Rising",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, magnificent phoenix bird, flames and feathers intertwined, golden and crimson plumage, rebirth from ashes, radiant light, legendary firebird, majestic wingspan"
+    },
+    "cr_03_kitsune": {
+      "name": "Nine-Tailed Kitsune",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, mystical nine-tailed fox, flowing ethereal tails, fox fire floating, shrine maiden aesthetic, golden eyes, elegant yokai spirit, enchanting beauty"
+    },
+    "cr_04_cute_mascot": {
+      "name": "Cute Mascot",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, adorable mascot character, round fluffy body, big sparkly eyes, tiny paws, pastel colors, kawaii design, heartwarming expression, plush-like appearance"
+    },
+    "cr_05_wolf_spirit": {
+      "name": "Wolf Spirit",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, majestic spirit wolf, glowing ethereal fur, piercing eyes, moonlight aura, forest guardian, mystical presence, noble beast, wild beauty"
+    },
+    "cr_06_slime": {
+      "name": "Friendly Slime",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, cute translucent slime creature, jiggly body, happy expression, colorful gel-like texture, fantasy mascot, adorable monster, bouncy and shiny"
+    },
+    "cr_07_unicorn": {
+      "name": "Celestial Unicorn",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, elegant unicorn, spiraling crystal horn, flowing starlit mane, graceful pose, magical sparkles, pure white coat, fantasy dreamscape, ethereal beauty"
+    },
+    "cr_08_tanuki": {
+      "name": "Tanuki Yokai",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, playful tanuki raccoon dog, leaf on head, mischievous smile, round belly, shapeshifter yokai, Japanese folklore, cute and chubby, magical creature"
+    },
+    "cr_09_fairy_dragon": {
+      "name": "Fairy Dragon",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, tiny fairy dragon, iridescent butterfly wings, small adorable body, perched on flower, sparkling scales, whimsical creature, magical companion, enchanted forest"
+    },
+    "cr_10_oni": {
+      "name": "Oni Demon",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, powerful oni demon, horned head, muscular build, tiger-striped clothing, iron club, fierce expression, Japanese mythology, intimidating yet noble"
+    },
+    "cr_11_cat_spirit": {
+      "name": "Nekomata",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, mystical two-tailed cat, elegant feline form, ghostly flames, supernatural aura, Japanese cat yokai, graceful and mysterious, split tail"
+    },
+    "cr_12_water_dragon": {
+      "name": "Sea Serpent",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, magnificent sea dragon, serpentine ocean creature, flowing fins like silk, underwater kingdom, bioluminescent scales, ancient leviathan, deep sea majesty"
+    }
+  }
+}

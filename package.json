@@ -1,0 +1,19 @@
+{
+  "name": "halcyon-subdomain-registry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NFT-based subdomain marketplace on Flare Network with Handshake integration",
+  "scripts": {
+    "contracts:compile": "cd contracts && npx hardhat compile",
+    "contracts:test": "cd contracts && npx hardhat test",
+    "contracts:deploy": "cd contracts && npx hardhat run scripts/deploy.js",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "install:all": "npm install && cd contracts && npm install && cd ../backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["handshake", "hns", "flare", "nft", "subdomain", "dns"],
+  "author": "Halcyon Registry",
+  "license": "MIT"
+}

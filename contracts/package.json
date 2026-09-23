@@ -1,0 +1,28 @@
+{
+  "name": "halcyon-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:forge": "forge test -vv",
+    "build:forge": "forge build",
+    "deploy:coston2": "hardhat run scripts/deploy.js --network coston2",
+    "deploy:flare": "hardhat run scripts/deploy.js --network flare",
+    "verify": "hardhat verify"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@flarenetwork/flare-periphery-contracts": "^0.1.43",
+    "@flarenetwork/flare-wagmi-periphery-package": "^2.6.0",
+    "@openzeppelin/contracts-upgradeable": "^5.4.0",
+    "crypto-js": "^4.2.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.6.0"
+  }
+}

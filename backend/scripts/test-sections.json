@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "description": "GPU Test Restructure - Each test = Model + Style + Theme Category",
+    "naming": "{Model}_{StyleCategory}{Number}_{ThemeCategory}",
+    "totalStyles": 56,
+    "totalThemeCategories": 8,
+    "totalModels": 2,
+    "totalTests": 896,
+    "estimatedTimePerTest": "40 minutes",
+    "imagesPerTest": "~50"
+  },
+
+  "subjects": {
+    "description": "30 diverse subjects that rotate through themes (theme[0] gets subject[0], etc.)",
+    "rotation": [
+      "1girl, beautiful, elegant",
+      "1boy, handsome, refined",
+      "woman warrior, fierce",
+      "old wizard, wise",
+      "young child, innocent",
+      "couple embracing, romantic",
+      "elf archer, graceful",
+      "dwarf blacksmith, sturdy",
+      "angel, divine wings",
+      "demon, dark horns",
+      "fairy, tiny glowing",
+      "vampire, elegant cape",
+      "dragon, majestic scales",
+      "wolf, fierce howling",
+      "phoenix, fiery wings",
+      "unicorn, magical horn",
+      "griffin, lion eagle",
+      "serpent, coiled ancient",
+      "cat, fluffy sitting",
+      "owl, wise perched",
+      "horse, galloping wild",
+      "fox, cunning red",
+      "bear, powerful standing",
+      "eagle, soaring majestic",
+      "robot, humanoid chrome",
+      "android, synthetic skin",
+      "mecha, giant armored",
+      "cyborg, half machine",
+      "ancient artifact, glowing runes",
+      "no humans, landscape scenery"
+    ]
+  },
+
+  "models": {
+    "PG": {
+      "id": "sdxl-playground-lora",
+      "name": "Playground v2.5 + LCM",
+      "code": "PG",
+      "type": "sdxl"
+    },
+    "AN": {
+      "id": "sdxl-animagine",
+      "name": "Animagine XL 3.1",
+      "code": "AN",
+      "type": "sdxl"
+    }
+  },
+
+  "styleCategories": {
+    "A": {
+      "name": "Artistic",
+      "code": "A",
+      "description": "Traditional artistic mediums and techniques",
+      "styles": [
+        "watercolor",
+        "colored_pencil",
+        "gouache",
+        "charcoal",
+        "oil_painting",
+        "pastel",
+        "ink_drawing",
+        "pencil_sketch",
+        "marker",
+        "mixed_media"
+      ]
+    },
+    "D": {
+      "name": "Digital",
+      "code": "D",
+      "description": "Digital art techniques and modern styles",
+      "styles": [
+        "3d_render",
+        "pixel_art",
+        "vector",
+        "low_poly",
+        "neon",
+        "isometric",
+        "cel_shaded"
+      ]
+    },
+    "F": {
+      "name": "Film",
+      "code": "F",
+      "description": "Film and photography looks and techniques",
+      "styles": [
+        "cinematic",
+        "film_noir",
+        "analog_film",
+        "polaroid",
+        "hdr",
+        "long_exposure",
+        "portrait",
+        "landscape",
+        "neon_noir",
+        "tilt_shift"
+      ]
+    },
+    "M": {
+      "name": "Movements",
+      "code": "M",
+      "description": "Historical and contemporary art movements",
+      "styles": [
+        "impressionist",
+        "art_nouveau",
+        "art_deco",
+        "surrealist",
+        "pop_art",
+        "cubist",
+        "minimalist",
+        "baroque",
+        "expressionist",
+        "renaissance"
+      ]
+    },
+    "R": {
+      "name": "Rendering",
+      "code": "R",
+      "description": "Image rendering and illustration styles",
+      "styles": [
+        "photorealistic",
+        "hyperrealistic",
+        "anime",
+        "manga",
+        "comic_book",
+        "cartoon",
+        "ghibli",
+        "kawaii",
+        "fantasy_art",
+        "concept_art"
+      ]
+    },
+    "O": {
+      "name": "Mood",
+      "code": "O",
+      "description": "Mood, atmosphere, and aesthetic styles",
+      "styles": [
+        "dreamy",
+        "dark_moody",
+        "bright_vibrant",
+        "gothic",
+        "cyberpunk",
+        "steampunk",
+        "horror",
+        "fairy_tale",
+        "dystopian"
+      ]
+    }
+  },
+
+  "themeCategories": {
+    "Exotic": { "count": 50, "file": "exotic.json" },
+    "Anime": { "count": 61, "file": "anime.json" },
+    "Fantasy": { "count": 50, "file": "fantasy.json" },
+    "Nature": { "count": 50, "file": "nature.json" },
+    "Space": { "count": 50, "file": "space.json" },
+    "Business": { "count": 50, "file": "business.json" },
+    "Jobs": { "count": 50, "file": "jobs.json" },
+    "Fractal": { "count": 50, "file": "fractal.json" }
+  },
+
+  "executionOrder": {
+    "themeOrder": ["Exotic", "Anime", "Fantasy", "Nature", "Space", "Business", "Jobs", "Fractal"],
+    "modelOrder": ["PG", "AN"],
+    "styleCategoryOrder": ["A", "D", "F", "M", "R", "O"]
+  },
+
+  "timing": {
+    "generationBatch": {
+      "description": "Time for 3 images in parallel",
+      "seconds": 40
+    },
+    "cooldown": {
+      "description": "Cooldown between batches",
+      "seconds": 10
+    },
+    "llavaAnalysis": {
+      "description": "LLaVA analysis per 3 images",
+      "seconds": 24
+    },
+    "totalPerBatch": {
+      "description": "Total time for one batch of 3 images",
+      "seconds": 75
+    },
+    "imagesPerHour": {
+      "description": "Images generated per hour",
+      "count": 144
+    },
+    "estimatedMinutesPerTest": 40
+  },
+
+  "outputConfig": {
+    "baseDir": "/home/localai/Desktop/ThemeTests/comprehensive",
+    "imageFormat": "png",
+    "saveRawImages": true,
+    "generateHtmlReport": true,
+    "generateCsvReport": true
+  },
+
+  "qualityThresholds": {
+    "passScore": 5,
+    "styleMinimum": 6,
+    "themeMinimum": 6,
+    "qualityMinimum": 5
+  },
+
+  "fileNaming": {
+    "format": "{test}_{seq}_{theme}_{subject}_{style}.png",
+    "example": "PG_A01_Exotic_0001_ancient-temple_1girl_watercolor.png"
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "category": "exotic",
+  "description": "Surreal, fantastical, and otherworldly artistic themes",
+  "themes": {
+    "51_melting_clocks": {
+      "name": "Melting Clocks",
+      "modifiers": "surreal melting clocks draped over crumbling desert monoliths, Salvador Dali inspired impossible geometry, distorted time flowing like liquid glass, barren dreamscape stretching into deep violet horizon, chiaroscuro lighting casting long obsidian shadows, molten gold clock faces pooling on petrified wood, existential surreal perspective from below, 8k ultra detail",
+      "modifiers_animagine": "no humans, surreal, melting clocks, desert landscape, impossible geometry, dreamlike, salvador dali style, distorted perspective, golden hour lighting, molten gold, violet sky, otherworldly, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "solid clock, digital watch, normal timepiece, rigid, frozen, mundane, photorealistic, stock photo",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a grandfather clock melting over a crumbling desert cliff at golden hour",
+        "pocket watches dissolving into liquid pools of gold on sun-baked stone",
+        "clock hands bending and dripping from a floating marble shelf",
+        "a sundial warping into impossible curves above a field of dried roses",
+        "hourglasses filled with molten silver flowing upward into a violet sky"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "52_biolum_city": {
+      "name": "Bioluminescent City",
+      "modifiers": "bioluminescent underwater city at abyssal midnight, glowing coral skyscrapers pulsing with alien turquoise and deep violet light, neon sea creatures drifting between liquid glass towers, ethereal caustic light patterns on obsidian seabed, dreamlike vista of aquatic civilization, impossible geometry of organic architecture, otherworldly glow illuminating the deep, 8k ultra detail",
+      "modifiers_animagine": "no humans, underwater city, bioluminescent, glowing coral, neon sea creatures, deep ocean, fantasy city, alien architecture, turquoise glow, ethereal light, otherworldly, surreal, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal city, daylight, concrete gray, no glow, fluorescent office, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a coral cathedral pulsing with turquoise bioluminescence on the ocean floor",
+        "a jellyfish flotilla drifting between glowing glass towers in the deep",
+        "a grand staircase of living coral descending into an abyssal plaza",
+        "a luminous sea anemone market square teeming with spectral fish",
+        "an obsidian archway draped in glowing kelp opening to an underwater boulevard"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "54_cyber_samurai": {
+      "name": "Cyber Samurai",
+      "modifiers": "cyberpunk samurai warrior standing in neon rain on a futuristic Tokyo overpass, katana blade glowing molten gold with holographic edge, obsidian tech armor etched with circuitry, rain reflections on liquid glass streets casting alien turquoise highlights, chiaroscuro neon lighting, blade runner aesthetic with surreal perspective looking up at towering holograms, 8k ultra detail",
+      "modifiers_animagine": "1boy, cyberpunk, samurai, neon rain, katana, glowing weapon, futuristic city, tech armor, neon lights, blade runner, rain reflections, dramatic lighting, dark atmosphere, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "medieval knight, modern soldier, farmer, cowboy, mundane, photorealistic, stock photo",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a lone samurai drawing a neon-edged katana on a rain-slicked Tokyo overpass",
+        "a cybernetic ronin meditating beneath holographic cherry blossoms in a dark alley",
+        "twin plasma katanas crossed in an arc of sparks above a neon-lit rooftop",
+        "a samurai helm with glowing visor circuits reflecting a city of holograms",
+        "an obsidian-armored warrior mid-slash trailing ribbons of electric light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "55_ghost_forest": {
+      "name": "Ghost Forest",
+      "modifiers": "ethereal ghost forest shrouded in bioluminescent mist, spectral beings of liquid glass drifting between petrified wood trunks, otherworldly glow pulsing deep violet and alien turquoise through ancient canopy, impossible geometry of twisted roots reaching into dreamlike void, chiaroscuro moonlight piercing fog in divine rays, haunted atmosphere of frozen time, 8k ultra detail",
+      "modifiers_animagine": "no humans, ghost forest, ethereal, misty forest, glowing spirits, supernatural light, haunted woods, bioluminescent, otherworldly, dark fantasy, moonlight, spectral, surreal atmosphere, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "lush green, sunny clearing, flower meadow, park, healthy trees, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a translucent stag made of pale moonlight stepping between petrified trunks",
+        "a spectral lantern hanging from a gnarled branch casting violet shadows through fog",
+        "twisted roots arching over a glowing pool where ghostly wisps gather",
+        "a crumbling stone shrine half-swallowed by luminous fungus in the mist",
+        "a corridor of dead trees draped in cobwebs that shimmer with faint turquoise light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "56_airship_battle": {
+      "name": "Airship Battle",
+      "modifiers": "steampunk airship armada clashing in apocalyptic storm clouds, brass vessels with obsidian hulls exchanging cannon fire in molten gold explosions, lightning strikes illuminating impossible geometry of Victorian sky fortresses, surreal perspective from the deck looking across a dreamlike vista of burning dirigibles, chiaroscuro storm light, petrified wood and polished copper details, 8k ultra detail",
+      "modifiers_animagine": "no humans, steampunk, airship battle, storm clouds, brass vessels, cannon fire, lightning, epic battle, victorian, sky combat, dramatic clouds, explosion effects, fantasy, otherworldly, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ground battle, naval warfare, car chase, foot soldiers, trench, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a massive brass zeppelin listing sideways through lightning with its hull ablaze",
+        "two ironclad airships locked bow-to-bow amid billowing cannon smoke",
+        "a steampunk observation deck overlooking a sky filled with burning dirigibles",
+        "a copper-plated war balloon trailing fire through a canyon of thunderheads",
+        "a Victorian sky fortress bristling with cannons silhouetted against a molten sunset"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "60_gothic_mansion": {
+      "name": "Gothic Mansion",
+      "modifiers": "Victorian gothic mansion of obsidian stone and petrified wood looming against a blood-violet sky, dark spires piercing churning clouds, lightning illumination casting chiaroscuro shadows through shattered stained glass, otherworldly glow emanating from within, impossible geometry of endless corridors visible through windows, liquid glass rain pooling on gargoyle perches, supernatural horror elegance, 8k ultra detail",
+      "modifiers_animagine": "no humans, gothic mansion, victorian architecture, dark spires, lightning, haunted house, stained glass, supernatural, dark sky, horror atmosphere, gargoyles, otherworldly, dark fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern house, apartment, cabin, tent, suburban home, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a crumbling gargoyle perched on a rain-slicked balustrade overlooking a dead garden",
+        "a grand staircase spiraling upward into darkness with a single candelabra flickering",
+        "shattered stained glass casting crimson and violet shards of light across a marble floor",
+        "a wrought-iron gate standing open before a fog-shrouded Victorian facade",
+        "a library of leather-bound tomes with dust motes drifting through a crack of lightning light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "63_synthwave_highway": {
+      "name": "Synthwave Highway",
+      "modifiers": "retro-futuristic synthwave highway stretching into an infinite molten gold and deep violet sunset, neon grid landscape of liquid glass reflecting alien turquoise, chrome sports car trailing light streaks, surreal perspective vanishing point into dreamlike horizon, outrun aesthetic with otherworldly glow, obsidian mountains flanking the road, 80s nostalgia meets impossible geometry, 8k ultra detail",
+      "modifiers_animagine": "no humans, synthwave, retro futuristic, neon highway, chrome car, sunset gradient, neon grid, outrun aesthetic, vaporwave, purple sky, orange glow, 1980s style, otherworldly, surreal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "country road, dirt path, hiking trail, sidewalk, cobblestone, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a chrome Lamborghini trailing neon streaks down an endless grid highway at sunset",
+        "a glowing neon palm tree silhouetted against a magenta and gold gradient sky",
+        "the vanishing point of a laser-straight road dissolving into a radiant horizon",
+        "a retro gas station pulsing with pink and cyan neon on the edge of a digital desert",
+        "a rearview mirror reflecting an infinite neon grid fading into violet haze"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "65_ice_palace": {
+      "name": "Ice Palace",
+      "modifiers": "magnificent ice crystal palace beneath aurora borealis in deep violet and alien turquoise, frozen architecture of liquid glass walls refracting otherworldly glow, impossible geometry of crystalline spires reaching into dancing northern lights, dreamlike vista of glacial halls with chiaroscuro aurora reflections, obsidian ice formations and molten gold light seeping through translucent walls, arctic wonder beyond imagination, 8k ultra detail",
+      "modifiers_animagine": "no humans, ice palace, crystal architecture, aurora borealis, northern lights, frozen, glacial beauty, translucent walls, winter, arctic, ethereal light, fantasy castle, otherworldly, surreal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "fire castle, desert fort, mud hut, wooden cabin, brick house, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a crystalline throne carved from a single glacier beneath rippling aurora light",
+        "a frozen chandelier of icicle prisms refracting emerald and violet northern lights",
+        "a translucent ice bridge arching between two glacial spires over a chasm of stars",
+        "a grand ballroom of frosted glass with aurora borealis visible through the ceiling",
+        "a frozen rose garden with each petal a perfect shard of pale blue ice"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "66_mech_heart": {
+      "name": "Mechanical Heart",
+      "modifiers": "biomechanical heart beating inside transparent liquid glass chest cavity, intricate clockwork organs of obsidian gears and molten gold pistons pumping bioluminescent fluid, steam and alien turquoise light escaping through copper veins, surreal perspective macro view, impossible geometry of nested mechanisms, chiaroscuro lighting on polished brass chambers, life machinery rendered with surgical precision, 8k ultra detail",
+      "modifiers_animagine": "no humans, mechanical heart, clockwork, gears, biomechanical, steampunk, transparent body, glowing fluid, brass, copper, surreal, anatomical, otherworldly, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "real heart, medical diagram, valentine heart, candy heart, emoji, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a brass and copper clockwork heart with visible gears pumping luminous blue fluid",
+        "an exposed chest cavity revealing nested golden pistons and obsidian valves",
+        "a single mechanical ventricle trailing copper veins that pulse with turquoise light",
+        "a pocket-watch-sized heart mechanism ticking on a velvet cushion with steam rising"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "70_space_blossoms": {
+      "name": "Space Blossoms",
+      "modifiers": "floating cherry blossom island drifting through cosmic nebula, sakura petals of liquid glass scattering among alien turquoise stars, otherworldly glow illuminating petrified wood shrine on the island, dreamlike vista of deep violet galaxies beyond, bioluminescent moss covering ancient stone, surreal perspective looking down from orbit, impossible geometry of roots growing into void, Japanese space fantasy, 8k ultra detail",
+      "modifiers_animagine": "no humans, cherry blossoms, floating island, space, nebula, sakura petals, cosmic garden, stars, japanese style, shrine, otherworldly, fantasy, surreal, ethereal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth flowers, garden, pot plant, flower shop, greenhouse, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a lone sakura tree in full bloom on a floating asteroid drifting through a nebula",
+        "glass cherry blossom petals spiraling through a field of turquoise stars",
+        "a weathered torii gate draped in cosmic wisteria on the edge of a void island",
+        "a koi pond reflecting galaxies beneath a canopy of glowing celestial blossoms",
+        "roots of an ancient cherry tree threading through asteroid rock into open cosmos"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "71_grim_reaper": {
+      "name": "Grim Reaper",
+      "modifiers": "dark fantasy grim reaper towering in a misty graveyard of obsidian tombstones, scythe blade of liquid glass gleaming with molten gold edge, deep violet robes flowing with impossible geometry defying gravity, bioluminescent soul wisps rising from cracked earth, chiaroscuro moonlight through dead branches, otherworldly glow from hollow eye sockets of alien turquoise, death personified in surreal perspective from below, 8k ultra detail",
+      "modifiers_animagine": "no humans, grim reaper, scythe, graveyard, dark fantasy, gothic, fog, tombstones, glowing eyes, death, supernatural, dark robes, moonlight, otherworldly, horror, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "angel, cupid, fairy, cheerful spirit, birthday party, smiling, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a towering cloaked figure gripping a scythe that gleams with golden light in moonlit fog",
+        "skeletal hands emerging from tattered robes to cradle a glowing soul wisp",
+        "a shattered hourglass at the reaper's feet spilling luminous sand across tombstones",
+        "the reaper's hollow cowl revealing twin turquoise embers where eyes should be",
+        "a scythe blade buried in cracked earth with spectral mist coiling around the shaft"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "73_atlantis": {
+      "name": "Atlantis",
+      "modifiers": "sunken Atlantis ruins revealed through crystalline abyssal waters, ancient temples of obsidian and liquid glass overgrown with bioluminescent coral pulsing alien turquoise, dreamlike vista of crumbling colonnades stretching into deep violet ocean depths, otherworldly glow from enchanted artifacts still burning with molten gold light, impossible geometry of inverted pyramids, surreal perspective through cathedral-sized archways, mythical aquatic wonder, 8k ultra detail",
+      "modifiers_animagine": "no humans, atlantis, underwater ruins, ancient civilization, sunken city, coral covered temples, bioluminescent, ocean depths, mythical, fantasy, columns, arches, otherworldly, surreal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern city, dry land, desert, mountain, space station, sky, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a sunken marble colonnade encrusted with glowing coral stretching into the abyss",
+        "an inverted pyramid of obsidian stone hovering above the seafloor with golden light within",
+        "a grand archway of carved stone with bioluminescent anemones framing a view into drowned halls",
+        "a golden trident embedded in a coral throne at the heart of a ruined temple"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "74_cyber_cat": {
+      "name": "Cyber Cat",
+      "modifiers": "neon cyber cat with holographic whiskers crackling alien turquoise energy, liquid glass eyes reflecting impossible cityscapes, glowing circuitry fur patterns in molten gold and deep violet, bioluminescent data streams flowing through obsidian mechanical spine, otherworldly glow radiating from cybernetic enhancements, surreal perspective close-up with bokeh neon background, futuristic feline rendered in chiaroscuro neon, 8k ultra detail",
+      "modifiers_animagine": "no humans, cyber cat, neon, holographic, glowing eyes, circuitry, futuristic, cyberpunk, mechanical parts, neon lights, alien, otherworldly, science fiction, animal focus, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "regular cat, kitten, dog, hamster, realistic pet, stuffed animal, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a sleek black cat with glowing circuit-trace fur patterns perched on a neon rooftop",
+        "holographic whiskers crackling with electric arcs against a rain-blurred cityscape",
+        "a cyber cat's eye in extreme close-up reflecting a sprawling futuristic metropolis",
+        "a mechanical feline spine with exposed neon vertebrae arching in a stretch",
+        "a cat silhouette composed entirely of flowing data streams stalking through digital rain"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "75_egyptian_future": {
+      "name": "Egyptian Future",
+      "modifiers": "ancient Egyptian gods Anubis and Ra towering over futuristic city skyline in colossal obsidian and molten gold forms, civilization clash of pyramid holographs and neon obelisks, alien turquoise hieroglyphs floating in mid-air, chiaroscuro divine light beaming from Ra's sun disc, impossible geometry of inverted temples hovering above glass towers, deep violet desert sky, otherworldly glow from sacred artifacts, surreal perspective from street level looking up at divine beings, 8k ultra detail",
+      "modifiers_animagine": "no humans, egyptian gods, anubis, ra, futuristic city, golden statues, hieroglyphs, neon, pyramid, hologram, civilization clash, otherworldly, fantasy, surreal, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "medieval European, Japanese castle, colonial, mundane, photorealistic, stock photo",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a colossal Anubis statue of obsidian and gold towering over a neon-lit skyline",
+        "a holographic pyramid hovering above a futuristic plaza with floating hieroglyphs",
+        "Ra's sun disc blazing atop a glass obelisk casting divine light across chrome towers",
+        "a sarcophagus of polished gold opening to reveal circuitry and glowing turquoise energy",
+        "a pharaoh's crook and flail crossed before a portal of swirling hieroglyphic light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "76_cloud_city": {
+      "name": "Cloud City",
+      "modifiers": "whimsical cloud city with cotton candy architecture of liquid glass and spun sugar towers, pastel buildings floating on impossibly dense cumulus platforms, dreamlike vista of fluffy streets winding between alien turquoise domes and molten gold bridges, otherworldly glow from within translucent walls, surreal perspective looking across an infinite sky of deep violet and rose, bioluminescent lanterns bobbing on warm updrafts, impossible geometry of spiraling cloud staircases, 8k ultra detail",
+      "modifiers_animagine": "no humans, cloud city, floating city, pastel colors, cotton candy architecture, fantasy sky, fluffy clouds, dreamlike, whimsical, ethereal, lanterns, otherworldly, surreal, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "underground bunker, submarine, cave dwelling, basement, mine shaft, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a spiraling staircase of solidified cloud rising through pastel towers into open sky",
+        "a golden footbridge connecting two cotton-candy domes above a sea of cumulus",
+        "a glowing lantern market square floating on a dense cloud platform at dusk",
+        "a translucent bell tower with soft light spilling out over a fluffy rooftop garden",
+        "a rose and violet sky stretching behind a whimsical clocktower made of spun cloud"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "77_elder_god": {
+      "name": "Elder God",
+      "modifiers": "Lovecraftian elder god of obsidian and bioluminescent flesh emerging from a churning storm ocean, impossible geometry of fractal tentacles and countless alien turquoise eyes, cosmic horror of incomprehensible scale against deep violet thunderheads, Cthulhu rising with molten gold ichor dripping from eldritch maw, otherworldly glow from interdimensional rift beneath the waves, chiaroscuro lightning revealing writhing masses of liquid glass appendages, surreal perspective from a doomed ship below, 8k ultra detail",
+      "modifiers_animagine": "no humans, eldritch horror, cthulhu, lovecraftian, tentacles, cosmic horror, stormy ocean, giant creature, alien eyes, otherworldly, surreal, dark fantasy, horror, nightmare, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "puppy, kitten, fairy, angel, cute baby, friendly mascot, toy, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a mountainous tentacled form breaching a storm-torn ocean beneath cracking violet skies",
+        "a single colossal eye of alien turquoise opening beneath the waves casting light upward",
+        "fractal tentacles coiling around a lighthouse as lightning reveals their impossible geometry",
+        "an eldritch maw dripping golden ichor wide enough to swallow a galleon whole",
+        "a rift in the ocean floor glowing with interdimensional light as something vast ascends"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "78_comet_garden": {
+      "name": "Comet Garden",
+      "modifiers": "minimalist zen garden on a comet tail of raked stardust and obsidian meditation stones, liquid glass sand ripples reflecting alien turquoise starlight, deep violet cosmic void beyond, bioluminescent moss growing on ancient meteorite boulders, otherworldly glow from the comet nucleus, dreamlike vista of galaxies visible through transparent ground, surreal perspective of infinite tranquility in motion, impossible geometry of curved space around the garden, 8k ultra detail",
+      "modifiers_animagine": "no humans, zen garden, comet, space, stardust, meditation stones, cosmic, celestial, starlight, bioluminescent, galaxies, otherworldly, surreal, fantasy, peaceful, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth garden, backyard, flower pot, window box, greenhouse, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "perfectly raked stardust ripples around obsidian stones on a comet's glowing surface",
+        "a bonsai tree of crystallized light growing from a meteorite boulder in open space",
+        "a meditation stone garden with galaxies visible through the transparent ground below",
+        "glowing moss creeping across ancient meteorite rocks on a comet tail at dawn"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "79_vampire_ball": {
+      "name": "Vampire Ballroom",
+      "modifiers": "vampire ballroom dance under a blood moon pouring molten gold light through cathedral windows, gothic elegance of obsidian marble floors reflecting immortal dancers in liquid glass mirrors, deep violet shadows and alien turquoise candlelight from bioluminescent chandeliers, chiaroscuro illumination on porcelain skin and petrified wood balustrades, surreal perspective from the vaulted ceiling looking down, impossible geometry of infinite mirrored corridors, dark romance frozen in eternal waltz, 8k ultra detail",
+      "modifiers_animagine": "no humans, vampire ballroom, gothic architecture, blood moon, chandelier, dark elegance, dancing figures, mirrors, candlelight, dark romance, supernatural, otherworldly, dark fantasy, horror, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "children party, beach party, sports event, picnic, office meeting, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a grand chandelier of black crystal and dripping candles casting violet shadows on dancers",
+        "a pair of wine goblets filled with crimson liquid on a marble balustrade under moonlight",
+        "an infinite corridor of ornate mirrors reflecting ghostly waltzing figures receding to darkness",
+        "a blood moon flooding through cathedral windows onto a polished obsidian dance floor",
+        "a grand piano draped in cobwebs with ivory keys pressed by invisible hands"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "80_solarpunk_village": {
+      "name": "Solarpunk Village",
+      "modifiers": "solarpunk eco-village of liquid glass domes and living vine-covered sustainable technology, bioluminescent flora integrated with alien turquoise solar panels, otherworldly glow from bio-reactors beneath transparent walkways, molten gold sunlight filtering through canopy of engineered trees, dreamlike vista of harmonious nature and organic architecture, petrified wood bridges spanning crystal streams, surreal perspective from a rooftop garden overlooking utopian community, impossible geometry of spiraling greenhouse towers, 8k ultra detail",
+      "modifiers_animagine": "no humans, solarpunk, eco village, green energy, vine covered buildings, solar panels, bioluminescent plants, utopian, sustainable, nature and technology, crystal domes, otherworldly, fantasy, surreal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dystopia, pollution, dark factory, gray concrete, toxic waste, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a glass dome greenhouse intertwined with flowering vines and turquoise solar panels",
+        "a crystal stream flowing beneath a living bridge of woven branches and moss",
+        "a rooftop garden overflowing with bioluminescent fruit trees above a village of green domes",
+        "a spiraling greenhouse tower with sunlight filtering through layers of engineered canopy",
+        "a communal plaza of warm wood and living walls where glowing flowers open at dusk"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "81_rage_storm": {
+      "name": "Rage Storm",
+      "modifiers": "abstract emotion visualization of rage manifesting as a cataclysmic fire storm of molten gold and deep violet fury, impossible geometry of fractal flame spirals consuming obsidian landscape, bioluminescent veins of alien turquoise anger pulsing through cracking earth, chiaroscuro eruptions casting liquid glass debris against blood-red sky, otherworldly glow from the storm's eye, surreal perspective inside the vortex looking up, emotional tempest made visible as devastating beauty, 8k ultra detail",
+      "modifiers_animagine": "no humans, abstract, fire storm, rage, emotion visualization, flames, fury, fractal, molten, destruction, deep red, surreal, otherworldly, dramatic lighting, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "calm day, peaceful sunset, gentle breeze, quiet meadow, still lake, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a vortex of fractal flames spiraling upward from cracking obsidian earth",
+        "molten gold lightning arcing across a blood-red sky above a shattered landscape",
+        "turquoise veins of fury pulsing through splitting ground beneath a wall of fire",
+        "the calm eye of a firestorm revealing a single unbroken flower below",
+        "an explosion of liquid glass debris frozen mid-blast against a crimson horizon"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "82_candy_cottage": {
+      "name": "Candy Cottage",
+      "modifiers": "fairy tale cottage made entirely of living candy in a bioluminescent sugar forest, liquid glass caramel windows refracting otherworldly glow, gingerbread walls with molten gold icing details, lollipop garden of alien turquoise and deep violet swirls, dreamlike vista of confectionery landscape stretching to candy mountains, petrified sugar crystal formations, surreal perspective from a gumdrop pathway, impossible geometry of layered cake architecture, Hansel and Gretel reimagined, 8k ultra detail",
+      "modifiers_animagine": "no humans, candy cottage, fairy tale, gingerbread house, lollipop garden, candy forest, sweet architecture, colorful, whimsical, fantasy, bioluminescent, dreamlike, surreal, otherworldly, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "real house, office building, concrete, steel, glass tower, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a gingerbread cottage with caramel glass windows glowing warm in a sugar-dusted forest",
+        "a lollipop garden path winding through peppermint trees toward a frosted doorway",
+        "a layered cake tower with fondant balconies and spun-sugar railings catching the light",
+        "a chocolate river flowing under a bridge of crystallized honey into a gumdrop valley",
+        "a candy cane fence enclosing a garden of luminous rock candy flowers"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "83_quantum_lovers": {
+      "name": "Quantum Lovers",
+      "modifiers": "quantum entanglement lovers in parallel universes reaching through dimensional membrane of liquid glass, split reality showing obsidian void on one side and molten gold cosmos on the other, bioluminescent particle trails connecting their fingertips across deep violet spacetime, alien turquoise energy arcing between worlds, impossible geometry of folded dimensions, chiaroscuro lighting from two different suns, surreal perspective through the rift, cosmic romance of scientific beauty, 8k ultra detail",
+      "modifiers_animagine": "1boy, 1girl, quantum entanglement, parallel universes, dimensional rift, reaching hands, cosmic connection, particle effects, split reality, deep space, otherworldly, surreal, science fiction, romantic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal couple, portrait photo, wedding picture, family photo, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "two silhouettes reaching toward each other through a shimmering dimensional membrane",
+        "fingertips nearly touching across a rift where particle trails arc like electric constellations",
+        "a split canvas of golden cosmos on one side and obsidian void on the other with figures mirrored",
+        "entangled luminous threads connecting two figures standing in different realities"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "84_volcano_dragon": {
+      "name": "Volcano Dragon",
+      "modifiers": "volcanic dragon of obsidian scales and molten gold magma veins perched on erupting mountain, liquid glass lava rivers cascading down impossible geometry of crystallized basalt columns, bioluminescent sulfuric vents casting alien turquoise glow against deep violet ash clouds, chiaroscuro fire breath illuminating petrified forest below, surreal perspective from the caldera rim looking up at the legendary beast, primal elemental fury rendered in dreamlike detail, 8k ultra detail",
+      "modifiers_animagine": "no humans, dragon, volcano, eruption, magma scales, fire breath, lava, legendary beast, obsidian, molten gold, epic, dark fantasy, otherworldly, surreal, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ice creature, water spirit, gentle unicorn, butterfly, songbird, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a dragon of obsidian scales with veins of glowing magma perched on a volcanic rim",
+        "molten lava cascading down crystallized basalt columns beneath outstretched dragon wings",
+        "a dragon's open maw releasing a torrent of golden fire that illuminates ash clouds",
+        "a coiled volcanic serpent wrapped around a smoldering caldera with lava pooling below",
+        "obsidian claws gripping fractured volcanic rock as sulfuric vents glow turquoise beneath"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "85_vaporwave_statue": {
+      "name": "Vaporwave Statue",
+      "modifiers": "retro vaporwave marble statue of liquid glass and obsidian in an infinite pastel void, Greek bust fragmenting into molten gold digital glitch artifacts, alien turquoise scan lines and deep violet chromatic aberration, bioluminescent grid floor stretching into dreamlike horizon, otherworldly glow from within cracked marble revealing circuitry, surreal perspective of floating fragments in zero gravity, impossible geometry of shattered classical beauty, 90s internet aesthetic transcended, 8k ultra detail",
+      "modifiers_animagine": "no humans, vaporwave, marble statue, greek bust, glitch art, pastel colors, retro aesthetic, digital artifacts, neon grid, 1990s style, floating fragments, otherworldly, surreal, abstract, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern sculpture, bronze bust, garden gnome, mannequin, action figure, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a Greek marble bust fragmenting into floating shards with golden glitch artifacts between them",
+        "a classical Venus statue split by chromatic aberration in cyan and magenta halves",
+        "a cracked marble hand reaching upward with neon circuitry glowing through the fractures",
+        "a column capital dissolving into scan lines above a glowing pastel grid floor",
+        "a headless marble torso hovering in a pink void with digital noise cascading from the neck"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "87_insect_swarm": {
+      "name": "Mechanical Swarm",
+      "modifiers": "mechanical insect swarm of obsidian and molten gold forming a towering human silhouette, thousands of robot butterflies with liquid glass wings refracting alien turquoise light, bioluminescent circuits pulsing through collective intelligence network, deep violet electromagnetic field visible around the emergent form, chiaroscuro industrial lighting on polished brass carapaces, surreal perspective from within the swarm looking outward, impossible geometry of fractal wing patterns, biomechanical art of technological nature, 8k ultra detail",
+      "modifiers_animagine": "no humans, mechanical insects, robot butterflies, swarm, collective intelligence, biomechanical, steampunk, glowing circuits, human silhouette, brass, otherworldly, surreal, science fiction, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "single bug, pet spider, butterfly garden, ant farm, terrarium, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "thousands of brass butterflies with glass wings converging into a towering human silhouette",
+        "a single mechanical moth with glowing fractal wing patterns hovering in sharp focus",
+        "a swirling column of clockwork insects forming a helix around a pulsing turquoise core",
+        "a mechanical dragonfly with obsidian eyes perched on a copper gear mid-flight",
+        "an electromagnetic field shimmering violet around a dense cloud of tiny golden automatons"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "88_star_leaves": {
+      "name": "Star Leaves",
+      "modifiers": "enchanted autumn forest with falling star leaves of liquid glass radiating bioluminescent light in alien turquoise and molten gold, petrified wood trunks wrapped in deep violet luminous moss, otherworldly glow from each leaf casting constellation shadows on the forest floor, dreamlike vista through endless fairy tale canopy, impossible geometry of spiraling branches reaching into nebula sky, chiaroscuro starlight filtering through magical foliage, celestial nature of transcendent beauty, 8k ultra detail",
+      "modifiers_animagine": "no humans, enchanted forest, glowing leaves, autumn, starlight, bioluminescent, magical forest, fairy tale, constellation, luminous foliage, otherworldly, surreal, fantasy, ethereal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal leaves, brown autumn, dead foliage, bare branch, mulch, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a single glowing leaf of liquid glass falling through shafts of starlight in an ancient forest",
+        "a carpet of luminous fallen leaves casting constellation patterns on the forest floor",
+        "a branch heavy with golden star-leaves arching over a stream of reflected nebula light",
+        "a hollow tree trunk filled with gathered glowing leaves like a lantern in the dark",
+        "spiraling branches reaching into a sky of visible stars with each leaf a tiny beacon"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "90_saturn_dancer": {
+      "name": "Saturn Dancer",
+      "modifiers": "celestial ballet dancer performing en pointe on the crystalline rings of Saturn, costume of liquid glass and molten gold fabric flowing in zero gravity, bioluminescent stardust trail from each movement, alien turquoise reflected light from the gas giant below, deep violet cosmic backdrop of infinite stars, otherworldly glow emanating from the dancer's form, surreal perspective from ring level with planet curving away, impossible geometry of the dance frozen between ice crystals and cosmic debris, 8k ultra detail",
+      "modifiers_animagine": "1girl, ballet dancer, saturn rings, space, cosmic performance, flowing dress, zero gravity, stardust, celestial, graceful pose, starlight, otherworldly, surreal, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth dancer, stage performer, classroom, gym, living room, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a ballerina en pointe on a crystalline shard of Saturn's ring with the planet curving below",
+        "flowing ribbons of golden fabric spiraling in zero gravity trailing stardust",
+        "an arabesque silhouette framed against the banded atmosphere of a massive gas giant",
+        "ballet slippers balanced on a floating ice crystal with cosmos stretching in every direction",
+        "a dancer's outstretched hand releasing a spiral of bioluminescent particles into the void"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "91_chaos_harmony": {
+      "name": "Chaos Harmony",
+      "modifiers": "abstract ink painting of chaos transforming into harmony through a liquid glass membrane, obsidian ink fractals dissolving into molten gold calligraphic order, yin yang motion rendered in alien turquoise and deep violet flowing energy, bioluminescent particles tracing the boundary between disorder and balance, surreal perspective of infinite zoom into the transition point, impossible geometry of order emerging from entropy, chiaroscuro contrast between void and creation, dynamic equilibrium of cosmic proportion, 8k ultra detail",
+      "modifiers_animagine": "no humans, abstract, ink painting, chaos and order, yin yang, flowing ink, calligraphy, dynamic balance, fractal, cosmic, deep contrast, otherworldly, surreal, fantasy, artistic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "plain, monotone, uniform, identical, predictable, static, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a yin-yang sphere where one half is wild ink fractals and the other is golden calligraphy",
+        "a membrane of liquid glass dividing swirling chaos from serene geometric order",
+        "ink tendrils reaching from darkness dissolving into luminous brushstrokes of harmony",
+        "a single point where fractal entropy collapses into a perfect golden spiral"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "93_twilight_park": {
+      "name": "Twilight Park",
+      "modifiers": "abandoned amusement park at eternal twilight frozen in amber time, rusted ferris wheel of obsidian iron and petrified wood carriages overgrown with bioluminescent vines pulsing alien turquoise, liquid glass puddles reflecting a deep violet sky that never changes, molten gold sunset permanently painting the horizon, otherworldly glow from carousel horses still lit inside, surreal perspective down an infinite midway, impossible geometry of roller coaster tracks spiraling into clouds, liminal melancholic beauty, 8k ultra detail",
+      "modifiers_animagine": "no humans, abandoned amusement park, twilight, rusted ferris wheel, overgrown, bioluminescent vines, liminal space, nostalgic decay, melancholic, eerie atmosphere, otherworldly, surreal, fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "midday park, bright playground, morning jog, harsh sunlight, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a rusted ferris wheel overgrown with glowing vines silhouetted against an eternal sunset",
+        "a carousel horse still faintly lit from within standing in a puddle reflecting violet sky",
+        "an infinite midway of shuttered game booths receding into amber twilight haze",
+        "roller coaster tracks spiraling upward into low clouds with bioluminescent moss on the rails",
+        "a cotton candy cart overturned beside a puddle of liquid glass reflecting a sky frozen in time"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "94_holo_duel": {
+      "name": "Holographic Duel",
+      "modifiers": "holographic samurai duel in cascading digital rain of molten gold data streams, virtual warriors of liquid glass and obsidian wireframe wielding alien turquoise energy katanas, matrix-like arena with impossible geometry of folding code architecture, bioluminescent slash trails lingering in deep violet void, chiaroscuro hologram flicker revealing layers of reality beneath, surreal perspective between the combatants at blade-clash moment, otherworldly glow from clashing weapons sending shockwave ripples through the simulation, 8k ultra detail",
+      "modifiers_animagine": "no humans, holographic duel, samurai, digital rain, virtual warriors, energy katana, matrix style, code architecture, neon, cyberpunk, otherworldly, surreal, science fiction, action, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "chess match, card game, board game, quiet debate, conversation, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "two wireframe samurai mid-clash with energy katanas sending shockwave ripples through code",
+        "a luminous slash trail lingering in the void after a holographic blade strike",
+        "cascading golden data streams parting around two combatants frozen at the moment of impact",
+        "a holographic arena of folding code architecture with two warriors reflected in every facet",
+        "an energy katana embedded in a shattered digital floor radiating turquoise light outward"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "96_melting_face": {
+      "name": "Melting Portrait",
+      "modifiers": "surreal melting face portrait dissolving in impossible desert heat, identity fragmenting into streams of liquid glass and molten gold, Dali-inspired existential horror with obsidian eye sockets weeping alien turquoise tears, deep violet shadows pooling beneath dissolving features, bioluminescent veins visible through transparent melting skin, chiaroscuro harsh light accelerating the dissolution, surreal perspective of self watching self dissolve, petrified wood frame cracking around the portrait, dreamlike body horror of transcendent beauty, 8k ultra detail",
+      "modifiers_animagine": "no humans, melting face, surreal portrait, dissolving, dali style, existential art, liquid features, dreamlike horror, distortion, deep shadows, otherworldly, surreal, abstract, dark fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal portrait, clean face, smooth skin, makeup, beauty shot, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a portrait dissolving from the forehead downward with features sliding like warm wax",
+        "turquoise tears streaming from hollow eye sockets in a face losing its form",
+        "a cracked wooden frame barely containing a portrait whose subject melts off the canvas",
+        "a hand reaching from a dissolving face catching droplets of its own molten identity"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "97_lost_continent": {
+      "name": "Lost Continent",
+      "modifiers": "steampunk explorer discovering a lost continent of impossible geometry through a brass telescope rimmed with obsidian, ancient technology of liquid glass and molten gold machinery half-buried in bioluminescent jungle, alien turquoise energy still pulsing through petrified wood conduits, deep violet storm clouds parting to reveal dreamlike vista of unknown civilization, otherworldly glow from a central pyramid of translucent crystal, chiaroscuro tropical light on Victorian exploration gear, surreal perspective from ship's bow approaching impossible shoreline, 8k ultra detail",
+      "modifiers_animagine": "no humans, lost continent, steampunk, explorer, ancient technology, brass telescope, jungle ruins, crystal pyramid, bioluminescent, alien civilization, otherworldly, surreal, fantasy, adventure, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern city, known geography, mapped territory, familiar coast, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a brass telescope framing a shoreline of crystal pyramids emerging from bioluminescent jungle",
+        "ancient golden machinery half-swallowed by vines with turquoise energy still pulsing through conduits",
+        "a ship's bow approaching an impossible coastline where storm clouds part to reveal alien spires",
+        "a translucent crystal pyramid glowing from within at the heart of an overgrown lost city",
+        "a stone archway carved with unknown glyphs at the jungle edge with light pouring through"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "98_glass_wings": {
+      "name": "Glass Wings",
+      "modifiers": "ethereal angel with wings made of shattered liquid glass refracting molten gold and alien turquoise light into prismatic halos, obsidian feather shards floating in deep violet void, bioluminescent divine energy bleeding from fractured wing joints, chiaroscuro holy radiance through broken crystalline pinions, otherworldly glow illuminating a face of serene agony, surreal perspective from behind as wings spread impossibly wide, impossible geometry of fractal glass tessellations, painful grace of divine fragmentation rendered in petrified beauty, 8k ultra detail",
+      "modifiers_animagine": "1other, angel, glass wings, shattered, light refraction, prismatic, divine, ethereal, floating shards, glowing, broken holiness, otherworldly, surreal, fantasy, dark fantasy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "feathered wings, bat wings, paper airplane, kite, parachute, mundane, photorealistic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "shattered glass wings spread wide refracting golden and turquoise light into prismatic halos",
+        "a single fractured wing joint bleeding divine bioluminescent energy into the void",
+        "obsidian feather shards floating in formation around a serene angelic silhouette",
+        "a close-up of glass wing tessellations catching light like a cathedral rose window",
+        "an angel seen from behind with wings of broken crystal spreading across a violet sky"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    }
+  }
+}

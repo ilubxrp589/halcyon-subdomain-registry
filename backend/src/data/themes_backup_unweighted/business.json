@@ -1,0 +1,834 @@
+{
+  "category": "business",
+  "description": "Professional business and service industry themes",
+  "themes": {
+    "01_restaurant": {
+      "name": "Restaurant",
+      "modifiers": "elegant fine dining restaurant interior, sweeping view with balanced composition, gourmet dishes artfully presented on gleaming tabletop, warm golden ambient glow with soft candlelight, wine glasses catching warm light, refined atmosphere of culinary mastery, rich dark wood paneling, layered warm lighting, deep amber and burgundy color palette, opulent dining scene",
+      "modifiers_animagine": "no humans, restaurant interior, fine dining, gourmet food, wine glass, candle, warm lighting, chandelier, elegant table setting, marble floor, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "fast food, cafeteria, plastic chairs, takeout box, casual dining, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a steaming plate of gourmet pasta garnished with fresh basil",
+        "a sommelier decanting wine at a candlelit table",
+        "a chef's hands plating a tower of seared scallops",
+        "a corner booth with velvet seating and a flickering candle",
+        "a dessert trolley laden with petit fours and creme brulee"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "02_coffee_shop": {
+      "name": "Coffee Shop",
+      "modifiers": "cozy artisan coffee shop interior, steaming latte art in a ceramic cup, exposed brick walls with aged wood shelving, vintage espresso machine with warm patina, warm morning light streaming through tall windows, soft golden glow filling the room, earthy brown and cream color palette, inviting atmosphere of quiet conversation",
+      "modifiers_animagine": "no humans, coffee shop interior, latte art, coffee cup, exposed brick, wooden shelves, morning light, cozy atmosphere, potted plant, bookshelf, steam, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "alcohol, bar, nightclub, fast food, vending machine, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a barista pouring steamed milk into a latte art rosetta",
+        "a window seat with a steaming cappuccino and an open book",
+        "an espresso machine gleaming with morning light",
+        "a chalkboard menu surrounded by hanging potted plants",
+        "a ceramic pour-over dripper with coffee blooming"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "03_bakery": {
+      "name": "Bakery",
+      "modifiers": "charming french bakery storefront, fresh golden croissants and pastries on rustic wooden display, soft golden morning light flooding through front windows, flour-dusted aged wood counters, artisan sourdough loaves with cracked crusts, warm inviting atmosphere, antique baking molds on exposed brick wall, warm amber and ivory color palette, aroma of fresh bread",
+      "modifiers_animagine": "no humans, bakery interior, croissant, bread, pastry display, wooden counter, flour, warm lighting, glass display case, french bakery, cozy atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "factory, industrial, conveyor belt, packaged goods, supermarket, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a tray of golden croissants fresh from the oven",
+        "a baker's hands shaping a braided challah loaf",
+        "a window display of colorful macarons in neat rows",
+        "a flour-dusted countertop with rolling pin and fresh dough",
+        "a tiered cake decorated with piped buttercream roses"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "04_food_truck": {
+      "name": "Food Truck",
+      "modifiers": "vibrant gourmet food truck at golden hour, street food festival with string lights overhead, colorful hand-painted menu board, urban brick alley setting, delicious street cuisine on paper trays, warm sunset light on gleaming surfaces, energetic crowd gathering, vivid red yellow and teal color palette, festive outdoor dining energy",
+      "modifiers_animagine": "no humans, food truck, street food, outdoor festival, string lights, evening sky, sunset, colorful signage, urban setting, crowd silhouette, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "fine dining, indoor restaurant, formal setting, white tablecloth, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a colorful taco plate overflowing with fresh toppings",
+        "a food truck window framed by string lights at dusk",
+        "hands passing a loaded burrito through a serving window",
+        "a hand-painted chalkboard menu with bold lettering",
+        "a crowd gathering around a sizzling grill sending up aromatic smoke"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "05_grocery": {
+      "name": "Grocery Store",
+      "modifiers": "premium grocery store interior, fresh produce display bursting with color, vibrant organic vegetables with water droplets glistening, artisan cheese section on aged wooden counter, clean bright aisles with warm overhead light, farm to table freshness, natural light from skylights above, rich green and earth tone color palette, abundance and variety",
+      "modifiers_animagine": "no humans, grocery store interior, fresh vegetables, fruit display, produce aisle, bright lighting, clean interior, organic food, wooden crates, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "convenience store, gas station, vending machine, warehouse, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a pyramid of bright red apples beside bunches of fresh herbs",
+        "a wheel of aged cheese on a rustic cutting board",
+        "baskets of heirloom tomatoes in every shade of red and yellow",
+        "a florist corner with bouquets beside the entrance",
+        "a fishmonger's display of glistening fresh catch on ice"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "06_boutique": {
+      "name": "Clothing Boutique",
+      "modifiers": "upscale fashion boutique interior, designer clothing on elegant racks, soft diffused lighting with warm accent spots, velvet curtains in deep jewel tones, luxury shopping experience with gleaming floors, curated collection displayed against dark walls, rose gold and charcoal color palette, refined minimalist elegance",
+      "modifiers_animagine": "no humans, fashion boutique interior, clothing rack, designer clothes, mirror, elegant interior, velvet curtain, marble floor, soft lighting, luxury shop, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "thrift store, flea market, warehouse clothing, discount rack, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a silk evening gown draped on a velvet mannequin",
+        "a display of leather handbags beneath warm spotlights",
+        "a vintage full-length mirror reflecting elegant dresses",
+        "a jewelry case with delicate necklaces on dark velvet",
+        "a window display with a single stunning outfit and fresh flowers"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "07_ecommerce": {
+      "name": "E-commerce",
+      "modifiers": "futuristic online shopping visualization, floating holographic product displays against dark gradient background, digital marketplace with glowing interface elements, translucent shopping cart hologram, global shipping network rendered as luminous data streams, cool blue and electric purple color palette, volumetric light rays connecting nodes, seamless digital retail experience",
+      "modifiers_animagine": "no humans, futuristic interface, holographic display, digital marketplace, floating icons, shopping cart hologram, data streams, glowing ui elements, dark background, sci-fi aesthetic, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "physical store, brick and mortar, cash register, shopping bags, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a glowing holographic product carousel floating in space",
+        "a package traveling through a luminous global delivery network",
+        "a transparent shopping cart filled with floating product icons",
+        "a dashboard showing rising sales graphs in neon light",
+        "a pair of hands tapping a radiant touchscreen storefront"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "08_bookstore": {
+      "name": "Bookstore",
+      "modifiers": "enchanting independent bookstore interior, towering dark walnut wooden shelves reaching to ceiling, worn leather armchairs with reading lamps casting warm pools of light, literary sanctuary atmosphere, stacks of classic novels with aged leather spines, soft window light with dust motes floating, warm sepia and forest green color palette, cozy intellectual haven",
+      "modifiers_animagine": "no humans, bookstore interior, bookshelves, stacked books, leather armchair, reading lamp, warm lighting, cozy atmosphere, wooden shelves, old books, dust motes, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "library, digital screen, kindle, warehouse, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a towering shelf of leather-bound books with a rolling ladder",
+        "a cozy reading nook with a worn armchair and a steaming mug",
+        "a stack of vintage hardcovers beside a flickering desk lamp",
+        "a cat curled up among piles of open books",
+        "a hand reaching for a gold-embossed volume on a high shelf"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "09_electronics": {
+      "name": "Electronics Store",
+      "modifiers": "sleek modern electronics showroom, glowing devices on display pedestals with soft edge lighting, cutting edge technology in minimalist interior, premium gadgets with gleaming surfaces, cool blue accent lighting reflecting off smooth floors, tech paradise atmosphere, clean lines and geometric design, futuristic retail environment",
+      "modifiers_animagine": "no humans, electronics store, modern interior, glowing screens, gadgets on display, minimalist design, led lighting, sleek surfaces, futuristic showroom, cool blue lighting, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "vintage, antique, rustic, wooden, handmade, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a sleek smartphone display with glowing edge-lit pedestals",
+        "rows of gleaming laptops reflecting neon ceiling lights",
+        "premium headphones resting on a polished glass shelf",
+        "a curved gaming monitor casting vivid light across a dark showroom",
+        "a drone hovering above a demo table surrounded by gadgets"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "10_hardware": {
+      "name": "Hardware Store",
+      "modifiers": "well-organized hardware store interior, long aisles receding into the distance, precision tools neatly arranged on pegboard walls, stacked lumber section with raw pine and cedar textures, warm overhead light mixed with natural light from loading bay, DIY paradise atmosphere, aged concrete floor with industrial character, earth tone and safety orange color palette, home improvement haven",
+      "modifiers_animagine": "no humans, hardware store interior, tools on pegboard, lumber section, organized shelves, industrial interior, bright lighting, work gloves, paint cans, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "boutique, fashion, clothing, delicate, fragile, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a pegboard wall of hand tools gleaming under warm light",
+        "a workbench with a vise holding a freshly cut board",
+        "paint cans in a rainbow of colors stacked to the ceiling",
+        "a carpenter's belt loaded with tools hanging on a hook",
+        "a wheelbarrow full of garden supplies by the entrance"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "11_plumbing": {
+      "name": "Plumbing Service",
+      "modifiers": "professional plumbing workspace, gleaming copper pipes with soldered joints catching warm light, precision wrenches and pipe cutters on clean workbench, water systems with polished fittings, expert craftsmanship visible in neat pipe runs, soft overhead work light with warm glow on metal surfaces, industrial blue and copper color palette, reliable skilled trade",
+      "modifiers_animagine": "no humans, plumbing workspace, copper pipes, wrench, water pipes, chrome fittings, utility room, tool belt, pipe fittings, clean workspace, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "electrical wiring, carpentry, painting, roofing, landscaping, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a maze of gleaming copper pipes converging at a manifold",
+        "a wrench tightening a fitting as water droplets catch the light",
+        "a workbench covered in pipe fittings and flux",
+        "a cross-section view of layered pipes running through a wall",
+        "a freshly soldered copper joint glowing with warmth"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "12_electrical": {
+      "name": "Electrical Contractor",
+      "modifiers": "electrician workspace with open panel and organized wiring, colorful wire bundles and circuit breakers, blue sparks of electricity arcing, professional safety equipment, power infrastructure with conduit runs, dramatic side lighting revealing wire textures, electric blue and safety yellow color palette, skilled precision work",
+      "modifiers_animagine": "no humans, electrical panel, circuit breakers, colorful wires, electrical tools, sparks, safety equipment, utility workspace, voltmeter, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "plumbing, pipes, water, carpentry, wood, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an open electrical panel with neatly bundled colored wires",
+        "blue sparks arcing between copper contacts",
+        "a multimeter probing a live circuit board",
+        "a spool of heavy gauge copper wire beside wire strippers",
+        "a freshly wired junction box with precise connections"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "14_landscaping": {
+      "name": "Landscaping",
+      "modifiers": "beautifully landscaped garden at golden hour, manicured emerald lawn with crisp edges, flowering plants in layered beds with vibrant blooms, natural stone pathways winding through lush greenery, professional garden design with ornamental trees, warm golden sunset light casting long shadows, rich green and floral color palette, outdoor paradise in full bloom",
+      "modifiers_animagine": "no humans, beautiful garden, landscaped yard, flowering plants, stone pathway, manicured lawn, golden hour, garden design, trees, water feature, lush greenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "indoor, concrete, asphalt, urban decay, abandoned, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a stone pathway winding through beds of lavender and roses",
+        "a garden fountain surrounded by sculpted hedges",
+        "a freshly laid brick patio with potted ornamental trees",
+        "a Japanese-inspired garden with raked gravel and a stone lantern",
+        "a pergola draped in wisteria overlooking a manicured lawn"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "15_cleaning": {
+      "name": "Cleaning Services",
+      "modifiers": "sparkling clean modern interior after professional cleaning, pristine living room with gleaming floors reflecting natural light, organized minimalist space with fresh white surfaces, soft daylight through sheer curtains, transformation from clutter to perfection, spotless fixtures throughout, clean white and soft blue color palette, immaculate environment radiating freshness",
+      "modifiers_animagine": "no humans, clean interior, sparkling surfaces, modern living room, polished floor, organized space, bright natural light, pristine condition, minimalist decor, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dirty, messy, cluttered, abandoned, dusty",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a gleaming hardwood floor reflecting a sunbeam",
+        "a row of sparkling clean windows overlooking a garden",
+        "a pristine white kitchen countertop with a vase of fresh flowers",
+        "a freshly made bed with crisp white linens",
+        "a spotless bathroom with folded towels and a gleaming mirror"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "16_painting": {
+      "name": "House Painting",
+      "modifiers": "house being freshly painted with bold new colors, painter on extension ladder against a vibrant wall, dramatic before-and-after color transformation visible, home renovation in progress, warm afternoon sidelight revealing smooth finish, paint buckets and rollers on a drop cloth, clean teal and warm cream color palette, professional craftsmanship and renewal",
+      "modifiers_animagine": "no humans, house exterior, fresh paint, paint roller, paint buckets, ladder, color swatches, home renovation, bright colors, drop cloth, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "canvas painting, art studio, gallery, museum, digital art, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a roller leaving a bold stripe of fresh color on a wall",
+        "paint cans in a spectrum of colors with dripping lids",
+        "a ladder leaning against a half-painted house at sunset",
+        "a hand holding color swatches against a freshly primed wall",
+        "a Victorian house freshly painted in vibrant heritage colors"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "17_auto_repair": {
+      "name": "Auto Repair",
+      "modifiers": "professional auto mechanic shop interior, car elevated on hydraulic lift, tools meticulously organized on a rolling toolbox, engine bay exposed with detailed mechanical components, warm overhead shop lights with dramatic glow on metal surfaces, skilled technician atmosphere, oil-stained concrete floor with industrial character, steel grey and racing red color palette, automotive expertise",
+      "modifiers_animagine": "no humans, auto repair shop, car on lift, engine bay, mechanic tools, toolbox, hydraulic lift, garage interior, chrome tools, oil stains, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "bicycle, airplane, boat, horse, walking, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a gleaming V8 engine bay with chrome headers",
+        "a mechanic's hands tightening a bolt with a torque wrench",
+        "a classic car on a lift with its undercarriage exposed",
+        "a red rolling toolbox with drawers of organized wrenches",
+        "a diagnostic scanner plugged into a car's dashboard port"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "18_car_wash": {
+      "name": "Car Wash",
+      "modifiers": "premium car wash in action, gleaming wet car hood reflecting colorful lights, cascading soap suds and high-pressure water jets, rainbow prismatic light refracting through mist and water droplets, spinning brushes in motion, spotless finish emerging, vibrant neon blue and white color palette, dynamic water movement and energy",
+      "modifiers_animagine": "no humans, car wash, water jets, soap suds, wet car, rainbow in mist, spinning brushes, neon lights, water droplets, clean vehicle, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dirty car, mud, off-road, junkyard, abandoned vehicle, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a car hood reflecting rainbow light through cascading water",
+        "soap suds sliding down a glossy black fender",
+        "high-pressure water jets blasting away grime in an arc",
+        "a freshly washed car gleaming under fluorescent bay lights",
+        "spinning foam brushes enveloping a vehicle in white suds"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "19_hair_salon": {
+      "name": "Hair Salon",
+      "modifiers": "stylish modern hair salon interior, symmetrical arrangement of elegant backlit mirrors, professional styling tools arranged neatly on counters, glamorous transformation in progress, soft even illumination throughout, velvet styling chairs and warm tones, rose gold and matte black color palette, beauty and sophistication",
+      "modifiers_animagine": "no humans, hair salon interior, styling mirrors, hair tools, scissors, salon chair, elegant interior, ring light, beauty products, modern salon, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "barber shop, medical clinic, laboratory, dental office, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a stylist's station with gleaming scissors and a velvet chair",
+        "a cascade of freshly colored hair catching the light",
+        "a row of ornate mirrors reflecting warm salon lighting",
+        "a vintage barber pole beside a modern salon entrance",
+        "styling tools laid out like surgical instruments on a tray"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "20_nail_spa": {
+      "name": "Nail Spa",
+      "modifiers": "luxurious nail spa interior, manicure station with pristine white surfaces, colorful nail polish collection arranged in rainbow gradient, soft relaxing atmosphere with orchids and warm towels, pampering experience with plush seating, gentle ambient light with accent candles, clean pastel pink and lavender color palette, serene beauty treatment setting",
+      "modifiers_animagine": "no humans, nail spa interior, nail polish collection, manicure tools, elegant spa, orchid flowers, candles, pastel colors, plush seating, relaxing atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "mechanic shop, industrial, dirty hands, construction, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a rainbow wall of nail polish bottles in gradient order",
+        "elegant hands with freshly painted nails beside orchid blooms",
+        "a foot bath with rose petals and warm candlelight",
+        "a manicurist's table with tiny brushes and glitter pots",
+        "a spa reception with stacked fluffy towels and essential oils"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "21_fitness_gym": {
+      "name": "Fitness Gym",
+      "modifiers": "modern fitness gym interior, heavy weight training equipment with knurled barbells and iron plates, raw energy and power atmosphere, dramatic overhead spotlights with warm glow on equipment, rubber matting floor and exposed beams, industrial charcoal and vibrant orange color palette, intensity and determination",
+      "modifiers_animagine": "no humans, gym interior, weight equipment, dumbbells, barbell, treadmill, modern gym, dramatic lighting, mirrors, rubber floor, fitness equipment, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "couch potato, sedentary, office desk, hospital bed, lazy, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a loaded barbell resting on a squat rack under dramatic light",
+        "a row of gleaming dumbbells reflected in a gym mirror",
+        "a punching bag swinging mid-strike with motion blur",
+        "a kettlebell on a rubberized floor with chalk dust in the air",
+        "a battle rope frozen mid-wave creating a perfect sine curve"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "22_yoga_studio": {
+      "name": "Yoga Studio",
+      "modifiers": "serene yoga studio interior, centered symmetrical space, graceful practice on cork mats, soft natural light streaming through floor-to-ceiling windows, bamboo accent wall and river stone features, peaceful meditation atmosphere, warm diffused afternoon glow, muted sage green and natural linen color palette, mindful wellness sanctuary",
+      "modifiers_animagine": "no humans, yoga studio, yoga mat, bamboo decor, natural light, peaceful interior, zen garden element, incense, wooden floor, minimalist space, tranquil atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "intense workout, heavy weights, boxing ring, aggressive, loud, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a rolled yoga mat beside a singing bowl and incense",
+        "morning light streaming through bamboo blinds onto a meditation cushion",
+        "a zen rock garden with raked sand patterns beside the practice space",
+        "a silhouette in tree pose against a sunset-lit window",
+        "stacked smooth river stones beside a trickling water feature"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "23_pet_grooming": {
+      "name": "Pet Grooming",
+      "modifiers": "adorable pet grooming salon, fluffy golden retriever being pampered on grooming table, professional grooming tools and scissors, iridescent soap bubbles floating in air, cheerful pastel interior, happy pets with satin bows, bright even lighting with soft warmth, warm pastel yellow and baby blue color palette, professional pet care with love",
+      "modifiers_animagine": "no humans, pet grooming salon, fluffy dog, grooming table, soap bubbles, scissors, bow, pastel interior, bathtub, paw prints, cute animal, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "veterinary surgery, animal shelter, pet store cage, wild animals, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a fluffy poodle with a fresh trim wearing a satin bow",
+        "soap bubbles floating around a happy dog in a bath",
+        "a grooming table with brushes and bows neatly arranged",
+        "a kitten wrapped in a fluffy towel after a bath",
+        "a wall of colorful pet shampoo bottles and grooming tools"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "24_veterinary": {
+      "name": "Veterinary Clinic",
+      "modifiers": "caring veterinarian clinic interior, examination room with clean surfaces, medical diagnostic equipment and wall-mounted instruments, healing environment with soothing green accent walls, compassionate care atmosphere, clean bright clinical lighting with soft warmth, white and teal color palette with natural wood accents, animal wellness sanctuary",
+      "modifiers_animagine": "no humans, veterinary clinic, examination table, medical equipment, stethoscope, pet carrier, clinical interior, bright lighting, medicine bottles, animal paw print decor, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "pet grooming, beauty salon, spa, human doctor, dental, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a stethoscope draped over a veterinary coat beside a paw-print chart",
+        "a golden retriever puppy sitting patiently on an exam table",
+        "a medicine cabinet with neatly labeled bottles and syringes",
+        "a caring hand gently holding a cat wrapped in a blanket",
+        "an x-ray lightbox showing a small animal skeleton"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "25_daycare": {
+      "name": "Daycare Center",
+      "modifiers": "colorful daycare center play area with vibrant decorations, happy children playing with educational wooden toys, safe nurturing environment with padded floors and rounded furniture, joyful learning atmosphere with alphabet wall art, bright natural light from large windows, cheerful primary red yellow and blue color palette, warm and inviting space for growing minds",
+      "modifiers_animagine": "no humans, daycare interior, colorful playroom, educational toys, alphabet blocks, children's art on walls, bright colors, soft padding, bookshelves, stuffed animals, cheerful atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "hospital, prison, office cubicle, abandoned building, dark, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a circle of tiny chairs around a reading corner with colorful books",
+        "a shelf of wooden blocks and stuffed animals in primary colors",
+        "finger paintings drying on a clothesline across the room",
+        "a miniature play kitchen with toy pots and bright plastic food",
+        "a cubby wall with tiny backpacks and name tags"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "26_tutoring": {
+      "name": "Tutoring Services",
+      "modifiers": "focused tutoring session at a wooden study desk, open textbooks and notebooks spread out, warm desk lamp creating intimate study atmosphere, educational breakthrough moment, handwritten notes and diagrams on paper, warm amber and ivory color palette, cozy library corner setting, academic discovery and mentorship",
+      "modifiers_animagine": "no humans, study desk, open textbook, notebook, desk lamp, pencils, educational materials, library corner, warm lighting, bookshelf background, academic atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "lecture hall, crowded classroom, exam stress, detention, boring, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an open math textbook with handwritten solutions beside a lamp",
+        "a whiteboard covered in colorful equations and diagrams",
+        "a stack of flashcards fanned out across a wooden desk",
+        "a globe and encyclopedia set on a cozy study shelf",
+        "a hand drawing a scientific diagram in a ruled notebook"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "27_online_courses": {
+      "name": "Online Courses",
+      "modifiers": "digital learning platform visualization, virtual classroom with floating holographic educational content, global students connected via luminous data networks, knowledge streaming as light particles, futuristic e-learning interface with translucent panels, cool blue and electric cyan color palette, volumetric light beams connecting nodes, digital education of the future",
+      "modifiers_animagine": "no humans, digital classroom, holographic display, floating screens, e-learning interface, data streams, glowing nodes, futuristic ui, dark background, connected network, educational icons, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "physical classroom, chalkboard, school bus, playground, textbook, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a holographic classroom with floating lesson modules",
+        "a glowing graduation cap hovering above a digital diploma",
+        "a world map connected by luminous learning pathways",
+        "a tablet displaying a video lecture surrounded by floating notes",
+        "a progress bar filling with golden light as knowledge accumulates"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "28_consulting": {
+      "name": "Consulting Firm",
+      "modifiers": "executive consulting meeting in a glass-walled boardroom, strategic presentations on a large display, business professionals in crisp attire, polished walnut table with refined accents, dramatic skyline view through floor-to-ceiling windows, cool daylight mixed with warm interior accent lighting, navy blue and silver color palette, corporate excellence atmosphere",
+      "modifiers_animagine": "no humans, modern boardroom, glass walls, conference table, presentation screen, city skyline view, corporate interior, elegant chairs, documents, laptop, professional atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "casual meeting, coffee shop chat, informal, messy desk, cluttered, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a boardroom table with strategy documents and a city skyline beyond",
+        "a presentation screen showing an upward growth curve",
+        "a handshake across a polished conference table",
+        "an executive pen resting on a signed contract",
+        "a glass office overlooking a bustling financial district"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "29_accounting": {
+      "name": "Accounting Services",
+      "modifiers": "professional accountant workspace, organized desk with financial documents and dual monitors, precision calculator and neatly stacked printouts, green desk lamp casting warm focused pool of light, number precision atmosphere, elegant pen holder and leather desk pad, warm wood and deep green color palette, financial clarity and orderly professionalism",
+      "modifiers_animagine": "no humans, office desk, financial documents, calculator, computer monitors, spreadsheets, desk lamp, organized workspace, leather desk pad, pen holder, professional atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "creative mess, paint splatter, construction site, kitchen, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a leather-bound ledger open beside a vintage calculator",
+        "a stack of financial reports beside a green banker's lamp",
+        "a pen hovering over rows of numbers in a spreadsheet",
+        "tax documents fanned out across a mahogany desk",
+        "a balanced scale figurine on an accountant's bookshelf"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "30_graphic_design": {
+      "name": "Graphic Design",
+      "modifiers": "creative graphic designer workspace, ultrawide curved monitor displaying vibrant digital artwork, color swatches and pantone fans scattered across the desk, drawing tablet with stylus, artistic vision brought to life, soft ambient backlighting in creative studio, neon accent colors against dark workspace, vivid magenta teal and electric yellow color palette, visual creativity hub",
+      "modifiers_animagine": "no humans, design studio, curved monitor, digital artwork on screen, color swatches, drawing tablet, stylus, creative workspace, rgb lighting, dark desk, pantone cards, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "spreadsheet, accounting, medical chart, legal document, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a pantone color fan spread across a black design desk",
+        "a stylus hovering over a drawing tablet mid-illustration",
+        "a mood board pinned with color swatches and typography samples",
+        "a widescreen monitor displaying a vibrant poster layout",
+        "ink pens and markers arranged in a gradient spectrum"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "31_web_dev": {
+      "name": "Web Development",
+      "modifiers": "web developer coding station, triple monitor setup with syntax-highlighted code on dark theme, modern loft office with exposed concrete walls, programming interface with terminal output, digital creation in progress, cool blue monitor glow illuminating keyboard in dark room, mechanical keyboard and organized desk, electric blue and midnight black color palette, tech innovation atmosphere",
+      "modifiers_animagine": "no humans, coding workspace, triple monitors, programming code on screen, dark ide theme, mechanical keyboard, modern office, blue glow, terminal output, desk setup, tech atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "outdoor, nature, farming, construction site, manual labor, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "three monitors glowing with colorful code in a dark room",
+        "a mechanical keyboard lit by the glow of a terminal window",
+        "a coffee mug beside a laptop showing a responsive website preview",
+        "sticky notes with UX wireframes surrounding a monitor",
+        "a desk with dual screens showing code and a live preview side by side"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "32_digital_marketing": {
+      "name": "Digital Marketing",
+      "modifiers": "digital marketing analytics dashboard on large screen, colorful analytics graphs and social media engagement metrics rising upward, campaign performance visualization with glowing indicators, global online reach represented as a network map, modern open-plan office with warm ambient light, vibrant teal and coral color palette, marketing success and momentum",
+      "modifiers_animagine": "no humans, analytics dashboard, bar charts, pie graphs, social media icons, large screen display, data visualization, glowing metrics, modern office, network map, digital marketing, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "print newspaper, billboard, radio tower, television, flyer, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a dashboard screen showing viral social media metrics climbing",
+        "a world map with glowing connection lines between major cities",
+        "a smartphone displaying a perfectly curated social media feed",
+        "analytics graphs rising in a colorful upward trend",
+        "a content calendar pinned with campaign cards and deadlines"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "34_photography": {
+      "name": "Photography Business",
+      "modifiers": "professional photographer studio, studio setup with softbox and umbrella lights, camera on tripod capturing perfect composition, artistic creative vision with dramatic lighting, vintage lenses and modern camera bodies on aged wood shelf, visual storytelling atmosphere, warm tungsten key light with cool fill, matte black and warm gold color palette, photographic artistry",
+      "modifiers_animagine": "no humans, photography studio, camera on tripod, softbox lights, umbrella light, studio backdrop, camera lenses, professional equipment, dramatic lighting, studio setup, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "phone camera, selfie, blurry snapshot, amateur, disposable camera, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a vintage camera on a tripod silhouetted against studio lights",
+        "a shelf of prime lenses with beautifully worn leather cases",
+        "a softbox casting dramatic light across an empty studio backdrop",
+        "a contact sheet of black and white portraits pinned to a wall",
+        "a photographer's desk with prints and a loupe magnifier"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "35_event_planning": {
+      "name": "Event Planning",
+      "modifiers": "spectacular event setup in grand ballroom, elegant floral centerpieces on round tables with silk linens, coordinated design with dramatic uplighting on columns, celebration preparation with grand chandeliers and draped fabric, warm golden fairy lights and candle glow, party planning perfection visible in every detail, champagne gold and blush pink color palette, memorable occasion atmosphere",
+      "modifiers_animagine": "no humans, grand ballroom, event setup, floral centerpieces, round tables, chandelier, draped fabric, fairy lights, candles, elegant decoration, celebration atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "funeral, hospital, office meeting, boring lecture, empty room, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a grand ballroom table with towering floral centerpieces",
+        "a champagne tower catching golden fairy light",
+        "an archway of white roses and greenery at an entrance",
+        "place cards and silk napkins arranged on a gold-rimmed table",
+        "a chandelier draped in flowers above a dance floor"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "36_wedding_venue": {
+      "name": "Wedding Venue",
+      "modifiers": "romantic outdoor wedding venue at golden hour, floral arch with cascading white roses and eucalyptus, elegant white chairs arranged on manicured lawn, dreamy warm backlighting and golden glow, celebration of love atmosphere, sheer fabric draping catching the breeze, soft blush pink ivory and sage green color palette, fairy tale garden setting",
+      "modifiers_animagine": "no humans, wedding venue, floral arch, white roses, outdoor ceremony, golden hour, elegant chairs, garden setting, fairy lights, sheer fabric, romantic atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "divorce court, funeral, office, hospital, industrial warehouse, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a rose-covered arch framing a garden aisle at sunset",
+        "a wedding cake adorned with fresh flowers and gold leaf",
+        "white chairs flanking a petal-strewn aisle under fairy lights",
+        "a bride's bouquet resting on a vintage lace tablecloth",
+        "lanterns lining a garden path as twilight falls"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "37_hotel": {
+      "name": "Hotel & B&B",
+      "modifiers": "luxury hotel grand lobby, grand chandelier reflecting prismatic light, elegant floor with intricate inlay pattern, plush velvet furnishings in rich jewel tones, welcoming atmosphere with fresh flower arrangements, warm ambient lighting from sconces and overhead fixtures, deep burgundy and champagne gold color palette, premium hospitality and grandeur",
+      "modifiers_animagine": "no humans, luxury hotel lobby, grand chandelier, marble floor, elegant furnishings, fresh flowers, ornate columns, velvet seating, warm lighting, grand staircase, hospitality, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "hostel, campsite, tent, sleeping bag, motel, rundown, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a grand chandelier reflecting light across a hotel lobby",
+        "a four-poster bed with plush pillows and a view of the city",
+        "a concierge desk with a golden bell and fresh orchids",
+        "a sweeping staircase with an ornate iron railing",
+        "a rooftop terrace table set for breakfast overlooking the skyline"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "38_real_estate": {
+      "name": "Real Estate Agency",
+      "modifiers": "luxury real estate showcase, stunning modern home exterior at twilight, warm interior lights glowing through floor-to-ceiling windows, beautifully staged front yard with manicured landscaping, dream house with architectural detail and clean lines, golden house key in foreground, warm dusk sky with purple and orange gradient, slate grey and warm white color palette, aspirational home ownership",
+      "modifiers_animagine": "no humans, modern house exterior, twilight sky, glowing windows, landscaped yard, architectural design, house key, real estate, luxury home, clean lines, evening atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "abandoned building, demolition, empty lot, foreclosure, ruins, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a golden key resting on a freshly signed deed",
+        "a modern home glowing warmly from within at blue hour",
+        "a for-sale sign in front of a charming cottage with a garden",
+        "an open house with sunlight flooding through bay windows",
+        "an architect's model of a luxury development"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "39_property_mgmt": {
+      "name": "Property Management",
+      "modifiers": "property management office overlooking modern apartment complex, view through large window with building portfolio visible, sleek architectural models on a polished desk, tenant services dashboard on screen, professional building oversight, cool afternoon light with city skyline beyond, corporate blue and concrete grey color palette, professional real estate stewardship",
+      "modifiers_animagine": "no humans, apartment complex, modern buildings, office desk, architectural model, city skyline, property portfolio, glass window, clipboard, building exterior, professional atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "single house, tiny cabin, tent, wilderness, rural shack, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a skyline of managed apartment buildings at golden hour",
+        "a desk with building blueprints and a miniature architectural model",
+        "a clipboard with inspection checklists beside a master key ring",
+        "a modern lobby with a security desk and fresh plants",
+        "a rooftop view of a well-maintained residential complex"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "40_construction": {
+      "name": "Construction Company",
+      "modifiers": "active construction site at golden hour, steel framework rising against orange sky, tower cranes silhouetted against warm light, scaffolding with safety netting, hard hats and blueprints on a makeshift desk, urban development in progress, warm golden backlight through dust particles, raw steel and safety orange color palette, engineering marvel taking shape",
+      "modifiers_animagine": "no humans, construction site, steel framework, tower crane, scaffolding, blueprints, hard hat, golden hour sky, building in progress, construction materials, urban development, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "demolition, ruins, abandoned, decay, dilapidated, rubble, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a tower crane silhouetted against a blazing sunset sky",
+        "steel beams being lifted into place on a rising structure",
+        "blueprints spread across a plywood table at a job site",
+        "a hard hat resting on a stack of lumber with the skyline behind",
+        "sparks flying from a welder connecting steel girders"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "41_saas": {
+      "name": "SaaS Platform",
+      "modifiers": "futuristic SaaS software interface visualization, floating holographic dashboard panels, cloud computing infrastructure rendered as luminous interconnected nodes, subscription metrics rising in glowing charts, digital service delivery through radiant data pipelines, tech startup aesthetic with dark gradient background, neon edge-lit interface elements, electric indigo and bright cyan color palette, scalable digital architecture",
+      "modifiers_animagine": "no humans, futuristic dashboard, holographic interface, cloud computing, floating panels, data nodes, 3d charts, glowing pipelines, dark background, neon ui elements, tech aesthetic, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "physical product, hardware store, manual labor, paper forms, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a holographic dashboard with real-time user metrics floating in air",
+        "a cloud infrastructure diagram glowing with connected nodes",
+        "a subscription growth chart radiating upward in neon light",
+        "a developer's screen showing a clean API documentation interface",
+        "interconnected microservice icons pulsing with data flow"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "42_freelance_writing": {
+      "name": "Freelance Writing",
+      "modifiers": "writer at creative desk by window, manuscript pages scattered alongside vintage typewriter and modern laptop, steaming coffee cup catching morning light, wordsmith at work with handwritten notes and red pen edits, soft natural sidelight from rain-streaked window, warm amber and parchment ivory color palette, aged wood desk with leather notebook, content creation atmosphere of quiet inspiration",
+      "modifiers_animagine": "no humans, writer desk, typewriter, laptop, manuscript pages, coffee cup, desk lamp, notebook, pen, window light, creative workspace, cozy atmosphere, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "data entry, spreadsheet, coding, mathematics, construction, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a vintage typewriter with a half-finished page and a coffee stain",
+        "a leather journal open to handwritten notes beside a window",
+        "a desk covered in crumpled drafts and a single clean page",
+        "a red pen resting on a manuscript covered in editorial marks",
+        "a writer's corner with stacked books and a steaming teacup"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "44_manufacturing": {
+      "name": "Manufacturing",
+      "modifiers": "modern precision manufacturing facility, assembly line stretching into the distance, CNC machinery and robotic arms in synchronized motion, quality products emerging from production line, industrial efficiency with sparks from welding stations, dramatic overhead lighting in warm and cool tones, polished concrete surfaces, industrial grey and safety yellow color palette, production excellence",
+      "modifiers_animagine": "no humans, factory interior, assembly line, robotic arm, cnc machine, manufacturing equipment, sparks, industrial lighting, conveyor belt, precision machinery, production line, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "handmade, artisan, cottage industry, craft workshop, small scale, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a robotic arm welding sparks along a metal seam",
+        "a conveyor belt carrying gleaming finished products",
+        "a CNC machine carving precision parts from a metal block",
+        "rows of identical products lined up for quality inspection",
+        "a factory floor with synchronized machines humming in rhythm"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "45_brewery": {
+      "name": "Craft Brewery",
+      "modifiers": "artisan craft brewery interior, towering copper brewing tanks with polished patina, beer tasting flight on aged oak bar top, hops and barley in burlap sacks, brewmaster station with gauges and valves, warm pendant lights reflecting off copper surfaces, rustic exposed brick and reclaimed wood accents, rich amber copper and dark walnut color palette, craft beer culture atmosphere",
+      "modifiers_animagine": "no humans, craft brewery, copper brewing tanks, beer flight, hops, wooden bar, gauges and valves, pendant lights, exposed brick, barley sacks, brewery interior, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "soda factory, water bottling, juice bar, tea house, milk processing, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a flight of craft beers in graduated colors on an oak paddle",
+        "towering copper fermentation tanks with brass gauges",
+        "hops cascading from a burlap sack onto a wooden table",
+        "a brewer checking a hydrometer in a glass of amber wort",
+        "a tap handle pouring a golden ale with a perfect foam head"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "46_courier": {
+      "name": "Courier Service",
+      "modifiers": "delivery courier in action on city street, packages stacked neatly in cargo van, fast shipping energy with dynamic movement, doorstep delivery moment with warm porch light, logistics network overlay as glowing route lines on urban map, dynamic afternoon lighting, warm brown and bright yellow color palette, reliable express service atmosphere",
+      "modifiers_animagine": "no humans, delivery van, packages, city street, logistics map, glowing route lines, urban setting, cardboard boxes, doorstep delivery, speed lines, courier service, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "snail mail, pigeon carrier, walking, stationary, waiting, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a stack of brown packages on a doorstep with a warm porch light",
+        "a delivery van racing through city streets at golden hour",
+        "a glowing route map with delivery pins across a city",
+        "a courier's hand scanning a barcode on a package",
+        "a warehouse conveyor belt sorting parcels under bright lights"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "47_moving": {
+      "name": "Moving Company",
+      "modifiers": "professional moving service in progress, furniture being carefully loaded onto moving truck via ramp, new home transition with boxes labeled by room, careful handling of wrapped items with moving blankets, wide suburban street with morning light, moving truck with open cargo bay revealing organized interior, warm morning golden light with long shadows, neutral khaki and bright blue color palette, relocation and new beginnings",
+      "modifiers_animagine": "no humans, moving truck, cardboard boxes, furniture, loading ramp, suburban street, morning light, wrapped items, moving blankets, open cargo bay, new home, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "unpacking, settling in, permanent, construction, demolition, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a moving truck ramp with a sofa halfway up in morning light",
+        "labeled boxes stacked in a sunny empty living room",
+        "a hand truck loaded with boxes on a suburban sidewalk",
+        "a key in a door lock with moving boxes visible inside",
+        "bubble wrap and packing tape beside a cherished family photo"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "48_security": {
+      "name": "Security Services",
+      "modifiers": "professional security command center, multi-monitor surveillance wall displaying camera feeds, protection services control room with glowing displays, safety monitoring dashboard with real-time alerts, secure premises overview with perimeter map, cool blue monitor glow in dim room, vigilant protection atmosphere, dark navy and security blue color palette with red alert accents",
+      "modifiers_animagine": "no humans, security control room, surveillance monitors, camera feeds, security dashboard, dark room, glowing screens, perimeter map, control console, alert indicators, professional security, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "criminal, burglar, break-in, unlocked, vulnerable, abandoned, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a wall of surveillance monitors glowing in a dark room",
+        "a security badge beside a row of master keys on a hook",
+        "a control panel with blinking alert indicators and a perimeter map",
+        "a security camera overlooking a floodlit perimeter fence",
+        "a guard booth at a gated entrance with warm interior light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "49_printing": {
+      "name": "Print Shop",
+      "modifiers": "professional printing press facility, vibrant CMYK prints emerging from large format printer, colorful sign making with precise die-cut lettering, creative signage samples displayed on gallery wall, dramatic overhead industrial lighting with ink-splashed work surfaces, fresh ink on heavyweight paper stock, warm overhead spots with cool daylight from windows, vivid cyan magenta yellow and rich black color palette, print production craftsmanship",
+      "modifiers_animagine": "no humans, print shop, printing press, colorful prints, large format printer, cmyk colors, signage display, ink splashes, paper rolls, industrial interior, creative production, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "handwriting, calligraphy, digital screen, typewriter, stone tablet, cluttered, messy, unfinished, sterile",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a large format printer producing a vivid poster in CMYK",
+        "freshly printed business cards fanned out on a cutting mat",
+        "ink rollers coated in cyan magenta yellow and black",
+        "a gallery wall of colorful print samples and signage",
+        "a paper guillotine slicing through a stack of glossy prints"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    }
+  }
+}

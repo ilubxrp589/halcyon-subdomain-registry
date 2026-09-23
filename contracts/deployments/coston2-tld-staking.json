@@ -1,0 +1,66 @@
+{
+  "network": "coston2",
+  "chainId": "114",
+  "deployer": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+  "timestamp": "2026-02-17T03:37:31.062Z",
+  "totalGasUsed": "13267795",
+  "contracts": {
+    "LabelValidator": "0x5D13FA219deA785754043D63Cae2059b8AE1D213",
+    "FtsoOracle": "0x08d391c50AE8aa94B031195491Ffa9Df7953200c",
+    "GlobalRegistrationRules": "0x9bdb1B85e81Ae4239EfdBe7c5e2071a0b6982e92",
+    "HsrTld": "0xAEb64890BEBE39E5Fd845D95a81c818E9e039cdE",
+    "HsrTld_impl": "0x94056EcdD0e453Dd69ffB410891C7e22421B96E8",
+    "HsrSld": "0xA94F9BB2877e969b63e78c148fdc66A61E415110",
+    "HsrSld_impl": "0xDc24D3778711cDA5D188E8b9D71Dcc0A8917e324",
+    "TldClaimManager": "0xCfF939e85c53622fB6dCcD8FFc8d7408CB3E00c4",
+    "TldClaimManager_impl": "0x91696Cf7d44fDdd601e5150874c7dF42fCA76DEe",
+    "SldCommitIntent": "0x1EB1BDF49deF1A32a56Abcce348342bb52c8A91d",
+    "PaymentManager": "0xc502b38C93A3B34D5E0BcFD83384678632D0F112",
+    "DefaultRegistrationStrategy": "0xa42B21dA24734C6f5e24876D0FCcDB1299bC97fE",
+    "SldRegistrationManager": "0x9e680e851492F6135320FDaf64030F1F0Eb35D69",
+    "SldRegistrationManager_impl": "0xC6E534F15EB8c114c120E4A69B6FE21a88FFF430",
+    "SldMetadataService": "0x0f9AEC25344239E1356A7966F8E05F281C5daFF5",
+    "TldMetadataService": "0xa9C36F500BB6e0B5bC43aFe7160844387F9f8430",
+    "DefaultResolver": "0xbE845B15524C31dAAe30b3C1004388BAEBE5Bc2F",
+    "TldClaimManager_old_impl": "0x70877614D5574796fe3d506285f903F5de370cFC",
+    "PaymentManagerV2": "0x1137C7218b9e4c895F9A8C2ecaE5E1F4d96a7C2f",
+    "PaymentManagerV2_impl": "0x25aAb14091822E1Ade0fCd2f98547d55d7eAbddA",
+    "SldRegistrationManager_old_impl": "0x995e9272e27CFAe09F2D3Ff4D68B7c03A23FB11A"
+  },
+  "configuration": {
+    "platformFeeRecipient": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+    "platformFeeBps": 500,
+    "operator": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+    "artworkService": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+    "sldMetadataBaseUrl": "https://api.halcyon-names.io/metadata/sld/",
+    "tldMetadataBaseUrl": "https://api.halcyon-names.io/metadata/tld/"
+  },
+  "phase2Upgrade": {
+    "timestamp": "2026-02-18T00:08:32.865Z",
+    "upgradeBlock": 27355143,
+    "upgradeTx": "0x0de402a454a5a7062068264b55e218047512e740fef7e4cd19bd28b0868b2123",
+    "stakingFeeUsdCents": 1000,
+    "ftsoOracle": "0x08d391c50AE8aa94B031195491Ffa9Df7953200c"
+  },
+  "cleanUpgrade": {
+    "timestamp": "2026-02-18T00:22:34.061Z",
+    "upgradeBlock": 27355504,
+    "upgradeTx": "0x0ff85e27a7150fe0cbc93e11125c79ab80fd391a50ee2e38762f27eafd11d122",
+    "previousImpl": "0x4ceeb489E73D412A07c58ec8aa1C0e8801512B8d",
+    "note": "Clean Phase 2 impl without testRequestStake"
+  },
+  "paymentManagerV2Upgrade": {
+    "timestamp": "2026-02-18T19:55:33.598Z",
+    "defaultFeeBps": 2000,
+    "totalGasUsed": "1260740",
+    "note": "PaymentManagerV2 deployed with per-TLD fee support. SldRegistrationManager NOT yet updated to use V2."
+  },
+  "paymentManagerSwap": {
+    "timestamp": "2026-02-18T20:00:20.817Z",
+    "oldPaymentManager": "0xc502b38C93A3B34D5E0BcFD83384678632D0F112",
+    "newPaymentManager": "0x1137C7218b9e4c895F9A8C2ecaE5E1F4d96a7C2f",
+    "newSldRegistrationManagerImpl": "0xC6E534F15EB8c114c120E4A69B6FE21a88FFF430",
+    "totalGasUsed": "1647541",
+    "note": "SldRegistrationManager upgraded with setPaymentManager(). Now using PaymentManagerV2."
+  }
+}

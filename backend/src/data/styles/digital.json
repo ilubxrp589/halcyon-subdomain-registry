@@ -1,0 +1,76 @@
+{
+  "category": "digital",
+  "description": "Digital art techniques and modern styles",
+  "styles": {
+    "pixel_art": {
+      "id": "pixel_art",
+      "name": "Pixel Art",
+      "prompt": "pixel-art {prompt} . low-res, blocky, pixel art style, 8-bit graphics, retro gaming aesthetic",
+      "negative": "sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "vector": {
+      "id": "vector",
+      "name": "Vector Art",
+      "prompt": "vector art {prompt} . vivid colors, clean lines, sharp edges, minimalist, precise geometry, smooth curves, bold outlines, crisp shapes, flat colors, graphic design, scalable artwork",
+      "negative": "photo, photograph, realistic, gradient, textured, noisy, blurry",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "low_poly": {
+      "id": "low_poly",
+      "name": "Low Poly",
+      "prompt": "low-poly style {prompt} . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition, geometric",
+      "negative": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo, realistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Neon Glow",
+      "prompt": "neon glow art {prompt} . dynamic, dramatic, vibrant neon colors, glowing effects, luminescent, electric, bright rim light, high contrast",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, muted, dark",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "cel_shaded": {
+      "id": "cel_shaded",
+      "name": "Cel Shaded",
+      "prompt": "cel shaded art {prompt} . 2D, flat color, toon shading, cel shaded style, bold outlines, anime-inspired, clean edges",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, realistic, photographic, gradient shading",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1
+      },
+      "lora": null
+    }
+  }
+}

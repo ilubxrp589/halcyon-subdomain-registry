@@ -1,0 +1,788 @@
+{
+  "category": "fractal",
+  "description": "Psychedelic, fractal, and consciousness-expanding visuals",
+  "themes": {
+    "201_fractal_eyes": {
+      "name": "Fractal Eyes",
+      "modifiers": "(endless nested fractal eyes staring from every surface:1.3), (recursive observation spiraling into infinite zoom:1.2), (kaleidoscopic iris symmetry:1.2), bioluminescent pupils casting prismatic refraction across crystalline facets, psychedelic surveillance, iridescent corneal geometry, eyes within eyes within eyes dissolving into fractal depth, (pulsating neon glow against obsidian void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, fractal, abstract, surreal, (many eyes:1.2), (recursive pattern:1.2), kaleidoscope, glowing eyes, bioluminescent, iridescent, (neon colors:1.1), dark background, intricate details, psychedelic, cosmic, infinite depth, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal portrait, standard headshot, passport photo, simple face, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an enormous eye whose iris contains infinite smaller eyes spiraling into its pupil",
+        "a corridor of recursive irises folding inward through layers of luminous depth",
+        "a kaleidoscopic pupil shattering into prismatic fragments that each contain a watching gaze",
+        "nested observation orbs floating in a bioluminescent void, each reflecting the others endlessly"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "202_mandelbrot_mandala": {
+      "name": "Mandelbrot Mandala",
+      "modifiers": "(Mandelbrot set zoom collapsing into living breathing mandalas:1.3), (mathematical infinity rendered in liquid mercury spirals:1.2), fractal meditation geometry pulsating with bioluminescent energy, (sacred mathematics:1.2), recursive depth into psychedelic spectrum, iridescent Mandelbrot tendrils blooming as crystalline sacred patterns, (prismatic refraction through infinite self-similar forms:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (mandelbrot:1.2), fractal, (mandala:1.2), abstract, mathematical, sacred geometry, infinite zoom, psychedelic, colorful, glowing, iridescent, (intricate details:1.1), recursive pattern, cosmic, surreal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "simple circle, plain dot, flat color, basic shape, stick figure, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a Mandelbrot set border zoomed to reveal a living mandala of recursive spirals and budding tendrils",
+        "a sacred geometric rosette growing from the convergence point of infinite self-similar curves",
+        "a breathing medallion whose petals are miniature Mandelbrot bulbs arranged in perfect rotational symmetry",
+        "an infinite zoom into a Mandelbrot seahorse valley where each spiral arm becomes a new mandala"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "203_kaleidoscope_shatter": {
+      "name": "Kaleidoscope Shatter",
+      "modifiers": "(kaleidoscopic symmetry shattering into rainbow shrapnel vortices:1.3), (prismatic explosion of crystalline fragments refracting infinite light:1.2), chromatic chaos cascading through fractal geometry, (fragmenting beauty revealing deeper recursive layers:1.2), iridescent glass shards spinning in psychedelic spectrum, (pulsating neon color detonation against void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (kaleidoscope:1.2), (shattered glass:1.2), prismatic, rainbow, fractal, abstract, explosion, geometric, colorful, light refraction, iridescent, (crystalline:1.1), psychedelic, surreal, neon colors, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "intact mirror, solid glass, plain wall, flat surface, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a hexagonal kaleidoscope view frozen at the instant of shattering, shards refracting a thousand spectral copies",
+        "a stained glass rosette exploding outward in slow motion, each fragment carrying a miniature reflection of the whole",
+        "a crystalline prism struck by white light, fracturing into a storm of chromatic geometry",
+        "concentric rings of mirrored glass collapsing inward and rebounding as a fountain of iridescent splinters"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "205_infinite_spiral": {
+      "name": "Infinite Spiral Tunnel",
+      "modifiers": "(infinite spiral tunnel of ever-smaller identical cosmic patterns descending into recursive abyss:1.3), (fractal infinity rendered in liquid mercury curves:1.2), hypnotic depth pulling through kaleidoscopic symmetry, (bioluminescent spiral walls pulsating with prismatic light:1.2), pattern within pattern within pattern, iridescent vortex against neon void, (crystalline tunnel geometry:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (spiral:1.2), tunnel, (infinite zoom:1.2), fractal, recursive pattern, abstract, hypnotic, vortex, psychedelic, colorful, neon colors, bioluminescent, (glowing:1.1), cosmic, geometric, surreal, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "straight line, right angle, flat plane, grid, checkerboard, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a golden-ratio spiral tunnel receding infinitely, each revolution decorated with self-similar filigree",
+        "a nautilus shell cross-section expanded to cathedral scale, its chambers glowing with diminishing luminous fog",
+        "a Fibonacci spiral staircase descending into a radiant singularity at its vanishing center",
+        "a double helix vortex where two intertwined spirals chase each other into endless recursive depth"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "206_dmt_portal": {
+      "name": "DMT Portal",
+      "modifiers": "(DMT breakthrough portal opening inside a dilating human pupil:1.3), (psychedelic gateway radiating prismatic refraction:1.2), consciousness expansion through fractal geometry, (iris dimension dissolving into recursive depth:1.2), inner universe doorway framed by bioluminescent tendrils, (pulsating sacred patterns in iridescent neon against infinite void:1.1), crystalline portal architecture, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (portal:1.2), (psychedelic:1.2), dmt, fractal, abstract, surreal, eye, cosmic gateway, sacred geometry, neon colors, bioluminescent, glowing, (iridescent:1.1), colorful, infinite depth, trippy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal doorway, window, hallway, office entrance, regular arch, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a chrysanthemum-shaped portal blooming open in a void, its petals made of self-transforming geometric lattices",
+        "a dilating pupil that becomes a doorway into a cathedral of fractalized sacred geometry",
+        "a toroidal gateway spinning with jewel-toned hieroglyphic patterns, pulling consciousness through its center",
+        "an ornate archway woven from interlocking Platonic solids that dissolves at its threshold into pure prismatic light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "207_nebula_brain": {
+      "name": "Nebula Brain",
+      "modifiers": "(nebula brain exploding into synaptic starfire fireworks:1.3), (cosmic cognition mapped in fractal neural pathways:1.2), bioluminescent dendrites branching through prismatic nebula clouds, (thought supernova erupting in psychedelic spectrum:1.2), mind universe with recursive depth, (iridescent neural galaxy pulsating with crystalline light against cosmic void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (brain:1.2), (nebula:1.2), cosmic, neural network, fractal, abstract, surreal, explosion, bioluminescent, colorful, starry, psychedelic, glowing, iridescent, (space:1.1), neon colors, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "plain skull, medical x-ray, textbook diagram, gray matter, MRI, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a translucent brain whose folds are glowing nebula clouds, with synaptic lightning arcing between star-cluster neurons",
+        "a cosmic cerebellum unfurling its lobes as spiral galaxy arms, trailing stardust dendrites",
+        "a thought erupting as a supernova at the brain's core, sending fractal shockwaves through neural nebula tissue",
+        "a cross-section of a mind-nebula revealing layered emission clouds connected by branching filaments of pure light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "208_galaxy_serpent": {
+      "name": "Galaxy Serpent",
+      "modifiers": "(galaxy serpent devouring its own tail in void hyperspace:1.3), (cosmic ouroboros scales rippling with iridescent nebula light:1.2), eternal cycle rendered in liquid mercury coils, (stellar snake body mapped with fractal geometry:1.2), bioluminescent fangs dripping prismatic starlight, (infinite consumption spiraling into recursive depth against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (serpent:1.2), (ouroboros:1.2), galaxy, cosmic, fractal, abstract, surreal, space, nebula, iridescent, scales, glowing, bioluminescent, (psychedelic:1.1), colorful, neon colors, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "garden snake, worm, rope, belt, hose, regular reptile, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a colossal ouroboros serpent coiled in deep space, its scales shimmering with captured galaxies and nebula dust",
+        "a cosmic snake swallowing its own tail, the point of consumption erupting into a shower of newborn stars",
+        "a double-helix serpent pair spiraling through a void, their intertwined bodies forming a galactic DNA strand",
+        "a world-serpent whose open jaws reveal a fractal tunnel of recursive star systems receding into infinity"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "210_black_hole_heart": {
+      "name": "Black Hole Heart",
+      "modifiers": "(black hole heart pumping liquid starlight through veins of prismatic color:1.3), (cosmic circulation with gravitational lensing:1.2), stellar blood flowing as iridescent plasma, (gravitational pulse warping fractal geometry around the organ:1.2), bioluminescent arteries branching into recursive depth, (crystalline chambers pulsating with psychedelic spectrum against infinite void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (heart:1.2), (black hole:1.2), cosmic, abstract, surreal, veins, glowing, bioluminescent, colorful, gravitational lensing, fractal, (psychedelic:1.1), iridescent, neon colors, dark background, space, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "valentine heart, red heart emoji, candy, real heart, medical, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an anatomical heart with a singularity at its core, bending light and spacetime as plasma-blood spirals through its chambers",
+        "a gravitationally lensed organ suspended in space, its arteries stretching into accretion disk rings of luminous color",
+        "a beating cosmic heart whose contractions send shockwaves of warped starlight rippling through surrounding void",
+        "a cross-section of a black hole heart revealing four chambers of compressed stellar matter, each a different spectral hue"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "211_neon_syrup_city": {
+      "name": "Neon Syrup City",
+      "modifiers": "(entire cityscape liquefying into neon syrup rivers:1.3), (melting metropolis rendered in liquid mercury architecture:1.2), fluorescent flood cascading through fractal street geometry, (bioluminescent skyscrapers dissolving into prismatic refraction pools:1.2), iridescent urban flow pulsating with psychedelic spectrum, (buildings dripping neon against void sky:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (cityscape:1.2), (melting:1.2), neon, surreal, abstract, liquid, psychedelic, colorful, fluorescent, glowing, fractal, iridescent, urban, (night:1.1), dark background, trippy, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal city, gray buildings, office park, suburban, daytime, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a skyline of skyscrapers dissolving into thick luminous syrup, pooling in the streets as rivers of molten neon",
+        "a single tower mid-collapse, its floors sliding apart in viscous ribbons of fluorescent pink and electric blue",
+        "an aerial view of a city grid where every block has melted into a glowing candy-colored lava flow",
+        "a bridge spanning two melting buildings, its cables dripping prismatic threads into a churning neon river below"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "212_ascending_waterfall": {
+      "name": "Ascending Waterfall",
+      "modifiers": "(human silhouette melting upward into ascending chromatic waterfalls:1.3), (reverse gravity dissolving form into prismatic refraction streams:1.2), fractal light particles spiraling in kaleidoscopic symmetry, (bioluminescent cascade flowing against infinite zoom:1.2), body becoming iridescent light, (crystalline water droplets suspended in psychedelic spectrum against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (silhouette:1.2), (waterfall:1.2), ascending, reverse gravity, abstract, surreal, psychedelic, colorful, bioluminescent, prismatic, glowing, fractal, (particles:1.1), light, iridescent, neon colors, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal waterfall, fountain, faucet, shower, garden hose, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cascade of luminous water defying gravity, rising in slow curtains from a glowing pool into an infinite sky",
+        "a silhouette dissolving upward into streams of spectral light, each droplet ascending like an inverted rain",
+        "a reverse waterfall climbing a cliff of crystalline rock, its mist spiraling into fractal patterns overhead",
+        "suspended droplets frozen mid-ascent in a column of prismatic light, each one a tiny lens refracting rainbows"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "214_bleeding_screen": {
+      "name": "Bleeding Digital Memory",
+      "modifiers": "(smartphone screen bleeding digital memories into prismatic puddles of liquid data:1.3), (technology tears dripping fractal pixel cascades:1.2), bioluminescent glitch artifacts overflowing into crystalline formations, (virtual becoming real through recursive depth:1.2), iridescent data streams pulsating with neon against void, (psychedelic spectrum dissolving digital and physical boundaries:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (smartphone:1.2), (digital:1.2), glitch, abstract, surreal, psychedelic, colorful, pixel, data, liquid, bioluminescent, neon colors, fractal, iridescent, (technology:1.1), dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "clean monitor, turned off TV, blank screen, laptop closed, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cracked smartphone screen weeping luminous pixel-tears that pool into holographic puddles on a dark surface",
+        "a monitor dissolving at its edges, spilling cascading glitch fragments that solidify into crystalline data formations",
+        "a tablet whose display has liquefied, pouring a waterfall of corrupted RGB data into a fractal delta below",
+        "a floating screen hemorrhaging vivid memory-images that drip and swirl like oil paint made of pure light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "215_psychedelic_meltdown": {
+      "name": "Psychedelic Meltdown",
+      "modifiers": "(ice cream mountains slowly collapsing under psychedelic heat waves:1.3), (sweet apocalypse in iridescent color cascades:1.2), dessert dissolution revealing fractal geometry layers beneath, (bioluminescent sugar crystals melting into prismatic refraction rivers:1.2), pulsating neon drips against cosmic void, (recursive melt patterns spiraling into kaleidoscopic depth:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (melting:1.2), (ice cream:1.2), mountains, psychedelic, abstract, surreal, colorful, fractal, iridescent, glowing, neon colors, bioluminescent, (trippy:1.1), sweet, cosmic, dessert, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "solid rigid, frozen still, clean lines, organized, neat tidy, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a towering mountain of neapolitan ice cream collapsing in slow waves under a pulsating psychedelic sun",
+        "a sundae the size of a cathedral melting into rivers of fluorescent cream that carve fractal canyons into the landscape",
+        "a glacier of swirled sherbet dissolving to reveal crystalline sugar formations and bioluminescent candy strata beneath",
+        "a melting popsicle obelisk dripping prismatic syrup that pools into self-similar fractal deltas"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "216_fractal_mushrooms": {
+      "name": "Fractal Mushroom City",
+      "modifiers": "(giant bioluminescent mushrooms breathing luminous fog that condenses into fractal cities:1.3), (fungal urbanism with crystalline spore architecture:1.2), mycelium metropolis mapped in recursive depth, (iridescent caps radiating prismatic refraction:1.2), pulsating neon hyphal networks against void sky, (kaleidoscopic symmetry in mushroom gills revealing psychedelic spectrum:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (mushroom:1.2), (giant mushroom:1.2), fractal, city, bioluminescent, abstract, surreal, psychedelic, colorful, fog, glowing, mycelium, neon colors, (iridescent:1.1), fantasy, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "button mushroom, grocery produce, plain fungus, mold, truffle, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a towering bioluminescent mushroom whose gills underneath are a fractal city of tiny glowing buildings",
+        "a mycelium network spreading across a dark forest floor, each node erupting into a miniature luminous mushroom-tower",
+        "a mushroom cap viewed from below, its gill ridges forming a radiating mandala of spore-lit architecture",
+        "a cluster of enormous fungi exhaling clouds of glowing spores that arrange themselves into fractal cityscapes"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "217_inverted_aurora_forest": {
+      "name": "Inverted Aurora Forest",
+      "modifiers": "(upside-down forest with roots exploding into neon auroras of prismatic fire:1.3), (reversed nature where bioluminescent root systems branch into fractal lightning patterns:1.2), (kaleidoscopic symmetry in inverted canopy:1.1), (iridescent bark pulsating with psychedelic spectrum:1.2), crystalline leaves reflecting aurora light into recursive depth against cosmic void, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (inverted:1.2), upside down, (forest:1.2), aurora, roots, neon, abstract, surreal, psychedelic, colorful, bioluminescent, fractal, glowing, iridescent, (lightning:1.1), cosmic, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal forest, daytime woods, summer park, dead trees, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an inverted ancient tree with roots reaching skyward, each root-tip igniting into a curtain of neon aurora fire",
+        "a forest reflected in still water where the reflection's roots dissolve upward into fractal lightning bolts of color",
+        "a single upside-down oak whose exposed root system branches into a dendritic aurora that illuminates the void above",
+        "a grove of inverted trees with crystalline bark, their tangled root canopy ablaze with shifting prismatic auroras"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "218_dna_eye_flowers": {
+      "name": "DNA Eye Flowers",
+      "modifiers": "(DNA helix vines strangling and blooming into eye-flowers with iridescent iris petals:1.3), (genetic gardens mapped in fractal geometry:1.2), bioluminescent double helices spiraling through recursive depth, (crystalline pollen refracting prismatic light:1.2), watching genetics pulsating with psychedelic spectrum, (kaleidoscopic symmetry in biological surveillance against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (dna:1.2), helix, (eye:1.2), flower, fractal, abstract, surreal, bioluminescent, psychedelic, colorful, genetic, organic, glowing, iridescent, (neon colors:1.1), intricate details, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "regular eye, simple flower, biology textbook, medical chart, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a double-helix vine twisting upward, each rung sprouting a flower whose center is a blinking iridescent eye",
+        "a garden bed of eye-flowers with iris petals in every spectral color, their stems made of luminous DNA strands",
+        "a single enormous eye-blossom opening to reveal a pupil ringed with base-pair patterns like a genetic mandala",
+        "intertwined DNA helices forming a trellis, heavy with clusters of watching eye-blooms that track invisible light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "219_portal_leaf_jungle": {
+      "name": "Portal Leaf Jungle",
+      "modifiers": "(bioluminescent jungle where every leaf is a portal window into another dimension:1.3), (dimensional foliage revealing fractal geometry worlds through crystalline surfaces:1.2), gateway garden with recursive depth visible through iridescent leaf membranes, (prismatic refraction spilling from each portal:1.2), pulsating neon vegetation against psychedelic spectrum void, (kaleidoscopic canopy:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (jungle:1.2), (portal:1.2), leaves, bioluminescent, dimensional, fractal, abstract, surreal, psychedelic, colorful, glowing, iridescent, neon colors, (fantasy:1.1), magical, gateway, intricate details, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal jungle, garden hedge, park trees, potted plant, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a massive jungle leaf held up to reveal a shimmering portal to an alien world visible through its translucent surface",
+        "a canopy of overlapping leaves, each one a window into a different dimension with its own fractal sky and terrain",
+        "a vine-wrapped archway of portal-leaves forming a tunnel, each leaf showing a progressively deeper layer of reality",
+        "a single luminous leaf floating in darkness, its veins forming a map of the other-dimensional landscape visible within"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "220_ribcage_reef": {
+      "name": "Ribcage Coral Reef",
+      "modifiers": "(rainbow coral reef flourishing inside a floating translucent human ribcage:1.3), (anatomical ocean with bioluminescent polyps casting prismatic refraction:1.2), bone aquarium housing fractal geometry sea life, (iridescent anemones pulsating between crystalline ribs:1.2), skeletal ecosystem in psychedelic spectrum, (recursive depth in coral formations against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (ribcage:1.2), (coral reef:1.2), underwater, bioluminescent, fractal, abstract, surreal, psychedelic, colorful, anatomical, skeleton, glowing, iridescent, (neon colors:1.1), ocean, sea life, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "medical skeleton, x-ray, normal reef, aquarium decoration, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a translucent ribcage floating in deep water, its interior overgrown with branching coral in every spectral hue",
+        "a skeletal torso resting on the seafloor, bioluminescent anemones blooming between each rib like living stained glass",
+        "a coral reef growing in the shape of a human chest cavity, polyps pulsing with fractal color along each bone strut",
+        "a crystal-clear ribcage aquarium housing an entire miniature reef ecosystem of luminous jellyfish and fractal sea fans"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "221_galaxy_face": {
+      "name": "Galaxy Face",
+      "modifiers": "(face constructed entirely from swirling galaxy arms and nebula clouds:1.3), (cosmic portrait with fractal geometry star clusters forming features:1.2), iridescent spiral arms as cheekbones, (bioluminescent supernova eyes radiating prismatic refraction:1.2), stellar features dissolving into recursive depth, (psychedelic spectrum skin pulsating with neon against infinite void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (face:1.2), (galaxy:1.2), cosmic, nebula, stars, fractal, abstract, surreal, psychedelic, colorful, spiral, glowing, bioluminescent, iridescent, (space:1.1), neon colors, portrait, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal face, portrait photo, headshot, selfie, school picture, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a face assembled from spiral galaxy arms, its eyes twin supernovae and its jawline a river of dense star clusters",
+        "a cosmic portrait where nebula clouds form soft cheekbones and a dark matter silhouette defines the brow and chin",
+        "a profile view of a face made of colliding galaxies, the impact zone a radiant bridge of light across the nose",
+        "a frontal visage whose every feature is a different deep-space phenomenon, from pulsar eyes to comet-trail eyebrows"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "222_alien_ocean_body": {
+      "name": "Alien Ocean Body",
+      "modifiers": "(body silhouette overflowing with an inner alien ocean storm of bioluminescent creatures:1.3), (internal tempest churning with prismatic refraction waves:1.2), anatomy as fractal geometry sea, (iridescent alien jellyfish pulsating through liquid mercury depths:1.2), psychedelic spectrum currents spiraling in recursive patterns, (crystalline crests against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (silhouette:1.2), (ocean:1.2), alien, storm, bioluminescent, fractal, abstract, surreal, psychedelic, colorful, jellyfish, waves, glowing, iridescent, (neon colors:1.1), dark background, liquid, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "swimming pool, bathtub, earth ocean, fish tank, water bottle, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a human silhouette filled with a churning alien ocean, bioluminescent jellyfish and tentacled creatures visible through translucent skin",
+        "a torso-shaped aquarium containing a storm of otherworldly sea life, luminous waves crashing against the ribs from within",
+        "a standing figure whose interior is a deep-sea trench teeming with fractal organisms trailing phosphorescent filaments",
+        "an outline of a body overflowing at the edges with alien tidal surges of iridescent plankton and spiral-shelled creatures"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "223_quantum_brain_petals": {
+      "name": "Quantum Brain Petals",
+      "modifiers": "(brain petals unfolding to reveal dancing quantum fireflies in recursive depth:1.3), (neural bloom of bioluminescent thought organisms:1.2), fractal geometry synapses branching into crystalline petal formations, (iridescent mind garden pulsating with prismatic refraction:1.2), consciousness butterflies trailing psychedelic spectrum, (kaleidoscopic symmetry in quantum entanglement against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (brain:1.2), petals, (flower:1.2), quantum, fireflies, fractal, abstract, surreal, psychedelic, colorful, bioluminescent, glowing, iridescent, (neon colors:1.1), neural, organic, cosmic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "plain brain, simple flower, textbook illustration, medical scan, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a brain unfolding its cortex layers like petals of a vast flower, quantum fireflies dancing between each unfurling lobe",
+        "a lotus whose petals are brain folds, releasing clouds of entangled particle-butterflies from its glowing center",
+        "a neural blossom mid-bloom, its synapse-stamens radiating threads of quantum light that connect to orbiting thought-motes",
+        "a mind-garden where each petal-neuron holds a tiny luminous ecosystem of firefly-like quantum fluctuations"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "225_stained_glass_skin": {
+      "name": "Stained Glass Soul",
+      "modifiers": "(stained-glass skin cracking to release chromatic soul butterflies through prismatic refraction fractures:1.3), (cathedral body radiating bioluminescent light through fractal geometry panes:1.2), (sacred shattering revealing recursive depth of iridescent spirit:1.1), (crystalline glass fragments pulsating with psychedelic spectrum:1.2), kaleidoscopic symmetry in light fragments against neon void, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (stained glass:1.2), (butterfly:1.2), soul, fractal, abstract, surreal, psychedelic, colorful, glowing, iridescent, light, shattering, cathedral, (prismatic:1.1), neon colors, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal skin, plain face, smooth texture, medical photo, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a figure whose stained-glass skin is cracking open, releasing luminous butterflies from the light trapped within each pane",
+        "a hand made of cathedral glass reaching upward, its leaded seams splitting to let prismatic soul-fragments escape",
+        "a torso of rose-window glass shattering in slow motion, each shard becoming a chromatic butterfly mid-flight",
+        "a kneeling form of sacred glass, cracks of golden light spreading across its surface as the spirit inside strains outward"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "226_escher_singularity": {
+      "name": "Escher Singularity",
+      "modifiers": "(Escher staircase spiraling into a glowing singularity core:1.3), (impossible architecture rendered in crystalline geometry with infinite zoom perspective:1.2), gravity paradox staircases refracting prismatic light, (bioluminescent impossible surfaces pulsating with iridescent energy:1.2), fractal geometry in recursive Penrose patterns, (kaleidoscopic symmetry descending into psychedelic spectrum void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (escher:1.2), (impossible architecture:1.2), staircase, singularity, fractal, abstract, surreal, geometric, infinite, optical illusion, glowing, psychedelic, colorful, iridescent, (neon colors:1.1), recursive, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal staircase, flat floor, regular room, one-point perspective, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an Escher staircase that climbs in every direction simultaneously, all paths converging on a blinding singularity at the center",
+        "a Penrose triangle scaled to architectural proportions, its impossible edges lined with staircases that fold into themselves",
+        "an infinite Escher-style room where gravity shifts on every surface, luminous figures ascending in contradictory directions",
+        "a Mobius strip stairway twisting through a cathedral space, its walkers endlessly circling a radiant gravitational core"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "227_breathing_cathedral": {
+      "name": "Breathing Cathedral",
+      "modifiers": "(breathing cathedral walls made of living bioluminescent neon veins pulsating with sacred rhythm:1.3), (organic architecture with fractal geometry ribbed vaults:1.2), iridescent stained light filtering through crystalline membrane walls, (prismatic refraction cascading through recursive nave depth:1.2), psychedelic spectrum flowing through liquid mercury columns, (kaleidoscopic rose windows against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (cathedral:1.2), (organic:1.2), veins, bioluminescent, neon, fractal, abstract, surreal, psychedelic, colorful, breathing, glowing, iridescent, (stained glass:1.1), gothic, sacred, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal church, modern building, static architecture, flat wall, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a gothic nave whose ribbed vaults are living veins pulsing with bioluminescent blood in rhythmic waves",
+        "a rose window made of organic membrane that dilates and contracts like a breathing lung, filtering prismatic light",
+        "a cathedral interior where the columns are massive arterial trunks, their surfaces rippling with each sacred heartbeat",
+        "a vaulted ceiling of translucent living tissue, its capillary network glowing in fractal patterns that shift with each breath"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "228_acid_mirror_hall": {
+      "name": "Acid Mirror Hall",
+      "modifiers": "(mirror hallway where reflections live independent acid-drenched lives:1.3), (autonomous doubles warping through liquid mercury surfaces:1.2), prismatic refraction splitting each reflection into fractal geometry variants, (bioluminescent mirror frames pulsating with psychedelic spectrum:1.2), iridescent recursive depth cascading through infinite zoom, (crystalline reflections dissolving into kaleidoscopic symmetry against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (mirror:1.2), (hallway:1.2), reflection, acid, psychedelic, fractal, abstract, surreal, colorful, infinite, recursive, glowing, iridescent, (neon colors:1.1), liquid, trippy, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "clean mirror, plain glass, normal reflection, bathroom mirror, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an infinite hallway of facing mirrors where each reflection is a slightly more distorted and chromatic version of the last",
+        "a mercury-surfaced mirror showing a reflection that moves independently, reaching out of the frame with liquid hands",
+        "a circular room of warped funhouse mirrors, each surface rippling with acid-spectrum colors and autonomous shadow-figures",
+        "a single ornate mirror whose surface fractures into a dozen overlapping realities, each tinted a different psychedelic hue"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "229_infinite_neon_mall": {
+      "name": "Infinite Neon Bazaar",
+      "modifiers": "(abandoned mall corridor stretching into infinite neon bazaar dimensions:1.3), (liminal commerce with bioluminescent storefront signs bleeding prismatic refraction:1.2), fractal geometry aisles receding into recursive depth, (iridescent fluorescent markets pulsating with psychedelic spectrum:1.2), crystalline display cases reflecting kaleidoscopic symmetry, (liquid mercury floors mirroring neon against void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (mall:1.2), corridor, neon, (bazaar:1.2), infinite, liminal, fractal, abstract, surreal, psychedelic, colorful, fluorescent, glowing, iridescent, (abandoned:1.1), dark, neon colors, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal mall, daytime shop, closed store, empty hallway, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an abandoned mall corridor receding into impossible infinity, its neon signs flickering in alien scripts that shift and morph",
+        "a liminal bazaar where fluorescent storefronts sell impossible objects, their display cases glowing with fractal merchandise",
+        "a food court at the end of an endless neon hallway, its tables reflecting a recursion of identical corridors stretching forever",
+        "an escalator descending into a deeper level of a luminous infinite mall, each floor more saturated and strange than the last"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "230_teacup_dimension": {
+      "name": "Teacup Dimension",
+      "modifiers": "(floating teacup dimension with orbiting Victorian eye furniture in fractal geometry orbits:1.3), (surreal tea party where crystalline porcelain refracts prismatic light:1.2), bioluminescent steam spiraling into recursive depth, (iridescent saucers spinning in kaleidoscopic symmetry:1.2), watching chairs pulsating with psychedelic spectrum, (liquid mercury tea swirling against cosmic neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (teacup:1.2), floating, surreal, (victorian:1.2), eyes, fractal, abstract, psychedelic, colorful, porcelain, cosmic, glowing, iridescent, neon colors, (furniture:1.1), orbit, whimsical, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal teacup, coffee mug, plain ceramic, kitchen shelf, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a colossal teacup floating in a void with miniature Victorian furniture orbiting it like moons, each piece adorned with watching eyes",
+        "a tea party set adrift in space, luminous steam from the cups coiling into fractal spirals that form constellations",
+        "a porcelain saucer spinning like a galaxy, its painted rim-pattern revealed as a recursive circuit of tiny teacups within teacups",
+        "a cracked teacup spilling liquid mercury tea into zero gravity, the droplets forming ornate Victorian furniture as they drift"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "231_paisley_wormhole": {
+      "name": "Paisley Wormhole",
+      "modifiers": "(1960s van tunneling through breathing paisley wormholes of fractal geometry:1.3), (hippie hyperspace with kaleidoscopic symmetry patterns spiraling into recursive depth:1.2), bioluminescent paisley tendrils pulsating with prismatic refraction, (iridescent groovy patterns flowing in psychedelic spectrum:1.2), crystalline tunnel walls against neon void, (infinite zoom through liquid mercury paisleys:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (paisley:1.2), (wormhole:1.2), tunnel, 1960s, retro, hippie, fractal, abstract, surreal, psychedelic, colorful, pattern, glowing, iridescent, (neon colors:1.1), trippy, kaleidoscope, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal fabric, plain cloth, solid color, simple pattern, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a VW van mid-flight through a wormhole whose walls are enormous breathing paisley tendrils in day-glo colors",
+        "a tunnel of nested paisley teardrops receding to infinity, each layer pulsing with a different psychedelic hue",
+        "a single giant paisley unfurling to reveal a fractal interior of smaller paisleys, each containing a portal to a groovy dimension",
+        "a cosmic highway lined with towering paisley monoliths that lean inward, forming a kaleidoscopic corridor of 1960s geometry"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "232_fractal_tv": {
+      "name": "Fractal Antenna TV",
+      "modifiers": "(vintage TV sprouting organic fractal antenna limbs of crystalline geometry:1.3), (technology mutation with bioluminescent cathode ray tendrils:1.2), iridescent signal organism radiating prismatic refraction through recursive depth, (electronic evolution pulsating with psychedelic spectrum:1.2), liquid mercury screen displaying kaleidoscopic symmetry, (tube organism against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (vintage tv:1.2), (antenna:1.2), fractal, organic, technology, mutation, abstract, surreal, psychedelic, colorful, bioluminescent, glowing, iridescent, (neon colors:1.1), retro, tendrils, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal television, flat screen, turned off monitor, blank display, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a 1950s tube television sprouting a forest of fractal antenna branches, each tip receiving signals from another dimension",
+        "a cathode ray TV whose screen displays infinite recursive static, organic tendrils growing from its casing into the room",
+        "a vintage television set mutating into a living organism, its rabbit ears branching into crystalline tree-like fractals",
+        "a stack of old TVs fused together, their screens showing the same image at recursive scales while bioluminescent cables spread like roots"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "233_blacklight_alive": {
+      "name": "Living Blacklight Poster",
+      "modifiers": "(blacklight poster world coming alive in dripping day-glo ink rivers:1.3), (fluorescent animation with bioluminescent figures escaping fractal geometry frames:1.2), UV awakening revealing recursive depth in iridescent pigments, (prismatic refraction through crystalline neon structures:1.2), psychedelic spectrum pulsating against infinite void, (kaleidoscopic symmetry in liquid mercury dayglo:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (blacklight:1.2), (poster:1.2), fluorescent, uv, neon, fractal, abstract, surreal, psychedelic, colorful, glowing, iridescent, dripping, (paint:1.1), dayglo, vivid colors, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "daylight, fluorescent office, well-lit room, natural sunshine, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a blacklight poster whose day-glo figures are peeling off the surface, dripping fluorescent ink as they become three-dimensional",
+        "a velvet painting under UV light, its psychedelic landscape bleeding off the edges and pooling as luminous paint on the floor",
+        "a poster of a fractal mandala coming alive, its rings spinning outward and shedding glowing pigment particles into the room",
+        "a blacklight gallery where every poster is a portal, fluorescent figures reaching across frames to interact in dripping neon"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "234_vinyl_planet": {
+      "name": "Vinyl Planet",
+      "modifiers": "(melting vinyl record planet with groove highways of prismatic refraction light:1.3), (musical world spinning in fractal geometry grooves:1.2), bioluminescent sound waves emanating from crystalline needle craters, (iridescent spinning globe pulsating with psychedelic spectrum:1.2), liquid mercury vinyl surface reflecting kaleidoscopic symmetry, (rhythm landscape against neon cosmic void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (vinyl record:1.2), (planet:1.2), melting, music, fractal, abstract, surreal, psychedelic, colorful, grooves, glowing, iridescent, (neon colors:1.1), cosmic, spinning, bioluminescent, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal record, CD, music player, radio, speaker, headphones, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a planet-sized vinyl record spinning in space, its grooves glowing as highways of prismatic sound-light energy",
+        "a melting LP warping under a cosmic sun, its surface bubbling into mountains and valleys of iridescent musical terrain",
+        "a turntable needle touching down on a record-planet, the impact crater radiating concentric rings of luminous sound waves",
+        "a vinyl disc viewed from its edge, revealing a cross-section of layered musical strata glowing in different spectral bands"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "235_pinball_cosmos": {
+      "name": "Pinball Cosmos",
+      "modifiers": "(pinball machine cosmos bouncing Earth through bioluminescent color bumpers:1.3), (arcade universe with fractal geometry playfield stretching into recursive depth:1.2), prismatic refraction flippers launching crystalline planets, (iridescent score displays pulsating with psychedelic spectrum:1.2), cosmic pinball lit by neon against infinite void, (kaleidoscopic symmetry in orbital trajectories:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (pinball:1.2), (cosmos:1.2), arcade, planets, fractal, abstract, surreal, psychedelic, colorful, neon, glowing, iridescent, space, earth, (bumpers:1.1), cosmic, game, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal pinball, arcade game, video game, board game, chess, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cosmic pinball table where planets are the balls, bouncing off nebula bumpers and launched by galaxy-arm flippers",
+        "Earth ricocheting through a neon-lit pinball cosmos, leaving a prismatic trail as it strikes bioluminescent star-bumpers",
+        "a top-down view of the universe as a pinball playfield, orbital paths tracing fractal scoring patterns across the void",
+        "a pair of cosmic flippers sending a crystalline moon-ball arcing through a field of pulsating quasar bumpers"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "236_enlightenment_tree": {
+      "name": "Enlightenment Tree",
+      "modifiers": "(inverted tree of life raining fractal enlightenment sparks of prismatic refraction:1.3), (wisdom cascading through recursive depth as bioluminescent droplets:1.2), knowledge roots branching in crystalline geometry upward into psychedelic spectrum sky, (iridescent bark pulsating with sacred light:1.2), kaleidoscopic symmetry in illumination patterns, (liquid mercury sap flowing against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (tree of life:1.2), inverted, (enlightenment:1.2), sparks, fractal, abstract, surreal, psychedelic, colorful, bioluminescent, glowing, iridescent, (neon colors:1.1), sacred, wisdom, cosmic, roots, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal tree, dead stump, telephone pole, fence post, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an inverted bodhi tree raining luminous droplets of fractal wisdom from its canopy into an upward-reaching root system",
+        "a tree of life whose trunk is a pillar of sacred geometry, branches dripping enlightenment sparks like slow-falling stars",
+        "a massive world-tree viewed from below, its leaves shedding prismatic motes that arrange into mandalas as they descend",
+        "a solitary tree glowing from within, its bark inscribed with fractal patterns, sap running as liquid light through every branch"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "237_reality_explosion": {
+      "name": "Reality Explosion",
+      "modifiers": "(white-light singularity implosion birthing hyper-reality explosion of fractal geometry shrapnel:1.3), (big bang consciousness erupting in prismatic refraction cascades:1.2), creation moment rendered in crystalline recursive depth, (bioluminescent genesis particles spiraling through kaleidoscopic symmetry:1.2), iridescent reality shards pulsating with psychedelic spectrum, (liquid mercury spacetime against infinite neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (explosion:1.2), (singularity:1.2), big bang, fractal, abstract, surreal, psychedelic, colorful, light, cosmic, creation, glowing, iridescent, (neon colors:1.1), particles, energy, intense, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "calm scene, peaceful landscape, still life, quiet room, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a white-light singularity at the instant of detonation, fractal shrapnel of newborn reality radiating in every direction",
+        "the moment of a big bang captured in freeze-frame, concentric shells of prismatic energy expanding through virgin void",
+        "a reality-shard explosion where each fragment contains a complete miniature universe with its own stars and physics",
+        "a creation event viewed from outside spacetime, the detonation bloom shaped like a crystalline flower of pure genesis light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "238_machine_elf_choir": {
+      "name": "Machine Elf Choir",
+      "modifiers": "(machine elf choir harmonizing in chrome fractal geometry temple:1.3), (DMT entities singing crystalline mathematical hymns:1.2), hyperspace worship rendered in bioluminescent recursive depth, (iridescent geometric beings radiating prismatic refraction:1.2), entity congregation pulsating with psychedelic spectrum, (kaleidoscopic symmetry in liquid mercury architecture against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (machine elves:1.2), dmt, (entities:1.2), choir, fractal, abstract, surreal, psychedelic, colorful, chrome, geometric, glowing, iridescent, (neon colors:1.1), temple, hyperspace, cosmic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "human choir, church singers, orchestra, solo singer, band, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a congregation of faceted geometric entities arranged in tiers, their chrome bodies resonating visible harmonic frequencies",
+        "a single machine elf mid-hymn, its fractal mouth-opening emitting cascading Platonic solids that arrange into musical staves",
+        "a hyperspace cathedral interior where crystalline elf-beings form a choir circle, their combined song manifesting as a rotating mandala",
+        "a procession of self-transforming machine elves, each one singing a different geometric shape into existence as they march"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "239_consciousness_lotus": {
+      "name": "Consciousness Lotus",
+      "modifiers": "(lotus of pure consciousness with petals made of nested universe fractals:1.3), (awareness flower blooming in recursive depth through infinite zoom:1.2), bioluminescent cosmic layers revealing prismatic refraction within each petal, (iridescent enlightenment radiating kaleidoscopic symmetry:1.2), crystalline mandala center pulsating with psychedelic spectrum, (liquid mercury stems against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (lotus:1.2), (consciousness:1.2), cosmic, universe, fractal, abstract, surreal, psychedelic, colorful, mandala, bioluminescent, glowing, iridescent, (neon colors:1.1), enlightenment, sacred, infinite, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "regular lotus, pond lily, water plant, plastic flower, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cosmic lotus blooming on the surface of a void, each petal a translucent window into a complete nested universe",
+        "a consciousness flower whose center mandala pulses with awareness-light, its petals unfurling in time-lapse fractal layers",
+        "a thousand-petaled lotus viewed from above, each concentric ring of petals revealing a deeper layer of recursive cosmic detail",
+        "a single lotus petal magnified to reveal an entire galaxy within its veined surface, glowing with the light of sentient stars"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "240_rainbow_serpent": {
+      "name": "Rainbow Serpent Shed",
+      "modifiers": "(rainbow serpent shedding iridescent skin to reveal new dimensional truths in fractal geometry patterns:1.3), (chromatic rebirth with prismatic refraction scales peeling away:1.2), bioluminescent new skin pulsating with psychedelic spectrum, (crystalline serpentine body spiraling through recursive depth:1.2), kaleidoscopic symmetry in shed skin fragments, (liquid mercury revelations against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (serpent:1.2), (rainbow:1.2), shedding skin, fractal, abstract, surreal, psychedelic, colorful, iridescent, scales, bioluminescent, glowing, (neon colors:1.1), prismatic, cosmic, transformation, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "gray snake, brown rope, garden hose, plain worm, belt, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a rainbow serpent mid-shed, its old skin peeling away in translucent spectral sheets to reveal fractal scales of pure light beneath",
+        "a coiled snake whose shed skin drifts like auroral ribbon, the newly exposed body pulsing with patterns of deeper dimensional truth",
+        "a serpent emerging from its own discarded chromatic husk, each freshly revealed scale a tiny kaleidoscope of self-similar geometry",
+        "a shedding scene frozen in time, the old rainbow skin curling into fractal spirals as the reborn serpent glows with new spectral fire"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "241_impossible_elephant": {
+      "name": "Impossible Elephant",
+      "modifiers": "(elephant balanced impossibly on a single desert tree branch under twin melting moons dripping liquid mercury:1.3), (surreal equilibrium rendered in fractal geometry:1.2), bioluminescent lunar drip cascading through prismatic refraction, (iridescent elephant skin pulsating with psychedelic spectrum:1.2), crystalline impossible physics, (recursive depth in dreamscape against kaleidoscopic neon sky:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (elephant:1.2), impossible, surreal, (balance:1.2), melting moons, fractal, abstract, psychedelic, colorful, bioluminescent, glowing, iridescent, neon colors, (dreamscape:1.1), desert, cosmic, whimsical, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal elephant, zoo animal, circus, toy elephant, statue, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a massive elephant balanced on a single twig of a dead desert tree, twin moons melting above like candle wax in the sky",
+        "a translucent elephant standing on one leg atop a needle-thin branch, its body revealing fractal internal architecture",
+        "an elephant floating just above a lone acacia branch, mercury moondrops suspended mid-fall around its luminous form",
+        "a Dali-esque elephant on spider legs perched on a crystalline branch, the landscape below warped by its impossible gravity"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "242_butterfly_silhouette": {
+      "name": "Butterfly Swarm Silhouette",
+      "modifiers": "(woman silhouette filled with neon butterfly swarm in fractal geometry flight patterns:1.3), (luminous lepidoptera with bioluminescent wings refracting prismatic light:1.2), (iridescent insect constellation pulsating within crystalline body form:1.1), (psychedelic spectrum butterflies spiraling through recursive depth:1.2), kaleidoscopic symmetry of body as flight against neon void, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (silhouette:1.2), (butterfly:1.2), swarm, neon, fractal, abstract, surreal, psychedelic, colorful, bioluminescent, glowing, iridescent, feminine, (constellation:1.1), neon colors, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal butterfly, moth, dragonfly, plain shadow, dark blob, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a standing silhouette filled entirely with a dense swarm of luminous butterflies, each wing a different neon hue",
+        "a figure dissolving at the edges into a burst of fractal butterflies escaping the body's outline into the dark",
+        "a human shape defined only by the flight paths of a thousand bioluminescent butterflies circling within its boundary",
+        "a silhouette mid-transformation, the upper body already a cloud of prismatic butterflies while the legs remain solid shadow"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "243_wonka_eclipse": {
+      "name": "Wonka Eclipse",
+      "modifiers": "(Willy Wonka eclipse with Oompa Loompa sun halo in fuchsia shockwaves of fractal geometry:1.3), (candy cosmos rendered in crystalline sugar structures refracting prismatic light:1.2), (bioluminescent chocolate factory space with iridescent candy orbits:1.1), (sweet astronomical event pulsating with psychedelic spectrum:1.2), kaleidoscopic symmetry in confection against neon void, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (eclipse:1.2), (candy:1.2), chocolate, cosmic, fractal, abstract, surreal, psychedelic, colorful, fuchsia, glowing, iridescent, neon colors, (sweet:1.1), whimsical, sun, halo, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal eclipse, simple shadow, dark circle, plain sky, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a solar eclipse where the corona is a ring of candy-colored shockwaves radiating in fractal fuchsia and gold patterns",
+        "a chocolate moon passing before a caramel sun, the resulting corona a halo of crystallized sugar refracting prismatic light",
+        "a candy cosmos eclipse viewed through a kaleidoscope, concentric rings of confectionery geometry pulsing outward in sweet shockwaves",
+        "a total eclipse revealing a hidden chocolate factory in the corona, gears and pipes made of luminous candy turning in the halo light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "244_surreal_sushi": {
+      "name": "Surreal Sushi Sea",
+      "modifiers": "(surreal sushi feast underwater with bioluminescent fisheye sharks circling in fractal geometry formations:1.3), (Japanese ocean dreamscape with iridescent nigiri reefs:1.2), prismatic refraction through crystalline wasabi mountains, (raw fish rendered in psychedelic spectrum:1.2), liquid mercury soy sauce rivers flowing into recursive depth, (kaleidoscopic symmetry in marine cuisine against neon void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (sushi:1.2), (underwater:1.2), surreal, ocean, sharks, fractal, abstract, psychedelic, colorful, japanese, bioluminescent, glowing, iridescent, (neon colors:1.1), food, fish, sea, whimsical, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal sushi, restaurant plate, grocery packaging, plain rice, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an underwater landscape where coral reefs are towering nigiri formations and schools of luminous fish swim between sashimi monoliths",
+        "a giant maki roll cross-section revealing a fractal interior of nested sushi layers, each ring a different glowing sea organism",
+        "a wasabi mountain rising from a mercury-dark soy sauce ocean, bioluminescent sharks circling its peak in geometric formations",
+        "a sushi conveyor belt spiraling through an abyssal trench, each plate carrying a miniature surreal ocean ecosystem"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "245_fractal_library": {
+      "name": "Fractal Bird Library",
+      "modifiers": "(cosmic library where books transform into fractal birds whispering crystalline geometries:1.3), (literary flight with bioluminescent pages spreading into prismatic refraction wings:1.2), iridescent knowledge migration spiraling through recursive depth, (mathematical wings pulsating with psychedelic spectrum:1.2), kaleidoscopic symmetry in infinite shelving against neon void, (liquid mercury ink trails:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (library:1.2), (birds:1.2), books, fractal, cosmic, abstract, surreal, psychedelic, colorful, bioluminescent, glowing, iridescent, neon colors, flying, (wings:1.1), knowledge, infinite, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal library, bookstore, empty shelf, plain room, office, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "infinite library shelves receding into Borgesian depth, books lifting off and transforming mid-flight into fractal-winged birds of light",
+        "a single open book whose pages are spreading into luminous wings, the text rearranging into feather-patterns of sacred geometry",
+        "a flock of book-birds spiraling upward through a cylindrical library tower, their page-wings trailing ink that writes new stories in the air",
+        "a reading alcove where every book on the shelf is mid-metamorphosis, spines cracking open to release prismatic bird-shaped knowledge"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "246_emotion_marketplace": {
+      "name": "Emotion Marketplace",
+      "modifiers": "(alien marketplace trading emotions as glowing synesthetic orbs of prismatic refraction:1.3), (feeling commerce with bioluminescent mood spheres in fractal geometry display cases:1.2), iridescent sentiment exchange pulsating with psychedelic spectrum, (crystalline stalls of recursive depth:1.2), kaleidoscopic symmetry in psychic economy, (liquid mercury emotion transfers against neon alien void:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (marketplace:1.2), alien, (emotions:1.2), orbs, glowing, fractal, abstract, surreal, psychedelic, colorful, bioluminescent, iridescent, (neon colors:1.1), synesthesia, cosmic, spheres, commerce, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal market, grocery store, shopping mall, empty street, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an alien bazaar stall displaying emotion-orbs in graduated intensity, from pale serenity spheres to blazing rage-red suns",
+        "a transaction in progress: a luminous joy-orb being exchanged for three smaller melancholy spheres across a crystalline counter",
+        "shelves of synesthetic emotion bottles, each one glowing with a feeling visible as swirling color and emitting a faint harmonic tone",
+        "an emotion apothecary where fractal display cases hold rare sentiments like nostalgia, awe, and deja vu as iridescent specimens"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "247_vein_rollercoaster": {
+      "name": "Vein Rollercoaster",
+      "modifiers": "(psychedelic rollercoaster veins pulsing through screaming color void in fractal geometry loops:1.3), (circulatory thrill ride with bioluminescent blood cells racing along prismatic refraction tracks:1.2), (iridescent anatomical amusement spiraling through recursive depth:1.1), (crystalline arteries pulsating with psychedelic spectrum:1.2), kaleidoscopic symmetry in body-as-park against neon void, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (rollercoaster:1.2), (veins:1.2), anatomical, fractal, abstract, surreal, psychedelic, colorful, bioluminescent, glowing, iridescent, (neon colors:1.1), blood, circulatory, ride, cosmic, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal theme park, flat ride, gentle swing, merry-go-round, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a rollercoaster track made of pulsing red arteries looping through a cavernous void, glowing blood cells racing along the rails",
+        "an anatomical amusement park viewed from above, its rides formed from branching vein-networks and capillary spirals",
+        "a single blood cell riding the crest of a massive arterial loop-de-loop, the track walls transparent and throbbing with rhythm",
+        "a fractal circulatory coaster where each loop reveals a smaller identical coaster inside, passengers diminishing into recursive depth"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "248_amoeba_city": {
+      "name": "Amoeba City",
+      "modifiers": "(giant amoeba engulfing city turning buildings into cellular mandalas of fractal geometry:1.3), (microbe metropolis with bioluminescent organelle architecture:1.2), single-cell urbanism refracting prismatic light through crystalline pseudopods, (iridescent biological consumption spiraling through recursive depth:1.2), psychedelic spectrum cytoplasm pulsating against neon void, (kaleidoscopic symmetry in organelle skyline:1.1), ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (amoeba:1.2), (city:1.2), microscopic, cellular, fractal, abstract, surreal, psychedelic, colorful, bioluminescent, glowing, iridescent, (neon colors:1.1), organic, mandala, engulfing, cosmic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal city, clean buildings, geometric blocks, sharp edges, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a translucent amoeba the size of a city block engulfing skyscrapers, the buildings dissolving into mandala patterns within its cytoplasm",
+        "an aerial view of a metropolis being absorbed by a giant single-celled organism, organelle-buildings glowing inside its membrane",
+        "a pseudopod reaching around a tower, the building already half-dissolved into bioluminescent cellular architecture within the amoeba",
+        "a cross-section of an amoeba-city showing former buildings transformed into organelles: mitochondria power stations, Golgi apartment complexes"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "249_victorian_orbit": {
+      "name": "Victorian Sun Orbit",
+      "modifiers": "(floating Victorian furniture orbiting a screaming neon sun in fractal geometry trajectories:1.3), (antique astronomy rendered in bioluminescent mahogany and crystalline velvet:1.2), (iridescent decorative gravity pulling prismatic refraction through recursive orbital depth:1.1), (parlor planets pulsating with psychedelic spectrum:1.2), kaleidoscopic symmetry in liquid mercury orbits against infinite neon void, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (victorian:1.2), (furniture:1.2), orbiting, sun, neon, fractal, abstract, surreal, psychedelic, colorful, antique, glowing, iridescent, (neon colors:1.1), cosmic, floating, orbit, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern furniture, contemporary design, futuristic, minimalist, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a chesterfield sofa and grandfather clock orbiting a screaming neon sun, their mahogany surfaces glowing with reflected solar fire",
+        "a Victorian parlor exploded into orbit, each piece of furniture following its own elliptical path around a prismatic star",
+        "a writing desk floating in space with its drawers open, quills and letters drifting in zero gravity around a pulsating cosmic sun",
+        "a velvet armchair trailing a luminous orbit-ring as it circles a sun, its upholstery patterns shifting in fractal response to the light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    },
+    "250_ultimate_breakthrough": {
+      "name": "Ultimate Breakthrough",
+      "modifiers": "(ultimate breakthrough where everything dissolves into infinite white singularity then erupts back in hyper-vivid fractal geometry overload:1.3), (total dissolution through recursive depth into prismatic refraction rebirth:1.2), (bioluminescent existence particles reforming in crystalline kaleidoscopic symmetry:1.1), (consciousness reset pulsating with psychedelic spectrum:1.2), iridescent reality restart cascading from liquid mercury void into neon infinity, ultra-detailed digital art",
+      "modifiers_animagine": "no humans, (breakthrough:1.2), (singularity:1.2), explosion, rebirth, fractal, abstract, surreal, psychedelic, colorful, light, cosmic, dissolution, glowing, iridescent, (neon colors:1.1), intense, energy, infinite, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "static scene, calm landscape, enclosed space, plain wall, blurry, realistic face, photograph, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a figure at the threshold of total dissolution, half their body already white singularity while the other half erupts in hyper-vivid fractal rebirth",
+        "the moment between annihilation and creation, a symmetrical explosion-implosion frozen at its balance point of infinite potential",
+        "a consciousness shattering through a membrane of white light, emerging on the other side as a kaleidoscopic shower of reformed reality-particles",
+        "a before-and-after split scene: absolute void on one side, hyper-saturated fractal existence overload on the other, connected by a blinding seam of pure breakthrough energy"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 0
+      }
+    }
+  }
+}

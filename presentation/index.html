@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HSR - Presentation Notes</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #0a0a0f;
+    color: #e0e0e0;
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    left: 0; top: 0; bottom: 0;
+    width: 240px;
+    background: #111118;
+    border-right: 1px solid #1e1e2e;
+    padding: 20px 0;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  .sidebar h2 {
+    color: #7c3aed;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 20px 15px;
+    border-bottom: 1px solid #1e1e2e;
+    margin-bottom: 10px;
+  }
+  .sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: #888;
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.2s;
+    border-left: 3px solid transparent;
+  }
+  .sidebar a:hover, .sidebar a.active {
+    color: #fff;
+    background: #1a1a2e;
+    border-left-color: #7c3aed;
+  }
+  .sidebar .section-label {
+    color: #555;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 15px 20px 5px;
+  }
+
+  /* Main content */
+  .main {
+    margin-left: 240px;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  .slide {
+    min-height: 100vh;
+    padding: 60px 80px;
+    border-bottom: 1px solid #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slide h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  .slide h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 60px; height: 3px;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    border-radius: 2px;
+  }
+  .slide h2 {
+    font-size: 22px;
+    color: #a855f7;
+    margin: 25px 0 12px;
+  }
+  .slide p, .slide li {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #bbb;
+  }
+  .slide ul { list-style: none; padding: 0; }
+  .slide li {
+    padding: 6px 0 6px 24px;
+    position: relative;
+  }
+  .slide li::before {
+    content: '\25B8';
+    position: absolute;
+    left: 4px;
+    color: #7c3aed;
+  }
+
+  /* Cards */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .card {
+    background: #13131f;
+    border: 1px solid #1e1e2e;
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 0.3s;
+  }
+  .card:hover { border-color: #7c3aed; }
+  .card h3 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .card p {
+    font-size: 13px !important;
+    color: #888 !important;
+    line-height: 1.5 !important;
+  }
+  .card .tag {
+    display: inline-block;
+    background: #7c3aed22;
+    color: #a855f7;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  /* Architecture diagram */
+  .arch-flow {
+    background: #0d0d15;
+    border: 1px solid #1e1e2e;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px 0;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #7c3aed;
+    white-space: pre;
+    overflow-x: auto;
+  }
+  .arch-flow .comment { color: #555; }
+  .arch-flow .highlight { color: #22d3ee; }
+  .arch-flow .action { color: #f59e0b; }
+  .arch-flow .success { color: #22c55e; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+  }
+  th {
+    text-align: left;
+    padding: 10px 15px;
+    background: #13131f;
+    color: #a855f7;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #7c3aed33;
+  }
+  td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #1a1a2e;
+    font-size: 14px;
+    color: #bbb;
+  }
+  tr:hover td { background: #13131f; }
+
+  /* Q&A */
+  .qa {
+    background: #13131f;
+    border-left: 3px solid #7c3aed;
+    border-radius: 0 8px 8px 0;
+    padding: 18px 24px;
+    margin: 12px 0;
+  }
+  .qa .q {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .qa .a {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Stats row */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 25px 0;
+  }
+  .stat {
+    text-align: center;
+    padding: 24px;
+    background: #13131f;
+    border: 1px solid #1e1e2e;
+    border-radius: 12px;
+  }
+  .stat .number {
+    font-size: 36px;
+    font-weight: 700;
+    color: #7c3aed;
+    display: block;
+  }
+  .stat .label {
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+  }
+
+  /* Code blocks */
+  .cmd {
+    background: #0d0d15;
+    border: 1px solid #1e1e2e;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: #22c55e;
+    margin: 10px 0;
+    position: relative;
+  }
+  .cmd .prompt { color: #555; }
+  .cmd .flag { color: #f59e0b; }
+
+  /* Comparison */
+  .vs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .vs-box {
+    padding: 24px;
+    border-radius: 12px;
+  }
+  .vs-box.old {
+    background: #1a0a0a;
+    border: 1px solid #3b1111;
+  }
+  .vs-box.new {
+    background: #0a1a0d;
+    border: 1px solid #113b15;
+  }
+  .vs-box h3 { margin-bottom: 12px; }
+  .vs-box.old h3 { color: #ef4444; }
+  .vs-box.new h3 { color: #22c55e; }
+
+  /* Copy hint */
+  .cmd { cursor: pointer; transition: border-color 0.2s; }
+  .cmd:hover { border-color: #7c3aed; }
+  .cmd:active { background: #111118; }
+  .cmd.copied { border-color: #22c55e !important; }
+  .cmd.copied .copy-hint { color: #22c55e !important; }
+  .copy-hint {
+    position: absolute;
+    top: 8px; right: 12px;
+    font-size: 10px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    pointer-events: none;
+  }
+
+  /* Keyboard hint */
+  .key-hint {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #111118;
+    border: 1px solid #1e1e2e;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 11px;
+    color: #555;
+    z-index: 100;
+  }
+  kbd {
+    background: #1e1e2e;
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 1px 6px;
+    font-size: 11px;
+    color: #888;
+  }
+
+  /* Title slide special */
+  .title-slide {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-slide h1 {
+    font-size: 56px;
+    background: linear-gradient(135deg, #7c3aed, #a855f7, #22d3ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+  }
+  .title-slide h1::after { display: none; }
+  .title-slide .subtitle {
+    font-size: 20px;
+    color: #666;
+    font-weight: 300;
+  }
+  .title-slide .tagline {
+    font-size: 16px;
+    color: #888;
+    margin-top: 40px;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>HSR Deck</h2>
+  <div class="section-label">Overview</div>
+  <a href="#title" class="active">Title</a>
+  <a href="#problem">The Problem</a>
+  <a href="#solution">The Solution</a>
+  <a href="#architecture">Architecture</a>
+  <div class="section-label">Technical</div>
+  <a href="#stack">Tech Stack</a>
+  <a href="#contracts">Smart Contracts</a>
+  <a href="#dns">DNS Pipeline</a>
+  <a href="#ai">AI Generation</a>
+  <a href="#infra">Infrastructure</a>
+  <div class="section-label">Business</div>
+  <a href="#pricing">Pricing</a>
+  <a href="#numbers">By The Numbers</a>
+  <a href="#comparison">vs ENS / Unstoppable</a>
+  <div class="section-label">Roadmap</div>
+  <a href="#future">Future Updates</a>
+  <div class="section-label">Demo</div>
+  <a href="#demo">Demo Flow</a>
+  <a href="#commands">Live Commands</a>
+  <a href="#qa">Q&A Prep</a>
+</div>
+
+<div class="main" id="main">
+
+  <!-- TITLE -->
+  <div class="slide title-slide" id="title">
+    <h1>Halcyon Subdomain Registry</h1>
+    <div class="subtitle">NFT-Powered Decentralized Domain System</div>
+    <div style="margin-top: 30px; display: flex; align-items: center; justify-content: center; gap: 20px;">
+      <span style="font-size: 13px; color: #555; letter-spacing: 1px; text-transform: uppercase;">Powered by</span>
+      <div style="display: flex; align-items: center; gap: 8px; padding: 6px 14px; border: 1px solid #2a2a3e; border-radius: 8px; background: rgba(230,32,88,0.05);">
+        <img src="flare-logo.png" alt="Flare" style="height: 24px; width: 24px; border-radius: 50%;">
+        <span style="font-size: 15px; font-weight: 600; color: #E62058;">Flare</span>
+      </div>
+      <span style="font-size: 16px; color: #333;">+</span>
+      <div style="display: flex; align-items: center; gap: 8px; padding: 6px 14px; border: 1px solid #2a2a3e; border-radius: 8px; background: rgba(255,255,255,0.03);">
+        <img src="hns-logo.svg" alt="Handshake" style="height: 22px;">
+      </div>
+    </div>
+    <div style="margin-top: 14px; font-size: 11px; color: #444; letter-spacing: 0.5px;">Independent community project &mdash; not affiliated with or endorsed by Flare Networks or Handshake</div>
+    <div class="tagline">"Own your corner of the decentralized web"</div>
+  </div>
+
+  <!-- THE PROBLEM -->
+  <div class="slide" id="problem">
+    <h1>The Problem</h1>
+    <div class="vs-grid">
+      <div class="vs-box old">
+        <h3>Traditional Domains (ICANN)</h3>
+        <ul>
+          <li>You rent, you never own</li>
+          <li>Can be seized by governments or registrars</li>
+          <li>Censorship at the root level</li>
+          <li>Yearly fees to middlemen (GoDaddy, Namecheap)</li>
+          <li>WHOIS exposes your personal info</li>
+          <li>No programmability or composability</li>
+        </ul>
+      </div>
+      <div class="vs-box new">
+        <h3>HSR Domains (Handshake + Flare)</h3>
+        <ul>
+          <li>You OWN the DNS record on-chain</li>
+          <li>Nobody can seize or censor it</li>
+          <li>Decentralized root zone (Handshake)</li>
+          <li>One-time purchase, low renewal</li>
+          <li>Pseudonymous wallet-based ownership</li>
+          <li>NFT = tradeable, programmable asset</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE SOLUTION -->
+  <div class="slide" id="solution">
+    <h1>The Solution</h1>
+    <p style="font-size: 20px; color: #ccc; margin-bottom: 30px;">
+      HSR bridges <strong style="color:#7c3aed">Flare Network</strong> (smart contracts & payments) with
+      <strong style="color:#22d3ee">Handshake</strong> (decentralized DNS) to create NFT-backed domains
+      that resolve on the real internet.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Buy a Subdomain</h3>
+        <p>User purchases <code>john.cryptofans</code> via Flare smart contract. Payment held in escrow.</p>
+        <span class="tag">Flare Network</span>
+      </div>
+      <div class="card">
+        <h3>AI Art Generated</h3>
+        <p>Unique NFT artwork created by 8-GPU cluster running SDXL Playground &amp; Animagine. 411 themes, 60 styles.</p>
+        <span class="tag">ComfyUI + CUDA</span>
+      </div>
+      <div class="card">
+        <h3>DNS Auto-Configured</h3>
+        <p>Oracle detects purchase event, registers NS + GLUE records on Handshake blockchain automatically.</p>
+        <span class="tag">Handshake + PowerDNS</span>
+      </div>
+      <div class="card">
+        <h3>NFT Minted</h3>
+        <p>ERC-721 NFT minted with AI artwork. Tradeable on marketplace with 2.5% royalties (ERC-2981).</p>
+        <span class="tag">ERC-721 + IPFS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARCHITECTURE -->
+  <div class="slide" id="architecture">
+    <h1>Architecture</h1>
+    <div class="arch-flow"><span class="highlight">User</span> buys "john.cryptofans" on Flare
+     <span class="comment">|</span>
+     <span class="comment">v</span>
+<span class="action">[Flare Smart Contracts]</span>
+     SubdomainNFT (ERC-721) locks payment in escrow
+     PriceOracle pulls FLR/USD from Flare FTSO
+     <span class="comment">|</span>
+     <span class="comment">v</span>
+<span class="action">[Contract Listener]</span> <span class="comment">-- watches blockchain events in real-time</span>
+     <span class="comment">|</span>
+     <span class="comment">v</span>
+<span class="action">[DNS Oracle]</span> <span class="comment">-- registers records on Handshake via local full node</span>
+     NS record: ns1.cryptofans -> 174.163.11.200
+     GLUE record: subdomain -> nameserver IP
+     <span class="comment">|</span>
+     <span class="comment">v</span>
+<span class="action">[PowerDNS]</span> <span class="comment">-- serves authoritative DNS (A, CNAME, TXT, MX)</span>
+     <span class="comment">|</span>
+     <span class="comment">v</span>
+<span class="success">[Watcher]</span> <span class="comment">-- monitors propagation across HNS resolvers</span>
+     Adaptive: 15min -> 10min -> 5min until propagated
+
+<span class="success">Result:</span> john.cryptofans resolves to a real IP on the internet</div>
+  </div>
+
+  <!-- TECH STACK -->
+  <div class="slide" id="stack">
+    <h1>Tech Stack</h1>
+    <table>
+      <tr><th>Layer</th><th>Technology</th><th>Why</th></tr>
+      <tr><td>Frontend</td><td>Next.js 16 + React 19 + Tailwind</td><td>App Router, SSR, modern DX</td></tr>
+      <tr><td>Auth</td><td>EIP-191 Wallet Signatures</td><td>No passwords, 4hr sessions</td></tr>
+      <tr><td>Backend</td><td>Express + PostgreSQL (raw SQL)</td><td>120+ endpoints, full control</td></tr>
+      <tr><td>Contracts</td><td>Solidity 0.8.20 + Hardhat</td><td>OpenZeppelin, ERC-721/2981</td></tr>
+      <tr><td>DNS</td><td>HNS Full Node + PowerDNS</td><td>Decentralized root, authoritative</td></tr>
+      <tr><td>AI Art</td><td>ComfyUI + SDXL / Animagine</td><td>8 GPUs, distributed generation</td></tr>
+      <tr><td>Storage</td><td>Pinata + NFT.storage (IPFS)</td><td>Redundant pinning</td></tr>
+      <tr><td>Blockchain</td><td>Flare Coston2 Testnet</td><td>FTSO oracle, cheap gas</td></tr>
+      <tr><td>Process Mgmt</td><td>PM2 (8 services)</td><td>Auto-restart, clustering</td></tr>
+    </table>
+  </div>
+
+  <!-- SMART CONTRACTS -->
+  <div class="slide" id="contracts">
+    <h1>Smart Contracts</h1>
+    <p style="margin-bottom: 20px;">6 contracts deployed and verified on Flare Coston2 (Chain ID: 114)</p>
+    <div class="card-grid">
+      <div class="card">
+        <h3>SubdomainNFT</h3>
+        <p>ERC-721 with ERC-2981 royalties, renewal system, metadata freeze. 365-day registration + 60-day grace.</p>
+        <span class="tag">ERC-721</span>
+      </div>
+      <div class="card">
+        <h3>SubdomainEscrow</h3>
+        <p>Holds FLR payment until DNS Oracle verifies records on Handshake. 24hr timeout for recovery.</p>
+        <span class="tag">Payment Safety</span>
+      </div>
+      <div class="card">
+        <h3>SubdomainMarketplace</h3>
+        <p>Fixed-price + auction listings. Automatic ERC-2981 royalty enforcement. 2.5% platform fee.</p>
+        <span class="tag">Trading</span>
+      </div>
+      <div class="card">
+        <h3>HSRResolver</h3>
+        <p>ENS-compatible address resolution. Multi-chain support via EIP-2304. Maps namehash to wallet.</p>
+        <span class="tag">EIP-2304</span>
+      </div>
+      <div class="card">
+        <h3>PriceOracle</h3>
+        <p>Flare FTSO price feed integration. FLR/USD conversion synced every 5 minutes (1% threshold).</p>
+        <span class="tag">FTSO</span>
+      </div>
+      <div class="card">
+        <h3>DNSOracle</h3>
+        <p>Off-chain oracle watching Flare events. Verifies DNS records on Handshake, then mints the NFT.</p>
+        <span class="tag">Oracle Pattern</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- DNS PIPELINE -->
+  <div class="slide" id="dns">
+    <h1>DNS Pipeline</h1>
+    <h2>How a domain actually resolves</h2>
+    <div class="card-grid" style="grid-template-columns: 1fr;">
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px; align-items: start;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">1</span>
+        <div>
+          <h3>HNS Full Node (port 12037)</h3>
+          <p>Synced to Handshake mainnet (~315k blocks). Stores TLD ownership records. We own the TLDs outright (cryptofans, aiworktools, cryptodnd, etc.)</p>
+        </div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px; align-items: start;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">2</span>
+        <div>
+          <h3>NS Records on Handshake</h3>
+          <p>TLD NS records point to our nameserver IP (174.163.11.200). This is written directly to the HNS blockchain via UPDATE transactions.</p>
+        </div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px; align-items: start;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">3</span>
+        <div>
+          <h3>PowerDNS (port 53 + API 8081)</h3>
+          <p>Serves authoritative DNS for each subdomain. Supports A, AAAA, CNAME, TXT, MX records. Auto-creates zones per TLD.</p>
+        </div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px; align-items: start;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">4</span>
+        <div>
+          <h3>Resolution</h3>
+          <p>HNS-aware resolvers (Unbound on .67, HDNS.io, NextDNS) query our PowerDNS. Regular DNS needs an HNS bridge. The domain resolves to real IPs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI GENERATION -->
+  <div class="slide" id="ai">
+    <h1>AI Image Generation</h1>
+    <div class="card-grid">
+      <div class="card">
+        <h3>GPU Cluster</h3>
+        <p>8 GPUs across 4 machines. Mix of RTX 3060 (12GB) and RTX 3080 (10GB). Distributed queue with automatic load balancing.</p>
+        <span class="tag">Multi-GPU</span>
+      </div>
+      <div class="card">
+        <h3>Models</h3>
+        <p>SDXL Playground for general styles (~15-20s). Animagine for anime/character art (~25-40s). ComfyUI workflow engine.</p>
+        <span class="tag">SDXL + Animagine</span>
+      </div>
+      <div class="card">
+        <h3>Variety</h3>
+        <p>411 AI themes across 8 categories. 60 art styles across 6 categories. Every domain gets unique artwork.</p>
+        <span class="tag">411 x 60</span>
+      </div>
+      <div class="card">
+        <h3>Pipeline</h3>
+        <p>Generate -> Watermark (matrix hacker style) -> Cache locally -> Pin to IPFS (Pinata + NFT.storage) -> Attach to NFT metadata.</p>
+        <span class="tag">IPFS Pinned</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFRASTRUCTURE -->
+  <div class="slide" id="infra">
+    <h1>Infrastructure</h1>
+    <h2>Running from home</h2>
+    <table>
+      <tr><th>Machine</th><th>IP</th><th>GPU</th><th>Role</th></tr>
+      <tr><td><strong>localai (main)</strong></td><td>10.0.0.39</td><td>3x RTX 3060</td><td>Everything: Backend, Frontend, DB, HNS Node, PowerDNS, ComfyUI</td></tr>
+      <tr><td>mosana1</td><td>10.0.0.67</td><td>RTX 3080</td><td>Render station, Unbound DNS resolver</td></tr>
+      <tr><td>render1x3080</td><td>10.0.0.220</td><td>RTX 3080</td><td>Render station</td></tr>
+      <tr><td>nosana4</td><td>10.0.0.249</td><td>RTX 3060</td><td>Render station</td></tr>
+      <tr><td>m3060</td><td>10.0.0.97</td><td>RTX 3060</td><td>Render station</td></tr>
+    </table>
+    <h2 style="margin-top:30px">Services (PM2 managed)</h2>
+    <table>
+      <tr><th>Service</th><th>Port</th><th>Description</th></tr>
+      <tr><td>halcyon-backend</td><td>8000</td><td>Express API (120+ endpoints)</td></tr>
+      <tr><td>halcyon-frontend</td><td>3000</td><td>Next.js 16 App Router</td></tr>
+      <tr><td>halcyon-hsd</td><td>12037/12039</td><td>Handshake full node + wallet</td></tr>
+      <tr><td>PowerDNS</td><td>53 / 8081</td><td>Authoritative DNS + API</td></tr>
+      <tr><td>ComfyUI x3</td><td>8188-8190</td><td>GPU instances (CUDA 0,1,2)</td></tr>
+      <tr><td>halcyon-redirect</td><td>8080</td><td>URL redirect server</td></tr>
+      <tr><td>PostgreSQL</td><td>5432</td><td>Primary database</td></tr>
+    </table>
+  </div>
+
+  <!-- PRICING -->
+  <div class="slide" id="pricing">
+    <h1>Pricing Model</h1>
+    <table>
+      <tr><th>Tier</th><th>Characters</th><th>Price (USD)</th><th>Annual Renewal</th></tr>
+      <tr><td style="color:#f59e0b">Ultra Premium</td><td>1 character</td><td>$500</td><td>$100</td></tr>
+      <tr><td style="color:#a855f7">Premium</td><td>2 characters</td><td>$200</td><td>$50</td></tr>
+      <tr><td style="color:#22d3ee">Standard Plus</td><td>3 characters</td><td>$50</td><td>$10</td></tr>
+      <tr><td style="color:#22c55e">Standard</td><td>4+ characters</td><td>$10</td><td>$2</td></tr>
+    </table>
+    <h2 style="margin-top:30px">Payment Flow</h2>
+    <ul>
+      <li>Paid in FLR (native Flare token) - dynamic USD conversion via FTSO oracle</li>
+      <li>Escrow holds funds until DNS is verified on Handshake</li>
+      <li>24hr timeout for recovery if verification fails</li>
+      <li>Credit system: 5 preview credits per $25 FLR purchase</li>
+    </ul>
+  </div>
+
+  <!-- NUMBERS -->
+  <div class="slide" id="numbers">
+    <h1>By The Numbers</h1>
+    <div class="stats-row">
+      <div class="stat"><span class="number">120+</span><span class="label">API Endpoints</span></div>
+      <div class="stat"><span class="number">13</span><span class="label">Solidity Contracts</span></div>
+      <div class="stat"><span class="number">411</span><span class="label">AI Themes</span></div>
+      <div class="stat"><span class="number">8</span><span class="label">GPUs</span></div>
+    </div>
+    <div class="stats-row">
+      <div class="stat"><span class="number">7</span><span class="label">Active TLDs</span></div>
+      <div class="stat"><span class="number">60</span><span class="label">Art Styles</span></div>
+      <div class="stat"><span class="number">5-15s</span><span class="label">Registration Time</span></div>
+      <div class="stat"><span class="number">&lt;200ms</span><span class="label">API Response</span></div>
+    </div>
+    <div class="stats-row">
+      <div class="stat"><span class="number">45+</span><span class="label">React Components</span></div>
+      <div class="stat"><span class="number">16</span><span class="label">Backend Services</span></div>
+      <div class="stat"><span class="number">18+</span><span class="label">Frontend Routes</span></div>
+      <div class="stat"><span class="number">100%</span><span class="label">Test Success Rate</span></div>
+    </div>
+  </div>
+
+  <!-- COMPARISON -->
+  <div class="slide" id="comparison">
+    <h1>vs ENS / Unstoppable Domains</h1>
+    <table>
+      <tr><th>Feature</th><th>ENS (.eth)</th><th>Unstoppable</th><th style="color:#7c3aed">HSR</th></tr>
+      <tr><td>Real DNS Resolution</td><td style="color:#ef4444">No (wallet only)</td><td style="color:#f59e0b">Partial (browser ext)</td><td style="color:#22c55e">Yes (Handshake root)</td></tr>
+      <tr><td>Own the TLD</td><td style="color:#ef4444">No (.eth is shared)</td><td style="color:#ef4444">No (centralized)</td><td style="color:#22c55e">Yes (we own each TLD)</td></tr>
+      <tr><td>AI-Generated Art</td><td style="color:#ef4444">No</td><td style="color:#ef4444">No</td><td style="color:#22c55e">Yes (8-GPU cluster)</td></tr>
+      <tr><td>Gas Costs</td><td style="color:#ef4444">$5-50+ (Ethereum)</td><td style="color:#22c55e">One-time (Polygon)</td><td style="color:#22c55e">~$0.003 (Flare)</td></tr>
+      <tr><td>Marketplace</td><td style="color:#22c55e">OpenSea</td><td style="color:#22c55e">Built-in</td><td style="color:#22c55e">Built-in + auctions</td></tr>
+      <tr><td>Censorship Resistant</td><td style="color:#22c55e">Yes</td><td style="color:#f59e0b">Debatable</td><td style="color:#22c55e">Yes (decentralized root)</td></tr>
+      <tr><td>DNS Records (A/MX/TXT)</td><td style="color:#f59e0b">Limited</td><td style="color:#f59e0b">Limited</td><td style="color:#22c55e">Full (PowerDNS)</td></tr>
+      <tr><td>Price Oracle</td><td style="color:#22c55e">Chainlink</td><td style="color:#555">N/A</td><td style="color:#22c55e">Flare FTSO (native)</td></tr>
+    </table>
+  </div>
+
+  <!-- FUTURE UPDATES -->
+  <div class="slide" id="future">
+    <h1>Future Updates</h1>
+
+    <div class="card-grid">
+      <div class="card" style="border-left: 3px solid #a855f7;">
+        <h3>TLD Staking</h3>
+        <p>Stake Handshake TLDs on Flare Network via FDC Web2Json attestation. TLD owners earn 95% of subdomain registration fees. New Foundry contract suite with configurable per-TLD pricing, premium names, reserved names, and multi-year discounts.</p>
+        <span class="tag">Flare Data Connector</span>
+      </div>
+      <div class="card" style="border-left: 3px solid #22d3ee;">
+        <h3>FK33 FPGA Accelerator</h3>
+        <p>SQRL FK33 (Xilinx VU33P) with 8GB HBM2 for hardware-accelerated Stable Diffusion inference. 32x16 systolic array, W4A8 quantization, 460GB/s HBM bandwidth. Lower power, higher throughput alongside existing GPU cluster.</p>
+        <span class="tag">FPGA + HBM2</span>
+      </div>
+      <div class="card" style="border-left: 3px solid #22c55e;">
+        <h3>ENS-Compatible Resolver</h3>
+        <p>DefaultResolver with multi-chain address support (FLR, ETH, BTC), text records, contenthash, DNS records, and reverse resolution. Follows EIP-137 and EIP-2304 standards.</p>
+        <span class="tag">EIP-137 / EIP-2304</span>
+      </div>
+      <div class="card" style="border-left: 3px solid #f59e0b;">
+        <h3>TLD Owner Portal</h3>
+        <p>Self-service portal for TLD owners: custom pricing tiers, reserved/premium word lists, branding, open/closed registration controls, and a revenue dashboard with payout history.</p>
+        <span class="tag">Self-Service</span>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px;">Additional Planned Features</h2>
+    <table>
+      <tr><th>Feature</th><th>Description</th><th>Status</th></tr>
+      <tr><td>Video Generation</td><td>Animated NFT content via Wan2.1 / SVD through ComfyUI</td><td style="color:#f59e0b;">Planned</td></tr>
+      <tr><td>GIF &amp; Audio Generation</td><td>Animated GIFs and AI audio clips for multimedia NFTs</td><td style="color:#f59e0b;">Planned</td></tr>
+      <tr><td>Email Forwarding (MX)</td><td>MX record management for custom email routing on subdomains</td><td style="color:#f59e0b;">Planned</td></tr>
+      <tr><td>Referral Program</td><td>Referral links with commission tracking and automated FLR payouts</td><td style="color:#f59e0b;">Planned</td></tr>
+      <tr><td>Badge System</td><td>On-chain achievement badges: Early Adopter, Collector, Trader, Whale</td><td style="color:#f59e0b;">Planned</td></tr>
+      <tr><td>Webhook API</td><td>Developer-facing webhooks for domain, marketplace, and auction events</td><td style="color:#f59e0b;">Planned</td></tr>
+      <tr><td>Email Notifications</td><td>Transactional emails for registration, auction alerts, renewal reminders</td><td style="color:#f59e0b;">Planned</td></tr>
+      <tr><td>Mainnet Deployment</td><td>Full smart contract deployment from Coston2 testnet to Flare mainnet</td><td style="color:#f59e0b;">Planned</td></tr>
+    </table>
+  </div>
+
+  <!-- DEMO FLOW -->
+  <div class="slide" id="demo">
+    <h1>Demo Flow</h1>
+    <div class="card-grid" style="grid-template-columns: 1fr;">
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">1</span>
+        <div><h3>Landing Page</h3><p>Show TLD catalog, pricing tiers, the overall product</p></div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">2</span>
+        <div><h3>Search & Availability</h3><p>Type a subdomain name, show real-time availability check against the registry</p></div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">3</span>
+        <div><h3>Registration Flow</h3><p>Connect wallet -> pick theme & art style -> generate AI preview -> purchase</p></div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">4</span>
+        <div><h3>Dashboard</h3><p>Show owned domains, DNS record management, renewal status</p></div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">5</span>
+        <div><h3>Admin Panel</h3><p>GPU health monitoring, analytics charts, service controls, audit log</p></div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">6</span>
+        <div><h3>Live DNS Proof</h3><p>Run <code>dig</code> in terminal to prove the domain actually resolves (see Commands tab)</p></div>
+      </div>
+      <div class="card" style="display:grid; grid-template-columns: 40px 1fr; gap: 15px;">
+        <span style="color:#7c3aed; font-size:24px; font-weight:bold;">7</span>
+        <div><h3>Block Explorer</h3><p>Show the NFT on Flare Coston2 explorer — real on-chain asset</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIVE COMMANDS -->
+  <div class="slide" id="commands">
+    <h1>Live Commands</h1>
+    <p style="margin-bottom: 20px; color: #888;">
+      Open a terminal on this machine: <strong style="color:#22c55e;">Ctrl+Alt+T</strong> or right-click desktop > "Open Terminal"
+      <br>Click any command below to copy it to clipboard, then paste into terminal with <strong style="color:#22c55e;">Ctrl+Shift+V</strong>
+    </p>
+
+    <h2>Prove DNS Resolution <span style="font-size:12px; color:#666; font-weight:normal;">(the mic drop moment)</span></h2>
+    <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
+      <span class="copy-hint">click to copy</span>
+      <span class="prompt">$</span> dig @10.0.0.39 -p 5300 lilxerp.cryptomusic A
+    </div>
+
+    <h2>Check HNS Node Status</h2>
+    <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
+      <span class="copy-hint">click to copy</span>
+      <span class="prompt">$</span> curl -s http://localhost:12037/ -u x:REDACTED -X POST --data '{"method":"getinfo"}' | python3 -m json.tool
+    </div>
+
+    <h2>List Owned TLDs</h2>
+    <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
+      <span class="copy-hint">click to copy</span>
+      <span class="prompt">$</span> curl -s http://localhost:12039/ -u x:REDACTED -X POST -H "Content-Type: application/json" --data '{"method":"getnames","params":[]}' | python3 -c "import json,sys;[print(n['name']) for n in json.load(sys.stdin)['result']]"
+    </div>
+
+    <h2>Check All Services</h2>
+    <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
+      <span class="copy-hint">click to copy</span>
+      <span class="prompt">$</span> export PATH="$HOME/.nvm/versions/node/v24.12.0/bin:$PATH" && pm2 status
+    </div>
+
+    <h2>GPU Status</h2>
+    <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
+      <span class="copy-hint">click to copy</span>
+      <span class="prompt">$</span> curl -s http://localhost:8000/api/v1/gpu/status | python3 -m json.tool
+    </div>
+
+    <h2>Backend Health</h2>
+    <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
+      <span class="copy-hint">click to copy</span>
+      <span class="prompt">$</span> curl -s http://localhost:8000/api/v1/health | python3 -m json.tool
+    </div>
+
+    <h2>Watcher Status <span style="font-size:12px; color:#666; font-weight:normal;">(TLD propagation summary)</span></h2>
+    <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
+      <span class="copy-hint">click to copy</span>
+      <span class="prompt">$</span> curl -s http://localhost:8000/api/v1/watcher -o /tmp/w.json && python3 -c "import json;d=json.load(open('/tmp/w.json'));print(f'Running: {d[\"isRunning\"]}');print(f'TLDs: {len(d[\"activeTlds\"])}');[print(f'  {t}: {s[\"propagated\"]}/{s[\"total\"]} resolvers') for t,s in d['propagationSummary'].items()]"
+    </div>
+  </div>
+
+  <!-- Q&A -->
+  <div class="slide" id="qa">
+    <h1>Q&A Prep</h1>
+
+    <div class="qa">
+      <div class="q">"Why Flare and not Ethereum?"</div>
+      <div class="a">Flare has FTSO — a native decentralized price oracle. No Chainlink dependency. Gas is ~$0.003 vs $5-50+ on Ethereum. It's EVM-compatible so same tooling (Hardhat, ethers.js, OpenZeppelin). Plus Flare's data connectivity layer enables cross-chain.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">"Why Handshake instead of ENS?"</div>
+      <div class="a">ENS only resolves inside crypto wallets. Handshake replaces the ICANN root zone — real DNS, real browsers. We own the TLDs outright. Subdomains get actual A records, MX records, everything. It's not just a naming service, it's actual infrastructure.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">"Does DNS actually resolve in a normal browser?"</div>
+      <div class="a">Yes, if you're using an HNS-aware resolver (NextDNS, HDNS.io, or our Unbound resolver at 10.0.0.67). Without that, you need a bridge. Same as how .onion needs Tor. The resolution is real — dig it in terminal and you get an A record back.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">"What's the oracle pattern?"</div>
+      <div class="a">Contract Listener watches Flare for SubdomainPurchased events. DNS Oracle takes that event, registers NS + GLUE records on Handshake via our full node, verifies propagation, then signals the contract to mint the NFT and release escrow. It's an off-chain oracle with on-chain verification.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">"How do you prevent squatting?"</div>
+      <div class="a">Character-based pricing (1-char = $500, 4+ = $10). Annual renewal required (365 days + 60 day grace). Expired domains go to auction. The economics naturally disincentivize hoarding.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">"What about scaling?"</div>
+      <div class="a">Flare handles thousands of TPS. PowerDNS handles millions of queries. GPU cluster scales horizontally — just add machines. DB is PostgreSQL with proper indexing. The bottleneck is HNS block time (~10 min) for propagation, but that's a one-time wait per domain.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">"Why build your own marketplace?"</div>
+      <div class="a">ERC-2981 royalties are enforced by our marketplace contract (2.5%). OpenSea doesn't enforce creator royalties anymore. Plus we have domain-specific features: auction with reserve, bundled DNS transfer, renewal management. Generic NFT marketplaces don't handle that.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">"What's the revenue model?"</div>
+      <div class="a">Domain registration fees (FLR), annual renewals, 2.5% marketplace transaction fees, and preview credit purchases for AI art generation. Multiple revenue streams, all on-chain.</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="key-hint">
+  Scroll to navigate &middot; Click sidebar to jump
+</div>
+
+<script>
+  // Copy command to clipboard
+  function copyCmd(el) {
+    // Get raw text, strip the "$ " prompt and "click to copy" hint
+    let text = el.textContent.replace('click to copy', '').trim();
+    if (text.startsWith('$')) text = text.substring(1).trim();
+    navigator.clipboard.writeText(text).then(() => {
+      el.classList.add('copied');
+      el.querySelector('.copy-hint').textContent = 'copied!';
+      setTimeout(() => {
+        el.classList.remove('copied');
+        el.querySelector('.copy-hint').textContent = 'click to copy';
+      }, 2000);
+    });
+  }
+
+  // Highlight active sidebar link on scroll
+  const main = document.getElementById('main');
+  const links = document.querySelectorAll('.sidebar a');
+  const slides = document.querySelectorAll('.slide');
+
+  main.addEventListener('scroll', () => {
+    let current = '';
+    slides.forEach(slide => {
+      const top = slide.offsetTop - main.scrollTop;
+      if (top < 200) current = slide.id;
+    });
+    links.forEach(link => {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+    });
+  });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    const slideArray = Array.from(slides);
+    let currentIndex = 0;
+    slideArray.forEach((slide, i) => {
+      if (slide.offsetTop - main.scrollTop < 200) currentIndex = i;
+    });
+
+    if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === ' ') {
+      e.preventDefault();
+      const next = slideArray[Math.min(currentIndex + 1, slideArray.length - 1)];
+      next.scrollIntoView({ behavior: 'smooth' });
+    } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+      e.preventDefault();
+      const prev = slideArray[Math.max(currentIndex - 1, 0)];
+      prev.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+</script>
+
+</body>
+</html>

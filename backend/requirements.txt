@@ -1,0 +1,21 @@
+# Stable Diffusion NFT Generator Dependencies
+# Install in a virtual environment:
+#   python3 -m venv venv
+#   source venv/bin/activate
+#   pip install -r requirements.txt
+
+# PyTorch with CUDA 12.1 (for RTX 3080)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Stable Diffusion
+diffusers>=0.25.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Image processing
+pillow>=10.0.0
+
+# Optional: Memory optimization
+# xformers>=0.0.20  # Uncomment for additional memory savings on compatible GPUs

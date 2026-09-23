@@ -1,0 +1,832 @@
+{
+  "category": "space",
+  "description": "Cosmic exploration, sci-fi space stations, and interstellar themes",
+  "themes": {
+    "sp_01_nebula_nursery": {
+      "name": "Nebula Nursery",
+      "modifiers": "(epic wide shot of cosmic nebula star formation region:1.3), (towering pillars of creation:1.2), (swirling gas clouds in deep magenta and electric cyan:1.2), newborn protostars igniting with brilliant flares, gaseous tendrils and cosmic dust filaments, volumetric nebula glow with god rays piercing through, (deep indigo and cosmic purple color palette:1.1), starlight scattered through translucent gas, cinematic composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, nebula, stars, (star formation:1.2), cosmic clouds, (pillars of creation:1.2), glowing gas, deep space, (purple nebula:1.1), cyan light, starlight, cosmic dust, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "planet surface, ground level, city, building, room interior, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "towering pillars of cosmic gas glowing with newborn stars embedded like jewels",
+        "a protostar igniting within swirling magenta and cyan cloud filaments",
+        "tendrils of luminous nebula gas stretching across the deep void like spectral fingers",
+        "a stellar nursery where shafts of light pierce through veils of interstellar dust"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_02_black_hole_horizon": {
+      "name": "Black Hole Horizon",
+      "modifiers": "(dramatic low angle view of massive black hole event horizon:1.3), (violently swirling accretion disk of superheated plasma in molten orange and incandescent white:1.2), (gravitational lensing warping background stars:1.2), light bending around singularity, Einstein ring visible, deep space void beyond, volumetric light distortion, (stellar gold and crimson color palette:1.1), vast terrifying scale, cinematic astrophysical rendering, 8k detail",
+      "modifiers_animagine": "space, (black hole:1.2), (accretion disk:1.2), gravitational lensing, warped spacetime, glowing plasma, (orange light:1.1), cosmic destruction, deep space, event horizon, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "bright cheerful, rainbow, gentle sunset, flower garden, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a molten accretion disk spiraling into an impossibly dark singularity",
+        "background stars warped into luminous arcs by gravitational lensing",
+        "the razor-thin photon ring glowing white-hot at the edge of no return",
+        "a lone spacecraft silhouetted against the violent orange glow of the event horizon",
+        "Einstein ring of distorted starlight encircling the black void"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_03_lunar_colony": {
+      "name": "Lunar Colony",
+      "modifiers": "(epic wide shot of futuristic moon colony under crystalline geodesic domes:1.3), (Earth rising majestically on horizon casting blue light across gray regolith:1.2), modular habitats with metallic hull plating, astronauts traversing between pressurized walkways, (solar panel arrays catching starlight:1.2), dramatic low angle of dome architecture against star-filled sky, (cool silver and pale blue color palette with warm interior glow:1.1), dust motes in low gravity, cinematic composition, vast lunar landscape, 8k detail",
+      "modifiers_animagine": "space, moon, (lunar surface:1.2), (moon base:1.2), dome, earth in sky, astronaut, sci-fi, futuristic city, (starry sky:1.1), grey landscape, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth city, skyscraper, forest, ocean, countryside village, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "crystalline geodesic domes glowing warmly against the cold gray lunar regolith",
+        "Earth rising over the crater rim casting soft blue light across the colony",
+        "an astronaut walking a pressurized causeway between habitat modules in low gravity",
+        "solar panel arrays unfurled across the dusty moonscape catching pale starlight"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_04_mars_terraforming": {
+      "name": "Mars Terraforming",
+      "modifiers": "(vast panoramic shot of Mars planet mid-terraformation:1.3), (ochre red desert transitioning to nascent green patches and early blue oceans:1.2), (colossal atmospheric generators towering over the horizon trailing white vapor plumes:1.2), two small moons Phobos and Deimos in a hazy amber sky, pioneer settlement domes nestled in Valles Marineris, dramatic scale of planetary transformation, (russet orange and emerging teal color palette:1.1), golden hour solar flare lighting, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, mars, planet, (terraforming:1.2), red planet, (atmospheric generators:1.2), sci-fi, two moons, pioneer settlement, (alien landscape:1.1), desert, ocean forming, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "lush earth, green forest, ocean planet, frozen world, gas giant, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "colossal atmospheric generators trailing vapor plumes across the Martian horizon",
+        "the border where ochre desert yields to the first patches of engineered green life",
+        "pioneer domes nestled in the layered walls of Valles Marineris at golden hour",
+        "twin moons Phobos and Deimos hanging in a hazy amber sky above new blue lakes"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_05_asteroid_mining": {
+      "name": "Asteroid Mining Station",
+      "modifiers": "(dramatic industrial asteroid mining operation in deep space:1.3), (robotic extractors with plasma cutters carving into metallic ore veins:1.2), massive space station with weathered hull plating clamped onto cratered asteroid surface, (cargo freighters loading raw minerals in docking bays:1.2), mining laser beams casting harsh electric cyan light across dark rock, sparks and debris floating in zero gravity, (deep indigo void with distant star field:1.1), industrial grime and worn metal textures, cinematic composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, asteroid, (mining:1.2), space station, spaceship, (industrial:1.2), sci-fi, robot, laser, cargo ship, deep space, (stars:1.1), rocky surface, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth mine, underground tunnel, quarry, coal mining, cave, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "plasma cutters slicing into a mineral-veined asteroid face with showers of molten sparks",
+        "a weathered mining station clamped onto a cratered asteroid, hull scorched by decades of use",
+        "cargo freighters docked in zero gravity with raw ore floating into open loading bays",
+        "robotic extraction arms reaching into glowing seams of rare metallic ore"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_06_space_elevator": {
+      "name": "Space Elevator",
+      "modifiers": "(breathtaking vertical composition of massive space elevator tether rising from Earth through cloud layers into orbit:1.3), (carbon nanotube cable gleaming with reflected sunlight:1.2), elevator car ascending with brilliant running lights, (orbital platform silhouetted against star field at apex:1.2), Earth curvature visible with atmospheric blue glow, dramatic perspective looking upward along infinite cable, (deep indigo space above and luminous blue atmosphere below:1.1), starlight and solar flare illumination, engineering marvel at impossible scale, 8k detail",
+      "modifiers_animagine": "space, (space elevator:1.2), earth, orbital platform, clouds, starry sky, futuristic, sci-fi, (cable:1.2), (curvature of earth:1.1), atmosphere, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "regular elevator, staircase, escalator, ladder, building lobby, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a carbon nanotube tether vanishing upward through cloud layers into the starfield",
+        "an elevator car ascending with running lights blazing against Earth's blue atmospheric glow",
+        "the orbital platform silhouetted at the apex where atmosphere yields to black space",
+        "Earth's curved horizon seen from halfway up the elevator with storms swirling below"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_07_dyson_sphere": {
+      "name": "Dyson Sphere",
+      "modifiers": "(awe-inspiring epic wide shot of enormous Dyson sphere megastructure:1.3), (a star completely enclosed within tessellated energy harvesting panels stretching beyond comprehension:1.2), (gaps revealing the blazing stellar gold of the captive sun beneath:1.2), impossibly vast scale dwarfing planets, advanced alien construction with crystalline and metallic hull segments, (cosmic purple and stellar gold color palette:1.1), light bleeding through panel seams, sense of godlike engineering, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (dyson sphere:1.2), (megastructure:1.2), star, energy harvesting, alien civilization, sci-fi, massive scale, glowing panels, (golden light:1.1), deep space, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "small satellite, solar panel, tiny probe, space junk, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "tessellated energy-harvesting panels stretching beyond comprehension around a captive star",
+        "blazing stellar gold light bleeding through the seams of the megastructure shell",
+        "a gap in the sphere revealing the imprisoned sun burning within its crystalline cage",
+        "a planet dwarfed to a speck beside the impossibly vast Dyson shell segments",
+        "alien construction drones assembling new panel sections at the sphere's unfinished edge"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_08_wormhole_gateway": {
+      "name": "Wormhole Gateway",
+      "modifiers": "(dramatic shot of shimmering wormhole portal tearing open in deep space:1.3), (folded spacetime with gravitational distortion bending starlight around the aperture:1.2), fleet of ships entering the swirling gateway, (distant galaxy and alien star systems visible through the other side:1.2), electric cyan and cosmic purple energy crackling at the rim, relativistic light streaks, volumetric energy discharge, (deep indigo void surrounding:1.1), cinematic composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, (wormhole:1.2), portal, spaceship, stars, galaxy, (gravitational distortion:1.2), energy, glowing, (cyan light:1.1), purple energy, deep space, fleet, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal doorway, tunnel, bridge, simple portal, arch, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a shimmering wormhole aperture crackling with cyan and purple energy at its rim",
+        "an alien galaxy visible through the far side of a folded spacetime tunnel",
+        "a fleet of ships stretching into luminous streaks as they cross the event threshold",
+        "starlight bending and warping around the gravitational distortion of the open gateway"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_09_interstellar_ark": {
+      "name": "Interstellar Ark",
+      "modifiers": "(epic wide shot of massive generation ship cruising between stars:1.3), (enormous rotating habitat ring with visible green biomes under glass:1.2), (nuclear pulse engines emitting brilliant blue-white thrust plumes:1.2), self-contained ecosystem visible through observation windows, centuries-long voyage through the interstellar void, metallic hull scarred by micrometeorite impacts, distant star field stretching to infinity, (deep indigo and steel blue color palette with warm habitat glow:1.1), cinematic composition, awe-inspiring scale, 8k detail",
+      "modifiers_animagine": "space, spaceship, (generation ship:1.2), interstellar, (rotating habitat:1.2), engines, deep space, stars, sci-fi, massive ship, (blue engine glow:1.1), no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "small shuttle, fighter jet, car, boat, train, bicycle, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a rotating habitat ring revealing green forests and rivers under curved glass panels",
+        "nuclear pulse engines firing brilliant blue-white plumes into the interstellar void",
+        "the scarred metallic hull of a generation ship bearing centuries of micrometeorite impacts",
+        "observation windows glowing with warm amber light against the cold infinity of deep space"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_10_alien_megacity": {
+      "name": "Alien Megacity",
+      "modifiers": "(vast alien megacity stretching across an otherworldly landscape:1.3), (non-human organic architecture with bioluminescent towers pulsing in electric cyan and deep magenta:1.2), exotic alien vegetation winding between impossible structures, (multiple alien moons in a violet sky:1.2), atmospheric haze and volumetric light from alien light sources, crystalline walkways and gaseous energy conduits, bizarre yet beautiful extraterrestrial civilization, (cosmic purple and bioluminescent teal color palette:1.1), dramatic wide angle composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, (alien city:1.2), futuristic city, (bioluminescent:1.2), alien architecture, alien planet, multiple moons, exotic plants, sci-fi, glowing buildings, (purple sky:1.1), no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "human city, earth skyline, suburb, rural town, village, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "bioluminescent towers pulsing with cyan and magenta light in organic spiraling forms",
+        "crystalline walkways arching between impossible alien structures above a violet haze",
+        "exotic vegetation with luminous fronds winding up through gaps in non-human architecture",
+        "multiple alien moons reflected in the glassy surface of a gaseous energy conduit",
+        "a vast alien plaza where living architecture breathes and shifts underfoot"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_11_pulsar_lighthouse": {
+      "name": "Pulsar Lighthouse",
+      "modifiers": "(dramatic close-up of rapidly spinning pulsar neutron star:1.3), (intensely focused beams of radiation sweeping through space like a cosmic lighthouse:1.2), visible magnetic field lines arcing with crackling energy, (stellar remnant surface glowing with extreme heat:1.2), shock waves rippling through surrounding nebula debris, (electric cyan and white-hot energy color palette against deep indigo void:1.1), extreme astrophysical violence rendered with terrifying beauty, volumetric light beams, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (pulsar:1.2), (neutron star:1.2), radiation beams, magnetic field, cosmic lighthouse, deep space, energy, glowing star, (nebula:1.1), stellar remnant, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "candle, desk lamp, street light, flashlight, neon sign, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "twin beams of radiation sweeping through space from a rapidly spinning neutron star",
+        "magnetic field lines arcing with crackling energy above the pulsar's superheated surface",
+        "shock waves rippling outward through remnant nebula debris in concentric rings",
+        "the white-hot surface of a stellar remnant cracked with magnetic stress fractures"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_12_comet_rider": {
+      "name": "Comet Rider",
+      "modifiers": "(dynamic action shot of spacecraft racing alongside a comet:1.3), (blazing ion tail streaming electric cyan and white against the void:1.2), (icy nucleus surface cracked and venting gas jets in brilliant plumes:1.2), Sun burning in the background casting harsh solar flare illumination, comet dust particles glittering like diamonds in sunlight, metallic hull of the chaser craft reflecting the comet's glow, dramatic perspective with speed and motion blur, (deep space star field behind:1.1), cinematic composition, 8k detail",
+      "modifiers_animagine": "space, comet, spaceship, (comet tail:1.2), glowing ice, sun, deep space, stars, (gas jets:1.2), sci-fi, chase scene, (frozen surface:1.1), no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "horse rider, surfer, skateboarder, cyclist, car driver, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a spacecraft racing beside a comet with its blazing ion tail streaming past the hull",
+        "gas jets venting from cracks in the comet's icy nucleus in brilliant frozen plumes",
+        "comet dust particles glittering like scattered diamonds in harsh sunlight",
+        "the cracked and ancient surface of a comet nucleus venting volatile ices into space"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_13_saturn_ring_station": {
+      "name": "Saturn Ring Station",
+      "modifiers": "(breathtaking shot of a space station floating within Saturn's rings:1.3), (countless ice particles and rocky debris drifting past observation windows:1.2), (massive planet backdrop with swirling cloud bands in warm stellar gold and cream:1.2), ring shepherd base with metallic hull catching reflected planetary light, dramatic low angle looking up through the ring plane, deep shadows and brilliant highlights from Saturn's glow, (majestic and serene:1.1), cinematic composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, saturn, (planet rings:1.2), (space station:1.2), ice particles, gas giant, sci-fi, (golden light:1.1), deep space, stars, orbital station, ring system, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ground building, earth station, airport, bus terminal, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a ring shepherd station floating among countless ice particles drifting in golden light",
+        "Saturn's swirling cloud bands filling the sky in warm gold and cream tones",
+        "ice boulders and crystalline debris tumbling past observation windows in slow motion",
+        "the ring plane seen edge-on stretching to infinity in both directions from the station"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_14_europa_ocean": {
+      "name": "Europa Ocean",
+      "modifiers": "(otherworldly underwater scene deep beneath Europa's ice shell:1.3), (bioluminescent alien creatures drifting in dark abyssal waters:1.2), (hydrothermal vents belching mineral-rich plumes into the freezing depths:1.2), translucent ice ceiling far above with Jupiter's amber light filtering through fractures, alien marine ecosystems clinging to volcanic chimneys, (electric cyan bioluminescence against deep indigo waters:1.1), crystalline ice formations, eerie and beautiful, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, europa, underwater, (alien life:1.2), (bioluminescent creatures:1.2), hydrothermal vent, ice, jupiter, deep ocean, alien ocean, (glowing creatures:1.1), dark water, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "tropical beach, swimming pool, earth lake, river, bathtub, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "bioluminescent alien creatures drifting through dark abyssal waters beneath Europa's ice",
+        "hydrothermal vents belching mineral-rich plumes into the freezing subsurface ocean",
+        "Jupiter's amber light filtering through fractures in the translucent ice ceiling far above",
+        "alien ecosystems clinging to volcanic chimneys in electric cyan bioluminescence",
+        "crystalline ice formations hanging like chandeliers from the underside of Europa's shell"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_15_galactic_core": {
+      "name": "Galactic Core",
+      "modifiers": "(staggering epic wide shot of the blazing Milky Way galactic core:1.3), (millions of densely packed stars radiating intense white and stellar gold light:1.2), (supermassive black hole Sagittarius A-star at the center with visible accretion glow:1.2), intense radiation and energy streamers, stellar chaos with star clusters colliding, (gaseous nebula filaments weaving between stars in cosmic purple and deep magenta:1.1), overwhelming luminosity, vast incomprehensible scale, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, galaxy, milky way, (galactic core:1.2), (millions of stars:1.2), black hole, star clusters, nebula, (intense light:1.1), golden glow, cosmic energy, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "outer rim, empty void, single star, dark corner, dim nebula, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "millions of densely packed stars radiating white and gold at the galactic center",
+        "the supermassive black hole Sagittarius A-star glowing with accretion energy",
+        "star clusters colliding in slow-motion chaos amid streamers of intense radiation",
+        "nebula filaments weaving between ancient stars in deep magenta and purple"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_16_supernova_remnant": {
+      "name": "Supernova Remnant",
+      "modifiers": "(spectacular supernova explosion aftermath frozen in time:1.3), (expanding shell of superheated gas in vivid crimson electric cyan and cosmic purple:1.2), neutron star pulsing at the center, (shock waves rippling through interstellar medium creating filamentary structures:1.2), stellar debris scattered across light-years, volumetric nebula glow with internal energy, cosmic fireworks of unimaginable power, (deep indigo background with scattered star field:1.1), cinematic composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, (supernova:1.2), explosion, nebula, (neutron star:1.2), shock wave, cosmic fireworks, expanding gas, (colorful nebula:1.1), deep space, stars, stellar death, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "intact star, dim glow, calm sky, peaceful scene, gentle, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "an expanding shell of superheated gas in vivid crimson and electric cyan frozen mid-blast",
+        "filamentary shock wave structures rippling outward through the interstellar medium",
+        "a neutron star pulsing with furious energy at the dead center of the remnant",
+        "stellar debris scattered across light-years glowing with residual thermonuclear heat"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_17_zero_g_garden": {
+      "name": "Zero-G Garden",
+      "modifiers": "(lush floating botanical garden inside a vast space station atrium:1.3), (plants growing in spiraling zero gravity formations:1.2), (crystalline water droplets suspended in mid-air catching starlight:1.2), green vines and flowering tendrils reaching in every direction, warm bioluminescent grow lights casting amber and soft green glow, observation windows revealing star field beyond, tranquil sanctuary amid the void, (contrast of organic life and metallic hull architecture:1.1), cinematic composition, 8k detail",
+      "modifiers_animagine": "space, space station, (garden:1.2), plants, (zero gravity:1.2), floating water, greenhouse, starry sky, sci-fi, green sanctuary, (flowers:1.1), vines, glowing lights, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth garden, backyard, greenhouse, potted plants, farm field, outdoor ground level, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "crystalline water droplets suspended in mid-air catching starlight among floating blossoms",
+        "green vines spiraling in zero gravity through a cathedral-sized station atrium",
+        "flowering tendrils reaching in every direction around warm bioluminescent grow lights",
+        "the contrast of lush organic greenery against cold metallic hull and the star field beyond"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_18_orbital_shipyard": {
+      "name": "Orbital Shipyard",
+      "modifiers": "(epic wide shot of massive spacecraft under construction in orbital dry dock:1.3), (brilliant welding arcs illuminating metallic hull sections in white-hot flashes:1.2), (colossal robotic arms assembling superstructure segments:1.2), scaffolding and gantry cranes floating in zero gravity, workers in spacesuits dwarfed by the emerging vessel, Earth's blue glow illuminating the scene from below, industrial sparks and debris floating, (steel blue and welding-flash white color palette:1.1), vast industrial scale in space, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, spaceship, (construction:1.2), (orbital shipyard:1.2), robotic arms, welding, space station, earth below, scaffolding, industrial, sci-fi, massive ship, (sparks:1.1), no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth shipyard, car factory, garage, workshop, dry dock, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "brilliant welding arcs illuminating a half-built hull in white-hot flashes against black space",
+        "colossal robotic arms swinging superstructure segments into position in zero gravity",
+        "spacesuited workers dwarfed by the emerging skeleton of an enormous vessel",
+        "scaffolding and gantry cranes floating around a ship taking shape above Earth's blue glow"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_20_titan_methane_lakes": {
+      "name": "Titan Methane Lakes",
+      "modifiers": "(dramatic vista across Titan's methane lakes under thick orange-amber haze:1.3), (mirror-smooth hydrocarbon surface reflecting Saturn's ringed silhouette through layered clouds:1.2), alien shoreline of dark organic sediment, (hydrocarbon rain falling in slow-motion droplets through the dense atmosphere:1.2), distant cryovolcanoes venting nitrogen, (burnt orange and deep amber color palette with cool methane-blue reflections:1.1), eerie otherworldly stillness, cinematic composition, vast alien landscape, 8k detail",
+      "modifiers_animagine": "space, titan, (saturn moon:1.2), (methane lake:1.2), orange sky, saturn in sky, alien landscape, hazy atmosphere, hydrocarbon rain, sci-fi, (alien world:1.1), cryovolcano, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth lake, forest pond, tropical lagoon, swimming pool, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "mirror-smooth methane lakes reflecting Saturn's ringed silhouette through amber haze",
+        "hydrocarbon rain falling in slow-motion droplets through Titan's dense atmosphere",
+        "a shoreline of dark organic sediment where liquid methane laps in oily waves",
+        "distant cryovolcanoes venting plumes of nitrogen against the burnt orange sky"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_21_solar_sail_fleet": {
+      "name": "Solar Sail Fleet",
+      "modifiers": "(graceful fleet of solar sail spacecraft in formation:1.3), (massive gossamer-thin reflective sails billowing with photon pressure:1.2), catching brilliant sunlight in prismatic rainbow reflections, (delicate yet vast structures spanning kilometers:1.2), light riders cruising in elegant formation, golden sunlight and iridescent sail reflections against deep indigo void, distant planets as waypoints, (serene cosmic regatta:1.1), cinematic composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, (solar sail:1.2), spaceship, fleet, (reflective sails:1.2), sunlight, deep space, stars, formation flying, sci-fi, (golden light:1.1), iridescent, elegant, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "motorboat, airplane fleet, car convoy, land vehicles, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "gossamer-thin reflective sails billowing with photon pressure in prismatic rainbow light",
+        "a formation of solar sail ships gliding in elegant unison through golden sunlight",
+        "the delicate rigging of a kilometer-wide sail catching iridescent reflections against the void",
+        "a distant planet serving as a waypoint for the serene cosmic regatta"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_22_exoplanet_vista": {
+      "name": "Exoplanet Vista",
+      "modifiers": "(breathtaking panoramic view from an alien exoplanet surface:1.3), (multiple moons of different sizes hanging in a lavender sky:1.2), (bizarre crystalline rock formations jutting from alien soil:1.2), exotic bioluminescent vegetation in electric cyan and deep magenta, distant binary suns casting double shadows, unexplored world panorama stretching to jagged alien mountain horizon, (atmospheric haze in soft cosmic purple:1.1), strange and beautiful, cinematic composition, vast alien landscape, 8k detail",
+      "modifiers_animagine": "space, (exoplanet:1.2), alien world, (multiple moons:1.2), alien vegetation, bioluminescent plants, strange landscape, binary suns, crystal formations, (purple sky:1.1), sci-fi, alien surface, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth landscape, familiar terrain, backyard, city park, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "bizarre crystalline rock formations jutting from alien soil under a lavender sky",
+        "bioluminescent vegetation in electric cyan and magenta carpeting an unexplored world",
+        "multiple moons of different sizes hanging above a jagged alien mountain horizon",
+        "double shadows cast by binary suns stretching across the strange exoplanet terrain"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_23_space_whale_pod": {
+      "name": "Space Whale Pod",
+      "modifiers": "(majestic pod of enormous space whales swimming through a gaseous nebula:1.3), (bioluminescent patterns pulsing along their vast flanks in electric cyan and deep magenta:1.2), cosmic migration through interstellar medium, (living starships with crystalline barnacles and trailing energy wisps:1.2), gentle giants of the void dwarfing nearby asteroids, nebula glow illuminating their translucent fins, (celestial leviathans in graceful slow motion:1.1), deep indigo and bioluminescent color palette, cinematic composition, awe-inspiring scale, 8k detail",
+      "modifiers_animagine": "space, (space whale:1.2), cosmic creature, (bioluminescent:1.2), nebula, giant creature, deep space, stars, cosmic migration, glowing patterns, (ethereal:1.1), fantasy creature, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ocean whale, submarine, aquarium, fishing boat, dolphin, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "bioluminescent patterns pulsing along the vast flanks of a space whale in cyan and magenta",
+        "a pod of celestial leviathans dwarfing nearby asteroids during their cosmic migration",
+        "crystalline barnacles and trailing energy wisps on the back of a gentle void giant",
+        "translucent fins of a space whale catching nebula glow as it glides through gas clouds"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_24_antimatter_factory": {
+      "name": "Antimatter Factory",
+      "modifiers": "(imposing antimatter production facility in deep space:1.3), (magnetic containment fields glowing with intense electric cyan plasma rings:1.2), (massive particle accelerator loops curving through the void:1.2), extreme energy generation with visible Cherenkov radiation glow, dangerous power source pulsing with barely contained annihilation reactions, warning lights and hazard markers on metallic hull sections, (deep indigo and electric cyan color palette with hot white energy cores:1.1), industrial yet otherworldly, cinematic composition, vast scale, 8k detail",
+      "modifiers_animagine": "space, space station, (antimatter:1.2), (particle accelerator:1.2), glowing rings, plasma, energy, sci-fi, containment field, deep space, industrial, (hazardous:1.1), cyan glow, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal factory, workshop, kitchen, bakery, brewery, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "magnetic containment fields glowing with intense cyan plasma rings around annihilation cores",
+        "massive particle accelerator loops curving through the void in elegant arcs",
+        "Cherenkov radiation casting an eerie blue glow through the facility's observation ports",
+        "warning lights flashing on hull sections near barely contained antimatter reactions",
+        "a white-hot energy core pulsing at the heart of the deep-space production facility"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_25_crystalline_asteroid": {
+      "name": "Crystalline Asteroid",
+      "modifiers": "(spectacular asteroid composed entirely of giant crystalline formations:1.3), (prismatic light refracting through enormous quartz-like spires in rainbow spectral bands:1.2), (gemstone caverns glowing with internal bioluminescent light:1.2), mineral wealth beyond imagination, crystalline facets catching starlight and scattering it in brilliant patterns, (deep amethyst purple and diamond-white color palette:1.1), geological wonder floating in deep space, sense of alien treasure, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, asteroid, (crystal:1.2), gemstone, (prismatic light:1.2), rainbow refraction, deep space, stars, crystal formation, glowing minerals, (amethyst:1.1), diamond, treasure, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth rock, gravel, sand, concrete, brick, pebble, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "enormous quartz-like spires refracting starlight into rainbow spectral bands",
+        "gemstone caverns glowing with internal bioluminescent light deep within the asteroid",
+        "crystalline facets catching distant starlight and scattering it in brilliant kaleidoscope patterns",
+        "a deep amethyst geode chamber exposed on the asteroid's fractured surface"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_26_binary_star_sunset": {
+      "name": "Binary Star Sunset",
+      "modifiers": "(stunning vista of two suns setting on an alien world horizon:1.3), (one massive orange giant and one compact blue-white dwarf casting double shadows across alien terrain:1.2), exotic twilight in blended warm amber and cool electric cyan tones, (silhouetted alien flora against the dual sunset:1.2), atmospheric scattering creating layered color bands across the sky, (stellar gold and cerulean blue color palette:1.1), peaceful yet alien beauty, dramatic wide angle composition, cinematic lighting, 8k detail",
+      "modifiers_animagine": "space, (binary stars:1.2), (two suns:1.2), sunset, alien world, alien landscape, orange star, blue star, double shadows, (exotic twilight:1.1), alien plants silhouette, sci-fi, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "single sun, earth sunset, cloudy evening, overcast sky, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a massive orange giant and a compact blue-white dwarf setting together on the horizon",
+        "double shadows stretching across alien terrain in warm amber and cool cyan light",
+        "silhouetted alien flora with forked branches against the blended dual sunset sky",
+        "layered color bands of atmospheric scattering where two stellar spectra merge"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_27_orbital_casino": {
+      "name": "Orbital Casino",
+      "modifiers": "(opulent luxury casino space station with lavish neon-lit interior visible through panoramic windows:1.3), (holographic gaming displays and zero-g roulette wheels:1.2), wealthy patrons in futuristic attire, (spectacular Earth-view floor-to-ceiling windows casting blue planetary light across chrome and gold surfaces:1.2), ambient nebula glow through skylights, decadent entertainment in orbit, (electric magenta and stellar gold neon palette against polished metallic surfaces:1.1), cinematic composition, 8k detail",
+      "modifiers_animagine": "space, space station, (casino:1.2), (neon lights:1.2), holographic display, luxury, zero gravity, earth view, futuristic interior, (gold and chrome:1.1), sci-fi, orbital, gambling, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth casino, vegas, card table, slot machine, bar, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "holographic gaming tables and zero-gravity roulette wheels spinning in neon light",
+        "floor-to-ceiling windows with Earth's blue glow washing across chrome and gold surfaces",
+        "a grand atrium of the orbital casino with magenta and gold neon reflecting off polished metal",
+        "nebula glow filtering through crystal skylights onto the opulent gaming floor"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_28_debris_field": {
+      "name": "Debris Field Navigator",
+      "modifiers": "(tense dramatic shot of spacecraft navigating through a treacherous debris field:1.3), (destroyed warship hulks and shattered satellite wreckage tumbling in chaotic orbits:1.2), pilot weaving through twisted metallic hull fragments and spinning wreckage, (collision warning lights flashing amber:1.2), sparks from near-misses with jagged metal, deep shadows and harsh directional starlight creating dramatic contrast, space junkyard of a forgotten battle, (steel gray and warning-amber color palette:1.1), cinematic action composition, 8k detail",
+      "modifiers_animagine": "space, spaceship, (debris field:1.2), (destroyed ships:1.2), wreckage, space junk, dangerous, pilot, collision, sparks, tumbling metal, (dark space:1.1), stars, battle aftermath, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "clean space, organized, neat, tidy, pristine, polished, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a spacecraft weaving through tumbling warship hulks and shattered satellite wreckage",
+        "twisted metallic hull fragments spinning in chaotic orbits with collision warnings flashing",
+        "sparks flying from a near-miss with jagged wreckage in harsh directional starlight",
+        "the skeletal superstructure of a destroyed capital ship drifting in silent decay"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_29_ice_moon_base": {
+      "name": "Ice Moon Base",
+      "modifiers": "(dramatic wide shot of research station on frozen moon surface:1.3), (towering ice geysers erupting in slow-motion plumes catching starlight:1.2), drilling operations penetrating deep crystalline ice, (habitat modules with warm interior glow contrasting against extreme cold blue-white landscape:1.2), frost crystallizing on metallic hull surfaces, gas giant parent planet looming on horizon with reflected light, (deep cobalt blue and frost white color palette with warm amber interior accents:1.1), isolated outpost in a hostile frozen world, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (ice moon:1.2), research station, (ice geyser:1.2), drilling, frozen landscape, habitat, gas giant in sky, frost, (cold environment:1.1), sci-fi, isolated outpost, blue ice, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "tropical resort, desert outpost, jungle camp, beach house, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "towering ice geysers erupting in slow-motion plumes that catch starlight like frozen fireworks",
+        "a research habitat glowing with warm amber light against the frost-white frozen landscape",
+        "drilling rigs penetrating deep crystalline ice with a gas giant looming on the horizon",
+        "frost crystallizing on the metallic hull of an isolated outpost in extreme cold"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_30_plasma_storm": {
+      "name": "Plasma Storm",
+      "modifiers": "(apocalyptic massive electromagnetic plasma storm raging in space:1.3), (violent energy discharges arcing in electric cyan and hot magenta across thousands of kilometers:1.2), ship caught in the tempest with shields flaring under bombardment, (solar wind chaos with visible magnetic field lines twisting:1.2), coronal mass ejection engulfing everything, lightning-like discharges in the vacuum, (deep indigo and electric plasma color palette:1.1), cosmic tempest of terrifying beauty, dramatic composition, vast chaotic scale, 8k detail",
+      "modifiers_animagine": "space, (plasma storm:1.2), (electromagnetic storm:1.2), spaceship, lightning, energy discharge, solar wind, magnetic field, cosmic storm, glowing plasma, (chaos:1.1), cyan energy, magenta energy, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "gentle breeze, calm weather, clear sky, still atmosphere, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "violent plasma arcs in cyan and hot magenta streaking across thousands of kilometers",
+        "a ship caught in the tempest with its shields flaring white under energy bombardment",
+        "magnetic field lines twisting visibly through a coronal mass ejection cloud",
+        "lightning-like discharges crackling silently through the vacuum of the cosmic storm"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_31_ringworld_horizon": {
+      "name": "Ringworld Horizon",
+      "modifiers": "(mind-bending perspective standing on ringworld megastructure surface:1.3), (world curving impossibly upward into the sky on both sides until it becomes a thin band overhead:1.2), (artificial habitat stretching millions of kilometers with visible oceans mountain ranges and cloud systems:1.2), distant rim walls rising to space, captive sun at the center axis, impossible engineering marvel of a post-singularity civilization, (cosmic purple sky fading to deep indigo at the rim edges:1.1), breathtaking scale beyond comprehension, cinematic wide angle composition, 8k detail",
+      "modifiers_animagine": "space, (ringworld:1.2), (megastructure:1.2), curved horizon, artificial world, massive scale, sci-fi, alien civilization, captive sun, impossible architecture, (landscape curving upward:1.1), no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "flat earth, sphere planet, simple moon, small asteroid, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the world curving impossibly upward on both sides until it becomes a thin band overhead",
+        "oceans and mountain ranges visible on the ringworld surface stretching to a vanishing point",
+        "the captive sun burning at the center axis of the ring casting perpetual daylight",
+        "distant rim walls rising from the landscape edge into the vacuum of space",
+        "cloud systems forming along the inner surface of the megastructure in gravity's grip"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_32_void_monastery": {
+      "name": "Void Monastery",
+      "modifiers": "(serene isolated monastery floating in the deep space void:1.3), (contemplative architecture with flowing organic curves and crystalline spires:1.2), stars visible through vast stained-glass observation domes casting colored light, (bioluminescent meditation gardens in zero gravity:1.2), incense smoke drifting in weightless spirals, (warm amber and soft cosmic purple interior lighting contrasting with the cold starfield outside:1.1), spiritual retreat among the cosmos, sense of profound peace and vast emptiness, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (monastery:1.2), floating structure, deep space, stars, (stained glass:1.2), meditation, spiritual, crystalline spires, bioluminescent garden, (peaceful:1.1), cosmic, amber light, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "busy market, crowded mall, loud nightclub, festival, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "stained-glass observation domes casting jeweled light across a contemplative interior",
+        "incense smoke drifting in weightless spirals through a zero-gravity meditation chamber",
+        "crystalline spires of the monastery catching starlight against the infinite void",
+        "bioluminescent meditation gardens floating in serene silence among the cosmos"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_33_cosmic_observatory": {
+      "name": "Cosmic Observatory",
+      "modifiers": "(awe-inspiring advanced space telescope station orbiting beyond planetary interference:1.3), (massive segmented mirror arrays in gold-coated hexagonal panels reflecting distant galaxies:1.2), astronomers monitoring holographic deep-space imaging feeds, (nebulae and galaxy clusters displayed on translucent screens:1.2), sophisticated sensor arrays extending into the void, (stellar gold mirror reflections against deep indigo space:1.1), the ultimate eye on the universe, cinematic composition, vast engineering precision, 8k detail",
+      "modifiers_animagine": "space, (observatory:1.2), (space telescope:1.2), mirror array, galaxy, nebula, holographic display, deep space, stars, sensor array, sci-fi, (gold mirrors:1.1), astronomers, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "window view, binoculars, magnifying glass, eyeglasses, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "massive gold-coated hexagonal mirror panels reflecting distant galaxies in sharp detail",
+        "holographic deep-space imaging feeds displaying nebulae in translucent three dimensions",
+        "sophisticated sensor arrays extending like spindly fingers into the silent void",
+        "the segmented mirror array unfolding to its full aperture with stellar gold reflections"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_35_rogue_planet": {
+      "name": "Rogue Planet",
+      "modifiers": "(haunting frozen rogue planet drifting through starless interstellar void:1.3), no sun in the pitch-black sky, (eternal darkness broken only by faint distant star field:1.2), (ice-covered surface cracked and ancient:1.2), frozen atmosphere crystallized into delicate surface formations, geothermal vents providing the only faint warmth glow from deep within, wandering world expelled from its solar system eons ago, (deep indigo and ice-blue color palette with subtle amber geothermal accents:1.1), profound loneliness and cosmic desolation, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (rogue planet:1.2), (frozen world:1.2), dark space, no sun, ice surface, eternal darkness, distant stars, geothermal vent, (lonely planet:1.1), desolate, cold, deep space, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "orbiting planet, moon, satellite, space station, sun nearby, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a cracked and ancient ice surface stretching endlessly under a pitch-black sunless sky",
+        "geothermal vents providing faint amber warmth glow amid the eternal frozen darkness",
+        "a frozen atmosphere crystallized into delicate lattice formations on the surface",
+        "the faint distant star field the only light for a world expelled from its solar system"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_36_space_citadel": {
+      "name": "Space Citadel",
+      "modifiers": "(imposing massive military space fortress bristling with weapon arrays:1.3), (armored hull plating scarred from battles:1.2), fleet of warships docked in external berths, (defensive turrets tracking across firing arcs:1.2), imposing gothic-industrial architecture with sharp angular geometry, hangar bays spilling warm amber light, command tower overlooking the fleet, deep space backdrop with distant nebula, (gunmetal gray and crimson warning-light color palette:1.1), orbital stronghold radiating power and authority, dramatic low angle composition, vast threatening scale, 8k detail",
+      "modifiers_animagine": "space, (space fortress:1.2), military, (warships:1.2), weapons, armored hull, fleet, hangar bay, command tower, gothic architecture, deep space, sci-fi, (imposing:1.1), dark, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth castle, medieval fortress, modern building, suburban house, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a battle-scarred military fortress bristling with weapon arrays against the nebula backdrop",
+        "hangar bays spilling warm amber light as warships dock in the citadel's external berths",
+        "the gothic-industrial command tower overlooking a fleet arrayed in defensive formation",
+        "defensive turrets tracking across firing arcs on armored hull plating scarred by combat",
+        "the imposing angular silhouette of the citadel radiating power against deep space"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_37_cosmic_jellyfish": {
+      "name": "Cosmic Jellyfish",
+      "modifiers": "(ethereal enormous bioluminescent space jellyfish creatures drifting through a colorful nebula:1.3), (translucent bell-shaped bodies glowing with internal electric cyan and deep magenta light:1.2), (gossamer tentacles trailing for kilometers through gaseous nebula clouds:1.2), living in the vacuum feeding on cosmic radiation, pulsing rhythmic bioluminescence, smaller symbiotic organisms orbiting their forms, otherworldly beauty of space-born life, (nebula glow and bioluminescent color palette:1.1), cinematic composition, vast serene scale, 8k detail",
+      "modifiers_animagine": "space, (cosmic jellyfish:1.2), (bioluminescent:1.2), space creature, nebula, translucent, glowing tentacles, deep space, alien life, ethereal, (cyan glow:1.1), magenta light, fantasy creature, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth jellyfish, aquarium display, tide pool, beach, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "translucent bell-shaped bodies glowing with internal cyan and magenta bioluminescence",
+        "gossamer tentacles trailing for kilometers through colorful nebula gas clouds",
+        "smaller symbiotic organisms orbiting the pulsing form of a massive cosmic jellyfish",
+        "the rhythmic bioluminescent pulse of a space-born creature feeding on cosmic radiation"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_38_neutron_star_surface": {
+      "name": "Neutron Star Surface",
+      "modifiers": "(impossible hellish landscape of a neutron star surface:1.3), (extreme gravity crushing and distorting everything visible:1.2), (magnetic poles erupting with devastating energy jets in blazing white and electric cyan:1.2), ultra-dense matter forming bizarre crystalline lattice structures, atmosphere of ionized plasma millimeters thick, relativistic effects warping perspective, background stars smeared by gravitational lensing, (deep indigo void with white-hot surface glow:1.1), conditions beyond human comprehension, cinematic extreme close composition, 8k detail",
+      "modifiers_animagine": "space, (neutron star:1.2), extreme gravity, (energy jets:1.2), magnetic poles, dense matter, plasma, hellish surface, gravitational lensing, (glowing surface:1.1), deep space, white hot, sci-fi, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth surface, beach, grassland, forest floor, parking lot, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "magnetic poles erupting with devastating energy jets in blazing white and electric cyan",
+        "ultra-dense matter forming bizarre crystalline lattice structures on the star's surface",
+        "background stars smeared into luminous streaks by extreme gravitational lensing",
+        "the white-hot surface of crushed matter glowing under billions of gravities of pressure"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_39_oort_cloud_frontier": {
+      "name": "Oort Cloud Frontier",
+      "modifiers": "(hauntingly desolate Oort cloud at the uttermost edge of the solar system:1.3), (countless dark icy bodies drifting in slow silent orbits:1.2), dim distant Sun reduced to merely the brightest star, (frontier of known space fading into the interstellar medium:1.2), cometary reservoir with ancient pristine ice, exploration vessel with searchlights probing the darkness, (deep indigo and cold blue-white color palette:1.1), profound emptiness with scattered frozen sentinels, the loneliest place in the solar system, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (oort cloud:1.2), (edge of solar system:1.2), icy bodies, distant sun, deep space, darkness, exploration ship, frozen, (desolate:1.1), frontier, comets, cold, lonely, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "inner solar system, earth orbit, moon, close planets, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "countless dark icy bodies drifting in slow silent orbits at the edge of known space",
+        "an exploration vessel probing the darkness with searchlights among ancient frozen sentinels",
+        "the Sun reduced to merely the brightest star in the profoundly empty void",
+        "pristine cometary ice billions of years old floating at the frontier of the solar system"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_40_terraform_dome": {
+      "name": "Terraform Dome",
+      "modifiers": "(stunning contrast of green thriving oasis inside massive geodesic dome on a barren lifeless world:1.3), (lush ecosystem with trees flowing water and wildlife enclosed within crystalline hexagonal panels:1.2), stark dead landscape of cracked rock and dust outside the dome wall, (life support engineering sustaining a bubble of Earth-like paradise:1.2), warm amber sunlight-simulated interior glow against cold gray exterior, (dramatic boundary between life and death:1.1), cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (dome:1.2), (terraform:1.2), geodesic dome, green oasis, barren planet, life support, enclosed ecosystem, trees, water, alien surface, (contrast:1.1), sci-fi, bubble of life, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "natural landscape, untouched wilderness, open field, forest, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a lush green oasis enclosed in crystalline hexagonal dome panels on a barren world",
+        "the dramatic boundary where living trees and flowing water meet dead cracked rock",
+        "warm amber simulated sunlight filtering through the dome onto a pocket of paradise",
+        "wildlife and vegetation thriving inside the dome while dust storms rage outside"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_41_gravity_well_city": {
+      "name": "Gravity Well City",
+      "modifiers": "(mind-bending city built into curved spacetime near a massive gravitational object:1.3), (architecture warping and stretching along geodesics:1.2), (time dilation effects visualized as light-streak halos around structures:1.2), buildings seemingly defying physics at impossible angles, relativistic metropolis where clocks run at different speeds on different levels, cosmic purple and deep indigo gravitational lensing effects, distorted star field overhead, (physics-bending urban landscape:1.1), cinematic vertiginous composition, 8k detail",
+      "modifiers_animagine": "space, city, (gravity well:1.2), (warped spacetime:1.2), curved architecture, time dilation, relativistic, sci-fi, futuristic city, impossible geometry, (gravitational lensing:1.1), purple light, deep space, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "flat city, normal street, level ground, ordinary town, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "buildings warping and stretching along curved spacetime geodesics at impossible angles",
+        "time dilation halos of streaked light surrounding structures at different gravity levels",
+        "a distorted star field overhead bent by the massive gravitational object below",
+        "a relativistic metropolis where architecture defies physics in vertiginous perspective"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_42_asteroid_belt_bazaar": {
+      "name": "Asteroid Belt Bazaar",
+      "modifiers": "(bustling trading post station nestled in the asteroid belt:1.3), (diverse merchant ships of alien design docked at chaotic multi-level berths:1.2), goods from across the galaxy stacked in cargo bays, (tumbling rocky asteroids drifting past viewports:1.2), neon market signage in alien scripts, warm interior lighting spilling from shop fronts into the vacuum, cosmopolitan cosmic marketplace with exotic wares, (stellar gold and neon market-light color palette:1.1), cinematic composition with layered depth, 8k detail",
+      "modifiers_animagine": "space, (asteroid belt:1.2), (trading post:1.2), space station, merchant ships, alien traders, marketplace, neon signs, cargo, asteroids, sci-fi, (bustling:1.1), exotic goods, colorful, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "shopping mall, farmers market, street fair, flea market, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "diverse merchant ships of alien design docked at chaotic multi-level berths",
+        "neon market signage in alien scripts glowing above shop fronts opening to vacuum",
+        "tumbling rocky asteroids drifting past the viewports of the bustling trading post",
+        "exotic wares from across the galaxy stacked in open cargo bays under warm light",
+        "a cosmopolitan marketplace where species from distant systems barter among asteroids"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_43_solar_flare_surfer": {
+      "name": "Solar Flare Surfer",
+      "modifiers": "(heart-stopping action shot of spacecraft riding the crest of a massive solar flare eruption:1.3), (towering plasma waves in incandescent orange and white-hot temperatures:1.2), extreme solar activity with coronal loops arcing overhead, (corona surfing at impossible proximity to the stellar surface:1.2), dangerous stunt with heat shields glowing cherry red, solar granulation texture visible on the sun's surface below, (stellar gold and molten orange color palette with white-hot highlights:1.1), solar storm rider pushing the limits, cinematic dynamic composition, 8k detail",
+      "modifiers_animagine": "space, sun, (solar flare:1.2), spaceship, (plasma wave:1.2), coronal loop, extreme heat, close to star, solar storm, (orange fire:1.1), white hot, sci-fi, dangerous, action, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "calm sun, gentle warmth, moonlight, shade, cool breeze, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a spacecraft riding the crest of a towering solar flare eruption with heat shields glowing red",
+        "coronal loops arcing overhead like molten orange bridges above the stellar surface",
+        "the granulation texture of the sun's surface roiling below in incandescent detail",
+        "plasma waves in white-hot temperatures cresting around the daredevil solar surfer"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_44_deep_space_beacon": {
+      "name": "Deep Space Beacon",
+      "modifiers": "(lonely signal beacon station floating in the vast emptiness of deep interstellar space:1.3), (rhythmic blinking navigation lights cutting through absolute darkness:1.2), massive relay antenna dish pointing toward distant civilization, (tiny structure dwarfed by incomprehensible void:1.2), sole communication lifeline across light-years, faint starlight reflecting off metallic surfaces, (warm amber beacon pulse against cold deep indigo infinity:1.1), isolated but essential sentinel of the void, sense of profound solitude and purpose, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (beacon:1.2), relay station, (antenna:1.2), deep space, darkness, blinking lights, lonely, vast emptiness, communication, stars, small structure, (isolated:1.1), sci-fi, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "cell tower, radio tower, satellite dish, antenna, lighthouse, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a lonely relay antenna dish pointing toward distant civilization across the void",
+        "rhythmic amber beacon pulses cutting through the absolute darkness of interstellar space",
+        "a tiny sentinel structure dwarfed by the incomprehensible emptiness surrounding it",
+        "faint starlight reflecting off the metallic surfaces of the isolated communication station"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_45_first_contact_embassy": {
+      "name": "First Contact Embassy",
+      "modifiers": "(historic diplomatic meeting place for humans and alien species:1.3), (neutral architecture blending organic alien design with human geometric forms:1.2), first contact moment with delegations approaching under a crystalline dome open to the stars, (different species in ceremonial attire:1.2), universal translator holographic displays hovering between parties, tension and wonder in equal measure, (warm diplomatic amber lighting with cool starlight from above:1.1), cosmic purple and stellar gold accents on ceremonial surfaces, pivotal moment in galactic history, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (embassy:1.2), (first contact:1.2), alien species, diplomatic meeting, crystalline dome, stars, holographic display, alien and human, ceremony, (historic moment:1.1), sci-fi, neutral architecture, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "human embassy, office building, hotel lobby, conference room, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "delegations of different species approaching each other under a crystalline dome open to the stars",
+        "universal translator holographic displays hovering in the air between alien and human parties",
+        "neutral architecture blending organic alien curves with precise human geometric forms",
+        "the ceremonial surfaces gleaming in cosmic purple and gold at this pivotal galactic moment"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_46_cosmic_reef": {
+      "name": "Cosmic Reef",
+      "modifiers": "(vibrant cosmic reef ecosystem thriving in a living nebula:1.3), (colorful symbiotic space organisms in electric cyan deep magenta and stellar gold clustered around energy-rich gas formations:1.2), diverse alien life forms of impossible variety, (bioluminescent tendrils and crystalline shells:1.2), cosmic biodiversity rivaling any ocean, living cloud of creatures feeding on stellar radiation, (gaseous nebula substrate glowing with ambient warmth:1.1), ethereal and teeming with alien vitality, cinematic composition, vast organic scale, 8k detail",
+      "modifiers_animagine": "space, (cosmic reef:1.2), nebula, (alien life:1.2), bioluminescent, symbiotic creatures, colorful organisms, space ecosystem, glowing, living nebula, (diverse life forms:1.1), crystalline, organic, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth coral reef, aquarium, fish tank, tide pool, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "colorful symbiotic organisms clustered around energy-rich gas formations in a living nebula",
+        "bioluminescent tendrils and crystalline shells housing diverse alien life of impossible variety",
+        "a living cloud of creatures feeding on stellar radiation amid cyan and magenta gas",
+        "the cosmic reef teeming with alien vitality where gaseous substrate glows with warmth"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_47_starship_graveyard": {
+      "name": "Starship Graveyard",
+      "modifiers": "(eerie field of derelict abandoned starships from forgotten civilizations:1.3), (ancient hulks of massive vessels floating in silent decay:1.2), ghost fleet with shattered viewports and torn hull plating revealing skeletal superstructures, (mysterious past battle frozen in time:1.2), cold starlight casting long shadows through wreckage gaps, space dust accumulating on dead surfaces, silent tombs in the void, (dark steel gray and cold blue color palette with occasional amber emergency lights still flickering after centuries:1.1), haunting spacecraft cemetery, cinematic composition, vast melancholic scale, 8k detail",
+      "modifiers_animagine": "space, (starship graveyard:1.2), (derelict ships:1.2), ghost fleet, wreckage, abandoned, destroyed, dark space, eerie, silent, ancient ships, broken hull, (space cemetery:1.1), cold light, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "new ships, active fleet, busy spaceport, shipyard, hangar, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "ancient hulks of massive vessels floating in silent decay with torn hull plating exposed",
+        "amber emergency lights still flickering after centuries inside a derelict bridge",
+        "cold starlight casting long shadows through gaps in a shattered superstructure",
+        "space dust accumulating on the dead surfaces of a ghost fleet from a forgotten civilization",
+        "the skeletal remains of a capital ship frozen in the moment of its destruction"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_48_dimensional_rift": {
+      "name": "Dimensional Rift",
+      "modifiers": "(terrifying tear in the fabric of spacetime itself:1.3), (reality fracturing into jagged shards revealing glimpses of another dimension with alien geometry and impossible colors:1.2), (unstable anomaly crackling with violent energy discharges in electric cyan and hot magenta:1.2), normal space warping and distorting around the rift edges, stars being pulled and stretched toward the breach, dangerous phenomenon threatening to swallow everything nearby, crack in the universe leaking otherworldly light, (deep indigo void shattering into kaleidoscopic fragments:1.1), cinematic composition, vast apocalyptic scale, 8k detail",
+      "modifiers_animagine": "space, (dimensional rift:1.2), (spacetime tear:1.2), reality fracture, anomaly, energy discharge, other dimension, warped space, glowing rift, cyan energy, (magenta light:1.1), cosmic horror, unstable, dangerous, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal sky, solid wall, closed door, sealed, stable, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "reality fracturing into jagged shards revealing glimpses of alien geometry beyond",
+        "an unstable rift crackling with violent cyan and magenta energy at its ragged edges",
+        "stars being stretched and pulled into luminous streaks toward the breach in spacetime",
+        "otherworldly light leaking through a crack in the universe into normal space"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_49_quantum_relay_hub": {
+      "name": "Quantum Relay Hub",
+      "modifiers": "(sophisticated quantum entanglement communication station at a network nexus:1.3), (glowing quantum cores pulsing with entangled particle pairs in electric cyan and cosmic purple:1.2), instant data transmission visualized as luminous threads connecting to distant relay points, (crystalline processing arrays refracting internal light:1.2), information hub where FTL communication converges from across the galaxy, holographic data streams flowing through translucent conduits, metallic hull with precision engineering, (deep indigo void with data-light trails extending to infinity:1.1), cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (quantum relay:1.2), (communication station:1.2), glowing cores, data streams, holographic, crystalline, network hub, sci-fi, entangled particles, (cyan light:1.1), purple energy, deep space, FTL, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "cell tower, wifi router, telephone pole, cable box, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "glowing quantum cores pulsing with entangled particle pairs in cyan and purple light",
+        "luminous data threads extending to infinity connecting distant relay points across the galaxy",
+        "crystalline processing arrays refracting light into prismatic patterns within the hub",
+        "holographic data streams flowing through translucent conduits at the network nexus"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "sp_50_event_horizon_hotel": {
+      "name": "Event Horizon Hotel",
+      "modifiers": "(surreal luxury resort station orbiting perilously near a black hole:1.3), (time dilation tourism where guests experience time at different rates:1.2), (spectacular panoramic views of the singularity with its swirling accretion disk in molten orange and stellar gold:1.2), wealthy guests silhouetted against floor-to-ceiling windows, elegant interior with gravitational art installations, edge-of-reality vacation destination, (warm luxurious amber interior contrasting with the terrifying cosmic spectacle outside:1.1), event horizon distortion visible in reflections, cinematic composition, 8k detail",
+      "modifiers_animagine": "space, (black hole:1.2), hotel, (luxury resort:1.2), space station, accretion disk, time dilation, panoramic window, elegant interior, (singularity view:1.1), golden light, sci-fi, orbital, cosmic tourism, no humans, science fiction, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "earth hotel, motel, hostel, cabin, campsite, tent, indoor, earthbound, terrestrial, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the swirling accretion disk in molten orange and gold seen through panoramic windows",
+        "gravitational art installations that float and distort in the hotel's warped spacetime",
+        "silhouettes of guests against floor-to-ceiling windows overlooking the singularity",
+        "event horizon distortion visible in reflections on the elegant interior surfaces",
+        "a luxury lounge where time flows at different rates on different levels of the station"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    }
+  }
+}

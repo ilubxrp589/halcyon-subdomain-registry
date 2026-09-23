@@ -1,0 +1,669 @@
+{
+  "category": "fantasy",
+  "description": "Epic fantasy, magical realms, and mythical worlds",
+  "themes": {
+    "151_crimson_moon": {
+      "name": "Crimson Moon Desert",
+      "modifiers": "sweeping panoramic vista of a massive crimson blood moon rising over endless red desert dunes, otherworldly landscape, alien vista, scarlet sands stretching to horizon, eerie beauty, dramatic low angle composition, deep shadow black silhouettes against mystic crimson sky, magical luminescence radiating from the moon surface, ancient weathered sandstone formations, volumetric dust particles in moonlight, hyper-detailed terrain textures, cinematic wide shot",
+      "modifiers_animagine": "fantasy, crimson moon, desert, blood moon, red dunes, alien landscape, dramatic sky, scarlet sands, moonlit, otherworldly, vast desert landscape, no humans, scenery, night sky, red sky, sand dunes, epic scale, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "sunny day, blue sky, normal moon, gentle sunset, dawn, modern, mundane, realistic, blurry, soft focus",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a massive blood moon rising behind weathered sandstone pillars casting long crimson shadows across the dunes",
+        "a lone obsidian obelisk erupting from scarlet sand with veins of molten red light pulsing beneath its surface",
+        "ancient petrified trees with branches like reaching claws silhouetted against the swollen crimson moon",
+        "a sand-swept canyon carved into impossible spirals reflecting blood-red moonlight off mineral deposits"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "152_clockwork_birds": {
+      "name": "Clockwork Migration",
+      "modifiers": "mechanical clockwork birds migrating through rusted amber autumn skies, brass feathers gleaming with arcane gold highlights, steampunk nature, gear-driven flight formation, metallic flock catching fire-lit sunset reflections, intimate close-up of intricate copper and bronze plumage, enchanted crystal eyes glowing, ancient patina on Victorian-era mechanisms, volumetric golden hour lighting, dramatic composition against storm clouds",
+      "modifiers_animagine": "fantasy, steampunk, clockwork birds, mechanical wings, brass feathers, gears, cogs, migration, flock, autumn sky, golden light, steam, vintage machinery, flying, no humans, scenery, sunset, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "real birds, feathered, organic, natural wing, flesh and bone, modern, mundane, realistic, blurry, low detail",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a single clockwork heron mid-wingbeat with brass gears visible through translucent copper plating and tiny jets of steam trailing behind",
+        "a murmuration of hundreds of tiny mechanical sparrows forming a spiral against a bruised amber sky",
+        "a fallen clockwork eagle half-buried in autumn leaves with one jeweled eye still flickering faintly",
+        "a massive gear-driven nest perched on a rusted iron tower where mechanical chicks open brass beaks to the sky"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "153_cyber_orchid": {
+      "name": "Cyber Orchid Garden",
+      "modifiers": "neon-lit cyber-orchid garden in perpetual enchanted twilight, glowing synthetic flowers pulsing with mystic purple and electric teal bioluminescence, cyberpunk botany, electric petals of enchanted crystal, bioluminescent greenhouse with ancient overgrown circuitry, intimate close-up of dew-covered cybernetic stamens, holographic pollen particles, dramatic backlighting through translucent petals, rich color palette of deep violet and neon green",
+      "modifiers_animagine": "fantasy, cyberpunk, neon flowers, cyber orchid, bioluminescent, glowing garden, synthetic plants, neon lights, purple glow, electric petals, futuristic greenhouse, no humans, scenery, night, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "regular flower, garden plant, plastic flower, dried bouquet, modern, mundane, realistic, desaturated, dull",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a towering cyber orchid with fiber-optic veins pulsing teal light through translucent violet petals dripping with luminous dew",
+        "a cluster of bioluminescent buds cracking open to release spiraling holographic pollen into the neon-drenched air",
+        "tangled roots of circuitry and living wire weaving through cracked glass floors of an abandoned greenhouse",
+        "a single perfect cybernetic bloom floating in a pool of liquid light with its reflection glitching beneath the surface"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "154_glass_cathedral": {
+      "name": "Feather Storm Cathedral",
+      "modifiers": "giant transparent glass cathedral floating weightlessly in a storm of luminous white feathers, sacred architecture of enchanted crystal spires and stained glass windows casting prismatic light, impossible physics defying gravity, divine turbulence, ethereal worship space, dramatic low angle looking upward through swirling feathers, magical luminescence emanating from within, arcane gold filigree on crystalline buttresses, volumetric god rays piercing the feather storm",
+      "modifiers_animagine": "fantasy, cathedral, glass architecture, floating building, white feathers, storm, sacred, divine light, crystal spires, stained glass, ethereal, magic, no humans, scenery, dramatic sky, epic scale, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "concrete bunker, wooden cabin, steel warehouse, tent, mud hut, modern, mundane, realistic, ugly architecture",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a rose window of enchanted glass shattering outward into a thousand luminous feathers caught in a divine updraft",
+        "the cathedral's crystalline nave seen from below as feathers spiral upward through shafts of prismatic light",
+        "a single glass bell tower suspended in mid-air with feathers swirling around it like a slow-motion blizzard",
+        "flying buttresses of transparent crystal arching over an abyss of swirling white plumes and golden god rays"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "155_shadow_puppets": {
+      "name": "Shadow Puppet War",
+      "modifiers": "intricate shadow puppets performing epic mythological battles on ancient cave walls, flickering fire-lit orange warmth casting dramatic dancing shadows, primordial theater of war, silhouette drama with elaborate warrior poses and dragon shapes, intimate close-up of leather puppet detail, shadow black figures against warm amber stone, ancient stone cave textures with mineral deposits catching firelight, cinematic chiaroscuro composition, mystical atmosphere",
+      "modifiers_animagine": "fantasy, shadow puppets, cave, firelight, silhouette, battle scene, mythological war, ancient theater, flickering light, shadow play, dramatic shadows, warriors, dragons, dark background, warm lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "bright stage, clear daylight, no shadows, overexposed, flash photo, modern, mundane, realistic, flat lighting",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a shadow dragon rearing up on a cave wall with fire-lit wings stretching across jagged limestone",
+        "two warrior puppets locked in combat their intricate leather silhouettes overlapping on warm amber stone",
+        "a puppet master's weathered hands manipulating dozens of shadow figures that seem to move on their own",
+        "the flickering moment between firelight and darkness where shadow armies clash across a cavern ceiling"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "156_polar_guardian": {
+      "name": "Aurora Bear Spirit",
+      "modifiers": "majestic aurora-veiled polar bear spirit guardian towering over frozen tundra, northern lights coursing through its translucent ethereal form in ribbons of enchanted green and mystic purple, arctic mysticism, celestial protector emanating magical luminescence, dramatic low angle emphasizing immense scale, enchanted crystal ice formations reflecting aurora colors, elven silk-like gossamer aurora tendrils, sweeping panoramic arctic landscape, deep shadow black sky filled with stars",
+      "modifiers_animagine": "fantasy, spirit animal, polar bear, aurora borealis, northern lights, ice, arctic, guardian spirit, translucent, ethereal glow, celestial, magic, night sky, stars, frozen landscape, epic scale, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "tropical creature, desert animal, indoor pet, house cat, tropical fish, modern, mundane, realistic, small scale",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a colossal translucent bear spirit standing on hind legs with aurora ribbons flowing through its chest like a living constellation",
+        "the spirit guardian's massive paw pressing into glacial ice that cracks and glows green beneath its weight",
+        "a spectral bear cub nestled against the guardian's shimmering flank with tiny northern lights dancing in its fur",
+        "the bear spirit mid-roar sending waves of aurora energy cascading across the frozen tundra and starlit sky"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "158_pixel_gods": {
+      "name": "Arcade Universe",
+      "modifiers": "retro arcade machine universe with pixelated gods battling across a cosmic CRT screen, 8-bit divinity clashing in neon explosions, gaming mythology rendered in vibrant pixel art, neon cabinet cosmos glowing with arcane gold and electric blue, dramatic wide shot of infinite arcade cabinets stretching into a digital void, fire-lit screen reflections on glossy surfaces, enchanted crystal power-up items scattered throughout, nostalgic vaporwave color palette",
+      "modifiers_animagine": "fantasy, retro gaming, pixel art, 8-bit, arcade machine, neon lights, cosmic battle, gods, digital universe, game screen, retro aesthetic, vaporwave, colorful, glowing, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "smooth rendering, photorealistic, oil painting, watercolor, analog, modern, mundane, realistic, hand-drawn",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a towering arcade cabinet glowing from within as pixelated lightning bolts crackle between two 8-bit deity sprites",
+        "a shattered CRT screen spilling cascades of luminous pixel shards into a void of neon grid lines",
+        "an altar of stacked vintage arcade machines with their screens displaying a single colossal pixelated eye",
+        "a coin slot the size of a doorway with a golden token mid-drop trailing pixel fire behind it"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "159_memory_willow": {
+      "name": "Memory Willow",
+      "modifiers": "ancient whispering willow tree shedding glowing orbs of golden memories into moonlit mist, luminescent recollections falling like enchanted crystal teardrops, nostalgic magic suffusing the scene in warm amber and soft mystic purple tones, dream tree with bark of ancient stone carved with forgotten runes, gentle sorrow pervading a twilight meadow, intimate close-up of memory orbs containing miniature scenes, ethereal glow from each floating sphere, elven silk wisps trailing from weeping branches",
+      "modifiers_animagine": "fantasy, magic tree, willow tree, glowing orbs, memories, moonlight, enchanted, mystical, twilight, meadow, floating lights, ethereal, dreamy, serene, scenery, no humans, night, soft light, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dead stump, bare branches, firewood, lumber, telephone pole, modern, mundane, realistic, harsh lighting",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a single golden memory orb caught mid-fall from a willow branch with a tiny scene of a child laughing visible inside",
+        "the massive gnarled trunk of the willow carved with spiraling runes that glow faintly in the twilight mist",
+        "a carpet of fallen memory orbs pooling at the tree's roots turning the ground into a lake of soft amber light",
+        "weeping branches dragging through moonlit fog with each leaf tip releasing a tiny luminous droplet"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "160_zeppelin_graveyard": {
+      "name": "Dieselpunk Zeppelin Graveyard",
+      "modifiers": "haunting dieselpunk zeppelin graveyard suspended within thunderhead storm clouds, crashed airships with torn canvas and rusted iron skeletal frames, lightning illumination striking corroded hulls in dramatic flashes of arcane gold, industrial decay of ancient steel and dragon scale-textured rivets, sky cemetery stretching into infinite fog, sweeping panoramic composition through broken propeller blades, shadow black storm clouds backlit by electrical discharge, fire-lit wreckage smoldering",
+      "modifiers_animagine": "fantasy, steampunk, zeppelin, airship, graveyard, storm clouds, lightning, ruins, industrial decay, dieselpunk, wreckage, dramatic sky, dark atmosphere, no humans, scenery, epic scale, rain, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "new airship, active fleet, airplane hangar, parking lot, garage, modern, mundane, realistic, clear skies",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the skeletal iron ribs of a collapsed zeppelin hull silhouetted against a flash of forked lightning",
+        "a massive corroded propeller frozen mid-spin with storm clouds threading through its rusted blades",
+        "torn canvas sails whipping violently from the carcass of a half-sunken airship wreathed in fog and sparks",
+        "a tangled knot of anchor chains dangling from three wrecked zeppelins locked together in their final descent"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "163_golem_blossoms": {
+      "name": "Golem Awakening",
+      "modifiers": "ancient stone golem awakening beneath a cascade of cherry blossom petals in spring ritual light, earth elemental rising from moss-covered ancient stone ruins, granite giant with glowing enchanted green rune veins pulsing to life, nature magic causing flowers to bloom across its massive shoulders, dramatic low angle emphasizing towering scale against soft pink sky, intimate detail of cracking stone revealing inner magical luminescence, mystic purple energy swirling at its core",
+      "modifiers_animagine": "fantasy, golem, stone giant, cherry blossoms, awakening, earth magic, ruins, moss, glowing runes, nature magic, spring, petals falling, epic scale, ancient, magical, no humans, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal flowers, garden bed, vase bouquet, flower shop, greenhouse, modern, mundane, realistic, small scale",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the golem's massive stone hand breaking through earth with cherry blossoms erupting from cracks between its granite fingers",
+        "a close view of the golem's face as its eyes ignite with green light and moss peels away from ancient carved features",
+        "cherry blossom branches growing in real time from the golem's shoulder blades as it rises from crumbled ruins",
+        "the golem's torso splitting open to reveal a core of swirling purple energy with roots and petals spiraling outward"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "164_cloud_banquet": {
+      "name": "Cloud Banquet",
+      "modifiers": "surreal royal banquet where all food is sculpted from luminous clouds on a table of solidified rainbow, cumulus cuisine served on arcane gold platters, ethereal feast in a palatial sky dining hall with pillars of compressed mist, impossible gastronomy of cotton-candy architecture, dramatic overhead composition looking down at the cloud feast, magical luminescence from each dish casting soft prismatic shadows, elven silk tablecloths rippling in gentle breeze, enchanted crystal goblets filled with liquid sunset",
+      "modifiers_animagine": "fantasy, surreal, banquet, clouds, sky dining, ethereal feast, royal table, magical food, floating, dreamy, soft light, rainbow, golden tableware, palatial, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ground restaurant, basement, underground, cave, submarine mess hall, modern, mundane, realistic, dark room",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a towering cloud cake on a golden platter with layers of pink and amber cumulus frosted with liquid sunrise",
+        "crystal goblets filled with swirling sunset colors standing on a tablecloth woven from solidified rainbow light",
+        "a roasted cloud centerpiece on a massive gold tray releasing wisps of prismatic steam into the palatial hall",
+        "the banquet table stretching into the distance on pillars of compressed mist with each place setting glowing softly"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "165_void_walker": {
+      "name": "Ink Ocean Walker",
+      "modifiers": "mysterious void walker traversing a vast black-and-white ink ocean, monochrome journey across calligraphy seas with dramatic brushstroke waves crashing in slow motion, zen wanderer silhouetted against a pale moon, shadow black depths swirling with ancient kanji and forgotten scripts, sweeping panoramic composition of endless ink horizon, intimate detail of rippling ink surface reflecting starlight, ethereal glow from walker's lantern cutting through absolute darkness, ancient stone stepping stones across the void",
+      "modifiers_animagine": "fantasy, monochrome, ink painting, ocean, lone figure, walking, void, calligraphy, brushstroke waves, zen, moonlight, silhouette, dark background, atmospheric, mysterious, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "crowded scene, bright sunny, cheerful park, office, classroom, modern, mundane, realistic, colorful",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a solitary figure holding a paper lantern on a stepping stone as ink waves rise around them in frozen brushstrokes",
+        "a massive calligraphy character emerging half-formed from the ink ocean surface like a breaching whale",
+        "the walker's lantern casting a perfect circle of warm light onto ink-black water that reflects ancient script",
+        "a crumbling stone bridge disappearing into ink fog with brushstroke waves lapping at its ancient pylons"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "166_solar_butterflies": {
+      "name": "Mechanical Butterfly Migration",
+      "modifiers": "mechanical butterflies migrating across massive solar flares, brass wings of intricate clockwork surviving stellar fire, sun journey of ten thousand automaton monarchs, impossible beauty of dragon scale-textured wing membranes glowing with trapped solar plasma, stellar metamorphosis as metal butterflies transform in the corona, dramatic wide shot against the blazing sun surface, arcane gold and molten copper color palette, fire-lit silhouettes against nuclear fusion backdrop",
+      "modifiers_animagine": "fantasy, steampunk, mechanical butterfly, solar flare, sun, migration, brass wings, clockwork, fire, cosmic, golden light, space, glowing, swarm, epic scale, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "regular butterflies, moth, dragonfly, bee, plain insect, night, modern, mundane, realistic, earth-bound",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a single brass butterfly with solar plasma trapped in its translucent wing membranes hovering against a wall of stellar fire",
+        "thousands of clockwork monarchs streaming past a solar prominence in a ribbon of molten gold and copper",
+        "a mechanical butterfly mid-metamorphosis its brass cocoon cracking open in the sun's corona releasing liquid light",
+        "the silhouette of a massive clockwork butterfly against the sun's surface with gear shadows visible through its wings"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "167_zero_g_carousel": {
+      "name": "Haunted Zero-G Carousel",
+      "modifiers": "abandoned haunted carousel spinning eternally in zero gravity void of deep space, painted horses frozen mid-gallop with cracked porcelain and faded arcane gold leaf, carnival in space surrounded by drifting debris and cosmic dust, eerie weightlessness warping calliope music into silence, cosmic fairground with rusted enchanted crystal mirrors reflecting distant nebulae, dramatic composition through broken carousel poles, mystic purple and shadow black atmosphere, fire-lit remnants of carnival lanterns flickering in vacuum",
+      "modifiers_animagine": "fantasy, carousel, haunted, space, zero gravity, floating, abandoned, horses, cosmic, eerie, dark atmosphere, nebula background, carnival, creepy, broken, no humans, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal playground, static ride, parked, ground level, parking lot, modern, mundane, realistic, well-maintained",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a cracked porcelain carousel horse drifting weightlessly away from its pole with faded gold leaf peeling into the void",
+        "the carousel's central column spinning silently in space with carnival lanterns flickering against a distant nebula",
+        "shattered mirror panels orbiting the carousel reflecting fractured images of stars and ghostly painted horses",
+        "a trail of cosmic dust and carnival ticket stubs spiraling outward from the carousel into infinite darkness"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "168_emerald_dragon": {
+      "name": "Emerald Moon Dragon",
+      "modifiers": "massive emerald dragon coiled protectively around a crumbling dying moon, cosmic serpent of jade and enchanted green scales each faceted like precious gemstones, lunar guardian with wings spanning the void between stars, dragon scale texture catching starlight in iridescent flashes, celestial beast breathing wisps of enchanted crystal mist, dramatic low angle from moon surface looking up at the colossal guardian, arcane gold claw marks scarring the lunar surface, ethereal glow from dying moon illuminating ancient dragon features, sweeping panoramic cosmic scale",
+      "modifiers_animagine": "fantasy, dragon, emerald, moon, cosmic, jade scales, guardian, coiled, giant creature, celestial, space, starlight, epic scale, lunar surface, green dragon, wings, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "red dragon, fire dragon, ice dragon, shadow dragon, baby dragon, modern, mundane, realistic, small dragon, cute dragon",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the dragon's jade-scaled tail wrapped around the moon's equator with cracks of dying light seeping between coils",
+        "a close view of the dragon's ancient face with faceted emerald scales and eyes reflecting a dying star",
+        "one enormous wing unfurled against the cosmos casting an emerald shadow across the cratered lunar surface",
+        "golden claw marks gouged deep into moon rock with jade scales embedded at their edges glowing faintly green"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "169_glitch_temple": {
+      "name": "Glitchy Vaporwave Temple",
+      "modifiers": "pastel vaporwave temple corrupted by cascading digital glitches in a neon dreamscape, aesthetic shrine of enchanted crystal pillars fragmenting into pixel shards, pixelated meditation space where reality decomposes into RGB channels, retro-digital sacred space with ancient stone statues dissolving into scan lines, mystic purple and electric pink color palette, dramatic composition through warped perspective grids, magical luminescence from corrupted data streams, holographic incense smoke rendering in broken polygons",
+      "modifiers_animagine": "fantasy, vaporwave, temple, glitch art, digital corruption, pastel colors, neon, shrine, aesthetic, retro, pixel art, dreamy, surreal, no humans, scenery, pink sky, purple, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "stable building, smooth walls, clean architecture, solid structure, modern, mundane, realistic, conventional temple",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a marble statue of a Greek bust dissolving into RGB pixel fragments with scan lines cutting across its serene face",
+        "crystal temple pillars splitting into offset color channels of cyan magenta and yellow against a pastel grid sky",
+        "holographic incense smoke rising from a glitched altar rendered in broken polygons and flickering neon pink",
+        "a temple staircase where each step shifts between realities with corrupted pixel shards floating at the transitions"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "170_silk_weaver": {
+      "name": "Starlight Silk Weaver",
+      "modifiers": "ethereal celestial being spinning threads of pure concentrated starlight into luminous elven silk, cosmic weaver seated at an ancient loom of enchanted crystal and arcane gold filigree, astral crafting in a workshop suspended among constellations, luminous artisan whose fingers trail magical luminescence, intimate close-up of starlight threads being drawn from distant stars, flowing fabric of woven nebula colors, dramatic backlighting from a supernova casting long prismatic shadows, mystic purple and celestial white palette",
+      "modifiers_animagine": "fantasy, celestial being, weaving, starlight, silk, cosmic, loom, constellations, ethereal, glowing threads, magic, astral, elegant, luminous, 1girl, long hair, white dress, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "rough burlap, coarse rope, steel chain, wire mesh, sandpaper, modern, mundane, realistic, industrial",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "luminous fingers drawing a single thread of concentrated starlight from a distant star into a crystal loom",
+        "a bolt of freshly woven silk draped over the loom's frame shimmering with trapped nebula colors of violet and gold",
+        "the ancient crystal and gold loom floating among constellations with half-finished cosmic fabric rippling in stellar wind",
+        "a cascade of starlight silk unspooling from the weaver's hands falling in luminous folds through open space"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "171_face_forest": {
+      "name": "Human Face Forest",
+      "modifiers": "post-human forest where ancient towering trees have evolved expressive human faces in their gnarled bark, woodland consciousness stirring in deep enchanted green shadows, nature awakened with glowing sap-veined expressions of wisdom and sorrow, eerie grove of sentient ancient stone-hard bark, dramatic composition looking up through a canopy of watching faces, moonlit atmospheric fog threading between the forest guardians, mystic purple twilight filtering through leaves, intimate close-up of bark grain forming eyes and mouths, elven silk moss draping ancient features",
+      "modifiers_animagine": "fantasy, enchanted forest, tree faces, sentient trees, dark forest, bark texture, glowing eyes, mystical, eerie, nature magic, fog, moonlight, ancient trees, scenery, no humans, atmospheric, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal forest, plain trees, featureless bark, parking lot, field, modern, mundane, realistic, dead trees",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "an ancient oak with a deeply carved face frozen in an expression of sorrowful wisdom with glowing amber sap tears",
+        "two sentinel trees leaning toward each other their bark-formed faces locked in silent conversation through moonlit fog",
+        "a gnarled root system breaking through earth revealing a half-buried face with moss-covered features and open glowing eyes",
+        "the canopy viewed from below where dozens of wooden faces peer down through leaves with expressions ranging from curiosity to grief"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "174_obsidian_phoenix": {
+      "name": "Obsidian Phoenix Birth",
+      "modifiers": "magnificent phoenix hatching from a colossal volcanic obsidian egg, magma feathers emerging through cracking glassy dragon scale shell, rebirth from black glass in an erupting caldera, fire bird genesis with wings of living flame and arcane gold-veined plumage, molten awakening as liquid obsidian streams away from the newborn immortal, dramatic low angle from the caldera floor looking up at spreading wings, fire-lit volcanic landscape, enchanted crystal shards of eggshell refracting lava light, sweeping panoramic eruption backdrop",
+      "modifiers_animagine": "fantasy, phoenix, obsidian, volcanic, hatching, fire bird, magma, eruption, rebirth, black glass, flames, golden feathers, epic scale, dramatic lighting, lava, caldera, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "white dove, colorful parrot, eagle, sparrow, ordinary bird, modern, mundane, realistic, small bird, cold scene",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the obsidian egg cracking apart in a caldera with veins of molten gold splitting across its glassy black surface",
+        "a single wing of living flame punching through the obsidian shell sending shards of volcanic glass spiraling into lava-lit air",
+        "the phoenix's head emerging with magma feathers still slick with molten obsidian and eyes blazing like twin suns",
+        "shattered obsidian eggshell fragments scattered across the caldera floor refracting lava light into prismatic fire"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "175_living_graffiti": {
+      "name": "Living Neon Graffiti",
+      "modifiers": "neon street graffiti coming alive on rain-slicked cyber-brick walls, animated art peeling from concrete to dance in midnight streets, urban magic of spray paint spirits leaping in electric arcs, electric murals of mythical creatures rendered in dripping mystic purple and arcane gold and neon pink, dramatic wide shot of an entire alley transforming into a living gallery, fire-lit trash can warmth contrasting with cold neon, shadow black alley depth, enchanted crystal-like droplets of paint suspended mid-splash, intimate detail of a graffiti dragon breathing luminescent fog",
+      "modifiers_animagine": "fantasy, graffiti, neon, urban, street art, glowing paint, animated art, cyberpunk, night, rain, brick wall, colorful, spray paint, dragon graffiti, magical, scenery, city, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "clean wall, blank canvas, white paint, new building, fresh plaster, modern, mundane, realistic, suburban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a graffiti dragon peeling off a rain-soaked brick wall with neon paint dripping from its jaws as it lunges into the alley",
+        "spray paint phoenixes spiraling upward from a dumpster trailing ribbons of luminous pink and gold into the night sky",
+        "a half-finished mural of a warrior whose painted sword arm reaches out of the wall gripping a blade of solid neon light",
+        "droplets of glowing paint suspended mid-air in a dark alley forming the outline of a creature caught between wall and reality"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "176_black_hole_library": {
+      "name": "Black Hole Library",
+      "modifiers": "floating ancient library shelves orbiting in spiraling procession around a hungry black hole, knowledge spiral of leather-bound tomes with arcane gold embossed spines stretching into gravitational distortion, event horizon reading room where light bends around ancient stone bookshelves, dramatic wide composition showing the accretion disk of swirling pages and scattered enchanted crystal bookmarks, shadow black void at center pulling everything inward, ethereal glow of reading lamps resisting the pull, sweeping panoramic scale of infinite knowledge being consumed",
+      "modifiers_animagine": "fantasy, library, black hole, floating books, cosmic, space, spiral, ancient books, gravitational pull, dark void, glowing shelves, knowledge, epic scale, surreal, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal library, bright bookstore, school classroom, well-lit reading, modern, mundane, realistic, organized shelves",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a spiral of ancient bookshelves stretching inward toward the event horizon with pages tearing free and elongating into the void",
+        "a single reading lamp resisting the gravitational pull its warm glow bending around a leather-bound tome at the edge of darkness",
+        "an accretion disk made entirely of loose pages and glowing bookmarks orbiting the black hole in a luminous paper maelstrom",
+        "the moment a massive bookshelf crosses the event horizon spaghettifying into a stream of gold-spined books and splintered wood"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "177_water_mirror_hand": {
+      "name": "Water Mirror Reach",
+      "modifiers": "surreal pale hand reaching desperately out from a rippling water mirror surface, boundary breaking as fingers pierce the liquid portal between worlds, reflection escape showing a different reality beneath the enchanted crystal-clear surface, dramatic intimate close-up of fingers breaking surface tension with concentric ripples, moonlit scene casting silver highlights on water droplets, mystic purple depths below contrasting with warm fire-lit reality above, ancient stone mirror frame carved with forgotten runes, elven silk sleeve trailing into the water dimension",
+      "modifiers_animagine": "fantasy, mirror, water surface, hand reaching, portal, reflection, surreal, otherworldly, moonlight, ripples, mysterious, dark water, magical, boundary, scenery, dramatic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dry desert, sand, dusty road, concrete floor, wood grain, modern, mundane, realistic, normal mirror",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "pale fingers breaking through a perfectly still water surface sending concentric silver ripples outward under moonlight",
+        "a hand reaching upward from dark water with a different world visible in the reflection below the mirror surface",
+        "an ancient stone-framed water mirror with rune carvings glowing as a hand emerges trailing droplets of liquid starlight",
+        "two hands reaching toward each other from opposite sides of the water mirror their fingertips almost touching at the surface"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "178_sky_mechanic": {
+      "name": "Steampunk Sky Octopus",
+      "modifiers": "colossal steampunk octopus mechanic with burnished brass tentacles delicately repairing luminous cracks in the sky dome, celestial maintenance worker of impossible scale, cephalopod engineer wielding arcane gold tools that emit sparks of magical luminescence, atmospheric repair revealing starfield beyond the cracked firmament, dramatic low angle looking up at the magnificent creature against a shattered sky, ancient stone cloud formations serving as scaffolding, dragon scale-textured copper plating on each tentacle segment, enchanted crystal lens monocle focused on hairline sky fractures",
+      "modifiers_animagine": "fantasy, steampunk, octopus, mechanical, brass tentacles, sky repair, giant creature, clockwork, cosmic, cracks in sky, tools, engineer, epic scale, dramatic angle, no humans, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ground mechanic, car shop, garage, basement workshop, indoor lab, modern, mundane, realistic, small creature",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a brass tentacle delicately wielding a golden welding tool along a luminous crack in the sky where starfield peeks through",
+        "the octopus engineer's enormous monocle reflecting the cracked firmament as sparks of magical light scatter from its repairs",
+        "three copper-plated tentacles braced against cloud formations while a fourth threads a needle of pure light through fractured sky",
+        "the underside of the colossal creature seen from below with all eight tentacles spread across the dome like a living constellation"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "180_nuclear_cherry": {
+      "name": "Nuclear Cherry Blossom",
+      "modifiers": "single apocalyptic cherry tree blooming with radioactive glowing petals in a devastated wasteland, post-nuclear beauty of enchanted green bioluminescent sakura against ash-grey ruins, mutant sakura with veins of arcane gold radiation pulsing through translucent petals, fallout spring where toxic elegance defies extinction, dramatic composition of the lone tree centered in a crater of ancient stone rubble, fire-lit embers drifting alongside glowing petals, mystic purple contaminated sky, ethereal glow from each petal illuminating the surrounding desolation, intimate close-up of a single perfect radioactive bloom",
+      "modifiers_animagine": "fantasy, cherry blossom, nuclear, post-apocalyptic, glowing petals, radioactive, lone tree, wasteland, ruins, bioluminescent, toxic beauty, ash, dramatic sky, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal cherry tree, spring blossom, garden fruit, gentle pink, modern, mundane, realistic, healthy forest",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a single radioactive cherry blossom in perfect bloom with veins of golden radiation visible through its translucent green petals",
+        "the lone mutant sakura tree standing in a rubble-filled crater with bioluminescent petals drifting among ash and embers",
+        "roots of the cherry tree breaking through irradiated concrete revealing a network of glowing golden veins beneath the wasteland",
+        "a branch heavy with luminous blossoms arching over a pool of contaminated water that reflects their eerie green light"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "181_comet_chess": {
+      "name": "Celestial Comet Chess",
+      "modifiers": "celestial chess game played by cosmic gods using blazing comets as pieces across a galaxy-spanning board of dark matter, cosmic strategy where each move sends shockwaves through nebulae, stellar competition with arcane gold and enchanted crystal chess pieces trailing tails of fire and ice, universe at stake shown in the dramatic sweeping panoramic scale of the playing field, ancient stone thrones floating at opposite ends of the cosmos, shadow black void between moves, fire-lit comet trails illuminating the board squares formed by star clusters, magical luminescence from each piece casting long shadows across space",
+      "modifiers_animagine": "fantasy, chess, cosmic, comets, gods, galaxy, board game, celestial, space, nebula, stars, strategy, epic scale, dark matter, fire trails, no humans, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal chess, board game, office desk, plain table, card game, modern, mundane, realistic, indoor",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a blazing comet-queen chess piece trailing twin tails of fire and ice as it slides diagonally across a grid of star clusters",
+        "two ancient thrones of dark matter floating at opposite ends of a galaxy-spanning chessboard visible from above",
+        "the moment of a cosmic checkmate where a comet-knight sends shockwaves rippling through a nearby nebula",
+        "a captured chess piece exploding into a shower of stellar debris as it falls off the edge of the dark matter board into void"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "182_childhood_swirl": {
+      "name": "Forgotten Dreams Swirl",
+      "modifiers": "abstract colorful swirl composed of forgotten childhood dreams and fragmented memories spiraling into a cosmic vortex, nostalgia vortex of enchanted crystal toy fragments and faded photographs, innocence spiral with warm arcane gold and soft mystic purple and gentle enchanted green, remembered magic of carousel horses and paper airplanes and birthday candles dissolving into stardust, intimate composition focusing on recognizable dream fragments within the swirl, ethereal glow from each memory piece, magical luminescence suffusing the entire piece with bittersweet warmth, soft dreamy atmosphere",
+      "modifiers_animagine": "fantasy, abstract, swirl, colorful, dreams, memories, childhood, nostalgia, toys, carousel, stardust, magical, warm colors, ethereal, dreamy, vortex, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "adult, elderly, serious, corporate, formal, military, somber, modern, mundane, realistic, dark themes",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a spiral of faded toy fragments and birthday candles dissolving into golden stardust at the vortex center",
+        "a paper airplane caught in the swirl trailing a ribbon of warm light past a carousel horse dissolving into sparkles",
+        "recognizable childhood objects frozen mid-spiral a teddy bear a red balloon a music box each glowing with nostalgic amber light",
+        "the outer edge of the vortex where intact memories begin to fragment into crystalline shards of color and warmth"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "183_mammoth_aurora": {
+      "name": "Aurora Mammoth Herd",
+      "modifiers": "prehistoric ice age mammoth herd charging majestically through dancing aurora borealis fields, ancient giants thundering across frozen tundra as northern lights cascade in enchanted green and mystic purple ribbons above, dramatic low angle from ground level as massive tusked silhouettes pass overhead, fire-lit campfire warmth in distant cave contrasting with frigid blue atmosphere, dragon scale-textured woolly hides dusted with frost crystals, ancient stone cliff faces framing the stampede, sweeping panoramic composition capturing the full herd against cosmic light show, earth-shaking power meets celestial beauty",
+      "modifiers_animagine": "fantasy, mammoth, prehistoric, aurora borealis, ice age, herd, stampede, northern lights, frozen tundra, tusks, woolly mammoth, epic scale, dramatic sky, night, winter, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal aurora, small animal, tropical scene, desert, indoor zoo, modern, mundane, realistic, single animal",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the lead mammoth mid-stride with aurora light cascading off its frost-covered tusks and woolly hide",
+        "a mammoth herd seen from ground level their massive silhouettes backlit by curtains of green and purple aurora",
+        "a young mammoth calf running alongside its mother with northern lights reflecting in its dark eyes",
+        "mammoth tracks pressed deep into frozen ground with aurora light pooling in each enormous footprint like liquid emerald"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "184_digital_geisha": {
+      "name": "Holographic Geisha",
+      "modifiers": "holographic geisha performer dancing gracefully in a digital cherry blossom storm, cyber tradition merging ancient elegance with futuristic technology, pixel petals of enchanted crystal data fragments swirling around a translucent figure, virtual elegance in flowing elven silk kimono rendered in neon wireframe and holographic fabric, dramatic composition with traditional Japanese architecture dissolving into digital grid, arcane gold obi sash emitting data streams, mystic purple and electric pink color palette, magical luminescence from holographic projection, intimate close-up of porcelain face reflected in circuit-board mirror",
+      "modifiers_animagine": "fantasy, hologram, geisha, digital, cherry blossom, cyberpunk, traditional japanese, kimono, neon, pixel petals, dancing, elegant, 1girl, japanese architecture, futuristic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "historical geisha painting, western dress, casual clothes, modern, mundane, realistic, photographic",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a translucent holographic figure in a neon wireframe kimono mid-dance with pixel cherry petals swirling at her fingertips",
+        "a porcelain face half-dissolved into data streams reflected in a circuit-board mirror framed by bamboo and fiber optics",
+        "the golden obi sash unraveling into ribbons of streaming data code against a backdrop of dissolving shoji screens",
+        "holographic hands holding a digital fan that scatters pixel blossoms through a traditional room glitching into grid"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "185_screaming_library": {
+      "name": "Lovecraftian Library",
+      "modifiers": "Lovecraftian nightmare library of impossible non-Euclidean architecture filled with ancient leather-bound books that scream when opened, eldritch knowledge seeping as shadow black tendrils from cracked spines, forbidden reading room with writhing tentacles emerging from between pages, cosmic horror archives where the shelves twist into impossible geometries, dramatic low angle looking up at infinitely receding balconies of cursed tomes, fire-lit candelabras casting dancing shadows that move independently, mystic purple eldritch energy crackling between shelves, ancient stone gargoyle bookends watching with glowing eyes, enchanted crystal reading globes showing maddening visions",
+      "modifiers_animagine": "fantasy, lovecraftian, horror library, eldritch, tentacles, ancient books, cosmic horror, dark atmosphere, non-euclidean, cursed, forbidden knowledge, candles, dark, creepy, gothic, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "quiet library, peaceful reading, calm study, silent room, gentle, modern, mundane, realistic, well-lit, organized",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a leather-bound tome splayed open on a reading desk with shadowy tendrils pouring from its pages and a faint scream frozen in the air",
+        "bookshelves warping into impossible Escher-like geometries with balconies receding infinitely into a purple eldritch glow",
+        "a crystal reading globe on an ancient desk showing a maddening vision of writhing shapes that cast shadows with no source",
+        "tentacles bursting from between shelved books their suckers gripping cracked spines as candelabra flames dance independently"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "187_lantern_souls": {
+      "name": "Paper Lantern Souls",
+      "modifiers": "whispering wind carrying thousands of glowing paper lantern souls across a deep twilight sky, spirit journey of luminous warm arcane gold lanterns each containing a softly glowing soul silhouette, peaceful passing along a river of moonlit mist, sweeping panoramic composition of endless lanterns stretching from foreground to distant mountains, intimate close-up of individual lanterns showing delicate calligraphy prayers, fire-lit warmth of each lantern against cool mystic purple dusk, ancient stone bridge below where mourners release their offerings, elven silk ribbons trailing from each ascending light, ethereal glow reflecting on still water surface",
+      "modifiers_animagine": "fantasy, paper lanterns, souls, floating lights, twilight sky, spiritual, peaceful, river, moonlight, warm glow, calligraphy, scenery, no humans, night sky, mountains, bridge, japanese style, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "electric lamp, flashlight, neon sign, LED bulb, chandelier, modern, mundane, realistic, daytime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a single paper lantern rising from outstretched hands on an ancient stone bridge with a soul silhouette glowing warmly inside",
+        "thousands of golden lanterns ascending over a misty river valley their reflections creating a second river of light on still water",
+        "a close view of a lantern's rice paper surface showing delicate calligraphy prayers illuminated from within by a soft amber glow",
+        "the ancient stone bridge at dusk crowded with released lanterns drifting upward past silk ribbons toward distant mountain peaks"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "188_neon_heart_tree": {
+      "name": "Biomechanical Heart Tree",
+      "modifiers": "massive biomechanical heart tree pulsing with neon veins of electric blue and mystic purple in a dense cyberpunk jungle, organic machine hybrid where dragon scale bark interfaces with gleaming circuitry, techno-nature fusion of ancient wood grain and futuristic conduits, synthetic life pumping glowing fluid through transparent tubes woven through branches, dramatic low angle from the root system looking up through canopy of circuit-board leaves, fire-lit sparks from electrical synapses, enchanted crystal sap crystallizing at branch tips, arcane gold hydraulic joints where trunk meets earth",
+      "modifiers_animagine": "fantasy, biomechanical, heart tree, cyberpunk, neon veins, organic machine, glowing, jungle, circuit boards, techno-nature, blue glow, purple, pulsing, synthetic life, scenery, no humans, dark background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dead tree, bare branches, normal heart shape, valentine card, modern, mundane, realistic, simple tree",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the tree's trunk splitting open to reveal a massive beating mechanical heart wrapped in glowing blue conduits and living bark",
+        "transparent tubes woven through branches pumping luminous purple fluid with circuit-board leaves crackling with tiny electrical arcs",
+        "a root system of tangled cables and living wood breaking through jungle floor with hydraulic gold joints hissing steam",
+        "a branch tip where crystallized neon sap forms glowing stalactites dripping synthetic light onto the dark jungle floor"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "189_crater_diner": {
+      "name": "Crater Edge Diner",
+      "modifiers": "retro-futuristic chrome diner perched on the precarious edge of a massive lunar crater under a star-filled sky, space americana with neon signs reading in arcane gold lettering against shadow black lunar landscape, cosmic roadside stop with checkered floor tiles reflecting Earth-rise through panoramic windows, moon dining atmosphere with vintage jukebox and hovering coffee pots, dramatic composition half-interior half-exterior showing the crater drop, enchanted crystal salt-and-pepper shakers floating in low gravity, fire-lit griddle casting warm orange glow contrasting with cold blue starlight, ancient stone lunar boulders framing the establishment",
+      "modifiers_animagine": "fantasy, retro futuristic, diner, moon, lunar crater, space, chrome, neon signs, vintage, cosmic, starry sky, earth rise, 1950s aesthetic, sci-fi, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal restaurant, food court, kitchen, cafeteria, rooftop bar, modern, mundane, realistic, earth-based",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the chrome diner exterior perched on a crater rim with a neon sign glowing gold against the star-filled lunar sky and Earth rising",
+        "a checkered countertop with hovering coffee pots and floating salt shakers as Earth-rise fills the panoramic window beyond",
+        "a vintage jukebox sitting at the crater's edge reflecting starlight off its chrome surface with the abyss dropping away behind it",
+        "the diner's warm orange griddle light spilling through the window onto grey lunar dust where boot prints lead to the door"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "192_backward_clock": {
+      "name": "Reverse Time Tower",
+      "modifiers": "mysterious Gothic clock tower where time visibly flows backward in defiance of nature, rain drops ascending skyward as the enchanted crystal clock face ticks counter-clockwise, temporal anomaly warping the surrounding ancient stone architecture in concentric time-ripples, reverse drops of water rising from cobblestone streets, chronological paradox shown in dramatic close-up of ornate arcane gold clock hands spinning backward, mystic purple temporal energy radiating from the tower apex, fire-lit street lamps with flames that darken rather than illuminate, shadow black silhouettes of confused onlookers, sweeping upward composition emphasizing the tower's impossible dominion over time",
+      "modifiers_animagine": "fantasy, clock tower, time reversal, gothic, rain, temporal anomaly, backwards clock, dark atmosphere, mysterious, purple energy, ancient architecture, cobblestone, night, dramatic, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal clock, digital watch, correct time, forward moving, modern, mundane, realistic, daytime, sunny",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "raindrops rising upward from cobblestones past a Gothic tower whose ornate gold clock hands spin slowly counter-clockwise",
+        "the clock face at the tower's peak radiating concentric purple ripples that warp the surrounding stone buildings like heat haze",
+        "a street lamp whose flame burns dark casting pools of shadow instead of light on the time-warped cobblestone street",
+        "the tower's base where time-ripples meet reality and fallen leaves reassemble themselves onto bare branches"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "193_kraken_skyscraper": {
+      "name": "Kraken Embrace",
+      "modifiers": "mythical giant kraken lovingly embracing a sunken art deco skyscraper in the abyssal deep, deep sea romance of massive dragon scale-textured tentacles wrapped around ornate architectural detail, tentacle architecture where organic meets geometric in the murky depths, underwater monument illuminated by bioluminescent enchanted green organisms, dramatic composition through a curtain of bubbles, arcane gold art deco reliefs glinting under magical luminescence, mystic purple deep-sea atmosphere, ancient stone coral encrusting the building's lower floors, intimate close-up of sucker detail against ornamental façade, shadow black ocean depths surrounding the scene",
+      "modifiers_animagine": "fantasy, kraken, giant octopus, underwater, skyscraper, art deco, deep sea, tentacles, bioluminescent, ocean depths, coral, bubbles, dark water, ruins, epic scale, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal building, calm sea, small octopus, aquarium, sushi, modern, mundane, realistic, shallow water",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a massive tentacle curling gently around an art deco spire with bioluminescent organisms illuminating the gold reliefs beneath",
+        "the kraken's eye the size of a floor of windows gazing at its own reflection in the building's glass facade deep underwater",
+        "tentacle suckers pressed against ornamental art deco panels with coral growing in the spaces between scale-textured skin and stone",
+        "the building's lobby visible through shattered windows with a tentacle threaded delicately through the chandelier"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "195_ghost_train": {
+      "name": "Victorian Ghost Train",
+      "modifiers": "Victorian era ghost train speeding through shimmering aurora borealis at full spectral velocity, transparent locomotive of enchanted crystal and shadow black wrought iron trailing ectoplasmic steam, northern lights railway cutting through frozen wilderness, haunted journey of phantom passengers visible through flickering translucent carriage windows, dramatic wide shot of the luminous train cutting across a moonlit frozen lake, fire-lit furnace glowing with arcane gold supernatural flame, mystic purple spectral energy crackling along the rails, ancient stone railway bridge spanning a bottomless gorge, elven silk curtains billowing through ghostly windows",
+      "modifiers_animagine": "fantasy, ghost train, victorian, aurora borealis, spectral, transparent, haunted, locomotive, northern lights, winter, frozen landscape, supernatural, ectoplasm, night, rails, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern subway, new train, bus, car, airplane, clean station, modern, mundane, realistic, daytime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a transparent locomotive thundering across a frozen lake with aurora borealis reflecting off its crystalline boiler and spectral steam",
+        "phantom passengers visible through flickering carriage windows their translucent forms lit by supernatural golden furnace glow",
+        "the ghost train crossing an ancient stone bridge over a bottomless gorge with spectral energy crackling along iron rails",
+        "ectoplasmic steam billowing from the locomotive's stack merging with green and purple aurora ribbons in the frozen sky"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "196_nebula_deer": {
+      "name": "Frozen Nebula Deer",
+      "modifiers": "ethereal crystal deer herd galloping gracefully across a frozen nebula landscape of cosmic ice and stellar dust, cosmic wildlife with antlers of enchanted crystal refracting starlight into prismatic sprays, stellar ice plains cracking beneath translucent hooves revealing galactic depths below, space nature merging frozen tundra with nebula gas clouds, dramatic sweeping panorama of the herd silhouetted against a birthing star, arcane gold stellar dust swirling in their wake, mystic purple and celestial blue color palette, magical luminescence emanating from each crystalline deer, shadow black cosmic void framing the herd, intimate close-up of lead stag with constellation patterns in its flanks",
+      "modifiers_animagine": "fantasy, crystal deer, nebula, cosmic, frozen landscape, herd, galloping, starlight, ice, antlers, space, ethereal, prismatic, constellation, scenery, no humans, night sky, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "regular deer, forest animal, zoo exhibit, taxidermy, cartoon deer, modern, mundane, realistic, single deer",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "the lead crystal stag mid-leap with constellation patterns glowing in its translucent flanks and prismatic light spraying from its antlers",
+        "hooves of the herd cracking through cosmic ice revealing swirling galaxy depths beneath the frozen nebula surface",
+        "a crystal doe turning its head with stellar dust cascading from its mane against a backdrop of a birthing star",
+        "the herd's wake of golden dust and fractured ice floating upward behind them like an inverted aurora trail"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "198_living_typewriter": {
+      "name": "Enchanted Typewriter",
+      "modifiers": "magical enchanted typewriter with arcane gold keys that write living stories into reality, creation machine where typed words materialize as three-dimensional scenes floating above the carriage, narrative magic conjuring miniature worlds from enchanted crystal letter-stamps, words become world as sentences spiral upward transforming into castles and dragons and forests, dramatic intimate close-up of keys being pressed with magical luminescence erupting from each strike, ancient stone desk in a wizard's tower study, mystic purple ink that shimmers with contained universes, fire-lit candles surrounding the mystical device, elven silk ribbon feeding through otherworldly mechanisms",
+      "modifiers_animagine": "fantasy, enchanted, typewriter, magic, living stories, words becoming real, wizard study, candles, ancient, mystical, glowing keys, floating words, castles, dragons, creative magic, scenery, no humans, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal typewriter, computer keyboard, laptop, tablet, phone, modern, mundane, realistic, office equipment",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "golden keys mid-strike with luminous letters erupting upward and assembling into a tiny three-dimensional castle above the carriage",
+        "a ribbon of enchanted purple ink feeding through the typewriter mechanism with each letter containing a miniature universe",
+        "sentences spiraling from the page transforming word by word from text into a living dragon coiling above the wizard's desk",
+        "the typewriter on an ancient stone desk surrounded by candles with dozens of tiny conjured worlds orbiting above it like planets"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "199_acid_flower_market": {
+      "name": "Acid Rain Flower Market",
+      "modifiers": "dystopian underground flower market thriving beneath perpetual acid rain in a neon-drenched cyberpunk cavern, toxic beauty of mutant blooms with bioluminescent enchanted green and mystic purple petals, resilient flowers growing in cracked concrete planters under dripping corroded pipes, cyberpunk botany with holographic price tags and augmented reality growing guides, dramatic composition through rain-streaked glass ceiling showing acid droplets, arcane gold brass drainage systems channeling toxic runoff, fire-lit heating lamps keeping exotic specimens alive, shadow black corners hiding rare and forbidden species, intimate close-up of an impossible flower with dragon scale petals",
+      "modifiers_animagine": "fantasy, cyberpunk, flower market, underground, acid rain, neon, dystopian, bioluminescent flowers, mutant plants, market stalls, toxic beauty, holographic, dark atmosphere, scenery, no humans, rain, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "normal flower shop, garden center, grocery produce, dry goods, modern, mundane, realistic, sunny garden",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a mutant orchid with dragon-scale petals glowing purple beneath a holographic price tag in a cracked concrete planter",
+        "acid rain droplets sizzling on a corroded glass ceiling above rows of bioluminescent flowers bathed in neon market light",
+        "a forbidden specimen hidden in a dark corner its tendrils of green light creeping past brass drainage pipes toward the walkway",
+        "a market stall overflowing with impossible blooms under heat lamps their colors shifting from toxic green to electric violet"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    },
+    "200_event_horizon_ballerina": {
+      "name": "Event Horizon Ballerina",
+      "modifiers": "cosmic ballerina in a flowing stardust dress pirouetting eternally on the knife-edge of a black hole event horizon, gravity dance where time dilates around each perfect movement, celestial performance with elven silk tutu woven from captured starlight and aurora threads, eternal spin at the boundary between existence and oblivion, dramatic wide composition showing the accretion disk swirling beneath en pointe feet, arcane gold ballet slippers defying infinite gravity, mystic purple and deep cosmic blue color palette, magical luminescence streaming from outstretched fingertips as light bends around the dancer, shadow black void consuming everything except the performer, enchanted crystal tiara refracting the last light before the singularity",
+      "modifiers_animagine": "fantasy, ballerina, black hole, cosmic, event horizon, dancing, stardust dress, space, accretion disk, graceful, pirouette, celestial, 1girl, ballet, starlight, eternal dance, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "street dancer, hip hop, breakdance, club dancing, tap, modern, mundane, realistic, indoor stage",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a ballerina en pointe on the razor edge of an event horizon with her stardust dress streaming into the accretion disk below",
+        "outstretched fingertips bending light itself as luminous trails curve around the dancer and spiral into the black hole",
+        "golden ballet slippers balanced on the boundary between existence and void with time visibly dilating around each pointed toe",
+        "the crystal tiara catching the last photons before the singularity refracting them into a crown of prismatic light against pure darkness"
+      ],
+      "settings": {
+        "cfg_boost": 1,
+        "steps_boost": 5
+      }
+    }
+  }
+}

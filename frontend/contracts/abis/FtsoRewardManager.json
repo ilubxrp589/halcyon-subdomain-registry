@@ -1,0 +1,89 @@
+[
+  {
+    "inputs": [
+      { "internalType": "address", "name": "_rewardOwner", "type": "address" },
+      { "internalType": "address payable", "name": "_recipient", "type": "address" },
+      { "internalType": "uint256[]", "name": "_rewardEpochs", "type": "uint256[]" }
+    ],
+    "name": "claimReward",
+    "outputs": [{ "internalType": "uint256", "name": "_rewardAmount", "type": "uint256" }],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "address", "name": "_beneficiary", "type": "address" }],
+    "name": "getStateOfRewards",
+    "outputs": [
+      { "internalType": "address[]", "name": "_dataProviders", "type": "address[]" },
+      { "internalType": "uint256[]", "name": "_rewardAmounts", "type": "uint256[]" },
+      { "internalType": "bool[]", "name": "_claimed", "type": "bool[]" },
+      { "internalType": "bool", "name": "_claimable", "type": "bool" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "address", "name": "_beneficiary", "type": "address" },
+      { "internalType": "uint256", "name": "_rewardEpoch", "type": "uint256" }
+    ],
+    "name": "getStateOfRewardsFromDataProviders",
+    "outputs": [
+      { "internalType": "address[]", "name": "_dataProviders", "type": "address[]" },
+      { "internalType": "uint256[]", "name": "_rewardAmounts", "type": "uint256[]" },
+      { "internalType": "bool[]", "name": "_claimed", "type": "bool[]" },
+      { "internalType": "bool", "name": "_claimable", "type": "bool" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getCurrentRewardEpoch",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getRewardEpochToExpireNext",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "uint256", "name": "_rewardEpoch", "type": "uint256" }],
+    "name": "getEpochReward",
+    "outputs": [
+      { "internalType": "uint256", "name": "_totalReward", "type": "uint256" },
+      { "internalType": "uint256", "name": "_claimedReward", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "address", "name": "_beneficiary", "type": "address" },
+      { "internalType": "uint256", "name": "_rewardEpoch", "type": "uint256" }
+    ],
+    "name": "getUnclaimedReward",
+    "outputs": [
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" },
+      { "internalType": "uint256", "name": "_weight", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "internalType": "address", "name": "dataProvider", "type": "address" },
+      { "indexed": true, "internalType": "address", "name": "whoClaimed", "type": "address" },
+      { "indexed": true, "internalType": "address", "name": "sentTo", "type": "address" },
+      { "indexed": false, "internalType": "uint256", "name": "rewardEpoch", "type": "uint256" },
+      { "indexed": false, "internalType": "uint256", "name": "amount", "type": "uint256" }
+    ],
+    "name": "RewardClaimed",
+    "type": "event"
+  }
+]

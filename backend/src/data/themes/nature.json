@@ -1,0 +1,839 @@
+{
+  "category": "nature",
+  "description": "Natural world, wildlife, and environmental themes",
+  "themes": {
+    "301_wildlife_tracking": {
+      "name": "Wildlife Tracking",
+      "modifiers": "(wide shot of a misty forest trail at golden hour:1.2), (detailed animal footprints pressed deep into rich dark mud:1.15), dappled sunlight filtering through emerald canopy overhead, (naturalist field journal open beside tracks:1.15), dewy fern fronds framing the scene, (warm earth tones and forest green palette:1.1), soft morning fog lingering between ancient oaks",
+      "modifiers_animagine": "no humans, (forest:1.15), nature, (animal footprints:1.15), mud, morning, fog, sunlight, fern, tree, detailed background, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "domestic pets, zoo cage, farm animals, aquarium, pet store, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a set of wolf paw prints pressed deep into dark forest mud beside a mossy fallen log",
+        "a weathered naturalist's field journal open to hand-drawn sketches of animal tracks and scat",
+        "morning dew clinging to a fern frond beside fresh deer hoof prints in soft earth",
+        "a trail camera mounted on a birch tree capturing a red fox trotting through misty dawn woods"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "302_bird_migration": {
+      "name": "Bird Migration",
+      "modifiers": "(dramatic wide shot of a vast V-formation of migrating geese silhouetted against a blazing amber and vermillion sunset sky:1.2), sweeping panoramic view across autumn wetlands, (golden hour light reflecting off still water below:1.15), (distant mountain ridgeline:1.15), atmospheric haze layering the horizon, (warm copper and burnt sienna color palette:1.1)",
+      "modifiers_animagine": "no humans, scenery, sky, (sunset:1.1), (birds:1.15), (flying:1.1), flock, cloud, orange sky, lake, reflection, autumn, landscape, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "caged bird, pet parrot, chicken coop, ostrich farm, penguin zoo, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a vast V-formation of snow geese silhouetted against a blood-orange sunset over coastal marshlands",
+        "a lone Arctic tern mid-wingbeat above churning grey ocean waves during its pole-to-pole journey",
+        "a flock of sandhill cranes descending into a golden stubble field at dusk with legs outstretched",
+        "thousands of starlings swirling in a murmuration over a reed-fringed winter lake at twilight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "303_pollinator_gardens": {
+      "name": "Pollinator Gardens",
+      "modifiers": "(macro close-up of a vibrant pollinator garden in peak summer bloom:1.2), (honeybee mid-flight with pollen-dusted legs approaching lavender blossoms:1.15), (monarch butterfly resting on bright milkweed:1.15), bokeh background of wildflowers in coral pink and violet, dappled afternoon sunlight, dewy petals glistening, (rich saturated garden colors:1.1)",
+      "modifiers_animagine": "no humans, (flower:1.15), garden, (bee:1.15), butterfly, nature, sunlight, lavender, colorful, bloom, petals, grass, detailed background, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dead garden, concrete, parking lot, pesticide, indoor plastic flowers, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a honeybee mid-flight with pollen-laden legs reaching toward an open lavender blossom in warm sunlight",
+        "a monarch butterfly unfurling its proboscis into the deep pink throat of a milkweed flower",
+        "a hummingbird hawk-moth hovering before a cluster of trumpet-shaped honeysuckle blooms at dusk",
+        "a bumblebee dusted in bright yellow pollen resting inside the cup of a wide-open peony"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "304_nocturnal_life": {
+      "name": "Nocturnal Life",
+      "modifiers": "(atmospheric midnight forest scene bathed in cold silver moonlight:1.2), (great horned owl with luminous amber eyes perched on a mossy branch:1.15), (bioluminescent fungi glowing faintly on decaying logs:1.15), red fox silhouetted against a full moon, (deep indigo and midnight blue palette:1.1), starlit canopy, mysterious twilight shadows",
+      "modifiers_animagine": "no humans, (night:1.15), full moon, forest, (owl:1.15), dark, moonlight, glowing eyes, stars, tree, silhouette, atmosphere, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "bright sunlight, midday, harsh daylight, neon lights, indoor, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a great horned owl with piercing amber eyes perched on a gnarled branch beneath a full moon",
+        "a red fox stepping through silver moonlit undergrowth with ears pricked and breath visible in cold air",
+        "a cluster of bioluminescent ghost mushrooms glowing ethereal green on a rotting oak log in deep darkness",
+        "a barn owl in silent mid-flight over a frost-covered meadow under a canopy of stars"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "305_pond_dipping": {
+      "name": "Pond Dipping",
+      "modifiers": "(overhead view of a crystal clear woodland pond teeming with life:1.2), (tadpoles swimming among submerged lily stems:1.15), water striders dimpling the surface tension, (iridescent dragonfly hovering above:1.15), sunlight penetrating the shallows revealing a sandy bottom, emerald duckweed fringe, (warm pastoral afternoon light:1.1)",
+      "modifiers_animagine": "no humans, (pond:1.15), water, lily pad, (dragonfly:1.15), tadpole, nature, sunlight, reflection, grass, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "swimming pool, bathtub, ocean, deep sea, aquarium tank, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cluster of translucent tadpoles weaving between the submerged stems of water lilies in clear shallows",
+        "an iridescent blue dragonfly perched on the tip of a cattail reed above still green water",
+        "a water strider dimpling the glassy surface of a woodland pond with ripples catching afternoon sun",
+        "a smooth newt gliding through crystal-clear water past sunken leaves and fine aquatic moss"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "306_bug_safari": {
+      "name": "Bug Safari",
+      "modifiers": "(extreme macro close-up of a forest floor invertebrate world:1.2), (iridescent jewel beetle with metallic emerald and copper shell on rough bark:1.15), (orb weaver spider spinning a dew-laden morning web catching golden light:1.15), earthworm tunnel cross-section in rich loamy soil, (warm amber sidelight:1.1), shallow depth of field",
+      "modifiers_animagine": "no humans, (insect:1.15), (beetle:1.15), spider, web, forest, macro, nature, morning dew, bark, close-up, detailed, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "mammals, birds, fish, pets, zoo animals, domestic, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an iridescent jewel beetle with a metallic emerald and copper carapace clinging to rough pine bark",
+        "an orb weaver spider at the center of a dew-laden web catching the first golden rays of morning",
+        "a praying mantis poised on a leaf edge with forelegs raised and compound eyes gleaming in sidelight",
+        "a line of leaf-cutter ants carrying bright green leaf fragments along a mossy forest floor trail"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "307_animal_architecture": {
+      "name": "Animal Architecture",
+      "modifiers": "(wide shot of an intricate beaver dam spanning a forest stream at golden hour:1.2), (crystal clear water cascading through woven branches:1.15), (bird nest masterfully woven from moss and lichen in the foreground:1.15), spider web jeweled with morning dew catching prismatic light, (warm honey and forest green tones:1.1), natural engineering marvels",
+      "modifiers_animagine": "no humans, nature, river, (dam:1.15), (nest:1.15), spider web, dew, forest, stream, sunlight, scenery, landscape, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "human buildings, skyscrapers, modern house, concrete, steel, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a massive beaver dam of interwoven branches and mud spanning a forest stream with water cascading through gaps",
+        "a weaver bird's pendulous nest woven from golden grass strands hanging from a thorny acacia branch",
+        "a termite cathedral mound rising from red earth savanna with intricate ventilation chimneys and buttresses",
+        "a paper wasp nest attached beneath a barn eave showing perfect hexagonal cells in layered grey tiers"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "308_camouflage": {
+      "name": "Camouflage",
+      "modifiers": "(intimate mid-shot of a leaf-tailed gecko nearly invisible against mottled bark:1.2), (dappled forest light creating complex shadow patterns:1.15), (mossy textures blending with the creature's skin:1.15), (muted olive and bark brown palette:1.1), shallow depth of field isolating the hidden animal, nature's masterful disguise revealed upon close inspection",
+      "modifiers_animagine": "no humans, (lizard:1.15), (camouflage:1.15), tree, bark, forest, nature, hidden, leaves, moss, detailed, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "bright neon, highlighter colors, stand out, obvious, exposed, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a leaf-tailed gecko pressed flat against mottled grey-brown bark with its body outline dissolving into the texture",
+        "a dead leaf butterfly resting on a branch of dried leaves with wings perfectly mimicking a withered brown leaf",
+        "a snow-white Arctic hare crouched motionless on a windswept snowfield with only dark eyes revealing its presence",
+        "an octopus shifting its skin to match the coral and pebbled seabed beneath it in rippling color waves"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "309_hibernation": {
+      "name": "Hibernation",
+      "modifiers": "(cross-section view of a cozy underground bear den during deep winter:1.2), (sleeping bear curled among dry leaves and grass:1.15), (snow blanketing the earth above:1.15), (warm amber underground glow contrasting with cold blue-white winter surface:1.1), dormouse nestled in a hollow log with cached nuts, soft muted earth tones, peaceful stillness",
+      "modifiers_animagine": "no humans, (bear:1.15), (sleeping:1.15), cave, winter, snow, underground, cozy, nature, leaves, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "wide awake, active, running, hunting, playing, energetic, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a brown bear curled into a massive furry ball inside an earthen den lined with dry leaves and grass",
+        "a tiny dormouse nestled in a hollow log surrounded by a cache of hazelnuts and dried berries",
+        "a hedgehog tucked into a tight ball beneath a pile of crisp autumn leaves in a sheltered garden corner",
+        "a ground squirrel sleeping deep in its burrow with frost crystals forming on the soil ceiling above"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "310_life_cycles": {
+      "name": "Life Cycles",
+      "modifiers": "(cinematic overhead view of a complete frog metamorphosis sequence arranged in a spiral on moss-covered stones:1.2), (transparent eggs with visible embryos:1.15), swimming tadpoles, transitional froglets, (adult frog perched on a dewy leaf:1.15), butterfly emerging from chrysalis in golden morning light, (warm spring color palette of fresh green and sunlit amber:1.1)",
+      "modifiers_animagine": "no humans, (frog:1.15), (butterfly:1.15), chrysalis, nature, transformation, pond, leaf, spring, sunlight, moss, water, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "static, frozen, unchanging, permanent, artificial, manufactured, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a monarch butterfly emerging wet-winged from a jade-green chrysalis with crumpled wings slowly unfurling",
+        "a cluster of translucent frog eggs with visible dark embryos curled inside each gelatinous sphere",
+        "a cicada pulling itself free from its old exoskeleton on rough bark with pale new wings glistening",
+        "a salmon leaping upstream through white rapids with its body flushed crimson in spawning colors"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "311_photosynthesis": {
+      "name": "Photosynthesis",
+      "modifiers": "(macro close-up of sunlight streaming through translucent emerald leaves revealing intricate vein networks:1.2), (warm golden rays penetrating the canopy creating volumetric light shafts:1.15), chlorophyll-rich cells visible at cellular level, (dewy leaf surfaces refracting rainbow prisms:1.15), lush verdant jungle canopy overhead, (vibrant green and gold palette:1.1)",
+      "modifiers_animagine": "no humans, (leaf:1.15), (sunlight:1.1), green, nature, forest, light rays, canopy, tree, detailed, close-up, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "darkness, nighttime, underground cave, deep ocean, no sunlight, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a single translucent leaf held up to the sun revealing its intricate branching vein network glowing green and gold",
+        "shafts of warm sunlight piercing through a dense rainforest canopy and illuminating floating dust motes",
+        "a young fern fiddlehead unfurling toward a beam of morning light on the shaded forest floor",
+        "water droplets on a broad tropical leaf acting as tiny lenses refracting rainbow prisms of sunlight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "312_seed_dispersal": {
+      "name": "Seed Dispersal",
+      "modifiers": "(wide shot of dandelion seeds floating weightlessly on warm afternoon wind currents:1.2), (golden hour backlighting each silky parachute:1.15), (maple helicopter seeds spinning in descent:1.15), burrs clinging to passing deer fur, coconut bobbing on turquoise ocean waves, soft dreamy bokeh background, (warm amber and cream color palette:1.1)",
+      "modifiers_animagine": "no humans, (dandelion:1.15), (seeds:1.15), wind, sky, sunlight, floating, nature, golden hour, field, grass, scenery, landscape, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "concrete, asphalt, barren wasteland, sterile lab, empty room, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a dandelion clock releasing its silky seed parachutes into warm golden-hour wind over a meadow",
+        "a maple seed spinning in slow helicopter descent through dappled autumn sunlight between orange leaves",
+        "a cedar waxwing swallowing a bright red holly berry with juice staining its beak feathers",
+        "a coconut half-buried in white tropical sand at the tide line with a green shoot emerging from its husk"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "313_ancient_trees": {
+      "name": "Ancient Trees",
+      "modifiers": "(dramatic low-angle shot of a massive ancient redwood towering into misty heavens:1.2), (thick mossy bark deeply furrowed with centuries of growth:1.15), (cathedral-like old-growth forest with shafts of golden light:1.15), gnarled bristlecone pine twisted by millennia of wind, (rich umber and deep forest green palette:1.1), awe-inspiring scale and grandeur",
+      "modifiers_animagine": "no humans, (tree:1.15), (ancient:1.15), giant tree, forest, moss, sunlight, nature, fog, scenery, landscape, majestic, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "saplings, seedlings, young plants, garden shrub, potted plant, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a colossal ancient redwood trunk rising into fog with deeply furrowed bark thick with moss and ferns",
+        "a gnarled bristlecone pine twisted into surreal shapes by four thousand years of mountain wind",
+        "a hollow ancient oak wide enough to stand inside with light filtering through its living canopy above",
+        "the exposed root system of a massive banyan tree spreading like buttresses across a jungle temple ruin"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "314_wildflowers": {
+      "name": "Wildflowers",
+      "modifiers": "(sweeping wide shot of a wildflower meadow in full summer bloom stretching to distant rolling hills:1.2), (poppies and cornflowers swaying in gentle breeze:1.15), golden hour side-lighting creating long shadows, (warm palette of coral, saffron, cornflower blue and meadow green:1.1), (butterflies drifting lazily:1.15), soft atmospheric haze on the horizon",
+      "modifiers_animagine": "no humans, (flower field:1.15), meadow, (wildflower:1.15), poppy, sky, cloud, grass, nature, wind, colorful, landscape, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "cultivated roses, greenhouse, flower shop, plastic flowers, bouquet, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a field of scarlet poppies swaying in a warm breeze against a backdrop of distant blue hills",
+        "a single wild bluebell standing in a carpet of thousands covering an ancient woodland floor",
+        "a patch of golden California poppies opening their cups to the morning sun on a coastal hillside",
+        "wild lupines in purple and blue spires rising from a mountain meadow dusted with morning dew"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "315_fungi_kingdom": {
+      "name": "Fungi Kingdom",
+      "modifiers": "(enchanting macro shot of a forest floor covered in diverse fungi species:1.2), (bioluminescent ghost mushrooms glowing ethereal teal in deep shade:1.15), (fairy ring of toadstools on mossy ground:1.15), delicate mycelium threads visible in rich dark soil, dramatic storm light filtering through dense canopy, (moody palette of deep brown, emerald, and ghostly cyan:1.1)",
+      "modifiers_animagine": "no humans, (mushroom:1.15), forest, dark, (glowing:1.1), moss, nature, fantasy, bioluminescence, scenery, detailed, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "bright flowers, fruit tree, sunny meadow, grassy lawn, garden, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cluster of bioluminescent ghost mushrooms glowing ethereal teal on a decaying log in pitch-dark woods",
+        "a perfect fairy ring of red-capped fly agaric toadstools on a moss-carpeted forest floor",
+        "a massive shelf fungus fanning outward from a dead birch trunk in layers of russet and cream",
+        "delicate coral fungi branching upward like pale orange fingers from rich dark leaf litter"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "316_moss_lichens": {
+      "name": "Moss & Lichens",
+      "modifiers": "(intimate macro close-up of a miniature moss forest covering weathered granite boulders:1.2), (tiny sporophytes standing like emerald spires:1.15), (crustose lichen painting ancient tree bark in sage and rust patterns:1.15), crystal clear water droplets clinging to moss fronds, soft diffused overcast light, (palette of jade green, stone grey, and copper orange:1.1)",
+      "modifiers_animagine": "no humans, (moss:1.15), (lichen:1.15), rock, nature, close-up, macro, green, forest, stone, detailed, water drops, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "clean stone, polished marble, fresh paint, new building, chrome, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a miniature forest of star-shaped moss sporophytes rising from a carpet of emerald cushion moss on granite",
+        "crustose lichen painting an ancient stone wall in overlapping circles of sage green, rust, and silver",
+        "a rain-soaked log covered in thick sphagnum moss with crystal droplets clinging to every frond tip",
+        "branching reindeer lichen sprawling across a boreal rock face in pale grey-green antler formations"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "317_edible_foraging": {
+      "name": "Edible Foraging",
+      "modifiers": "(warm overhead view of a woven foraging basket filled with wild chanterelle mushrooms and elderberries:1.2), forest floor scattered with identifiable edible plants, (dappled sunlight through birch canopy:1.15), (aged leather-bound field guide open beside the basket:1.15), dewy morning atmosphere, (rich palette of golden mushroom, deep berry purple, and woodland green:1.1)",
+      "modifiers_animagine": "no humans, (basket:1.15), (mushroom:1.15), berry, forest, nature, sunlight, foraging, plants, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "grocery store, restaurant, kitchen, supermarket, vending machine, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a woven basket overflowing with golden chanterelle mushrooms freshly gathered from a mossy forest floor",
+        "a cluster of wild elderberries hanging heavy and dark purple from a branch beside a woodland stream",
+        "ripe wild blackberries glistening in morning dew on a thorny bramble at the edge of a sun-dappled clearing",
+        "a patch of wild garlic with white star-shaped flowers carpeting a beech wood floor in spring"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "318_seasonal_trees": {
+      "name": "Seasonal Trees",
+      "modifiers": "(panoramic wide shot of a deciduous forest split into four seasonal quadrants:1.2), (spring bud burst in fresh lime green:1.15), summer canopy in deep emerald, (autumn ablaze in crimson and gold:1.15), winter bare branches dusted with frost, golden hour lighting across all seasons, (rich saturated seasonal color transitions:1.1)",
+      "modifiers_animagine": "no humans, tree, (four seasons:1.15), spring, summer, (autumn:1.1), winter, forest, leaves, nature, colorful, sky, landscape, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "evergreen only, dead stump, telephone pole, fence post, bare, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a solitary maple tree in full autumn blaze with leaves transitioning from green to gold to scarlet",
+        "a cherry blossom tree shedding pale pink petals in a gentle spring breeze over a grassy hillside",
+        "a bare winter oak silhouetted against a lavender dawn sky with every branch coated in white hoarfrost",
+        "a summer beech tree in full deep-green canopy casting cool dappled shadows on a sunlit meadow"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "319_garden_harvest": {
+      "name": "Garden Harvest",
+      "modifiers": "(warm overhead shot of a bountiful vegetable garden at harvest time:1.2), (sun-ripened tomatoes still on the vine with morning dew:1.15), (heirloom squash and deep purple eggplant:1.15), rich composting bin teeming with earthworms, golden late-afternoon sunlight raking across raised beds, (palette of tomato red, squash gold, leafy green, and rich soil brown:1.1)",
+      "modifiers_animagine": "no humans, (garden:1.15), (vegetables:1.15), tomato, sunlight, nature, harvest, plants, detailed, food, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "factory farm, industrial agriculture, supermarket shelf, frozen food, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cluster of sun-ripened heirloom tomatoes in deep red and streaked gold still on the vine with morning dew",
+        "a wheelbarrow filled with freshly harvested pumpkins and butternut squash in warm afternoon garden light",
+        "a raised garden bed bursting with leafy kale, climbing bean tendrils, and plump zucchini among broad leaves",
+        "a wooden crate of just-pulled carrots with rich orange roots and feathery green tops dusted with dark soil"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "320_wood_wide_web": {
+      "name": "Wood Wide Web",
+      "modifiers": "(cross-section underground view of a vast forest mycelium network:1.2), (luminous fungal threads connecting massive tree root systems in the dark soil:1.15), (nutrients visualized as glowing particles flowing between trees:1.15), mother tree at the center with radiating connections, (deep earth tones contrasted with bioluminescent cyan and amber pathways:1.1), mysterious underground world",
+      "modifiers_animagine": "no humans, underground, roots, tree, (mycelium:1.15), (glowing:1.1), nature, dark, network, fantasy, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "above ground only, sky, clouds, surface, paved road, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cross-section of dark forest soil revealing luminous white mycelium threads connecting the roots of neighboring trees",
+        "a massive mother tree's root system spreading underground with glowing nutrient pathways radiating outward",
+        "fine fungal hyphae wrapping around a tree root tip in a symbiotic mycorrhizal embrace visible at macro scale",
+        "an underground network of bioluminescent amber threads pulsing nutrients between saplings and ancient stumps"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "321_geology_gems": {
+      "name": "Geology & Gems",
+      "modifiers": "(dramatic close-up of a freshly split amethyst geode revealing deep violet crystal formations inside rough volcanic rock:1.2), (sparkling facets catching warm directional light:1.15), (mineral specimens arranged on weathered slate:1.15), sapphire blue and citrine gold accents, macro detail of crystal lattice structure, (rich jewel-tone color palette against dark stone:1.1)",
+      "modifiers_animagine": "no humans, (crystal:1.15), (gemstone:1.15), amethyst, geode, rock, nature, sparkling, colorful, detailed, close-up, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "plastic beads, glass marbles, costume jewelry, painted rocks, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a freshly cracked amethyst geode revealing deep violet crystal points sparkling under warm directional light",
+        "layered agate slices in bands of honey amber, milky white, and smoky grey arranged on dark slate",
+        "a raw emerald crystal embedded in white quartz matrix with vivid green catching the light",
+        "a bismuth crystal grown into iridescent rainbow staircase formations of pink, blue, and gold oxide layers"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "322_water_cycle": {
+      "name": "Water Cycle",
+      "modifiers": "(sweeping panoramic landscape visualizing the complete water cycle:1.2), turquoise ocean evaporating into towering cumulus clouds, (precipitation falling as silver rain on distant mountains:1.15), (crystal clear river winding back to the sea:1.15), dramatic storm light breaking through cloud cover, (rich palette of ocean blue, cloud white, mountain grey, and river sapphire:1.1)",
+      "modifiers_animagine": "no humans, ocean, cloud, (rain:1.15), mountain, (river:1.1), sky, nature, water, landscape, scenery, sun, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "stagnant, dry forever, frozen permanently, no clouds, drought, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a towering cumulonimbus cloud releasing silver curtains of rain over distant blue mountain ridges",
+        "morning mist rising in ghostly columns from the surface of a warm forest lake at dawn",
+        "a glacial meltwater stream cascading down smooth granite into a turquoise alpine pool",
+        "a single raindrop striking the surface of a still pond and creating perfect concentric ripples"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "323_cloud_gazing": {
+      "name": "Cloud Gazing",
+      "modifiers": "(dramatic wide shot of a towering cumulonimbus anvil cloud formation against a vast azure sky:1.2), wispy cirrus streaks at high altitude, (golden hour light painting cloud edges in molten copper and rose:1.15), rolling green hillside below for scale, (volumetric god rays piercing through cloud gaps:1.15), (atmospheric depth and grandeur:1.1)",
+      "modifiers_animagine": "no humans, sky, (cloud:1.15), cumulus, scenery, sunlight, blue sky, landscape, nature, (sun rays:1.1), horizon, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "underground, indoor ceiling, basement, cave, subway tunnel, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a towering cumulonimbus anvil cloud billowing into the stratosphere with its base lit molten gold by sunset",
+        "wispy mare's-tail cirrus clouds streaking across a vast deep-blue sky above an open prairie",
+        "a lenticular cloud hovering in a perfect saucer shape over a snow-capped volcanic peak",
+        "volumetric god rays breaking through gaps in dark storm clouds and illuminating a patchwork countryside below"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "324_soil_health": {
+      "name": "Soil Health",
+      "modifiers": "(detailed cross-section of rich healthy soil showing distinct horizons and layers:1.2), (earthworms aerating dark humus-rich topsoil:1.15), (root systems reaching deep into mineral subsoil:1.15), decomposing leaf litter on the surface, warm side lighting illuminating soil texture and moisture, (palette of chocolate brown, clay red, and root white against black earth:1.1)",
+      "modifiers_animagine": "no humans, (soil:1.15), underground, (roots:1.15), earthworm, nature, cross-section, layers, detailed, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "concrete, asphalt, tile floor, carpet, hardwood, linoleum, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a cross-section of rich dark topsoil showing earthworm tunnels and pale root threads in layered horizons",
+        "a handful of crumbly black humus-rich soil teeming with tiny organisms and fine white mycorrhizal threads",
+        "decomposing autumn leaves on the forest floor in stages from whole to skeletal to dark rich compost",
+        "a soil core sample showing distinct layers from dark organic topsoil through red clay to pale mineral subsoil"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "325_fossil_hunting": {
+      "name": "Fossil Hunting",
+      "modifiers": "(cinematic shot of a perfectly preserved ammonite fossil emerging from sedimentary rock face:1.2), warm afternoon sun casting long shadows across the excavation site, (geological hammer and fine brush beside the specimen:1.15), (intricate spiral shell detail with pearlescent mineralization:1.15), layered cliff strata in ochre and sandstone tones, (deep time preserved in stone:1.1)",
+      "modifiers_animagine": "no humans, (fossil:1.15), (ammonite:1.15), rock, nature, excavation, stone, cliff, desert, detailed, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern bones, living animals, fresh skeleton, pet remains, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a perfectly preserved ammonite fossil with pearlescent chambers spiraling outward from weathered limestone cliff",
+        "a trilobite impression in dark shale with every segment and compound eye facet sharply defined",
+        "a leaf fossil with delicate vein detail pressed into fine-grained mudstone beside a geological hammer",
+        "a row of dinosaur footprints pressed into ancient sandstone along a sun-baked riverbed exposure"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "326_volcanoes": {
+      "name": "Volcanoes",
+      "modifiers": "(dramatic wide shot of a volcanic eruption at twilight:1.2), (rivers of incandescent molten lava flowing down obsidian slopes:1.15), (explosive pyroclastic column rising into a blood-red sky:1.15), geothermal hot springs glowing turquoise at the base, dramatic storm light with lightning in the ash cloud, (fierce palette of magma orange, ash grey, and volcanic red:1.1)",
+      "modifiers_animagine": "no humans, (volcano:1.15), (lava:1.15), eruption, fire, smoke, mountain, night, red sky, nature, dramatic, scenery, landscape, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "gentle hills, flat plain, frozen glacier, calm lake, meadow, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "rivers of incandescent orange lava flowing down a black volcanic slope into hissing ocean water at night",
+        "a volcanic lightning bolt crackling through a towering ash plume above an erupting stratovolcano",
+        "a turquoise geothermal hot spring steaming at the base of a dormant volcanic caldera ringed with sulfur deposits",
+        "a lava tube skylight revealing molten rock flowing beneath a crusted surface with heat shimmer distorting the air"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "327_ocean_tides": {
+      "name": "Ocean Tides",
+      "modifiers": "(overhead view of a vibrant tidal pool at low tide on a rocky coastline:1.2), (sea anemones in vivid magenta and emerald:1.15), hermit crabs navigating miniature canyons, (crystal clear water revealing starfish and urchins:1.15), dramatic wave-carved rock formations, golden hour light glinting off wet surfaces, (rich palette of ocean teal, anemone pink, and kelp green:1.1)",
+      "modifiers_animagine": "no humans, ocean, (tide pool:1.15), rock, water, (sea creature:1.15), starfish, anemone, coast, nature, scenery, detailed, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "still pond, swimming pool, bathtub, puddle, stagnant water, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a vibrant tidal pool filled with magenta sea anemones, orange starfish, and purple urchins in crystal-clear water",
+        "a massive wave curling and crashing against barnacle-encrusted sea stacks on a wild rocky coastline",
+        "exposed kelp forests draped over rocks at low tide glistening in warm amber afternoon light",
+        "a hermit crab navigating a miniature canyon in wave-carved stone with its borrowed shell catching sunlight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "328_starry_nights": {
+      "name": "Starry Nights",
+      "modifiers": "(breathtaking wide shot of a crystal clear night sky over an untouched wilderness:1.2), (the Milky Way arching as a luminous river of stars:1.15), (meteor shower streaking brilliant white trails:1.15), silhouetted mountain ridgeline and ancient pines below, (deep indigo and cosmic violet sky fading to warm horizon glow:1.1), infinite cosmic wonder above pristine nature",
+      "modifiers_animagine": "no humans, (night sky:1.15), (stars:1.1), (milky way:1.15), meteor, mountain, silhouette, nature, scenery, landscape, starry sky, dark, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "daylight, overcast, city lights, indoor ceiling, neon signs, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "the Milky Way arching as a luminous river of stars over a silhouetted pine-covered mountain ridge",
+        "a bright meteor streaking a white trail across a deep indigo sky reflected in a still alpine lake",
+        "the aurora borealis rippling in green and violet curtains above a snow-covered boreal forest",
+        "a lone ancient bristlecone pine silhouetted against a sky packed with thousands of visible stars"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "329_weather_patterns": {
+      "name": "Weather Patterns",
+      "modifiers": "(dramatic panoramic shot of a massive weather front colliding over rolling farmland:1.2), (towering dark storm clouds on one side and golden sunlit sky on the other:1.15), (vivid double rainbow arcing between them:1.15), silver rain curtain visible in the distance, wind-bent wheat field in foreground, (palette of storm charcoal, wheat gold, and rainbow spectrum:1.1)",
+      "modifiers_animagine": "no humans, (storm:1.15), cloud, rain, (rainbow:1.15), sky, field, wind, nature, dramatic, landscape, scenery, weather, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "indoor, still air, vacuum, space, underground bunker, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a massive supercell thunderstorm with a dark rotating wall cloud advancing over golden wheat fields",
+        "a vivid double rainbow arcing across a clearing sky with dark retreating storm clouds as backdrop",
+        "a silver rain curtain falling from an isolated cloud over a sunlit green valley seen from a distant hilltop",
+        "a field of wind-bent grass rippling in powerful gusts beneath a sky split between dark storm and golden light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "330_river_systems": {
+      "name": "River Systems",
+      "modifiers": "(sweeping aerial wide shot of a river carving through a lush mountain valley:1.2), (meandering turquoise water with visible oxbow lakes:1.15), salmon leaping upstream through white rapids, (banks lined with ancient willows:1.15), golden hour light painting the valley in warm amber, (palette of river sapphire, forest emerald, and granite grey:1.1), geological erosion shaping the landscape",
+      "modifiers_animagine": "no humans, (river:1.15), mountain, valley, (aerial view:1.1), nature, water, forest, landscape, scenery, fish, waterfall, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ocean, desert, frozen tundra, dry canyon, paved road, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an aerial view of a turquoise river meandering through a lush green valley with visible oxbow lakes forming",
+        "a salmon leaping upstream through churning white rapids with spray frozen in mid-air and forest banks behind",
+        "a braided glacial river spreading across a wide gravel floodplain in milky blue-grey channels",
+        "ancient weeping willows trailing their branches into the slow current of a winding lowland river at golden hour"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "331_upcycling_nature": {
+      "name": "Upcycling Nature",
+      "modifiers": "(charming wide shot of a whimsical bird feeder crafted from salvaged copper and driftwood hanging in a wildflower garden:1.2), (nature art sculptures made from found river stones and twisted branches:1.15), soft afternoon dappled sunlight, (warm earthy palette of weathered wood, patina copper, and garden green:1.1), (creative harmony between discarded materials and living nature:1.15)",
+      "modifiers_animagine": "no humans, (bird feeder:1.15), garden, nature, (driftwood:1.15), flower, sunlight, handmade, creative, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "landfill, garbage dump, pollution, toxic waste, littering, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a whimsical bird feeder crafted from salvaged copper pipe and weathered driftwood hanging in a blooming garden",
+        "a garden sculpture of a leaping fish made entirely from smooth river stones stacked and balanced without mortar",
+        "a rustic insect hotel built from reclaimed wood, hollow reeds, and pine cones mounted on a garden fence",
+        "wind chimes fashioned from sea-polished glass shards and bleached driftwood tinkling in a coastal breeze"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "332_renewable_energy": {
+      "name": "Renewable Energy",
+      "modifiers": "(dramatic wide shot of elegant white wind turbines on a rolling green hillside at golden hour:1.2), (solar panels reflecting a blazing sunset in a wildflower meadow:1.15), crystal clear river powering a small hydroelectric dam, (clouds casting dramatic shadows across the landscape:1.15), (harmonious palette of sky blue, grass green, and sunset gold:1.1), clean energy in natural beauty",
+      "modifiers_animagine": "no humans, (wind turbine:1.15), (solar panel:1.15), nature, green energy, hill, sky, sunset, landscape, scenery, cloud, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "coal plant, oil rig, nuclear reactor, gas station, smokestack, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a row of white wind turbines spinning on a green ridgeline with golden sunset clouds behind them",
+        "solar panels on a wildflower meadow reflecting a blazing orange sunset with pollinators buzzing between rows",
+        "a small hydroelectric dam on a clear mountain river with mist rising from the spillway at dawn",
+        "a geothermal power plant venting white steam plumes against an ice-blue sky on a volcanic landscape"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "333_endangered_species": {
+      "name": "Endangered Species",
+      "modifiers": "(cinematic portrait of a majestic snow leopard in its high-altitude Himalayan habitat:1.2), (piercing pale green eyes against thick spotted grey fur:1.15), dramatic storm light breaking through mountain clouds, (endangered pangolin curled protectively on ancient tree roots:1.15), atmosphere of fragile beauty and urgency, (muted palette of mountain slate, snow white, and moss green:1.1)",
+      "modifiers_animagine": "no humans, (snow leopard:1.15), mountain, nature, endangered, (animal:1.1), majestic, scenery, landscape, dramatic lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "common pigeon, house cat, pet dog, farm cow, domestic, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a snow leopard with pale green eyes crouching on a Himalayan cliff ledge with wind ruffling its thick spotted fur",
+        "a pangolin curled into a tight armored ball on ancient tree roots with its overlapping scales catching warm light",
+        "a mountain gorilla sitting contemplatively in a misty bamboo forest with a silverback's gentle gaze",
+        "a baby sea turtle scrambling across moonlit sand toward the ocean with stars reflected on wet shoreline"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "334_plastic_free_oceans": {
+      "name": "Plastic-Free Oceans",
+      "modifiers": "(breathtaking underwater wide shot of pristine turquoise ocean waters with healthy marine life:1.2), (sea turtle gliding gracefully through shafts of sunlight:1.15), (vibrant coral reef teeming with tropical fish in electric blue and tangerine:1.15), crystal clear visibility to sandy white ocean floor, dappled caustic light patterns, (rich palette of ocean sapphire, coral pink, and aquamarine:1.1)",
+      "modifiers_animagine": "no humans, (ocean:1.15), (underwater:1.15), sea turtle, coral reef, fish, water, sunlight, blue, nature, scenery, detailed, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "polluted beach, garbage island, plastic bottles, trash, dirty, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a green sea turtle gliding gracefully through crystal-clear turquoise water with shafts of sunlight behind it",
+        "a pristine coral reef garden teeming with clownfish, tangs, and parrotfish in electric blue and tangerine hues",
+        "a pod of spinner dolphins arcing through a glassy tropical sea surface with coral visible on the seabed below",
+        "a manta ray soaring through open blue water with dappled caustic light patterns playing across its white belly"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "335_urban_nature": {
+      "name": "Urban Nature",
+      "modifiers": "(striking mid-shot of a peregrine falcon perched on a weathered stone gargoyle high above a city at sunset:1.2), (green roof garden thriving on a brutalist concrete building:1.15), fox with russet fur navigating a moonlit urban garden, (wildflowers pushing through cracked pavement:1.15), (warm golden hour light contrasting cool concrete grey:1.1), nature reclaiming the city",
+      "modifiers_animagine": "no humans, (falcon:1.15), city, building, (rooftop garden:1.15), nature, sunset, urban, wildlife, sky, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "pristine wilderness, remote jungle, mountain peak, deep ocean, artificial, indoor",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a peregrine falcon perched on a weathered stone gargoyle high above a city skyline at golden sunset",
+        "a red fox with russet fur trotting through a moonlit urban garden with glowing windows in the background",
+        "wildflowers and grasses pushing through cracks in abandoned concrete with a rusted chain-link fence behind",
+        "a thriving rooftop garden of vegetables and native plants atop a brutalist concrete building against the skyline"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "336_water_conservation": {
+      "name": "Water Conservation",
+      "modifiers": "(warm intimate shot of a weathered copper rain barrel collecting precious rainwater beneath a mossy gutter:1.2), (drip irrigation lines weaving through drought-resistant native plants in bloom:1.15), dewy morning spider web stretched between lavender stalks, (every droplet glistening in soft dawn light:1.15), (palette of patina green, terracotta, and morning gold:1.1), sustainable water wisdom",
+      "modifiers_animagine": "no humans, rain, (water:1.15), barrel, garden, (plants:1.1), nature, morning, dew, sunlight, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "water waste, flooding, unlimited water, swimming pool party, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a weathered copper rain barrel with green patina collecting water beneath a mossy stone gutter during rainfall",
+        "a drip irrigation line threading through drought-resistant succulents and lavender in a dry garden bed",
+        "a morning spider web stretched between lavender stalks with each silk strand beaded with tiny dewdrops",
+        "a desert rain garden with a shallow swale collecting precious runoff water around thriving native shrubs"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "337_reforestation": {
+      "name": "Reforestation",
+      "modifiers": "(hopeful wide shot of young saplings with protective mesh guards planted on a hillside:1.2), older established trees in the background showing years of regrowth, (soft golden morning mist rising from the recovering forest floor:1.15), (new green shoots pushing through dark soil:1.15), (warm palette of sapling green, bark brown, and misty gold:1.1), healing landscape returning to life",
+      "modifiers_animagine": "no humans, (tree:1.15), (sapling:1.15), forest, planting, hill, nature, morning, fog, green, growth, landscape, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "deforestation, clear cut, barren land, parking lot, concrete, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "rows of young saplings with protective mesh guards planted on a misty hillside with mature forest behind",
+        "a single green shoot pushing up through charred earth in the aftermath of a forest fire",
+        "a sapling growing from a decomposing nurse log on a recovering forest floor dappled with new light",
+        "a hillside showing the gradient of reforestation from bare soil to seedlings to young trees to mature canopy"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "338_zero_waste_living": {
+      "name": "Zero-Waste Living",
+      "modifiers": "(warm overhead shot of a sustainable lifestyle still life:1.2), (handmade beeswax wraps over ceramic bowls:1.15), (glass mason jars filled with colorful bulk grains and spices:1.15), composting kitchen scraps returning to rich dark earth, cloth shopping bags beside fresh farmers market produce, warm afternoon window light, (palette of natural linen, amber glass, and fresh vegetable greens:1.1)",
+      "modifiers_animagine": "no humans, food, (jar:1.15), kitchen, sustainable, nature, (vegetables:1.1), still life, sunlight, detailed, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "overflowing dumpster, single-use plastic, fast fashion, landfill, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "glass mason jars filled with colorful layers of bulk grains, lentils, and spices on a rustic wooden shelf",
+        "handmade beeswax wraps in floral patterns folded over ceramic bowls of fresh produce on a linen cloth",
+        "a wooden compost bin with kitchen scraps transforming into rich dark crumbly earth teeming with worms",
+        "a cloth tote bag overflowing with fresh farmers market produce beside a bundle of dried lavender"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "339_protecting_habitats": {
+      "name": "Protecting Habitats",
+      "modifiers": "(sweeping golden hour panorama of a protected wetland teeming with diverse wildlife:1.2), (great blue heron standing sentinel in shallow water:1.15), otters playing among cattails, (restored forest boundary marking the conservation area:1.15), dramatic sky reflecting in still water, (rich palette of wetland gold, water blue, and reed green:1.1), sanctuary of biodiversity",
+      "modifiers_animagine": "no humans, (wetland:1.15), (heron:1.15), bird, water, nature, sunset, landscape, wildlife, reed, scenery, reflection, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "bulldozer, construction, development, paving, demolition, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a great blue heron standing sentinel in golden shallow wetland water with cattails framing the scene",
+        "a pair of river otters playing among reeds in a protected marsh with a restored forest boundary beyond",
+        "a nesting osprey on a platform pole overlooking a thriving estuary teeming with fish and wading birds",
+        "a wooden boardwalk winding through a pristine mangrove preserve with prop roots arching into teal water"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "340_climate_resilience": {
+      "name": "Climate Resilience",
+      "modifiers": "(wide dramatic shot of nature adapting to a changing world:1.2), (drought-resistant succulents thriving on sun-baked rocky terrain:1.15), hardy pioneer species colonizing a volcanic landscape, (resilient mangrove roots anchoring a coastline against storm waves:1.15), dramatic storm light with hope breaking through dark clouds, (palette of resilient green, storm grey, and breakthrough gold:1.1)",
+      "modifiers_animagine": "no humans, nature, (plant:1.15), (succulent:1.1), coast, storm, cloud, resilience, landscape, scenery, sunlight, dramatic, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "destruction, collapse, giving up, abandonment, despair, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "drought-resistant succulents thriving in brilliant green rosettes on sun-baked cracked rocky terrain",
+        "resilient mangrove roots anchoring a tropical coastline against churning storm waves with dark sky above",
+        "hardy pioneer ferns and mosses colonizing a fresh black lava field with steam vents in the background",
+        "a lone windswept tree bent but unbroken on a storm-battered cliff edge with golden light breaking through clouds"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "341_nature_journaling": {
+      "name": "Nature Journaling",
+      "modifiers": "(intimate overhead shot of an open nature journal on a mossy log:1.2), (detailed botanical watercolor sketches and handwritten field notes:1.15), (pressed wildflower specimens beside ink pen and watercolor palette:1.15), dappled woodland sunlight falling across the pages, (warm palette of aged paper cream, watercolor green, and ink sepia:1.1), documenting wonder in the wild",
+      "modifiers_animagine": "no humans, (book:1.15), (journal:1.15), sketch, flower, nature, watercolor, pen, moss, forest, sunlight, still life, detailed, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "digital screen, phone, tablet, computer, indoor office, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "an open leather-bound nature journal on a mossy log with detailed botanical watercolor sketches of ferns",
+        "a pressed wildflower specimen laid beside a fountain pen and a small watercolor palette on aged paper",
+        "a hand-drawn field sketch of a bird with handwritten notes on plumage, call, and habitat in sepia ink",
+        "a nature journal page with a detailed pencil study of a pine cone alongside pressed needles and seeds"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "342_macro_photography": {
+      "name": "Macro Photography",
+      "modifiers": "(extreme macro close-up of a single dewdrop resting on a rose petal:1.2), (entire garden reflected and refracted inside the droplet:1.15), (compound insect eye revealing hundreds of hexagonal facets:1.15), frost crystal forming fractal patterns on a windowpane at dawn, razor-thin depth of field, warm golden backlight, (palette of crystal clear, petal pink, and frost silver:1.1)",
+      "modifiers_animagine": "no humans, (macro:1.15), close-up, (water drop:1.15), flower, dew, nature, morning, detailed, refraction, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "wide landscape, aerial view, satellite image, panorama, distant, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a single perfect dewdrop on a crimson rose petal refracting an inverted garden scene inside its sphere",
+        "a compound dragonfly eye in extreme macro revealing hundreds of hexagonal facets in iridescent green and gold",
+        "frost crystals forming intricate fractal fern patterns on a cold windowpane catching the first light of dawn",
+        "the spiraling texture of a snail shell in extreme close-up showing growth ridges in amber and cream"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "343_eco_art": {
+      "name": "Eco-Art",
+      "modifiers": "(evocative wide shot of an Andy Goldsworthy-inspired land art installation:1.2), (carefully arranged autumn leaves creating a spiraling gradient from green to crimson on a forest floor:1.15), (river stones balanced in an impossible cairn beside a mountain stream:1.15), ephemeral ice sculpture catching morning light, natural materials only, (palette of autumn gold, river stone grey, and forest green:1.1)",
+      "modifiers_animagine": "no humans, (art:1.15), nature, (leaves:1.15), spiral, stones, forest, river, land art, autumn, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "plastic art, digital art, neon, chrome, industrial design, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "autumn leaves arranged in a perfect spiraling gradient from green to gold to crimson on a dark forest floor",
+        "a precarious cairn of river stones balanced in an impossible-looking tower beside a rushing mountain stream",
+        "an ephemeral ice sculpture catching morning light with rainbow prisms on a frozen lake surface",
+        "a woven arch of flexible willow branches spanning a woodland path with dappled sunlight filtering through"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "344_nature_soundscapes": {
+      "name": "Nature Soundscapes",
+      "modifiers": "(atmospheric wide shot visualizing a dawn chorus in an ancient woodland:1.2), (sound waves radiating from songbirds perched in misty canopy:1.15), musical notation floating through forest air, (rainfall rhythm creating concentric ripples on a still forest pond:1.15), wind visualized as flowing ribbons through tall grass, (palette of dawn pink, mist lavender, and deep forest green:1.1)",
+      "modifiers_animagine": "no humans, (forest:1.15), (bird:1.15), singing, sound waves, morning, mist, nature, pond, rain, scenery, landscape, atmosphere, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "city noise, traffic, construction, loud music, siren, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a songbird perched on a misty branch at dawn with visible sound waves radiating from its open beak",
+        "concentric ripples spreading across a still forest pond from individual raindrops in soft grey light",
+        "tall prairie grass bending in rhythmic waves under wind visualized as flowing translucent ribbons",
+        "a rushing woodland waterfall with mist rising and the air seeming to vibrate with deep resonant sound"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "345_biomimicry": {
+      "name": "Biomimicry",
+      "modifiers": "(split-view comparison showing nature's design alongside human engineering inspired by it:1.2), (lotus leaf microscopic water-repellent surface beside a self-cleaning material:1.15), (kingfisher beak profile morphing into a bullet train nose:1.15), gecko foot setae beside advanced adhesive pad, warm scientific illustration lighting, (palette of blueprint blue, natural green, and technical silver:1.1)",
+      "modifiers_animagine": "no humans, nature, technology, (lotus:1.15), (kingfisher:1.15), gecko, science, comparison, detailed, design, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "original invention, alien technology, magic, supernatural, abstract, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a lotus leaf with water beading into perfect silver droplets on its microscopic waxy surface texture",
+        "a kingfisher diving beak-first into water with the sleek hydrodynamic profile of its bill highlighted",
+        "a gecko foot in extreme close-up showing thousands of hair-like setae that enable wall-climbing adhesion",
+        "a spider spinning silk from its spinnerets with the thread catching light to reveal its incredible tensile structure"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "346_natural_pigments": {
+      "name": "Natural Pigments",
+      "modifiers": "(warm still life of natural art materials on a rough wooden workbench:1.2), (crushed berry ink in a stone mortar:1.15), (earth ochre pigments in small clay pots:1.15), walnut shell brown and turmeric gold powders, handmade paper drying beside pressed flowers, soft window light illuminating rich pigment colors, (palette of berry purple, ochre gold, walnut brown, and indigo blue:1.1)",
+      "modifiers_animagine": "no humans, (pigment:1.15), (mortar:1.15), berry, paint, art supplies, nature, still life, sunlight, detailed, colorful, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "synthetic paint, neon colors, digital colors, artificial dye, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "crushed blackberries releasing deep purple ink into a worn stone mortar with a wooden pestle",
+        "small clay pots filled with powdered earth pigments in raw sienna, yellow ochre, and burnt umber on rough wood",
+        "indigo leaves fermenting in a clay vat producing rich blue dye with stained linen drying on a line behind",
+        "a palette of turmeric gold, beetroot crimson, and charcoal black powders arranged on handmade bark paper"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "347_nature_mandalas": {
+      "name": "Nature Mandalas",
+      "modifiers": "(overhead shot of a perfectly symmetrical nature mandala on a forest floor:1.2), (concentric rings of autumn leaves graduating from green to gold to crimson:1.15), (pine cones and acorns forming geometric patterns:1.15), tiny white wildflower petals creating delicate outer ring, soft diffused forest light, (palette of mandala symmetry in autumn gold, moss green, bark brown, and petal white:1.1)",
+      "modifiers_animagine": "no humans, (mandala:1.15), (leaves:1.15), autumn, symmetry, nature, forest floor, pattern, flower petals, acorn, pine cone, scenery, detailed, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "messy scatter, random pile, garbage, broken pieces, chaos, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a symmetrical mandala of concentric leaf rings graduating from green to gold to crimson on dark forest soil",
+        "pine cones, acorns, and seed pods arranged in radiating geometric star patterns on a bed of moss",
+        "a spiral mandala of smooth river pebbles graduating from white to grey to black on a sandy shore",
+        "tiny white wildflower petals laid in concentric circles around a central dahlia bloom on weathered wood"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "349_wilderness_survival": {
+      "name": "Wilderness Survival",
+      "modifiers": "(atmospheric wide shot of a primitive bushcraft shelter built from fallen branches and fern fronds in deep forest:1.2), (small campfire with smoke curling upward through the canopy:1.15), natural water filtration setup using charcoal and sand, (wild edible plants identified and gathered:1.15), (warm firelight contrasting cool blue twilight:1.1), palette of campfire amber, forest shadow green, and dusk indigo",
+      "modifiers_animagine": "no humans, (forest:1.15), (shelter:1.15), campfire, fire, nature, survival, night, wilderness, fern, smoke, scenery, detailed background, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "luxury resort, hotel room, comfortable home, shopping mall, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a primitive lean-to shelter built from fallen branches and fern fronds in deep forest with firelight glowing inside",
+        "a small campfire with embers glowing orange and smoke curling upward through a break in the forest canopy",
+        "a natural water filtration setup of stacked birch bark funnels filled with charcoal, sand, and moss",
+        "a fire-starting bow drill set with tinder bundle smoldering on a flat hearthstone in a woodland clearing"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "350_natures_geometry": {
+      "name": "Nature's Geometry",
+      "modifiers": "(mesmerizing macro collage of nature's mathematical perfection:1.2), (golden Fibonacci spiral in a nautilus shell cross-section:1.15), (fractal branching patterns in frost-covered fern fronds:1.15), perfect hexagonal honeycomb cells filled with amber honey, sunflower seed spiral viewed from directly above, warm golden light revealing geometric precision, (palette of nautilus pearl, fern emerald, and honey amber:1.1)",
+      "modifiers_animagine": "no humans, (nautilus:1.15), (fibonacci:1.15), spiral, fern, fractal, honeycomb, nature, mathematics, pattern, detailed, close-up, scenery, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "random chaos, messy splatter, broken, jagged, asymmetric noise, artificial, indoor, urban",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, realistic, photo",
+      "subjects": [
+        "a nautilus shell cross-section revealing a perfect golden Fibonacci spiral in pearlescent cream and amber chambers",
+        "a frost-covered fern frond unfurling in a fractal pattern with each tiny leaflet repeating the whole shape",
+        "a sunflower head viewed from directly above showing interlocking clockwise and counter-clockwise seed spirals",
+        "a honeycomb section with perfect hexagonal cells filled with amber honey and capped with pale beeswax"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    }
+  }
+}

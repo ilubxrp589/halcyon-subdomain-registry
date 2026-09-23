@@ -1,0 +1,1506 @@
+openapi: 3.0.3
+info:
+  title: HSR Backend API
+  description: |
+    Halcyon Subdomain Registry API for managing Handshake subdomains on Flare Network.
+
+    ## Authentication
+    HSR uses wallet signature authentication. The flow is:
+    1. Request a nonce via GET /auth/nonce
+    2. Sign the message with your wallet
+    3. Include wallet, signature, and nonce in authenticated requests
+
+    ## Authentication Types
+    - **Public**: No authentication required
+    - **Full Auth**: wallet + signature + nonce (for write operations)
+    - **Admin Auth**: Full auth + admin wallet verification
+    - **Admin Read**: wallet + signature + timestamp (5 min validity)
+  version: 1.0.0
+  contact:
+    name: HSR Support
+  license:
+    name: MIT
+
+servers:
+  - url: http://localhost:3001/api/v1
+    description: Development server
+  - url: https://api.example.com/api/v1
+    description: Production server
+
+tags:
+  - name: Authentication
+    description: Wallet signature authentication
+  - name: Health
+    description: Health checks and diagnostics
+  - name: TLDs
+    description: Top-Level Domain management
+  - name: Search
+    description: Domain search and availability
+  - name: Pricing
+    description: Pricing information
+  - name: Domains
+    description: Domain management
+  - name: Resolution
+    description: FLR address resolution (ENS-compatible)
+  - name: DNS
+    description: DNS record management
+  - name: Registration
+    description: Domain registration
+  - name: NFT
+    description: NFT metadata and images
+  - name: Generation
+    description: AI image generation
+  - name: Marketplace
+    description: Domain marketplace
+  - name: Favorites
+    description: User favorites
+  - name: Sharing
+    description: Share previews and domains
+  - name: Admin
+    description: Admin operations
+
+components:
+  securitySchemes:
+    walletAuth:
+      type: apiKey
+      in: header
+      name: X-Wallet-Auth
+      description: Wallet signature authentication (wallet, signature, nonce in body)
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Error message
+        details:
+          type: string
+          description: Additional error details
+      required:
+        - error
+
+    AuthRequest:
+      type: object
+      properties:
+        wallet:
+          type: string
+          description: Ethereum/Flare wallet address
+          example: "0x1234567890abcdef1234567890abcdef12345678"
+        signature:
+          type: string
+          description: Signed message signature
+          example: "0x..."
+        nonce:
+          type: string
+          description: Authentication nonce
+          example: "halcyon-auth-1706000000000-abc123"
+      required:
+        - wallet
+        - signature
+        - nonce
+
+    AdminReadAuth:
+      type: object
+      properties:
+        wallet:
+          type: string
+          description: Admin wallet address
+        signature:
+          type: string
+          description: Signed timestamp
+        timestamp:
+          type: integer
+          description: Unix timestamp (must be within 5 minutes)
+      required:
+        - wallet
+        - signature
+        - timestamp
+
+    Nonce:
+      type: object
+      properties:
+        nonce:
+          type: string
+          example: "halcyon-auth-1706000000000-abc123"
+        message:
+          type: string
+          description: Message to sign
+        expiresAt:
+          type: string
+          format: date-time
+
+    Health:
+      type: object
+      properties:
+        status:
+          type: string
+          enum: [ok, degraded, unhealthy]
+        timestamp:
+          type: string
+          format: date-time
+        services:
+          type: object
+          properties:
+            database:
+              type: string
+              enum: [connected, disconnected]
+            hns:
+              type: string
+              enum: [synced, syncing, disconnected]
+            hnsHeight:
+              type: integer
+            dns:
+              type: string
+              enum: [healthy, unhealthy]
+
+    TLD:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+          example: "cryptofans"
+        is_active:
+          type: boolean
+        domain_count:
+          type: integer
+
+    Domain:
+      type: object
+      properties:
+        id:
+          type: integer
+        subdomain:
+          type: string
+          example: "alice"
+        fqdn:
+          type: string
+          example: "alice.cryptofans"
+        tld_name:
+          type: string
+          example: "cryptofans"
+        token_id:
+          type: string
+        owner_wallet:
+          type: string
+        status:
+          type: string
+          enum: [active, expired, suspended]
+        tier:
+          type: string
+          enum: [ultra_premium, premium, standard_plus, standard]
+        dns_active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+
+    SearchResult:
+      type: object
+      properties:
+        available:
+          type: boolean
+        subdomain:
+          type: string
+        tld:
+          type: string
+        fqdn:
+          type: string
+        tier:
+          type: string
+        price:
+          type: object
+          properties:
+            usd:
+              type: number
+            flr:
+              type: number
+            flrPriceUSD:
+              type: number
+            source:
+              type: string
+            timestamp:
+              type: string
+        owner:
+          type: string
+          description: Truncated owner address (if not available)
+        tokenId:
+          type: string
+          description: Token ID (if not available)
+
+    Resolution:
+      type: object
+      properties:
+        fqdn:
+          type: string
+        address:
+          type: string
+          description: Resolved wallet address
+        source:
+          type: string
+          enum: [on-chain, database, owner]
+        verified:
+          type: boolean
+        resolver:
+          type: string
+        tokenId:
+          type: integer
+        lastUpdated:
+          type: string
+          format: date-time
+
+    NFTMetadata:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        image:
+          type: string
+          description: IPFS URL
+        external_url:
+          type: string
+        background_color:
+          type: string
+        attributes:
+          type: array
+          items:
+            type: object
+            properties:
+              trait_type:
+                type: string
+              value:
+                type: string
+              display_type:
+                type: string
+
+    NFTPrepare:
+      type: object
+      properties:
+        success:
+          type: boolean
+        cached:
+          type: boolean
+        fqdn:
+          type: string
+        metadataURI:
+          type: string
+        imageCID:
+          type: string
+        metadataCID:
+          type: string
+        imageURL:
+          type: string
+        metadataURL:
+          type: string
+        seed:
+          type: integer
+        tier:
+          type: string
+        style:
+          type: string
+
+    FluxGeneration:
+      type: object
+      properties:
+        success:
+          type: boolean
+        generationId:
+          type: string
+        domain:
+          type: string
+        images:
+          type: array
+          items:
+            type: object
+            properties:
+              index:
+                type: integer
+              success:
+                type: boolean
+              imageBase64:
+                type: string
+              theme:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  name:
+                    type: string
+                  category:
+                    type: string
+              seed:
+                type: integer
+              server:
+                type: string
+              generationTime:
+                type: number
+        successCount:
+          type: integer
+        totalCount:
+          type: integer
+        totalTime:
+          type: number
+        remaining:
+          type: integer
+
+    MarketplaceListing:
+      type: object
+      properties:
+        listingId:
+          type: string
+        tokenId:
+          type: string
+        seller:
+          type: string
+        price:
+          type: number
+        listingType:
+          type: integer
+          description: "0 = fixed price, 1 = auction"
+        status:
+          type: integer
+          description: "0 = active, 1 = sold, 2 = cancelled"
+        endTime:
+          type: integer
+        highestBidder:
+          type: string
+        highestBid:
+          type: number
+        createdAt:
+          type: integer
+        fullDomain:
+          type: string
+        subdomain:
+          type: string
+        tld:
+          type: string
+        imageUrl:
+          type: string
+
+    MarketplaceStats:
+      type: object
+      properties:
+        totalVolume:
+          type: number
+        volume24h:
+          type: number
+        totalSales:
+          type: integer
+        floorPrice:
+          type: number
+        avgSalePrice:
+          type: number
+        activeListings:
+          type: integer
+
+paths:
+  # Authentication
+  /auth/nonce:
+    get:
+      tags: [Authentication]
+      summary: Get authentication nonce
+      parameters:
+        - name: wallet
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Wallet address
+      responses:
+        '200':
+          description: Nonce generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Nonce'
+        '400':
+          description: Invalid wallet address
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /auth/verify:
+    post:
+      tags: [Authentication]
+      summary: Verify wallet signature
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+      responses:
+        '200':
+          description: Authentication successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  wallet:
+                    type: string
+                  message:
+                    type: string
+        '401':
+          description: Authentication failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  # Health
+  /health:
+    get:
+      tags: [Health]
+      summary: Health check
+      responses:
+        '200':
+          description: Health status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Health'
+
+  /diagnostics:
+    get:
+      tags: [Health]
+      summary: Comprehensive system diagnostics
+      responses:
+        '200':
+          description: Diagnostic results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  timestamp:
+                    type: string
+                  summary:
+                    type: object
+                    properties:
+                      pass:
+                        type: integer
+                      warn:
+                        type: integer
+                      fail:
+                        type: integer
+                      status:
+                        type: string
+                  checks:
+                    type: object
+
+  /diagnostics/{section}:
+    get:
+      tags: [Health]
+      summary: Run specific diagnostic section
+      parameters:
+        - name: section
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [services, database, blockchain, watcher, marketplace, docker]
+      responses:
+        '200':
+          description: Section diagnostics
+        '400':
+          description: Invalid section
+
+  # TLDs
+  /tlds:
+    get:
+      tags: [TLDs]
+      summary: List active TLDs
+      responses:
+        '200':
+          description: List of TLDs
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tlds:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/TLD'
+
+  # Search
+  /search:
+    get:
+      tags: [Search]
+      summary: Check domain availability
+      parameters:
+        - name: subdomain
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: tld
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResult'
+
+  /search/bulk:
+    post:
+      tags: [Search]
+      summary: Bulk domain availability check
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                subdomains:
+                  type: array
+                  items:
+                    type: string
+                  maxItems: 10
+                tld:
+                  type: string
+              required:
+                - subdomains
+                - tld
+      responses:
+        '200':
+          description: Bulk search results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        subdomain:
+                          type: string
+                        fqdn:
+                          type: string
+                        available:
+                          type: boolean
+                        tier:
+                          type: string
+
+  # Pricing
+  /pricing:
+    get:
+      tags: [Pricing]
+      summary: Get pricing tiers
+      responses:
+        '200':
+          description: Pricing information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  flrPriceUSD:
+                    type: number
+                  priceSource:
+                    type: string
+                  tiers:
+                    type: object
+                  lastUpdated:
+                    type: string
+
+  /stats:
+    get:
+      tags: [Pricing]
+      summary: Get platform statistics
+      responses:
+        '200':
+          description: Statistics
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tldCount:
+                    type: integer
+                  totalDomains:
+                    type: integer
+                  recentRegistrations:
+                    type: array
+                    items:
+                      type: object
+
+  # Domains
+  /domains/{fqdn}:
+    get:
+      tags: [Domains]
+      summary: Get domain details
+      parameters:
+        - name: fqdn
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Domain details
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  domain:
+                    $ref: '#/components/schemas/Domain'
+        '404':
+          description: Domain not found
+
+  /domains/owner/{wallet}:
+    get:
+      tags: [Domains]
+      summary: List domains by owner (public)
+      parameters:
+        - name: wallet
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of domains
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  domains:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Domain'
+    post:
+      tags: [Domains]
+      summary: List domains by owner (authenticated)
+      parameters:
+        - name: wallet
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+      responses:
+        '200':
+          description: List of domains
+        '403':
+          description: Can only query your own wallet
+
+  # Resolution
+  /resolve/{fqdn}:
+    get:
+      tags: [Resolution]
+      summary: Resolve FQDN to wallet address
+      parameters:
+        - name: fqdn
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Resolution result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Resolution'
+        '404':
+          description: Domain not found
+
+  /resolve/batch:
+    post:
+      tags: [Resolution]
+      summary: Batch resolve FQDNs
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                fqdns:
+                  type: array
+                  items:
+                    type: string
+                  maxItems: 50
+      responses:
+        '200':
+          description: Batch resolution results
+
+  /resolve/{fqdn}/set:
+    post:
+      tags: [Resolution]
+      summary: Set wallet address for domain
+      parameters:
+        - name: fqdn
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/AuthRequest'
+                - type: object
+                  properties:
+                    address:
+                      type: string
+                      description: New resolve address
+      responses:
+        '200':
+          description: Address updated
+        '403':
+          description: Not domain owner
+
+  # DNS
+  /dns/{subdomain}/{tld}:
+    get:
+      tags: [DNS]
+      summary: Get DNS records
+      parameters:
+        - name: subdomain
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: tld
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: DNS records
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  records:
+                    type: array
+                    items:
+                      type: object
+    post:
+      tags: [DNS]
+      summary: Update DNS records
+      parameters:
+        - name: subdomain
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: tld
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/AuthRequest'
+                - type: object
+                  properties:
+                    records:
+                      type: object
+                      properties:
+                        ipv4:
+                          type: string
+                        ipv6:
+                          type: string
+                        cname:
+                          type: string
+                        txt:
+                          type: string
+                        ttl:
+                          type: integer
+      responses:
+        '200':
+          description: Records updated
+        '403':
+          description: Not domain owner
+    delete:
+      tags: [DNS]
+      summary: Delete DNS records
+      parameters:
+        - name: subdomain
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: tld
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+      responses:
+        '200':
+          description: Records deleted
+
+  # Registration
+  /register/complete:
+    post:
+      tags: [Registration]
+      summary: Complete domain registration
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/AuthRequest'
+                - type: object
+                  properties:
+                    escrowId:
+                      type: string
+                    tokenId:
+                      type: string
+                    subdomain:
+                      type: string
+                    tld:
+                      type: string
+                    priceFLR:
+                      type: number
+                    priceUSD:
+                      type: number
+      responses:
+        '200':
+          description: Registration complete
+        '409':
+          description: Domain already registered
+
+  # NFT
+  /nft/metadata/{fqdn}:
+    get:
+      tags: [NFT]
+      summary: Get NFT metadata (OpenSea compatible)
+      parameters:
+        - name: fqdn
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: NFT metadata
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NFTMetadata'
+
+  /nft/image/{fqdn}:
+    get:
+      tags: [NFT]
+      summary: Get NFT image
+      parameters:
+        - name: fqdn
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: size
+          in: query
+          schema:
+            type: string
+            enum: [small, medium, large]
+            default: large
+        - name: fallback
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: PNG image
+          content:
+            image/png:
+              schema:
+                type: string
+                format: binary
+
+  /nft/prepare:
+    post:
+      tags: [NFT]
+      summary: Prepare NFT for purchase
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                subdomain:
+                  type: string
+                tld:
+                  type: string
+                style:
+                  type: string
+                seed:
+                  type: integer
+                customPrompt:
+                  type: string
+                  description: Required - describe your image subject
+              required:
+                - subdomain
+                - tld
+                - customPrompt
+      responses:
+        '200':
+          description: NFT prepared
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NFTPrepare'
+
+  /nft/styles:
+    get:
+      tags: [NFT]
+      summary: Get all available styles
+      responses:
+        '200':
+          description: Available styles
+
+  # Generation
+  /nft/flux-generate-parallel:
+    post:
+      tags: [Generation]
+      summary: Generate 3 images in parallel
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                subdomain:
+                  type: string
+                tld:
+                  type: string
+                themes:
+                  type: array
+                  items:
+                    type: string
+                  minItems: 3
+                  maxItems: 3
+                customPrompt:
+                  type: string
+                wallet:
+                  type: string
+                style:
+                  type: string
+                  enum: [playground, animagine]
+                styleId:
+                  type: string
+              required:
+                - subdomain
+                - tld
+                - themes
+                - wallet
+      responses:
+        '200':
+          description: Generation result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FluxGeneration'
+
+  /nft/flux-generation/{id}:
+    get:
+      tags: [Generation]
+      summary: Get generation status
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Generation status
+
+  /nft/flux-prepare:
+    post:
+      tags: [Generation]
+      summary: Prepare Flux image for minting
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                generationId:
+                  type: string
+                selectedIndex:
+                  type: integer
+                  minimum: 0
+                  maximum: 2
+                subdomain:
+                  type: string
+                tld:
+                  type: string
+                wallet:
+                  type: string
+              required:
+                - generationId
+                - selectedIndex
+                - subdomain
+                - tld
+                - wallet
+      responses:
+        '200':
+          description: NFT prepared
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NFTPrepare'
+
+  /nft/preview-credits/{wallet}:
+    get:
+      tags: [Generation]
+      summary: Get preview credits
+      parameters:
+        - name: wallet
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Credit balance
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  usedCount:
+                    type: integer
+                  remaining:
+                    type: integer
+                  freeTotal:
+                    type: integer
+
+  # Marketplace
+  /marketplace/stats:
+    get:
+      tags: [Marketplace]
+      summary: Get marketplace statistics
+      responses:
+        '200':
+          description: Marketplace stats
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MarketplaceStats'
+
+  /marketplace/listings:
+    get:
+      tags: [Marketplace]
+      summary: Get paginated listings
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+        - name: sort
+          in: query
+          schema:
+            type: string
+            enum: [recent, price-low, price-high, ending-soon]
+            default: recent
+        - name: filter
+          in: query
+          schema:
+            type: string
+            enum: [all, fixed, auction]
+            default: all
+        - name: search
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Paginated listings
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  listings:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/MarketplaceListing'
+                  pagination:
+                    type: object
+                    properties:
+                      page:
+                        type: integer
+                      limit:
+                        type: integer
+                      total:
+                        type: integer
+                      totalPages:
+                        type: integer
+                      hasMore:
+                        type: boolean
+
+  /marketplace/recent:
+    get:
+      tags: [Marketplace]
+      summary: Get recent sales
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 10
+            maximum: 50
+      responses:
+        '200':
+          description: Recent sales
+
+  # Favorites
+  /favorites/{walletAddress}:
+    get:
+      tags: [Favorites]
+      summary: Get user favorites
+      parameters:
+        - name: walletAddress
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: User favorites
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  favorites:
+                    type: object
+                    properties:
+                      themes:
+                        type: array
+                        items:
+                          type: string
+                      styles:
+                        type: array
+                        items:
+                          type: string
+                      count:
+                        type: integer
+
+  /favorites:
+    post:
+      tags: [Favorites]
+      summary: Add a favorite
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                walletAddress:
+                  type: string
+                themeId:
+                  type: string
+                styleId:
+                  type: string
+      responses:
+        '200':
+          description: Favorite added
+    delete:
+      tags: [Favorites]
+      summary: Remove a favorite
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                walletAddress:
+                  type: string
+                themeId:
+                  type: string
+                styleId:
+                  type: string
+      responses:
+        '200':
+          description: Favorite removed
+
+  # Sharing
+  /share-preview:
+    post:
+      tags: [Sharing]
+      summary: Create shareable link for image
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                imageHash:
+                  type: string
+                domain:
+                  type: string
+                model:
+                  type: string
+                themes:
+                  type: array
+                  items:
+                    type: string
+                walletAddress:
+                  type: string
+      responses:
+        '200':
+          description: Share link created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  shareId:
+                    type: string
+                  shareUrl:
+                    type: string
+
+  /share/{shareId}:
+    get:
+      tags: [Sharing]
+      summary: Get shared image data
+      parameters:
+        - name: shareId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Share data
+        '404':
+          description: Share not found
+
+  # Admin
+  /admin/verify:
+    post:
+      tags: [Admin]
+      summary: Verify admin access
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+      responses:
+        '200':
+          description: Admin verified
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  isAdmin:
+                    type: boolean
+                  wallet:
+                    type: string
+        '403':
+          description: Not an admin
+
+  /admin/status:
+    post:
+      tags: [Admin]
+      summary: Get system status
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AdminReadAuth'
+      responses:
+        '200':
+          description: System status
+
+  /admin/domains:
+    post:
+      tags: [Admin]
+      summary: List all domains with pagination
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/AdminReadAuth'
+                - type: object
+                  properties:
+                    page:
+                      type: integer
+                      default: 1
+                    limit:
+                      type: integer
+                      default: 20
+                    search:
+                      type: string
+                    status:
+                      type: string
+                    tld:
+                      type: string
+      responses:
+        '200':
+          description: Domain list
+
+  /admin/tlds/list:
+    post:
+      tags: [Admin]
+      summary: List all TLDs (including inactive)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AdminReadAuth'
+      responses:
+        '200':
+          description: TLD list
+
+  /admin/tlds:
+    post:
+      tags: [Admin]
+      summary: Create a new TLD
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/AuthRequest'
+                - type: object
+                  properties:
+                    name:
+                      type: string
+      responses:
+        '201':
+          description: TLD created
+
+  /admin/audit:
+    post:
+      tags: [Admin]
+      summary: Get audit log
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/AdminReadAuth'
+                - type: object
+                  properties:
+                    page:
+                      type: integer
+                    limit:
+                      type: integer
+                    action:
+                      type: string
+                    entityType:
+                      type: string
+                    startDate:
+                      type: string
+                    endDate:
+                      type: string
+      responses:
+        '200':
+          description: Audit log
+
+  /admin/comfyui/status:
+    post:
+      tags: [Admin]
+      summary: Get ComfyUI GPU status
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AdminReadAuth'
+      responses:
+        '200':
+          description: GPU status
+
+  /listener/start:
+    post:
+      tags: [Admin]
+      summary: Start contract listener
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+      responses:
+        '200':
+          description: Listener started
+        '400':
+          description: Already running
+
+  /listener/stop:
+    post:
+      tags: [Admin]
+      summary: Stop contract listener
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+      responses:
+        '200':
+          description: Listener stopped

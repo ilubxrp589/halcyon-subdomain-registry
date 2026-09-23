@@ -1,0 +1,805 @@
+{
+  "category": "jobs",
+  "description": "Unusual, niche, and fascinating professions and careers",
+  "themes": {
+    "101_snake_milker": {
+      "name": "Snake Venom Milker",
+      "modifiers": "(environmental portrait of professional snake handler extracting venom from deadly king cobra:1.2), careful precision grip on serpent head, (sterile laboratory setting with glass collection vials:1.15), dramatic task lighting casting sharp shadows, (fangs dripping luminous venom into crystal vessel:1.15), worn leather gauntlets and protective goggles, (earthy professional tones with venomous green accents:1.1), shallow depth of field, documentary style",
+      "modifiers_animagine": "1boy, lab coat, gloves, (snake:1.15), cobra, (laboratory:1.15), vial, venom extraction, serious expression, detailed hands, indoor, science, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "pet snake, garden snake, zoo exhibit, toy snake, rubber snake, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a king cobra's fangs dripping luminous venom into a glass vial",
+        "gloved hands carefully gripping a serpent behind its jaw",
+        "rows of labeled venom vials glowing amber in a laboratory rack",
+        "a coiled snake on a sterile extraction table under bright light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "102_chick_sexer": {
+      "name": "Chick Sexer",
+      "modifiers": "(documentary style portrait of skilled hatchery worker sorting day-old chicks:1.2), (warm incubator light illuminating dozens of fluffy yellow chicks on stainless steel conveyor:1.15), expert hands gently cradling tiny bird, (industrial agricultural setting:1.1), (soft golden tones with clinical white walls:1.1), shallow depth of field on worker's focused expression, natural workplace light filtering through high windows",
+      "modifiers_animagine": "1girl, work uniform, apron, (chick:1.15), baby bird, (yellow feathers:1.15), hatchery, conveyor belt, gentle expression, holding small animal, indoor, (warm lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "adult chickens, eggs, rooster, farm field, cooking poultry, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "cupped hands cradling a single downy yellow chick under warm incubator light",
+        "a stainless steel conveyor overflowing with dozens of peeping day-old chicks",
+        "a tiny chick balanced on weathered fingertips, soft golden backlight",
+        "a sorting tray of fluffy yellow hatchlings in a bright industrial hatchery"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "103_mattress_tester": {
+      "name": "Professional Sleeper",
+      "modifiers": "(cinematic portrait of professional mattress tester reclining on luxury bed in pristine showroom:1.2), (warm studio light from overhead softboxes:1.1), (plush white bedding and memory foam layers visible in cross-section:1.15), clipboard with comfort evaluation notes on nightstand, dreamy soft-focus background of premium mattress displays, (muted cream and lavender color palette:1.1), serene expression of genuine comfort",
+      "modifiers_animagine": "1girl, pajamas, sleeping, (bed:1.15), (luxury bedroom:1.15), pillow, blanket, peaceful expression, eyes closed, clipboard, comfortable, (soft lighting:1.1), indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "insomnia, alarm clock, office chair, standing desk, hard floor, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a figure sinking blissfully into layers of plush white memory foam bedding",
+        "a clipboard of handwritten comfort scores resting on a silk pillowcase",
+        "a cross-section of a luxury mattress revealing foam and spring layers",
+        "a showroom of pristine unmade beds stretching into soft-focus distance"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "104_pet_food_taster": {
+      "name": "Pet Food Taster",
+      "modifiers": "(environmental portrait of quality control specialist tasting premium pet food in clinical laboratory:1.2), (stainless steel countertops lined with labeled sample dishes:1.15), flavor analysis notebook open with detailed tasting notes, natural workplace light from fluorescent overheads, (dog and cat food tins arranged in neat rows:1.15), white lab coat and hairnet, (muted industrial tones with pops of brand-color packaging:1.1), focused analytical expression",
+      "modifiers_animagine": "1boy, lab coat, hairnet, tasting, spoon, (pet food:1.15), (laboratory:1.15), clipboard, dog food can, cat food can, shelves, indoor, (fluorescent lighting:1.1), serious expression, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "human food, restaurant, cooking show, chef kitchen, fine dining, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a stainless steel counter lined with numbered sample dishes of pet food",
+        "a silver tasting spoon poised above a glistening mound of gourmet pet food",
+        "a handwritten flavor analysis notebook with columns of tasting scores",
+        "neat rows of colorful pet food tins and kibble samples under clinical light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "105_feng_shui": {
+      "name": "Feng Shui Consultant",
+      "modifiers": "(environmental portrait of feng shui master arranging elegant living space:1.2), (traditional luopan compass held with reverence:1.15), golden afternoon light streaming through silk curtains, (harmonious interior with jade plants and flowing water feature:1.15), warm rosewood and bamboo textures, Chinese calligraphy scrolls on walls, balanced composition with intentional negative space, (rich earth tones and muted gold accents:1.1), serene contemplative mood",
+      "modifiers_animagine": "1girl, traditional chinese clothes, hanfu, (compass:1.15), (elegant room:1.15), indoor plants, jade, vase, scroll, zen garden, peaceful expression, standing, (interior design:1.1), warm lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "messy room, cluttered space, western decoration, modern minimalist, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "an ornate luopan compass resting on a rosewood table bathed in afternoon light",
+        "a jade plant beside a trickling stone water feature in a harmonious room",
+        "silk curtains framing golden light falling across a balanced interior space",
+        "Chinese calligraphy scrolls hanging beside bamboo and smooth river stones"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "106_odor_judge": {
+      "name": "Odor Judge",
+      "modifiers": "(documentary style close-up of professional odor tester in sterile white laboratory:1.2), leaning toward numbered sample jar with concentrated expression, (clinical fluorescent lighting on pristine workstation:1.15), sensory analysis equipment and data charts on wall, (stainless steel surfaces and glass partitions:1.15), (muted clinical blue-white color palette:1.1), shallow depth of field isolating the subject, scientific precision atmosphere",
+      "modifiers_animagine": "1girl, lab coat, smelling, test tube, (laboratory:1.15), clinical, (white room:1.15), focused expression, nose, sample jars, data charts, (sterile environment:1.1), indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "perfume counter, flower shop, cooking, bakery, fragrant garden, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a row of numbered glass sample jars on a sterile white workstation",
+        "a nose hovering over a laboratory beaker with wisps of invisible scent",
+        "a wall-mounted chart plotting odor intensity curves in clinical blue ink",
+        "gloved hands uncapping a sealed sample container under fluorescent light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "107_golf_ball_diver": {
+      "name": "Golf Ball Diver",
+      "modifiers": "(dynamic action shot of scuba diver collecting golf balls from murky green pond:1.2), golf course water hazard with manicured fairway visible above surface, (mesh collection bag bulging with white golf balls:1.15), (split-level underwater and above-water composition:1.15), dramatic task lighting from sunbeams penetrating murky water, wetsuit and diving mask detail, (industrial grey-green and white color palette:1.1), sense of hidden underwater world",
+      "modifiers_animagine": "1boy, scuba gear, diving mask, wetsuit, (underwater:1.15), (pond:1.15), golf balls, mesh bag, swimming, bubbles, green water, (sunlight rays:1.1), submerged, dynamic pose, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "ocean diving, coral reef, tropical fish, scuba vacation, beach, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a mesh bag bulging with white golf balls dragged through murky green water",
+        "sunbeams piercing through pond water illuminating scattered golf balls on the bottom",
+        "a split-level view of a manicured fairway above and murky depths below",
+        "a gloved hand reaching through silt to pluck a half-buried golf ball"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "108_line_stander": {
+      "name": "Professional Line Stander",
+      "modifiers": "(environmental portrait of professional queue holder outside flagship retail store at dawn:1.2), (folding camping chair and thermos on urban sidewalk:1.15), product launch crowd stretching behind, patience and determination in expression, (warm golden hour light hitting concrete and glass storefront:1.1), worn sneakers and layered clothing for long wait, (urban grey and sunrise amber color palette:1.1), documentary street photography style",
+      "modifiers_animagine": "1boy, casual clothes, jacket, sitting, (folding chair:1.15), (sidewalk:1.15), storefront, queue, crowd, city, dawn, thermos, phone, patient expression, urban, outdoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "sitting at desk, office work, driving, sleeping, shopping inside, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a folding camp chair and thermos on a dawn-lit urban sidewalk with a queue behind",
+        "a line of bundled-up people stretching down a city block before a glass storefront",
+        "worn sneakers on cold concrete beside a crumpled sleeping bag at sunrise",
+        "a hand-lettered reservation sign taped to a camp chair holding a spot in line"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "109_pro_mourner": {
+      "name": "Professional Mourner",
+      "modifiers": "(cinematic portrait of elegantly dressed mourner at solemn funeral ceremony:1.2), (black lace veil catching diffused overcast light:1.15), genuine tears glistening on cheeks, (dark cemetery backdrop with aged stone monuments:1.15), muted charcoal and deep violet tones, weathered iron gate and wilting flowers in soft focus background, (somber atmospheric haze:1.1), emotional gravity and theatrical sorrow, aged wood of coffin visible",
+      "modifiers_animagine": "1girl, black dress, (black veil:1.15), crying, tears, (funeral:1.15), cemetery, tombstone, flowers, mourning, solemn expression, (gothic:1.1), dark atmosphere, overcast, outdoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "wedding, birthday party, celebration, laughing, dancing, happy, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a black lace veil catching overcast light against aged cemetery headstones",
+        "a single tear trailing down a powdered cheek above a dark mourning collar",
+        "wilting white lilies draped across the polished wood of a coffin",
+        "weathered iron cemetery gates framing a procession in charcoal and violet"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "110_waterslide_tester": {
+      "name": "Waterslide Tester",
+      "modifiers": "(dynamic action shot of waterslide tester splashing down vibrant spiral tube slide:1.2), water park paradise with towering colorful structures, (crystalline water spray frozen in motion:1.15), safety clipboard tucked under arm, (thrilling descent captured mid-splash:1.15), (saturated tropical color palette of turquoise aqua and sunset orange:1.1), bright summer sunlight reflecting off wet surfaces, joyful adrenaline expression",
+      "modifiers_animagine": "1boy, swimsuit, (waterslide:1.15), (water park:1.15), splashing, water spray, colorful tubes, summer, outdoor, excited expression, dynamic pose, (motion blur:1.1), bright colors, sunshine, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "office desk, dry land, desert, winter snow, ice rink, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a cascade of crystalline water spray frozen mid-splash at a slide exit",
+        "a towering spiral waterslide in vivid turquoise and orange against blue sky",
+        "a waterlogged safety clipboard with splash-blurred evaluation marks",
+        "sunlight refracting through curtains of water inside a translucent tube slide"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "111_wedding_extra": {
+      "name": "Fake Wedding Guest",
+      "modifiers": "(environmental portrait of hired wedding guest mingling at elegant candlelit reception:1.2), crystal champagne flute in hand, pretending to know the couple while filling empty table, (warm golden reception hall light from chandeliers:1.15), (polished silverware and white linen tablecloths:1.15), tasteful formal attire blending with genuine guests, soft bokeh of fairy lights in background, (warm amber and ivory color palette:1.1), subtle performance art",
+      "modifiers_animagine": "1boy, formal suit, champagne glass, (wedding reception:1.15), (ballroom:1.15), chandelier, table setting, flowers, guests, smiling, socializing, (elegant:1.1), indoor, warm lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "real family, genuine emotion, bride, groom, ceremony altar, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a crystal champagne flute catching chandelier light at a white linen table",
+        "a place card with a stranger's name beside polished silverware and roses",
+        "a ballroom reception table glowing with candles and fairy light bokeh",
+        "a formal boutonniere pinned carefully to a rented suit jacket"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "113_paper_sniffer": {
+      "name": "Paper Towel Sniffer",
+      "modifiers": "(documentary style portrait of quality control worker evaluating paper products by smell in manufacturing facility:1.2), holding pristine white paper towel sample near face with concentrated expression, (industrial conveyor belt and rolls of product in background:1.15), (clinical fluorescent lighting on stainless steel workstation:1.15), sensory evaluation checklist on clipboard, (industrial grey-blue tones with crisp white product contrast:1.1), factory ambient atmosphere",
+      "modifiers_animagine": "1girl, factory uniform, hairnet, (paper towel:1.15), smelling, (quality control:1.15), factory, conveyor belt, clipboard, industrial, focused expression, indoor, (fluorescent lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "perfume testing, wine tasting, food sampling, flower arranging, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a pristine white paper towel held close to a face under fluorescent factory light",
+        "massive rolls of paper product spinning on an industrial conveyor belt",
+        "a sensory evaluation clipboard with scent rating checkboxes and pencil marks",
+        "stacked reams of fresh paper towels on a stainless steel quality control bench"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "114_dice_inspector": {
+      "name": "Dice Inspector",
+      "modifiers": "(close-up environmental portrait of casino dice inspector with precision calipers measuring translucent red die:1.2), (dramatic task lighting from adjustable desk lamp:1.15), perfectly balanced dice arranged in velvet-lined case, gaming commission certification documents visible, (polished brass instruments and magnifying loupe on dark mahogany workbench:1.15), (rich casino red and polished chrome color palette:1.1), meticulous concentration, anti-cheating verification atmosphere",
+      "modifiers_animagine": "1boy, formal shirt, vest, magnifying glass, (calipers:1.15), (red dice:1.15), desk lamp, dark room, inspection, concentration, detailed hands, workbench, (velvet case:1.1), indoor, dramatic lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "card dealer, slot machine, roulette wheel, poker chips, blackjack, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "precision brass calipers measuring a translucent red casino die under lamplight",
+        "a velvet-lined case of perfectly aligned dice glowing deep crimson",
+        "a magnifying loupe revealing the micro-etched pips on a crystal-clear die",
+        "polished inspection instruments arranged on dark mahogany beside certification papers"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "115_balloon_pilot": {
+      "name": "Hot Air Balloon Pilot",
+      "modifiers": "(cinematic portrait of hot air balloon pilot standing in woven wicker basket at golden sunrise:1.2), (massive colorful balloon envelope billowing overhead:1.15), propane burner casting warm orange flame light upward, (floating serenely over patchwork countryside of emerald fields and winding rivers:1.15), (warm golden hour palette with deep blue sky gradient:1.1), aged leather gloves gripping basket edge, peaceful aerial adventure atmosphere, environmental wide shot",
+      "modifiers_animagine": "1boy, aviator jacket, goggles on head, (hot air balloon:1.15), (wicker basket:1.15), flame, sunrise, sky, clouds, countryside below, floating, wind, scarf, adventurous expression, outdoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "airplane cockpit, helicopter, drone, parachute, hang glider, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a propane burner roaring orange flame upward into the belly of a balloon envelope",
+        "a woven wicker basket floating above patchwork emerald fields at sunrise",
+        "a massive colorful balloon silhouetted against a deep blue and gold dawn sky",
+        "leather-gloved hands gripping the rim of a basket high above winding rivers"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "116_crime_cleaner": {
+      "name": "Crime Scene Cleaner",
+      "modifiers": "(environmental portrait of biohazard cleanup specialist in full white Tyvek protective suit:1.2), standing in dimly lit room marked with yellow crime scene tape, (professional cleaning equipment and chemical sprayers at ready:1.15), dramatic task lighting from portable work lamps, (hazmat respirator mask reflecting harsh light:1.15), (somber industrial grey-blue atmosphere:1.1), heavy-duty rubber gloves and sealed boot covers, clinical precision meets grim duty, documentary realism",
+      "modifiers_animagine": "1boy, (hazmat suit:1.15), (gas mask:1.15), protective gear, crime scene tape, dark room, cleaning equipment, spray bottle, gloves, serious, indoor, (harsh lighting:1.1), yellow tape, biohazard symbol, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "detective, police officer, forensic investigator, crime solving, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a white Tyvek suit and respirator lit harshly by a portable work lamp",
+        "yellow crime scene tape stretched across a dimly lit doorway",
+        "an industrial chemical sprayer beside sealed biohazard waste bags",
+        "heavy rubber gloves reaching for cleaning supplies in a somber grey room"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "117_bounty_hunter": {
+      "name": "Bounty Hunter",
+      "modifiers": "(dynamic action portrait of modern bounty hunter with tactical vest and body camera:1.2), (urban night pursuit through rain-slicked alley:1.15), neon signs reflecting off wet asphalt, bail enforcement badge and flex cuffs on belt, (dramatic chiaroscuro lighting from distant streetlamp:1.15), worn leather boots and weathered tactical gear, (industrial grey-blue and amber neon color palette:1.1), intense focused expression, skip tracer in pursuit",
+      "modifiers_animagine": "1boy, tactical vest, badge, handcuffs, (dark alley:1.15), (night:1.15), rain, neon lights, wet ground, running, determined expression, urban, city, (streetlight:1.1), action pose, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "desk job, office worker, accountant, teacher, librarian, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a bail enforcement badge and flex cuffs glinting on a tactical belt in neon light",
+        "rain-slicked alley asphalt reflecting amber and blue neon signs at night",
+        "a body camera mounted on a weathered tactical vest with velcro patches",
+        "worn leather boots splashing through puddles in a dark urban alleyway"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "118_ethical_hacker": {
+      "name": "Ethical Hacker",
+      "modifiers": "(environmental portrait of penetration tester at triple-monitor workstation:1.2), (streams of green terminal code reflecting in glasses:1.15), dark room lit only by monitor glow and RGB keyboard, cybersecurity command center atmosphere, energy drink cans and technical reference books scattered on desk, (hoodie silhouette against cascading data:1.15), (electric blue and phosphor green color palette:1.1), digital fortress breaker finding the vulnerability, shallow depth of field on screen code",
+      "modifiers_animagine": "1boy, hoodie, glasses, (multiple monitors:1.15), computer, (code on screen:1.15), dark room, green text, keyboard, hacking, concentrated expression, sitting, desk, energy drink, headphones around neck, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "physical break-in, lockpicking, safe cracking, burglary tools, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "cascading green terminal code reflected in a pair of glasses in a dark room",
+        "three monitors displaying network topology maps and vulnerability scan results",
+        "an RGB keyboard glowing beneath fingers typing rapid exploit commands",
+        "a cluttered desk of energy drinks and technical manuals lit only by screen glow"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "119_voice_artist": {
+      "name": "Voice-Over Artist",
+      "modifiers": "(environmental portrait of voice actor performing in professional recording booth:1.2), (large-diaphragm condenser microphone with pop filter catching warm studio light:1.15), sound-dampening foam panels lining walls, animation script on music stand, (expressive mid-performance facial contortion:1.15), headphones slightly askew, (warm studio amber light from overhead:1.1), cozy soundproof isolation, visible vocal energy and theatrical passion",
+      "modifiers_animagine": "1girl, headphones, (microphone:1.15), (recording studio:1.15), soundproof room, script, music stand, singing pose, expressive face, open mouth, (acoustic foam:1.1), indoor, warm lighting, vocal booth, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "singer on stage, musical instrument, concert, karaoke, DJ, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a large-diaphragm condenser microphone with pop filter in a warm vocal booth",
+        "sound-dampening foam panels lining the walls of an intimate recording space",
+        "an animation script covered in hand-marked inflection notes on a music stand",
+        "headphones hanging askew beside a glowing VU meter in a cozy studio"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "120_foley_artist": {
+      "name": "Foley Artist",
+      "modifiers": "(environmental portrait of foley artist creating sound effects in cluttered studio workshop:1.2), (coconut shell halves clapped together for horse hooves:1.15), eclectic props collection covering shelves and tables, (film projection playing silently on wall:1.15), worn wooden floorboards and hanging microphones, creative audio wizardry in action, (warm workshop amber light from bare bulbs:1.1), aged wood and polished metal textures, cinematic magic behind the scenes",
+      "modifiers_animagine": "1boy, workshop, props, (coconut shells:1.15), (microphone overhead:1.15), film projection, shelves of objects, creative, focused expression, standing, studio, shoes, gravel box, indoor, (warm lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "musician, recording band, mixing console, concert sound, DJ booth, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "coconut shell halves clapped together beside a dangling overhead microphone",
+        "shelves overflowing with eclectic props -- shoes, chains, glass, and gravel trays",
+        "a silent film projection flickering on a wall above a cluttered foley pit",
+        "worn wooden floorboards and a box of crunchy materials beneath a boom mic"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "121_sommelier": {
+      "name": "Sommelier",
+      "modifiers": "(cinematic portrait of master sommelier swirling deep burgundy wine in crystal Riedel glass:1.2), (ancient stone wine cellar backdrop with oak barrels receding into shadow:1.15), warm candlelight from iron candelabra casting amber glow, (silver tastevin on chain around neck:1.15), tasting notes journal open on barrel top, (rich mahogany and deep garnet color palette:1.1), aged wood and polished crystal textures, refined expertise and sensory concentration",
+      "modifiers_animagine": "1boy, formal vest, bow tie, (wine glass:1.15), swirling wine, (wine cellar:1.15), oak barrels, candles, (dim lighting:1.1), elegant, sophisticated expression, tastevin, tasting, indoor, warm tones, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "beer pong, cheap liquor, fast food drink, soda fountain, juice box, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "deep burgundy wine swirling in a crystal Riedel glass by candlelight",
+        "oak barrels receding into the shadowed depths of a stone wine cellar",
+        "a silver tastevin on a chain catching the amber glow of candelabra light",
+        "a leather-bound tasting journal open on a barrel top with ink-stained notes"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "122_mixologist": {
+      "name": "Craft Mixologist",
+      "modifiers": "(dynamic action shot of creative mixologist mid-pour crafting artisan cocktail:1.2), (dramatic flaming garnish illuminating face from below:1.15), molecular mixology tools and exotic botanical ingredients arrayed on polished copper bar top, (crystal-clear ice sphere catching light:1.15), craft speakeasy setting with exposed brick and Edison bulbs, (rich amber and emerald green color palette:1.1), liquid art frozen in elegant pour, shallow depth of field on the cascading spirits",
+      "modifiers_animagine": "1girl, bartender outfit, vest, shaker, pouring, (cocktail glass:1.15), (bar counter:1.15), bottles, garnish, fire, ice, dim bar, Edison bulbs, exposed brick, (stylish:1.1), confident expression, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "wine cellar, beer tap, soda fountain, coffee brewing, tea ceremony, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a flaming garnish crowning an artisan cocktail on a polished copper bar",
+        "a crystal-clear ice sphere catching Edison bulb light inside a coupe glass",
+        "a cascading pour of amber spirits mid-air between shaker and glass",
+        "exotic botanicals and molecular mixology tools arrayed on a speakeasy counter"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "123_paleontologist": {
+      "name": "Paleontologist",
+      "modifiers": "(environmental portrait of paleontologist carefully excavating massive dinosaur fossil at arid desert dig site:1.2), (delicate brushes and dental picks revealing prehistoric bone from sandstone matrix:1.15), golden hour light raking across excavation grid, dusty field hat and sun-weathered face, (earthy ochre and bone-white color palette:1.1), canvas tarps and measurement stakes surrounding dig, (scientific discovery moment of revelation:1.15), aged sedimentary rock texture",
+      "modifiers_animagine": "1girl, field hat, khaki vest, kneeling, (brush:1.15), (dinosaur fossil:1.15), bone, excavation site, desert, dirt, grid markers, tools, focused expression, outdoor, (golden hour:1.1), dust, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "modern animals, zoo, pet shop, living creatures, aquarium, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a massive dinosaur femur emerging from sandstone under delicate brush strokes",
+        "golden hour light raking across an excavation grid marked with string and stakes",
+        "dental picks and soft brushes laid beside a partially exposed prehistoric skull",
+        "layered sedimentary rock split open to reveal fossilized vertebrae"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "124_volcanologist": {
+      "name": "Volcanologist",
+      "modifiers": "(dramatic environmental portrait of volcanologist in reflective silver heat suit near active lava flow:1.2), (molten rock glowing incandescent orange and crimson:1.15), scientific instruments and gas sensors on tripod, (volcanic eruption column rising behind:1.15), extreme heat shimmer distorting background, (intense ember-orange and obsidian black color palette:1.1), ash particles in air catching firelight, geological danger and scientific courage at the edge of creation",
+      "modifiers_animagine": "1boy, heat suit, silver protective gear, helmet, visor, (lava:1.15), (volcano:1.15), eruption, smoke, red glow, instruments, tripod, (extreme environment:1.1), dramatic lighting, fire, outdoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "glacier, ice cave, arctic, snowstorm, frozen tundra, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "incandescent molten lava flowing in rivulets of orange and crimson over black rock",
+        "a reflective silver heat suit glowing against the inferno of an active lava field",
+        "a gas sensor tripod silhouetted against a volcanic eruption column at dusk",
+        "ash particles swirling through firelight above cracked obsidian basalt"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "125_storm_chaser": {
+      "name": "Storm Chaser",
+      "modifiers": "(dynamic action shot of storm chaser photographing massive EF5 tornado from armored chase vehicle:1.2), (dramatic churning supercell sky in deep charcoal and sickly green:1.15), swirling funnel cloud descending to dark prairie, DSLR camera braced against wind, (weather instruments mounted on vehicle roof:1.15), electric tension in the air, (storm-green and thundercloud grey color palette:1.1), extreme meteorological pursuit, documentary intensity",
+      "modifiers_animagine": "1boy, camera, chase vehicle, truck, (tornado:1.15), (dark sky:1.15), storm clouds, prairie, wind, dramatic sky, green tint, intense expression, outdoor, (extreme weather:1.1), action pose, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "sunny beach, calm weather, clear sky, indoor, basement, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a massive funnel cloud descending from a sickly green supercell sky to dark prairie",
+        "weather instruments spinning wildly atop an armored chase vehicle",
+        "a churning wall cloud lit by lightning against deep charcoal thunderheads",
+        "a DSLR camera braced against howling wind aimed at a twisting tornado"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "126_cryptographer": {
+      "name": "Cryptographer",
+      "modifiers": "(environmental portrait of cryptographer at cluttered desk surrounded by encryption algorithm diagrams and mathematical formula whiteboards:1.2), (vintage cipher machines alongside modern terminals:1.15), code-breaking visualization on screen, (dramatic task lighting from single desk lamp in otherwise dark room:1.15), worn leather-bound notebooks filled with calculations, (deep navy and phosphor green color palette:1.1), intellectual intensity and obsessive pattern recognition, secure communications fortress",
+      "modifiers_animagine": "1girl, glasses, turtleneck, desk, (multiple monitors:1.15), (mathematical formulas:1.15), whiteboard, cipher machine, dark room, desk lamp, notebooks, code on screen, thinking pose, (concentrated expression:1.1), indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "locksmith, physical vault, bank safe, padlock, key cutting, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a vintage Enigma-style cipher machine beside a modern terminal in lamplight",
+        "whiteboards covered in dense encryption algorithms and mathematical proofs",
+        "a worn leather notebook filled with handwritten cipher calculations",
+        "a code-breaking visualization of pattern frequencies glowing on a dark screen"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "127_pyrotechnician": {
+      "name": "Pyrotechnician",
+      "modifiers": "(cinematic portrait of pyrotechnician preparing elaborate fireworks display at dusk:1.2), (colorful explosive shells arranged in launching tubes:1.15), safety equipment and firing console with switches and wires, (dramatic twilight sky as canvas awaiting ignition:1.15), warm amber work light on weathered hands connecting fuses, controlled fire artistry, (deep indigo sky with lingering sunset orange:1.1), gunpowder and metal textures, anticipation of spectacular light",
+      "modifiers_animagine": "1boy, safety vest, hard hat, gloves, (fireworks:1.15), (launching tubes:1.15), wires, control panel, twilight sky, outdoor, setup, careful hands, stadium, (serious expression:1.1), evening, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "candle, lighter, campfire, kitchen stove, match striking, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "colorful explosive shells nestled in rows of steel launching tubes at dusk",
+        "a firing console of switches and tangled wires ready for ignition sequence",
+        "weathered hands connecting a fuse by amber work light against indigo sky",
+        "fireworks bursting in chrysanthemum patterns over a dark horizon"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "128_stunt_performer": {
+      "name": "Stunt Performer",
+      "modifiers": "(dynamic action shot of stunt performer mid-air during explosive action sequence on film set:1.2), (safety harness cables visible in dramatic backlit composition:1.15), fiery pyrotechnic explosion blooming behind, (motion-frozen leap between rooftop platforms:1.15), movie production rigging and camera cranes in periphery, adrenaline-charged intensity, (warm explosion orange against cool twilight blue:1.1), worn leather jacket and protective padding beneath costume, death-defying cinematic spectacle",
+      "modifiers_animagine": "1boy, leather jacket, (mid-air:1.15), jumping, (explosion:1.15), fire, film set, camera crane, rooftop, action pose, dynamic angle, harness, stunt, (intense expression:1.1), outdoor, dramatic lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "office worker, desk job, couch sitting, sleeping, reading, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a figure frozen mid-leap between rooftop platforms with fire blooming behind",
+        "safety harness cables catching backlight against a pyrotechnic explosion",
+        "a film camera crane tracking a death-defying stunt through twilight air",
+        "a worn leather jacket with hidden protective padding visible at the seams"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "130_toy_designer": {
+      "name": "Toy Designer",
+      "modifiers": "(environmental portrait of toy designer surrounded by colorful prototypes in creative workshop:1.2), (3D printed models and hand-sculpted clay figures covering workbench:1.15), playful chaos of springs gears and bright plastics, natural workspace light from large windows, (imagination made tangible:1.15), cheerful primary color palette with pops of neon, sketches and blueprints pinned to cork board, (warm workshop amber tones:1.1), childlike wonder meets professional craft",
+      "modifiers_animagine": "1girl, apron, workshop, (colorful toys:1.15), (prototypes:1.15), 3d printer, clay models, sketches, cork board, bright colors, creative, smiling, workbench, tools, indoor, (natural lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "weapons designer, industrial machinery, medical equipment, tools, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a workbench crowded with colorful 3D-printed toy prototypes and clay figures",
+        "sketches and blueprints of whimsical toy mechanisms pinned to a cork board",
+        "a playful chaos of springs, gears, and bright plastic parts in a sunlit workshop",
+        "a hand-sculpted clay toy character drying beside its pencil concept sketch"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "131_escape_designer": {
+      "name": "Escape Room Designer",
+      "modifiers": "(environmental portrait of escape room designer building elaborate puzzle mechanism in themed chamber:1.2), (mysterious Victorian props and hidden compartments under construction:1.15), mechanical locks and electronic triggers exposed mid-assembly, (dramatic task lighting from work lamp casting long shadows across aged wood panels:1.15), blueprint schematics spread on floor, (steampunk brass and dark mahogany color palette:1.1), immersive experience architect at work, creative engineering meets theatrical design",
+      "modifiers_animagine": "1boy, tool belt, screwdriver, workshop, (puzzle mechanism:1.15), (locks:1.15), gears, themed room, Victorian decor, blueprints, mysterious, concentrated expression, building, props, (dim lighting:1.1), indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "interior decorator, home renovation, furniture store, plain room, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "an exposed puzzle mechanism of interlocking brass gears and hidden compartments",
+        "blueprint schematics of a secret passage spread across aged wood panels",
+        "a half-assembled combination lock surrounded by Victorian props and tools",
+        "a themed chamber with cryptic symbols and mechanical triggers mid-construction"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "132_pro_cuddler": {
+      "name": "Professional Cuddler",
+      "modifiers": "(environmental portrait of professional cuddler in warm cozy therapy setting:1.2), (soft weighted blankets and plush cushions arranged on comfortable daybed:1.15), gentle diffused natural light through sheer curtains, (calming lavender and warm cream color palette:1.1), (essential oil diffuser casting gentle mist:1.15), therapeutic warmth and genuine human connection, peaceful serene expression, soft textures of knitted throws and velvet pillows, safe comforting sanctuary atmosphere",
+      "modifiers_animagine": "1girl, comfortable clothes, cardigan, (cozy room:1.15), (cushions:1.15), blankets, daybed, soft lighting, curtains, candles, peaceful expression, gentle, (warm tones:1.1), indoor, plants, calming atmosphere, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "wrestling, boxing, fighting, martial arts, aggressive contact, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "soft weighted blankets and velvet cushions arranged on a warm daybed",
+        "an essential oil diffuser casting gentle mist through lavender-tinted light",
+        "sheer curtains filtering golden light into a sanctuary of knitted throws",
+        "a cozy therapy nook with candles, plush pillows, and potted greenery"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "133_netflix_tagger": {
+      "name": "Netflix Tagger",
+      "modifiers": "(environmental portrait of content analyst watching multiple glowing screens in dimly lit streaming service office:1.2), (categorization interface with genre tags and mood descriptors:1.15), professional binge-watching station with ergonomic chair and snack station, (cool monitor-blue light on concentrated face:1.15), headphones and note-taking tablet, algorithm-feeding data visualization on secondary display, (modern tech office tones of slate grey and electric blue:1.1), cinema geek dream job atmosphere",
+      "modifiers_animagine": "1girl, casual clothes, headphones, (multiple monitors:1.15), (screens showing movies:1.15), dark office, snacks, comfortable chair, tablet, typing, focused expression, (blue light:1.1), modern office, indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "film director, actor on set, camera crew, movie premiere, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "multiple glowing screens displaying film scenes and genre tagging interfaces",
+        "a categorization dashboard of mood descriptors and content tags in blue light",
+        "a professional binge-watching station with ergonomic chair, snacks, and headphones",
+        "a secondary display showing algorithm heatmaps and viewer mood data"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "134_marmalade_wrestler": {
+      "name": "Marmalade Wrestler",
+      "modifiers": "(dynamic action shot of wrestler grappling in pool of glistening orange marmalade:1.2), sticky citrus combat in makeshift ring, enthusiastic crowd cheering from bleachers, (dramatic overhead arena lighting reflecting off viscous orange surface:1.15), absurd competitive intensity, (saturated orange and warm amber color palette:1.1), (marmalade splashing in frozen motion:1.15), entertainment spectacle of glorious oddity, textured sticky translucent preserve catching light",
+      "modifiers_animagine": "1boy, shirtless, muscular, wrestling, (orange liquid:1.15), (marmalade pool:1.15), arena, crowd, cheering, splashing, dynamic pose, competition, (spotlight:1.1), action, funny, outdoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "boxing ring, martial arts, clean sport, formal competition, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "glistening orange marmalade splashing in frozen motion under arena spotlights",
+        "two wrestlers locked in a grapple, coated in sticky translucent citrus preserve",
+        "a viscous pool of amber marmalade reflecting overhead lights in a makeshift ring",
+        "an enthusiastic crowd on bleachers cheering at the sticky spectacle below"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "135_furniture_tester": {
+      "name": "Furniture Tester",
+      "modifiers": "(dynamic action shot of furniture durability tester bouncing on premium sofa in well-lit showroom:1.2), (stress testing with clipboard of evaluation criteria:1.15), showroom displays of couches and armchairs stretching into background, natural workplace light from skylights, (upholstery fabric texture and cushion compression detail:1.15), (warm showroom amber and neutral upholstery tones:1.1), product certification tags dangling from armrests, quality assessment in joyful motion",
+      "modifiers_animagine": "1girl, casual professional clothes, clipboard, (sofa:1.15), jumping, testing, (furniture showroom:1.15), chairs, tables, bright room, skylight, cheerful expression, (action pose:1.1), indoor, natural lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "furniture building, carpentry, woodworking, assembly line, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a premium sofa cushion compressing deeply under a stress test bounce",
+        "rows of couches and armchairs stretching through a skylit showroom",
+        "a clipboard of durability evaluation scores beside upholstery fabric swatches",
+        "a product certification tag dangling from the armrest of a tested sofa"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "136_human_statue": {
+      "name": "Human Statue",
+      "modifiers": "(cinematic portrait of living statue street performer painted entirely in metallic gold:1.2), perfectly frozen in dramatic classical pose on stone pedestal, (busy tourist plaza with cobblestones and historic architecture in bokeh background:1.15), (coins gleaming in velvet-lined hat at feet:1.15), natural afternoon sunlight glinting off gold body paint, incredible discipline and theatrical stillness, (warm gold and weathered stone color palette:1.1), performance art frozen in time",
+      "modifiers_animagine": "1boy, (gold body paint:1.15), (statue pose:1.15), frozen, pedestal, street performer, plaza, tourists, cobblestone, hat with coins, golden, still, dramatic pose, outdoor, (afternoon sunlight:1.1), urban, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "dancer, acrobat, runner, fast motion, blurry movement, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a figure painted entirely in metallic gold frozen in a classical pose on stone",
+        "coins gleaming in a velvet-lined hat at the feet of a living statue",
+        "afternoon sunlight glinting off gold body paint on a cobblestone plaza",
+        "a perfectly still gilded hand extended mid-gesture above passing tourists"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "137_iceberg_mover": {
+      "name": "Iceberg Mover",
+      "modifiers": "(dramatic environmental portrait of maritime specialist on bridge of heavy-duty tugboat redirecting massive iceberg:1.2), (towering crystalline ice wall dwarfing the vessel:1.15), frigid arctic waters churning with floating ice, (navigation equipment and radar screens glowing in bridge interior:1.15), overcast steel-grey sky meeting glacier-blue ocean, (industrial marine cable and rust-streaked hull texture:1.1), shipping lane protection duty in extreme cold, sense of titanic scale and frozen danger",
+      "modifiers_animagine": "1boy, captain uniform, bridge, tugboat, (iceberg:1.15), (arctic ocean:1.15), ice, cold, navigation equipment, radar, binoculars, determined expression, ship wheel, winter coat, outdoor, (overcast sky:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "tropical beach, desert, warm water, palm trees, sunny shore, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a towering crystalline iceberg dwarfing a rust-streaked tugboat in arctic waters",
+        "navigation radar screens glowing green inside a frosted wheelhouse",
+        "heavy marine tow cables stretching taut from hull to glacial ice wall",
+        "frigid steel-grey seas churning with floating ice beneath an overcast sky"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "138_flavourist": {
+      "name": "Flavourist",
+      "modifiers": "(environmental portrait of flavor scientist creating artificial tastes in gleaming laboratory:1.2), (rows of amber glass reagent bottles and precision pipettes on stainless steel countertop:1.15), taste testing station with numbered sample dishes, (molecular flavor compounds visualized on nearby screen:1.15), white lab coat and blue nitrile gloves, clinical but creative atmosphere, (warm amber liquid tones against sterile white lab:1.1), food science meets artistry at the molecular level",
+      "modifiers_animagine": "1girl, lab coat, safety goggles, (pipette:1.15), (reagent bottles:1.15), laboratory, stainless steel counter, sample dishes, tasting, scientific instruments, focused expression, gloves, indoor, (bright lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "chef cooking, restaurant kitchen, baking, grilling, frying, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "rows of amber glass reagent bottles catching light on a stainless steel counter",
+        "a precision pipette dispensing a single golden drop into a test dish",
+        "numbered sample dishes of flavor compounds arranged for blind tasting",
+        "molecular flavor structure diagrams glowing on a screen beside laboratory glassware"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "139_listening_officer": {
+      "name": "Chief Listening Officer",
+      "modifiers": "(environmental portrait of corporate executive analyzing real-time customer feedback on wall-mounted dashboard displays:1.2), (social media sentiment graphs and brand mention heatmaps glowing in modern executive suite:1.15), multiple screens showing live conversation streams, (sleek glass desk with tablet and premium headphones:1.15), (cool corporate blue and data-visualization green color palette:1.1), polished minimalist office with city skyline visible through floor-to-ceiling windows, strategic insight and digital pulse reading",
+      "modifiers_animagine": "1boy, business suit, executive office, (multiple screens:1.15), (dashboard:1.15), social media, graphs, data visualization, city skyline, window, modern office, headphones, tablet, (serious expression:1.1), indoor, blue lighting, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "shouting, megaphone, public speaking, press conference, podium, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "wall-mounted dashboards glowing with social media sentiment graphs and heatmaps",
+        "multiple screens streaming live customer conversations in a glass-walled office",
+        "a sleek desk with premium headphones and a tablet showing brand mention analytics",
+        "a city skyline visible through floor-to-ceiling windows behind data visualization panels"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "140_dog_surf_instructor": {
+      "name": "Dog Surfing Instructor",
+      "modifiers": "(dynamic action shot of instructor teaching excited dog to surf at golden-hour beach:1.2), (colorful longboard with pup balancing on nose:1.15), turquoise ocean waves cresting behind, patient encouraging training moment, (warm sunset amber and ocean teal color palette:1.1), (wet sand reflections and sea spray:1.15), unique canine athleticism, sun-bleached boardshorts and rash guard, joyful bond between human and animal, coastal lifestyle documentary style",
+      "modifiers_animagine": "1girl, swimsuit, rash guard, beach, (surfboard:1.15), (dog:1.15), golden retriever, ocean, waves, sunset, wet, sand, teaching, happy expression, outdoor, (golden hour:1.1), water splash, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "cat, indoor, pool, bathtub, dog grooming, veterinary, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a golden retriever balancing on a colorful longboard in shallow turquoise surf",
+        "wet sand reflecting a sunset sky with paw prints leading to the waterline",
+        "sea spray frozen mid-splash around a surfboard-riding dog in golden hour light",
+        "a waxed surfboard nose with a determined pup crouching low on cresting wave"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "141_yacht_rock_musician": {
+      "name": "Yacht Rock Musician",
+      "modifiers": "(cinematic golden-hour portrait of smooth yacht rock musician performing on luxury sailboat deck:1.2), (vintage Fender Rhodes keyboard catching sunset light:1.15), nautical teak wood and polished brass fittings, (soft rock vibes with ocean breeze ruffling linen shirt:1.15), 1970s aesthetic with aviator sunglasses and gold chain, (warm honey and deep ocean blue color palette:1.1), sailing into sunset with smooth harmonies, analog warmth and coastal sophistication",
+      "modifiers_animagine": "1boy, hawaiian shirt, sunglasses, (keyboard:1.15), (yacht:1.15), ocean, sunset, sailing, luxury boat, teak deck, performing, relaxed expression, wind in hair, (golden hour:1.1), outdoor, retro style, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "punk rock, heavy metal, mosh pit, underground club, garage band, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a vintage Fender Rhodes keyboard catching golden sunset light on a teak deck",
+        "polished brass yacht fittings gleaming beside a linen-shirted performer at sea",
+        "an ocean horizon split between honey-gold sky and deep blue water from a sailboat",
+        "aviator sunglasses and a gold chain reflecting the warm glow of a maritime sunset"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "143_lip_dub_coordinator": {
+      "name": "Lip Dub Coordinator",
+      "modifiers": "(dynamic wide-angle shot of lip dub director orchestrating massive group performance through colorful corridor:1.2), (dozens of performers in vibrant costumes moving in choreographed sync:1.15), steadicam operator walking backward capturing continuous take, (confetti and streamers mid-air:1.15), energetic saturated rainbow color palette, directorial megaphone and shot list in hand, viral content creation energy, synchronized joyful chaos, (warm bright production lighting:1.1)",
+      "modifiers_animagine": "1girl, director, megaphone, clipboard, (colorful corridor:1.15), (group of people:1.15), costumes, confetti, dancing, choreography, energetic, bright colors, camera crew, smiling, indoor, (bright lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "silent film, library, meditation, funeral, quiet room, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "confetti and streamers frozen mid-air in a vibrant corridor of performers",
+        "a steadicam operator walking backward through a choreographed human wave",
+        "a megaphone and shot list clipboard in the hands of an energetic director",
+        "dozens of costumed performers in synchronized joyful motion under bright lights"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "144_emoji_translator": {
+      "name": "Emoji Translator",
+      "modifiers": "(environmental portrait of digital linguist translating emoji sequences on large touchscreen display:1.2), (colorful pictograph patterns and cross-cultural message comparisons on screen:1.15), modern open-plan tech office with whiteboards covered in symbol taxonomies, natural workspace light from panoramic windows, (warm screen glow on contemplative face:1.15), (vibrant digital color palette against minimal Scandinavian office tones:1.1), modern communication decoded, linguistic puzzle mastery",
+      "modifiers_animagine": "1girl, glasses, casual tech outfit, (touchscreen:1.15), (large display:1.15), emoji on screen, modern office, whiteboard, colorful symbols, thinking pose, tech workspace, tablet, stylus, indoor, (natural lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "handwriting, ancient scroll, stone tablet, morse code, sign language, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a large touchscreen displaying colorful emoji sequences and translation grids",
+        "whiteboards covered in pictograph taxonomies and cross-cultural symbol charts",
+        "a stylus tracing connections between emoji patterns on a glowing display",
+        "a modern tech office desk with symbol reference cards and linguistic diagrams"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "145_cloud_architect": {
+      "name": "Cloud Architect",
+      "modifiers": "(environmental portrait of cloud computing architect designing infrastructure at standing desk:1.2), (holographic-style server topology diagrams floating on ultrawide curved monitor:1.15), architectural visualization of distributed systems with nodes and data flows, (modern glass-walled tech office with server room visible through window:1.15), (cool electric blue and white data center color palette:1.1), polished minimal workspace with technical reference books, digital infrastructure leadership, intellectual mastery of invisible systems",
+      "modifiers_animagine": "1boy, business casual, standing desk, (ultrawide monitor:1.15), (server diagram:1.15), holographic display, tech office, glass walls, server room, cloud computing, architectural diagram, confident expression, indoor, (blue lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "building architect, physical construction, blueprint paper, hard hat, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a server topology diagram with glowing nodes and data flow lines on an ultrawide monitor",
+        "a glass-walled server room humming with blinking blue LEDs behind an architect's desk",
+        "an architectural visualization of distributed cloud infrastructure with connection paths",
+        "a polished standing desk with technical references beside a curved display of network maps"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "146_vr_designer": {
+      "name": "VR Experience Designer",
+      "modifiers": "(dynamic portrait of VR experience designer testing immersive world with sleek headset:1.2), (virtual reality creation environment with 3D wireframe objects materializing in mid-air:1.15), motion controllers painting light trails in darkened studio, (multiple reference monitors showing the VR perspective:1.15), (neon purple and cyan holographic color palette:1.1), futuristic creative studio with cable management and tracking sensors mounted on walls, digital realm architect bridging imagination and technology",
+      "modifiers_animagine": "1girl, (vr headset:1.15), (motion controllers:1.15), dark studio, holographic objects, wireframe, neon lights, monitors, tracking sensors, futuristic, creative pose, standing, reaching, (purple and cyan lighting:1.1), indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "physical world, outdoor nature, real sports, traditional art, painting, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "motion controllers painting neon light trails through a darkened VR studio",
+        "3D wireframe objects materializing in mid-air beside a sleek VR headset",
+        "tracking sensors mounted on walls casting infrared grids across a design space",
+        "reference monitors displaying a virtual world alongside the physical studio creating it"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "147_quantum_researcher": {
+      "name": "Quantum Computing Researcher",
+      "modifiers": "(environmental portrait of quantum physicist beside supercooled quantum computer in cryogenic chamber:1.2), (golden chandelier-like dilution refrigerator descending from ceiling with bundled wires:1.15), qubit state visualization on nearby monitor, (cutting-edge laboratory with pristine white walls and vibration-isolated floors:1.15), (cool clinical blue and warm gold instrumentation color palette:1.1), scientific frontier atmosphere, intellectual wonder at the boundary of computational possibility",
+      "modifiers_animagine": "1boy, lab coat, safety goggles, (quantum computer:1.15), (cryogenic chamber:1.15), gold wires, chandelier device, laboratory, monitors, data, clean room, scientific instruments, amazed expression, indoor, (clinical lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "classical computer, abacus, calculator, typewriter, analog, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "a golden chandelier-like dilution refrigerator descending from the ceiling trailing bundled wires",
+        "qubit state visualization diagrams glowing on a monitor in a pristine lab",
+        "cryogenic cooling lines frosted with condensation feeding into a quantum processor",
+        "a vibration-isolated clean room floor supporting delicate quantum instrumentation"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "148_food_stylist": {
+      "name": "Food Stylist",
+      "modifiers": "(close-up environmental portrait of food stylist perfecting gourmet burger for commercial photo shoot:1.2), (precision tweezers placing individual sesame seeds:1.15), fine brushes applying glycerin sheen, (studio strobe lighting creating appetizing highlights on melting cheese:1.15), array of styling tools and hidden structural supports, artificial perfection on marble countertop, (warm appetizing amber and rich brown color palette:1.1), culinary deception elevated to art form, shallow depth of field on glistening food surface",
+      "modifiers_animagine": "1girl, apron, tweezers, (food styling:1.15), (burger:1.15), photo studio, lighting equipment, camera, props, brushes, marble counter, meticulous, concentrated expression, close-up, (studio lighting:1.1), indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "messy eating, fast food wrapper, microwave dinner, cafeteria tray, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "precision tweezers placing a single sesame seed on a glistening burger bun",
+        "a fine brush applying glycerin sheen to melting cheese under studio strobes",
+        "an array of food styling tools -- pins, tweezers, blowtorch -- on marble",
+        "a perfectly composed burger with hidden structural supports catching warm light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "149_train_pusher": {
+      "name": "Train Pusher",
+      "modifiers": "(dynamic action shot of Tokyo oshiya subway pusher in crisp white gloves cramming passengers into packed rush-hour train:1.2), (dense crowd of commuters pressed against glass doors:1.15), fluorescent-lit platform with precise yellow safety lines, (white-gloved hands pushing against sea of dark suits:1.15), urban necessity captured in chaotic compression, (cool fluorescent white and dark suit navy color palette:1.1), Japanese urban efficiency at maximum density, stainless steel train car reflecting platform lights",
+      "modifiers_animagine": "1boy, uniform, (white gloves:1.15), (train station:1.15), pushing, crowd, commuters, packed train, platform, rush hour, Tokyo, japanese text signs, (fluorescent lighting:1.1), dynamic pose, action, indoor, masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "empty train, rural station, quiet platform, slow boarding, spacious, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "crisp white gloves pressing against a sea of dark-suited commuters at a train door",
+        "a packed rush-hour train with faces pressed against foggy glass doors",
+        "precise yellow safety lines on a fluorescent-lit Tokyo subway platform",
+        "a stainless steel train car reflecting the compressed chaos of boarding passengers"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "150_face_feeler": {
+      "name": "Face Feeler",
+      "modifiers": "(close-up documentary portrait of cosmetic researcher evaluating facial product texture on test subject:1.2), (fingertips pressing gently against skin with clinical precision:1.15), beauty laboratory with product samples in numbered containers, (ring light creating even illumination for skin analysis:1.15), skincare evaluation instruments and moisture meters on countertop, (soft clinical white and rose-gold color palette:1.1), sensory expertise in dermatological assessment, clean stainless steel and frosted glass textures",
+      "modifiers_animagine": "1girl, lab coat, gloves, (touching face:1.15), (skincare testing:1.15), beauty lab, ring light, product samples, numbered containers, instruments, clinical, gentle expression, close-up hands, indoor, (soft lighting:1.1), masterpiece, best quality, very aesthetic, absurdres",
+      "negative": "massage therapy, plastic surgery, dental exam, eye test, fantasy, cartoon, surreal, anime",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark",
+      "subjects": [
+        "fingertips pressing gently against skin under the even glow of a ring light",
+        "numbered containers of skincare product samples on a frosted glass counter",
+        "a moisture meter pressed against a cheek displaying hydration readings",
+        "a beauty laboratory workstation of dermatological instruments in rose-gold light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    }
+  }
+}

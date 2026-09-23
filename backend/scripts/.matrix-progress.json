@@ -1,0 +1,26 @@
+{
+  "completed": {
+    "watercolor_business_01_restaurant": true,
+    "watercolor_business_02_coffee_shop": true,
+    "watercolor_business_03_bakery": true,
+    "watercolor_business_04_food_truck": true,
+    "watercolor_business_05_grocery": true,
+    "watercolor_business_06_boutique": true,
+    "watercolor_business_07_ecommerce": true,
+    "watercolor_business_08_bookstore": true,
+    "watercolor_business_09_electronics": true,
+    "watercolor_business_10_hardware": true,
+    "watercolor_business_11_plumbing": true,
+    "watercolor_business_12_electrical": true,
+    "watercolor_business_13_hvac": true,
+    "watercolor_business_14_landscaping": true,
+    "watercolor_business_15_cleaning": true,
+    "watercolor_business_16_painting": true,
+    "watercolor_business_17_auto_repair": true,
+    "watercolor_business_18_car_wash": true,
+    "watercolor_business_19_hair_salon": true,
+    "watercolor_business_20_nail_spa": true,
+    "watercolor_business_21_fitness_gym": true
+  },
+  "sessions": {}
+}

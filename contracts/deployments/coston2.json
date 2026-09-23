@@ -1,0 +1,36 @@
+{
+  "network": "coston2",
+  "chainId": "114",
+  "deployer": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+  "timestamp": "2026-01-27T19:07:31.789Z",
+  "contracts": {
+    "PriceOracle": "0x55b92A8C367d408F028914BFCd48D1D4d16960b0",
+    "SubdomainNFT": "0x900C2f2f9a89Cb62Af702611FF77c9F6Ef8dfd38",
+    "DNSOracle": "0x218EB07c6ef92250DcfE0689a5309B10b96bA3Ff",
+    "SubdomainEscrow": "0xec53e23EFe752FcCaD57a2EF5ef535bABD605B4b",
+    "SubdomainMarketplace": "0xa53e3f6feD1c16557c72aDcB357cbbD4acAF5B92",
+    "CommunityTreasury": "0xc87Bd36cdeBaa9C632e641F0865192b0DD67bAeD"
+  },
+  "configuration": {
+    "platformRecipient": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+    "royaltyRecipient": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+    "initialFLRPrice": "50000000000000000"
+  },
+  "marketplace": {
+    "address": "0xa53e3f6feD1c16557c72aDcB357cbbD4acAF5B92",
+    "feeRecipient": "0xCafB8B7BccfF0379a8df7EF4F613914D4cebd34B",
+    "platformFeeBps": 250,
+    "deployedAt": "2026-01-27T19:15:04.217Z"
+  },
+  "communityTreasury": {
+    "address": "0x73739F478294eC542d971EEA873A6fD3972ba503",
+    "deployedAt": "2026-02-01T01:04:26.817Z",
+    "seedReward": {
+      "epochId": 0,
+      "claimant": "0xc24bD0a7bf2867B78BB6a1111c08867838ce4f96",
+      "amount": "5.0",
+      "merkleRoot": "0xd0ef4eaa2675ce1db695b5037f6e772b01453b7ce21fce0e5ebb6bdd34a841d9",
+      "proof": []
+    }
+  }
+}

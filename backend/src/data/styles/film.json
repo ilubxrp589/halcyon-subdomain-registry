@@ -1,0 +1,118 @@
+{
+  "category": "film",
+  "description": "Film and photography looks and techniques",
+  "styles": {
+    "cinematic": {
+      "id": "cinematic",
+      "name": "Cinematic",
+      "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "negative": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "film_noir": {
+      "id": "film_noir",
+      "name": "Film Noir B&W",
+      "prompt": "(b&w, Monochromatic, Film Photography:1.3), photorealistic {prompt} . film noir, analog style, soft lighting, realistic, heavy shadow, masterpiece, best quality, golden ratio, intricate, high detail, soft focus, 1940s cinematography, dramatic shadows",
+      "negative": "anime, cartoon, colorful, vibrant, low contrast, bright",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "polaroid": {
+      "id": "polaroid",
+      "name": "Faded Polaroid",
+      "prompt": "faded polaroid photo {prompt} . analog, old faded photo, old polaroid, vintage colors, instant film, white border, nostalgic",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, vibrant, colorful, digital, sharp",
+      "settings": {
+        "cfg": 5,
+        "steps": 30,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "hdr": {
+      "id": "hdr",
+      "name": "HDR Photo",
+      "prompt": "HDR photo of {prompt} . high dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, highly detailed",
+      "negative": "flat, low contrast, oversaturated, underexposed, overexposed, blurred, noisy, painting",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "long_exposure": {
+      "id": "long_exposure",
+      "name": "Long Exposure",
+      "prompt": "long exposure photo of {prompt} . blurred motion, streaks of light, surreal, dreamy, ghosting effect, highly detailed, smooth water, light trails",
+      "negative": "static, noisy, deformed, shaky, abrupt, flat, low contrast",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "portrait": {
+      "id": "portrait",
+      "name": "Portrait Photography",
+      "prompt": "RAW candid cinema portrait {prompt} . 16mm, color graded portra 400 film, remarkable color, ultra realistic, textured skin, remarkable detailed pupils, realistic dull skin noise, visible skin detail, skin fuzz, dry skin, shot with cinematic camera",
+      "negative": "anime, cartoon, painting, illustration, deformed, ugly, disfigured",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "neon_noir": {
+      "id": "neon_noir",
+      "name": "Neon Noir",
+      "prompt": "neon noir {prompt} . cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed, moody atmosphere",
+      "negative": "bright, sunny, daytime, low contrast, black and white, sketch, watercolor, ugly, deformed",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "tilt_shift": {
+      "id": "tilt_shift",
+      "name": "Tilt Shift",
+      "prompt": "tilt-shift photo of {prompt} . selective focus, miniature effect, blurred background, highly detailed, vibrant, perspective control, toy-like appearance",
+      "negative": "blurry, noisy, deformed, flat, low contrast, unrealistic, oversaturated, underexposed",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    }
+  }
+}

@@ -1,0 +1,1056 @@
+{
+  "category": "anime",
+  "description": "Japanese anime-style characters, landscapes, sci-fi, and creatures",
+  "subcategories": {
+    "characters": "Main anime character archetypes and scenarios",
+    "landscapes": "Beautiful anime-style environment and scenery",
+    "scifi": "Anime-style science fiction and cyberpunk",
+    "creatures": "Mythical creatures and mascots in anime style"
+  },
+  "themes": {
+    "01_magical_girl": {
+      "name": "Magical Girl",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, magical girl transformation sequence, elaborate frilly layered costume, flowing ribbons, ornate magical wand, glowing arcane circles radiating outward, dynamic twirling pose, sparkles and stardust trail, iridescent color palette, backlighting with lens flare, full body shot, intricate lace and gem details",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, magical girl, solo, transformation, frilled dress, ribbon, puffy sleeves, thighhighs, wand, magic circle, glowing, sparkle, floating hair, dynamic pose, outstretched arm, starry background, pink theme, detailed eyes, light particles, anime coloring, official art",
+      "negative": "masculine, heavy armor, mecha suit, dark gritty, horror, villain, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a glowing magical wand trailing sparkles and stardust",
+        "an elaborate frilly costume bursting with transformation energy",
+        "a magical circle radiating arcane light from the ground",
+        "a ribbon-wrapped scepter floating in a shower of rose petals"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "02_mecha_pilot": {
+      "name": "Mecha Pilot",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, mecha pilot seated in high-tech cockpit, giant robot visible through panoramic canopy, dozens of holographic control panels, tight-fitting pilot suit with glowing accents, intense focused expression, dramatic cockpit lighting from below, widescreen cinematic composition, mechanical detail overload, sparks and warning lights",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, pilot suit, bodysuit, cockpit, mecha, giant robot, holographic interface, glowing screen, helmet, serious expression, from below, dramatic lighting, sci-fi, mechanical details, buttons and switches, anime coloring, official art",
+      "negative": "magical girl, medieval fantasy, nature scene, cute animals, peaceful, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a towering bipedal mech silhouetted against a burning skyline",
+        "a cockpit interior blazing with holographic warning displays and throttle levers",
+        "a pilot helmet resting on the console with visor reflecting distant explosions",
+        "a massive mechanical fist clenched and sparking with electrical discharge"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "03_isekai_hero": {
+      "name": "Isekai Hero",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, isekai protagonist arriving in a sprawling fantasy world, medieval stone town with guild halls, ornate adventurer cloak and leather armor, faint magical aura around hands, determined confident expression, sweeping vista of rolling hills and distant castle, light novel cover composition, golden hour atmospheric lighting",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, isekai, fantasy, adventurer, cloak, leather armor, belt, pouch, magic aura, medieval town, cobblestone street, guild building, blue sky, cloud, determined expression, standing, wind, cape flowing, anime coloring, official art, light novel illustration",
+      "negative": "modern office, school only, no magic, mundane, ordinary daily life, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a glowing summoning portal swirling open above cobblestone ruins",
+        "an ornate adventurer's guild signboard hanging from wrought iron chains",
+        "a weathered leather-bound grimoire crackling with faint magical energy",
+        "a sweeping vista of rolling emerald hills with a distant castle on the horizon"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "04_school_life": {
+      "name": "School Life",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, japanese high school setting, crisp sailor uniform with pleated skirt, cherry blossoms drifting past open classroom window, warm golden afternoon sunlight streaming in, soft bokeh background, peaceful nostalgic atmosphere, shoe lockers and hallway visible, gentle breeze ruffling hair, slice of life mood",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, school uniform, sailor uniform, serafuku, pleated skirt, classroom, window, cherry blossoms, petals, afternoon, sunlight, desk, chair, peaceful, smile, looking out window, wind, hair blowing, anime coloring, official art, bishoujo",
+      "negative": "fantasy realm, space battle, medieval war, wilderness, dungeon, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "an open classroom window with cherry blossom petals drifting across sunlit desks",
+        "a row of shoe lockers in a quiet hallway bathed in golden afternoon light",
+        "a rooftop lunch scene with scattered bento boxes and a panoramic school view",
+        "a chalkboard covered in scrawled notes with sunbeams cutting across dusty air"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "05_cyberpunk_anime": {
+      "name": "Cyberpunk Anime",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, cyberpunk city at night, towering neon-lit skyscrapers, holographic billboard advertisements, sleek cyber implants with glowing blue circuits, stylish cropped jacket and tech visor, rain-slicked streets with vivid reflections, cinematic moody atmosphere, chromatic aberration, low-angle shot",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, cyberpunk, neon lights, night, city, rain, wet, reflection, jacket, crop top, cyber eyes, glowing eyes, visor, hologram, skyscraper, billboard, futuristic, dark theme, neon glow, from below, detailed background, anime coloring, official art",
+      "negative": "medieval, pastoral, countryside, nature, rustic, traditional, old, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a rain-slicked neon alleyway with holographic kanji signs reflected in puddles",
+        "a sleek cybernetic arm with exposed circuitry pulsing electric blue light",
+        "a towering holographic billboard flickering above a maze of rooftop antennas",
+        "a tech visor displaying scrolling data overlaid on a dark urban skyline"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "06_samurai_spirit": {
+      "name": "Samurai Spirit",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, noble samurai warrior in moonlit bamboo grove, gleaming katana drawn in fluid iaijutsu stance, traditional black and indigo hakama, cherry blossom petals swirling in dramatic wind, full moon backlighting silhouette, dignified resolute expression, flowing hair and fabric, traditional japanese ink painting influence",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, samurai, katana, japanese clothes, hakama, kimono, bamboo forest, full moon, moonlight, cherry blossoms, petals, wind, hair blowing, serious expression, standing, battle stance, traditional, japanese aesthetic, anime coloring, official art",
+      "negative": "modern clothes, gun, car, neon city, robot, spaceship, casual, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a gleaming katana blade catching moonlight with cherry petals frozen mid-swirl",
+        "a weathered samurai helmet resting beside a sheathed blade on polished wood",
+        "a bamboo grove parting to reveal a lone warrior silhouetted against the full moon",
+        "a torn battle banner fluttering over a misty hillside at dawn"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "07_idol_stage": {
+      "name": "Idol Stage",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, idol singer center stage at packed concert venue, rainbow spotlights and laser show, thousands of glowsticks in audience, elaborate jeweled performance costume with flowing skirt, confident radiant smile, microphone in hand, mid-dance graceful pose, confetti and light particles, wide-angle stadium shot",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, idol, stage, concert, spotlight, colorful lights, microphone, singing, dancing, frilled dress, bow, thighhighs, glowstick, audience, confetti, smile, open mouth, arm up, sparkle, lens flare, anime coloring, official art",
+      "negative": "dark gothic, horror, blood, war, dirty, grungy, scary, violent, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a jewel-encrusted microphone catching prismatic stage light",
+        "a sea of glowsticks in a darkened concert arena casting rainbow hues",
+        "an elaborate tiered concert stage bursting with confetti and laser beams",
+        "a sparkling performance crown resting on a velvet costume stand backstage"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "08_beach_episode": {
+      "name": "Beach Episode",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, idyllic tropical beach paradise, crystal clear turquoise ocean with gentle waves, pristine white sand, palm trees swaying, bright sunny sky with fluffy cumulus clouds, summer vacation atmosphere, seashells and starfish, golden sunlight with warm tones, wide scenic composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, beach, ocean, summer, sundress, straw hat, barefoot, sand, palm tree, blue sky, cloud, waves, sunlight, happy, smile, holding sandals, wind, hair blowing, tropical, bright, anime coloring, official art",
+      "negative": "winter snow, dark dungeon, office, classroom, hospital, cave, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a pair of sandals abandoned on white sand beside lapping turquoise waves",
+        "a wind-worn straw hat caught mid-tumble along a sun-drenched shoreline",
+        "a cluster of seashells and starfish scattered on warm golden sand",
+        "a leaning palm tree arching over crystalline shallows with dappled sunlight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "09_fantasy_adventure": {
+      "name": "Fantasy Adventure",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, epic fantasy adventuring party entering ancient dungeon gates, ornate sword and glowing staff, mystical rune-covered stone entrance, enchanted forest backdrop with shafts of light, elaborate adventurer gear with belts and pouches, grand quest atmosphere, volumetric fog, fantasy book cover composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, fantasy, adventurer, sword, shield, armor, cape, dungeon entrance, stone ruins, overgrown, enchanted forest, fog, light rays, determined expression, walking, backpack, pouch, belt, adventure, anime coloring, official art, light novel illustration",
+      "negative": "modern city, office building, school, technology, phones, cars, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "an ancient stone dungeon gate carved with glowing runes and draped in moss",
+        "a gleaming longsword planted upright in cracked earth with light streaming down",
+        "a treasure chest overflowing with gold coins in a torchlit stone chamber",
+        "a worn leather adventurer's satchel spilling maps and enchanted scrolls"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "10_ninja_shadow": {
+      "name": "Ninja Shadow",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, elite ninja perched on moonlit rooftop of feudal japanese castle, shuriken between fingers, sleek dark stealth outfit with mesh armor, crouched ready-to-strike pose, dramatic long shadows cast by moonlight, tile rooftop with distant village below, wind-swept scarf, cinematic top-down perspective",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, ninja, crouching, rooftop, japanese castle, full moon, moonlight, shuriken, kunai, mask, dark clothes, scarf, wind, night sky, stars, stealth, shadow, serious expression, from above, anime coloring, official art",
+      "negative": "heavy knight armor, cowboy, astronaut, formal suit, bright dress, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a fan of shuriken embedded in weathered wood under pale moonlight",
+        "a coiled ninja rope and grappling hook dangling from a castle parapet",
+        "a dark wind-swept scarf trailing across moonlit rooftop tiles",
+        "a kunai knife driven into a wooden beam with a sealed scroll hanging from it"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "12_chibi_cute": {
+      "name": "Chibi Cute",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, chibi, super deformed proportions, oversized head with tiny body, huge sparkling eyes, rosy cheeks, adorable joyful expression, clean pastel gradient background, soft warm colors, polished kawaii aesthetic, simple cute outfit, rounded features, sticker-style illustration",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, chibi, 1girl, solo, super deformed, big head, small body, :3, blush, sparkling eyes, simple background, pastel colors, pink background, cute, kawaii, dress, bow, hair ornament, full body, standing, chibi inset, anime coloring, official art",
+      "negative": "realistic proportions, detailed anatomy, photorealistic, muscular, tall, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a round chibi face with enormous sparkling eyes and rosy blushing cheeks",
+        "a tiny plush bear clutched in oversized mitten hands",
+        "a pastel birthday cupcake topped with a wobbling star-shaped candle",
+        "a miniature gift box wrapped in a comically large ribbon bow"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "13_shonen_battle": {
+      "name": "Shonen Battle",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, powerful shonen protagonist mid-power-up, blazing energy aura erupting outward, cracked ground beneath feet, torn clothing from intense battle, fiercely determined expression with glowing eyes, swirling energy particles and lightning, dramatic speed lines, manga-inspired dynamic composition, explosion of color and force",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, battle, fighting stance, power aura, energy, glowing, torn clothes, muscular, clenched fist, screaming, wind pressure, debris, lightning, speed lines, dramatic, intense, from below, dynamic angle, shonen, anime coloring, official art",
+      "negative": "peaceful tea, studying, sleeping, shopping, cooking, romance only, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a clenched fist erupting with blazing energy and crackling lightning",
+        "a cracked and shattered arena floor radiating outward from an impact crater",
+        "a swirling vortex of raw power tearing through storm clouds",
+        "a battered headband fluttering in the shockwave of a devastating clash"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "14_romance_scene": {
+      "name": "Romance Scene",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy 1girl, tender romantic moment under cherry blossom canopy, sakura petals drifting in golden sunset light, gentle reaching hands, soft warm backlighting creating halo effect, emotional intimate atmosphere, blushing expressions, beautiful sky gradient from orange to purple, shoujo manga sparkle overlay",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, 1girl, couple, romance, cherry blossoms, petals, sunset, golden hour, holding hands, blushing, eye contact, smile, tender, school uniform, rooftop, railing, sky, clouds, warm lighting, lens flare, shoujo, anime coloring, official art",
+      "negative": "battle, explosions, monsters, horror, gore, violence, war, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "two hands gently reaching toward each other beneath falling sakura petals",
+        "a shared umbrella left open on a rain-glistening park bench at twilight",
+        "a handwritten love letter tucked into a school locker with pressed flowers",
+        "a pair of intertwined ribbons drifting on warm golden sunset wind"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "15_horror_anime": {
+      "name": "Horror Anime",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, unsettling horror atmosphere in abandoned school hallway, long dark hair partially covering face, cracked and peeling walls, flickering fluorescent light creating harsh shadows, psychological dread, desaturated cold color palette with single red accent, distorted perspective, eerie silence captured visually",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, horror, dark, abandoned school, hallway, long hair, hair over one eye, pale skin, empty eyes, shadow, cracked wall, flickering light, cold colors, red accent, ominous, psychological horror, tilted angle, anime coloring, official art",
+      "negative": "cute, cheerful, bright colors, comedy, happy, sunshine, flowers, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a flickering fluorescent light in a decayed hallway casting fractured shadows",
+        "a cracked mirror reflecting something that should not be there",
+        "a lone red spider lily blooming through the floorboards of an abandoned room",
+        "a child's doll slumped against a peeling wall with one glass eye missing"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "16_sports_anime": {
+      "name": "Sports Anime",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, peak athletic moment frozen in time, powerful spike or finishing move, stadium packed with roaring crowd under brilliant lights, sweat droplets catching light, intense focused expression, dynamic foreshortened composition, motion blur on limbs, dramatic victory pose, speed lines and impact effects",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, sports, athlete, jersey, sweat, intense expression, stadium, crowd, spotlight, jumping, mid-air, reaching, ball, motion blur, speed lines, dynamic pose, from below, dramatic angle, muscular, anime coloring, official art",
+      "negative": "sitting idle, studying, sleeping, office desk, hospital bed, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a volleyball frozen at the apex of a powerful spike with stadium lights blazing",
+        "a pair of worn running shoes at the starting line with chalk dust rising",
+        "a trophy cup gleaming under spotlight beams with confetti swirling around it",
+        "a sweat-soaked headband stretched taut against a fierce wind"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "17_cooking_anime": {
+      "name": "Cooking Anime",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, passionate chef in professional kitchen, elaborate gourmet dish being plated with artistic precision, rising steam with golden sparkle effects, gleaming stainless steel kitchen, fresh vibrant ingredients, focused passionate expression, dramatic food photography lighting, warm amber tones",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, chef, cooking, chef hat, apron, kitchen, professional kitchen, food, plating, steam, sparkle, knife, cutting board, ingredients, vegetables, focused expression, smile, warm lighting, detailed food, anime coloring, official art",
+      "negative": "battle scene, horror, space, underwater, desert, frozen tundra, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "an exquisite plated dish with wisps of fragrant steam and golden sauce drizzle",
+        "a gleaming chef's knife mid-slice through a ripe tomato with seeds scattering",
+        "a copper pot bubbling with rich broth surrounded by fresh herbs and spices",
+        "a rustic wooden cutting board piled with colorful seasonal vegetables"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "18_music_anime": {
+      "name": "Music Anime",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, talented musician in passionate solo performance, elegant instrument rendered in exquisite detail, sound visualized as colorful flowing energy, artistic stage lighting with volumetric rays, emotional rapturous expression, concert hall or live house setting, musical notes floating in air, dynamic mid-performance pose",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, musician, guitar, electric guitar, playing instrument, stage, spotlight, concert, musical notes, sound waves, passionate expression, singing, microphone stand, band, live performance, lens flare, colorful lighting, anime coloring, official art",
+      "negative": "silent, no instruments, library, meditation, sleeping, muted, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "an electric guitar radiating visible sound waves in a wash of stage light",
+        "a grand piano with keys caught mid-press and golden notes spiraling upward",
+        "a vintage microphone on a stand bathed in a single warm spotlight beam",
+        "a violin bow drawing across strings with luminous musical energy trailing behind"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "19_yokai_encounter": {
+      "name": "Yokai Encounter",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, mystical encounter with japanese yokai spirits in ancient shrine at twilight, ethereal supernatural beings materializing from mist, elegant traditional miko outfit, mysterious fox fires floating, torii gate corridor, enchanting spirit world bleeding into reality, ukiyo-e color influence, atmospheric fog",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, miko, shrine maiden, japanese clothes, hakama, torii gate, shrine, yokai, spirit, ghost, fox fire, hitodama, twilight, mist, fog, supernatural, ethereal, traditional, lantern, autumn leaves, mysterious, anime coloring, official art",
+      "negative": "modern technology, cars, phones, computers, robots, science lab, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a corridor of vermillion torii gates fading into supernatural mist",
+        "a cluster of floating fox fire orbs drifting through a twilight shrine garden",
+        "an ancient stone lantern overgrown with moss glowing with ghostly inner light",
+        "a spirit mask half-buried in autumn leaves at the base of a sacred tree"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "21_gothic_lolita": {
+      "name": "Gothic Lolita",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, exquisite gothic lolita fashion in victorian rose garden at dusk, layered black and deep burgundy dress with intricate lace trim, ornate parasol, silk ribbons and cameo brooch, elegant ringlet curls, dark roses and thorny vines, moonlit atmosphere, baroque architecture in background, sophisticated dark romantic aesthetic",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, gothic lolita, lolita fashion, black dress, frills, lace, ribbon, bonnet, parasol, rose, thorns, victorian, garden, moonlight, dusk, dark theme, elegant, ringlets, red eyes, cross necklace, detailed clothing, anime coloring, official art",
+      "negative": "sportswear, casual t-shirt, swimsuit, business suit, uniform, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a black lace parasol resting against a crumbling stone balustrade draped in dark roses",
+        "an ornate cameo brooch pinned to burgundy velvet with silk ribbon trailing",
+        "a Victorian birdcage entwined with thorny vines and a single crimson rose",
+        "a porcelain teacup with a chipped rim sitting on a doily in moonlit shadow"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "22_steampunk_anime": {
+      "name": "Steampunk Anime",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, refined steampunk inventor in brass-and-mahogany workshop, polished gears and intricate pipe networks, elegant victorian blouse with leather corset and goggles, majestic airship visible through arched window, warm gas lamp lighting, copper and amber tones, intricate mechanical contraptions, analog gauges and pressure dials",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, steampunk, goggles, goggles on head, victorian, corset, blouse, gear, pipe, brass, mechanical, workshop, tools, wrench, airship, window, warm lighting, gas lamp, copper tones, inventor, smile, detailed background, anime coloring, official art",
+      "negative": "modern tech, smartphone, sleek design, minimalist, clean lines, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "an intricate brass orrery with spinning gears and copper planet arms",
+        "a leather-bound aviator's goggles resting on a mahogany workbench beside blueprints",
+        "a majestic airship silhouetted against amber clouds beyond an arched workshop window",
+        "a row of polished pressure gauges and steam valves hissing with warm vapor"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "23_underwater_world": {
+      "name": "Underwater World",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, enchanting underwater scene in crystalline ocean depths, graceful mermaid or diver gliding through vibrant coral reef, tropical fish swirling around, sunlight rays piercing through water surface creating god rays, bioluminescent jellyfish, ancient sunken ruins with coral overgrowth, aquatic fantasy dreamscape, caustic light patterns",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, underwater, ocean, mermaid, long hair, floating hair, bubbles, coral reef, tropical fish, sunlight, god rays, bioluminescent, jellyfish, sunken ruins, blue theme, caustics, graceful, reaching upward, flowing dress, anime coloring, official art",
+      "negative": "desert, mountain peak, space, sky, forest, urban street, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a sunken marble column wrapped in living coral with tropical fish weaving through",
+        "a cluster of bioluminescent jellyfish pulsing with ethereal blue and violet light",
+        "a treasure-laden shipwreck half-buried in sand with god rays streaming down",
+        "a vibrant coral reef archway framing deep ocean blue with scattered bubbles"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "24_winter_wonderland": {
+      "name": "Winter Wonderland",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, serene winter scene in snow-covered pine forest, gentle snowflakes drifting down, elegant warm winter coat with fur-lined hood, knit scarf and mittens, soft breath visible in cold air, pristine untouched snowscape, warm golden lamplight from distant cabin, twilight blue and warm amber color contrast, peaceful magical atmosphere",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, winter, snow, snowing, fur-trimmed coat, scarf, mittens, hood, breath, pine trees, forest, lamplight, cabin, twilight, blue hour, snowflakes, peaceful, smile, cold, red nose, footprints, anime coloring, official art",
+      "negative": "summer beach, tropical heat, desert sand, autumn leaves, spring, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a snow-laden pine branch bowing under the weight of fresh powder at twilight",
+        "a frosted cabin window glowing warm amber against deep blue winter dusk",
+        "a pair of knit mittens resting on a wooden fence post dusted with snowflakes",
+        "a solitary lantern casting golden light across an untouched snowfield"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "25_festival_night": {
+      "name": "Festival Night",
+      "subcategory": "characters",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, enchanting japanese summer festival night, magnificent fireworks bursting across starlit sky, elegant floral yukata with obi sash, festival stall lights glowing warmly, goldfish scooping and cotton candy, paper lanterns lining the path, crowd silhouettes, romantic warm atmosphere, reflections on wet stone path",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, yukata, japanese clothes, obi, floral print, summer festival, matsuri, fireworks, night sky, lantern, paper lantern, festival stall, crowd, goldfish, cotton candy, happy, smile, looking up, hair ornament, geta, anime coloring, official art",
+      "negative": "quiet morning, empty street, office building, hospital, library, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a burst of fireworks reflected in the surface of a goldfish scooping bowl",
+        "a row of glowing paper lanterns strung along a festival path at night",
+        "a cotton candy stick and candy apple arranged on a festival stall counter",
+        "a floral yukata obi sash draped over a wooden railing with sparklers nearby"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_01_cherry_blossom": {
+      "name": "Cherry Blossom Path",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, magnificent row of ancient cherry blossom trees in peak bloom, delicate pink petals creating a blizzard of sakura, traditional stone-lantern-lined path winding into distance, shallow stream reflecting the canopy, serene spring morning with soft diffused sunlight, depth of field with bokeh petals, wide panoramic composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, cherry blossoms, sakura, tree, petals, path, stone lantern, stream, reflection, spring, morning, sunlight, pink, white, peaceful, depth of field, bokeh, wide shot, nature, japanese scenery, anime coloring",
+      "negative": "autumn leaves, dead trees, winter bare, summer drought, desert, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a canopy of ancient cherry trees showering pink petals over a winding stone path",
+        "a moss-covered stone lantern half-buried in fallen sakura blossoms",
+        "a shallow stream reflecting a tunnel of blooming cherry blossom branches",
+        "a single gnarled cherry tree in full bloom standing alone on a grassy hillside"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_02_sunset_shrine": {
+      "name": "Sunset Shrine",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, majestic shinto shrine complex at golden hour, crimson torii gate silhouetted against blazing orange and purple sky, stone steps ascending through ancient cedar trees, sacred shimenawa rope, mountain range backdrop bathed in sunset glow, long shadows, spiritual atmosphere, wide establishing shot",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, shrine, torii gate, sunset, orange sky, purple sky, silhouette, stone stairs, cedar trees, mountain, shimenawa, sacred, golden hour, long shadow, spiritual, wide shot, japanese architecture, anime coloring",
+      "negative": "midday harsh light, modern building, office tower, parking lot, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a crimson torii gate silhouetted against a blazing orange and violet sunset",
+        "weathered stone steps ascending through towering cedar trees into golden light",
+        "a sacred shimenawa rope hanging between ancient pillars at dusk",
+        "a shrine bell and offering box casting long shadows in the last sunlight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_03_floating_islands": {
+      "name": "Floating Islands",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, magnificent fantasy floating islands suspended in vast sky, majestic waterfalls cascading off island edges into clouds below, lush verdant forests and meadows on each island, ancient stone ruins with glowing runes, chain bridges connecting islands, volumetric cloud layers, studio ghibli inspired wonder, epic sense of scale",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, floating island, sky, clouds, waterfall, lush vegetation, grass, ruins, stone bridge, chain, fantasy, magical, sunlight, volumetric light, epic scale, wide shot, ghibli, whimsical, anime coloring",
+      "negative": "ground level, underwater, flat plain, urban street, basement, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a waterfall cascading off the edge of a floating island into swirling clouds below",
+        "a chain bridge swaying between two lush floating landmasses in open sky",
+        "ancient rune-carved stone ruins overgrown with vines atop a floating plateau",
+        "a cluster of small floating rocks with wildflowers orbiting a massive sky island"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_04_neon_city": {
+      "name": "Neon Cityscape",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, stunning cyberpunk megacity at night during rainfall, thousands of neon signs in japanese and english reflecting on wet asphalt, towering holographic advertisements between skyscrapers, elevated railways and flying vehicles, steam rising from manholes, deep perspective vanishing point composition, cinematic noir atmosphere",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, cityscape, cyberpunk, neon lights, night, rain, wet street, reflection, skyscraper, billboard, hologram, japanese text, elevated train, steam, dark, moody, vanishing point, perspective, futuristic city, anime coloring",
+      "negative": "countryside, forest, quiet village, mountain, beach, farmland, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a rain-soaked intersection reflecting a kaleidoscope of neon signs into wet asphalt",
+        "a towering holographic advertisement flickering between megacity skyscrapers",
+        "an elevated monorail gliding through dense neon corridors at night",
+        "steam billowing from a manhole grate lit crimson and cyan by surrounding signs"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_05_enchanted_forest": {
+      "name": "Enchanted Forest",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, mystical ancient forest with towering moss-covered trees, bioluminescent mushroom clusters casting soft blue and green glow, fairy lights drifting between branches, ethereal mist hugging the forest floor, hidden stone fairy ring, magical atmosphere with visible mana particles, dappled moonlight filtering through dense canopy",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, forest, enchanted, ancient tree, moss, bioluminescent, glowing mushroom, fairy lights, mist, fog, moonlight, night, magical, particles, stone circle, blue glow, green glow, mysterious, fantasy forest, anime coloring",
+      "negative": "urban city, parking lot, highway, office, factory, warehouse, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a cluster of bioluminescent mushrooms glowing blue and green on a mossy log",
+        "a hidden stone fairy ring nestled among ancient tree roots in dappled moonlight",
+        "drifting motes of golden fairy light weaving between gnarled branches",
+        "an ancient hollow tree trunk with a softly glowing interior and hanging moss"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_06_ocean_cliff": {
+      "name": "Ocean Cliffs",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, majestic sea cliffs towering above a churning ocean, powerful waves crashing against weathered rock formations, elegant lighthouse perched on cliff edge casting beam into fog, golden hour painting everything in warm amber and deep shadow, seabirds soaring on updrafts, wildflowers clinging to cliff face, dramatic wide-angle composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, cliff, ocean, sea, waves, crashing waves, lighthouse, golden hour, fog, seabirds, wildflowers, dramatic, rocky shore, spray, amber light, wide shot, coastal, anime coloring",
+      "negative": "flat field, desert, forest interior, cave, city center, pool, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a weathered lighthouse casting its beam into dense ocean fog at golden hour",
+        "massive waves crashing against sea stacks and sending spray high into amber light",
+        "wildflowers clinging to a cliff face above a churning turquoise sea",
+        "a natural stone arch carved by centuries of ocean waves with light pouring through"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_07_mountain_temple": {
+      "name": "Mountain Temple",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, ancient buddhist temple complex nestled in mist-shrouded mountain peaks, sea of clouds stretching below, weathered stone stairs winding up through pine trees, ornate curved rooftops with bronze bells, peaceful zen garden with raked gravel, incense smoke curling upward, dawn light breaking through clouds, sacred mountain atmosphere",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, mountain, temple, buddhist temple, mist, clouds, sea of clouds, stone stairs, pine tree, curved roof, zen garden, incense, dawn, sunlight, rays, sacred, peaceful, traditional architecture, japanese scenery, anime coloring",
+      "negative": "city church, suburban house, office building, underground, mall, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a zen garden of raked white gravel with carefully placed stones above the clouds",
+        "a bronze temple bell hanging from ornate curved eaves with mist rolling past",
+        "weathered stone stairs winding through ancient pines into mountain fog",
+        "curling incense smoke rising from a stone burner at a mountain temple entrance"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_08_autumn_village": {
+      "name": "Autumn Village",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, charming rural japanese village in peak autumn, magnificent red and golden maple foliage, thatched-roof farmhouses along a gentle stream, stone bridge covered in fallen leaves, persimmon trees heavy with fruit, warm hazy afternoon light, nostalgic furusato atmosphere, smoke rising from chimneys, wide establishing shot",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, village, autumn, fall, red leaves, maple, golden foliage, thatched roof, farmhouse, stream, stone bridge, fallen leaves, persimmon, warm light, afternoon, smoke, chimney, nostalgic, rural, countryside, japanese scenery, anime coloring",
+      "negative": "spring bloom, summer festival, winter blizzard, modern city, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a stone bridge blanketed in fallen red and golden maple leaves over a gentle stream",
+        "a thatched-roof farmhouse with chimney smoke curling into hazy autumn light",
+        "a persimmon tree heavy with bright orange fruit against fiery maple foliage",
+        "a winding village path carpeted in crimson leaves with warm afternoon sunbeams"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_09_starry_meadow": {
+      "name": "Starry Meadow",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, vast open meadow under a spectacular star-filled night sky, brilliant milky way arching overhead, tall silver grass swaying in gentle breeze, fireflies pulsing soft golden light, distant mountain silhouette, single ancient tree in center of field, romantic serene nocturnal atmosphere, deep blue and violet color palette with warm firefly accents",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, meadow, starry sky, night sky, milky way, stars, grass, tall grass, firefly, glowing, tree, silhouette, mountain, distant, moonlight, blue theme, violet, peaceful, wide shot, nature, anime coloring",
+      "negative": "daytime, overcast, city lights, indoor, fluorescent, basement, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a lone ancient tree silhouetted against the brilliant arc of the Milky Way",
+        "fireflies pulsing golden light among tall silver grass beneath a star-filled sky",
+        "a still pond in a meadow perfectly reflecting the vast starscape above",
+        "the silhouette of a distant mountain range under a canopy of countless stars"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_10_crystal_cave": {
+      "name": "Crystal Cave",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, magnificent underground crystal cavern of immense scale, towering crystal formations in amethyst purple and sapphire blue, crystal clear underground lake reflecting the formations like a mirror, bioluminescent lichen providing ambient light, ancient carved stone path along water edge, prismatic light refractions casting rainbow patterns, fantasy wonder",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, cave, crystal, amethyst, sapphire, underground, lake, reflection, mirror surface, bioluminescent, glowing, stone path, prismatic, rainbow, purple, blue, fantasy, magical, wide shot, underground cavern, anime coloring",
+      "negative": "open sky, meadow, beach, desert, forest clearing, rooftop, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "towering amethyst crystal formations casting prismatic rainbow refractions across cavern walls",
+        "a mirror-still underground lake reflecting immense sapphire crystal spires",
+        "an ancient carved stone path winding along a glowing subterranean waterway",
+        "a geode cracked open to reveal blazing violet and blue crystal clusters within"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_11_bamboo_grove": {
+      "name": "Bamboo Grove",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, towering arashiyama-style bamboo forest forming a natural cathedral, perfectly straight green stalks reaching skyward, dappled sunlight filtering through dense bamboo canopy creating light shafts, worn stone path with bamboo fencing, gentle green-tinted atmosphere, fallen bamboo leaves carpeting the ground, zen tranquility, deep perspective composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, bamboo, bamboo forest, green, sunlight, light rays, path, stone path, fence, leaves, tall, towering, zen, peaceful, depth, perspective, japanese scenery, nature, anime coloring",
+      "negative": "pine forest, oak trees, palm trees, cacti, concrete jungle, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "towering bamboo stalks forming a natural cathedral with shafts of golden light",
+        "a worn stone path disappearing into endless green bamboo with leaf-filtered sun",
+        "a handmade bamboo fence along a forest trail carpeted in fallen leaves",
+        "a single bamboo stalk split by wind revealing the hollow emerald interior"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "ls_12_volcanic_land": {
+      "name": "Volcanic Landscape",
+      "subcategory": "landscapes",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, breathtaking anime landscape, no humans, dramatic active volcanic terrain at twilight, rivers of molten lava flowing through obsidian rock channels, plumes of smoke and volcanic ash billowing into blood-red sky, distant erupting caldera silhouette, heat shimmer distortion, fiery ember particles carried by wind, apocalyptic yet beautiful desolation, cinematic wide-angle composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, scenery, volcano, lava, molten, fire, smoke, ash, red sky, eruption, obsidian, rock, ember, heat haze, twilight, dramatic, apocalyptic, wide shot, desolation, nature, anime coloring",
+      "negative": "frozen glacier, calm lake, peaceful meadow, gentle stream, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a river of molten lava flowing through channels of black obsidian rock",
+        "a volcanic caldera erupting against a blood-red twilight sky",
+        "glowing ember particles swirling upward through plumes of volcanic ash",
+        "cracked obsidian plains with veins of molten orange visible beneath the surface"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_02_space_station": {
+      "name": "Space Station",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, orbital space station interior with pristine white corridors and blue accent lighting, holographic navigation displays floating in air, subtle zero-gravity with floating objects, Earth visible through panoramic observation window, advanced sci-fi consoles and touch interfaces, clean futuristic architecture, astronaut in sleek flight suit, serene cosmic atmosphere",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, space station, interior, corridor, white, hologram, display, earth, window, space, stars, zero gravity, floating, flight suit, futuristic, sci-fi, clean, blue accent, console, anime coloring, official art",
+      "negative": "earth building, house, garden, forest, ocean, countryside, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a panoramic observation window framing the luminous curve of Earth from orbit",
+        "a holographic navigation display floating in a pristine white corridor",
+        "objects drifting weightless in a sunlit module with starfield beyond the glass",
+        "an airlock door with warning markings and the void of space visible through its porthole"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_03_android": {
+      "name": "Android",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, elegant humanoid android with porcelain synthetic skin, visible circuitry traces glowing cyan beneath translucent panels, one eye human and one eye mechanical with targeting reticle, sleek chrome and white body components, gentle curious expression conveying emerging consciousness, soft diffused laboratory lighting, technological beauty and subtle melancholy",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, android, robot girl, mechanical parts, circuit, glowing, cyan eyes, heterochromia, white hair, porcelain skin, chrome, futuristic, laboratory, soft lighting, gentle expression, sitting, cable, connector, sci-fi, anime coloring, official art",
+      "negative": "fully human, organic, wooden puppet, stone statue, ghost, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a porcelain hand with translucent panels revealing glowing cyan circuitry beneath",
+        "a single mechanical eye with a targeting reticle reflecting soft laboratory light",
+        "an open android torso panel exposing intricate fiber-optic wiring and chrome framework",
+        "a synthetic tear trailing down a flawless porcelain cheek catching diffused light"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_04_starship_bridge": {
+      "name": "Starship Bridge",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, commanding officer on starship bridge, massive holographic star map rotating at center, multiple crew stations with glowing tactical displays, panoramic viewscreen showing nebula in deep space, dramatic red alert lighting mixing with cool blue consoles, captain's chair elevated on command platform, epic space opera atmosphere, cinematic composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, captain, uniform, military uniform, starship, bridge, command center, hologram, star map, viewscreen, nebula, space, crew station, display, red light, blue light, dramatic, chair, standing, confident, sci-fi, anime coloring, official art",
+      "negative": "car dashboard, airplane cockpit, office desk, living room, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a massive holographic star map rotating above the central command platform",
+        "a panoramic viewscreen displaying a swirling nebula in the depths of space",
+        "an elevated captain's chair bathed in dramatic red alert lighting",
+        "rows of glowing tactical consoles casting blue light across the bridge deck"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_05_virtual_world": {
+      "name": "Virtual World",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, avatar character materializing inside digital virtual reality world, floating streams of data code and binary, geometric wireframe landscape stretching to infinity, neon grid floor, glowing particle effects, matrix-like cascading symbols, chromatic digital artifacts, surreal impossible architecture, glitch aesthetic accents",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, virtual reality, digital world, avatar, data stream, binary, wireframe, neon grid, glowing, particles, matrix, digital, geometric, floating, arms spread, long hair, futuristic bodysuit, holographic, glitch, anime coloring, official art",
+      "negative": "physical world only, no digital, no screen, no hologram, solid, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a neon wireframe landscape stretching to infinity with cascading data streams",
+        "a glitching geometric portal tearing open in a sea of floating binary code",
+        "an impossible Escher-like staircase structure built from luminous data blocks",
+        "a shattering digital mirror with fragments dissolving into streams of light particles"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_06_mech_hangar": {
+      "name": "Mech Hangar",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, massive mecha hangar bay with two towering robots under maintenance, welding sparks cascading down like waterfalls, technicians on scaffolding platforms dwarfed by scale, industrial sci-fi overhead crane systems, dramatic scale contrast between humans and machines, heavy mechanical detail on joints and armor plating, amber warning lights and steam vents, cinematic low-angle perspective",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, mecha, hangar, giant robot, maintenance, sparks, welding, scaffolding, industrial, overhead crane, mechanical detail, armor, joint, steam, warning light, amber, scale, from below, technician, jumpsuit, helmet, sci-fi, anime coloring, official art",
+      "negative": "parking garage, car dealership, bicycle shop, living room, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a towering mech leg with exposed hydraulic joints and cascading welding sparks",
+        "an industrial overhead crane lowering a massive armor plate into a hangar bay",
+        "scaffolding platforms surrounding a giant robot torso with amber warning lights glowing",
+        "a mech cockpit hatch standing open with maintenance cables and steam venting out"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_07_alien_planet": {
+      "name": "Alien Planet",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, explorer on exotic alien planet surface, bizarre crystalline flora towering overhead, three moons visible in lavender sky, bioluminescent alien plants pulsing with inner light, otherworldly rock formations in impossible colors, subtle alien atmosphere haze, astronaut suit with transparent visor showing awestruck expression, sci-fi first contact wonder",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, astronaut, space suit, visor, alien planet, crystal, flora, bioluminescent, multiple moons, lavender sky, exotic, otherworldly, rock formation, unusual colors, exploration, standing, awestruck, sci-fi, anime coloring, official art",
+      "negative": "earth landscape, suburb, familiar city, backyard, school yard, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "towering crystalline flora pulsing with bioluminescent inner light on alien soil",
+        "three moons hanging in a lavender alien sky above impossible rock formations",
+        "a grove of translucent alien plants casting prismatic shadows on mineral-rich ground",
+        "an otherworldly geothermal vent releasing iridescent vapor into a foreign atmosphere"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_08_hacker": {
+      "name": "Hacker",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, elite hacker in dark room surrounded by floating holographic screens, cascading lines of code reflected in glasses, hooded tech jacket with glowing circuit trim, fingers dancing over holographic keyboard, digital infiltration visualization with firewall breach effects, cyberpunk green and black color palette, dramatic under-lighting from screens",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, hacker, hoodie, glasses, reflection, holographic screen, multiple screens, code, typing, keyboard, dark room, monitor light, cyberpunk, green glow, circuit pattern, focused expression, sitting, chair, from side, dramatic lighting, anime coloring, official art",
+      "negative": "outdoor nature, farming, sports field, garden, woodworking, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "an array of floating holographic screens casting green light in a dark room",
+        "a pair of glasses reflecting cascading lines of glowing code",
+        "a holographic keyboard with keys rippling under rapid finger movement",
+        "a digital firewall breach visualization shattering into fragments of data"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_09_bio_lab": {
+      "name": "Bio Lab",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, futuristic genetics laboratory with rows of glowing specimen tubes, massive DNA double helix hologram rotating at center, scientist in white lab coat with AR glasses examining data, sterile blue-white clinical lighting, advanced sequencing equipment, bioluminescent samples in containment, clean minimalist high-tech architecture, scientific wonder atmosphere",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, scientist, lab coat, glasses, AR glasses, laboratory, specimen tube, glowing, DNA, hologram, data display, sterile, blue lighting, white, equipment, futuristic, holding tablet, examining, thoughtful expression, sci-fi, anime coloring, official art",
+      "negative": "kitchen, bathroom, garage, bedroom, office, living room, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a massive rotating DNA double helix hologram in a sterile laboratory chamber",
+        "a row of glowing specimen tubes containing bioluminescent organisms",
+        "a futuristic gene sequencing terminal displaying spiraling molecular chains",
+        "a containment flask radiating soft blue light from the engineered sample within"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_10_post_apocalyptic": {
+      "name": "Post-Apocalyptic",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, lone survivor traversing post-apocalyptic ruined city reclaimed by nature, crumbling skyscrapers wrapped in thick vines and moss, makeshift scavenged gear and patched clothing, dramatic cloud break with single shaft of golden sunlight, overgrown vehicles and collapsed highways, hopeful determination despite desolation, beautiful decay aesthetic, wide cinematic framing",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, post-apocalyptic, ruins, overgrown, vines, moss, crumbling building, skyscraper, scavenged gear, backpack, goggles, tattered clothes, sunlight, cloud break, golden light, abandoned car, highway, walking, hopeful, wide shot, anime coloring, official art",
+      "negative": "pristine city, new buildings, clean streets, prosperity, utopia, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a crumbling skyscraper wrapped in thick vines with a single sunbeam breaking through clouds",
+        "an overgrown highway with rusted vehicles half-swallowed by wildflowers and moss",
+        "a makeshift shelter built from scavenged metal and tarpaulin amid beautiful ruins",
+        "a collapsed bridge spanning a river reclaimed by reeds and crystal-clear water"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_11_time_traveler": {
+      "name": "Time Traveler",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1girl, time traveler standing at the nexus of swirling temporal vortex, enormous clockwork gears and mechanisms floating in distorted space, fragments of past and future eras blending around her, elegant long coat with pocket watch chain, one hand reaching into the time stream, chronological energy arcing like electricity, warm sepia past fading into cool blue future, surreal impossible composition",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1girl, solo, time travel, vortex, swirl, clock, gear, clockwork, floating, long coat, pocket watch, chain, reaching out, electricity, energy, sepia, blue, temporal, distortion, fragments, era mixing, dramatic, wind, hair blowing, anime coloring, official art",
+      "negative": "staying still, single era only, modern only, no anachronism, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a golden pocket watch suspended mid-air with its hands spinning wildly backward",
+        "enormous clockwork gears floating and meshing in distorted temporal space",
+        "a swirling vortex where sepia-toned past blends into blue-hued future",
+        "fragments of different eras colliding in a storm of chronological energy"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "sf_12_space_pilot": {
+      "name": "Space Pilot",
+      "subcategory": "scifi",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, 1boy, ace fighter pilot in sleek single-seat cockpit, form-fitting flight suit with luminous HUD visor, stars streaking past canopy in hyperspace jump, confident smirk with one hand on throttle, instrument panels bathed in blue and amber glow, distant planet visible through cockpit glass, speed and adrenaline captured in motion blur, dynamic first-person over-shoulder perspective",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, 1boy, solo, pilot, cockpit, flight suit, helmet, visor, HUD, stars, hyperspace, speed lines, planet, instrument panel, blue glow, amber glow, confident, smirk, one hand on controls, space, fighter, motion blur, anime coloring, official art",
+      "negative": "car driver, bus driver, train conductor, cyclist, pedestrian, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+      "subjects": [
+        "a fighter cockpit canopy with stars streaking past in hyperspace jump",
+        "a luminous HUD visor displaying targeting data against a starfield",
+        "a throttle lever gripped tight with instrument panels glowing blue and amber",
+        "a distant planet looming through cockpit glass framed by the void of space"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_01_dragon": {
+      "name": "Majestic Dragon",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, majestic eastern dragon with immense serpentine body coiling through thunderclouds, long flowing whiskers and mane, luminous golden eyes radiating ancient intelligence, individually rendered iridescent scales, swirling storm clouds parting around its form, divine power emanating as lightning, breathtaking creature design, mythological grandeur, dramatic overhead perspective",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, eastern dragon, dragon, serpentine, long body, whiskers, mane, golden eyes, scales, iridescent, clouds, storm, lightning, thunder, coiling, flying, divine, majestic, mythological, epic, detailed scales, anime coloring",
+      "negative": "pet dog, house cat, horse, goldfish, hamster, regular animal, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, western dragon",
+      "subjects": [
+        "an immense serpentine body coiling through parting thunderclouds with iridescent scales",
+        "a dragon's luminous golden eye radiating ancient intelligence through storm mist",
+        "a massive clawed foot gripping a mountain peak wreathed in lightning",
+        "flowing dragon whiskers and mane trailing through roiling storm clouds"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_02_phoenix": {
+      "name": "Phoenix Rising",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, magnificent phoenix erupting from volcanic ashes in spectacular rebirth, flames and elaborate feathers seamlessly intertwined, resplendent golden crimson and sapphire plumage, radiant sunburst of divine light behind spread wings, majestic wingspan filling the sky, individual feather detail with ember tips, legendary firebird at moment of resurrection, mythological power incarnate",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, phoenix, firebird, flames, fire, feathers, golden, crimson, sapphire, rebirth, ashes, spread wings, wingspan, radiant, light burst, ember, legendary, mythological, flying, majestic, detailed feathers, anime coloring",
+      "negative": "pigeon, crow, sparrow, chicken, duck, regular bird, dead bird, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character",
+      "subjects": [
+        "a spread of golden and crimson tail feathers with ember-tipped edges blazing",
+        "a nest of volcanic ash erupting with rebirth flames and scattered sapphire plumes",
+        "a single phoenix feather drifting down trailing wisps of sacred fire",
+        "a radiant sunburst of divine light framing an enormous wingspan silhouette"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_03_kitsune": {
+      "name": "Nine-Tailed Kitsune",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, mystical nine-tailed fox spirit in moonlit shrine clearing, nine flowing ethereal tails fanned out like a peacock display, spectral fox fire orbs floating in formation, luminous golden eyes with vertical pupils, pristine white fur with faint blue spirit glow, ancient stone shrine with moss and shimenawa, enchanting yokai beauty between worlds, atmospheric moonbeam lighting",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, kitsune, fox, nine tails, white fox, golden eyes, fox fire, spirit, yokai, shrine, moonlight, night, ethereal, glowing, floating orbs, fur, fluffy, mystical, japanese mythology, stone lantern, moss, anime coloring",
+      "negative": "regular fox, pet dog, house cat, normal wolf, plain animal, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, humanoid",
+      "subjects": [
+        "nine ethereal tails fanned out like a peacock display glowing with spirit light",
+        "spectral fox fire orbs floating in formation around a moonlit shrine clearing",
+        "luminous golden eyes with vertical pupils peering through shrine gate shadows",
+        "pristine white fox fur shimmering with faint blue spirit energy in moonlight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_04_cute_mascot": {
+      "name": "Cute Mascot",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, adorable round mascot character with plush-like body, oversized sparkly eyes with star-shaped highlights, tiny stubby paws, soft pastel color scheme with gradient fur, heartwarming cheerful expression, small wings or accessories, clean simple background with confetti, kawaii character design sheet quality, perfectly symmetrical, marshmallow-soft appearance",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, creature, mascot, chibi, round body, fluffy, big eyes, sparkle eyes, tiny paws, pastel colors, cute, kawaii, wings, simple background, white background, confetti, happy, smile, plush, soft, character design, anime coloring",
+      "negative": "scary monster, demon, horror creature, realistic animal, dark, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, human",
+      "subjects": [
+        "an impossibly round plush body with oversized sparkly star-pupil eyes",
+        "a tiny pastel creature with stubby paws clutching a heart-shaped cookie",
+        "a pair of tiny translucent wings fluttering amid a shower of confetti",
+        "a marshmallow-soft mascot sleeping curled up inside an oversized teacup"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_05_wolf_spirit": {
+      "name": "Wolf Spirit",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, majestic spirit wolf standing on ancient forest ridge under aurora borealis, ethereal translucent fur shimmering with starlight, piercing ice-blue eyes glowing with wisdom, moonlight aura surrounding its massive form, forest guardian presence, mystical energy trails flowing from paws, noble dignified stance overlooking misty valley below, wild primordial beauty",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, wolf, spirit, glowing, ethereal, translucent, ice blue eyes, moonlight, aurora borealis, forest, ridge, mist, valley, starlight, fur, majestic, guardian, noble, standing, howling pose, night sky, anime coloring",
+      "negative": "pet dog, puppy, chihuahua, poodle, domestic, stuffed toy, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, collar, leash",
+      "subjects": [
+        "piercing ice-blue wolf eyes glowing with ancient wisdom through forest mist",
+        "a massive spirit wolf silhouette on a ridge beneath the aurora borealis",
+        "ethereal paw prints trailing luminous energy across fresh snow",
+        "translucent fur shimmering with starlight as moonbeams pass through the form"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_06_slime": {
+      "name": "Friendly Slime",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, adorable translucent slime creature with perfect gel-like body, happy squished smile with dot eyes, visible objects suspended inside transparent body, colorful rainbow refraction through gelatinous form, bouncy jiggly appearance with glossy highlights, sitting on grassy meadow with tiny flowers, fantasy RPG mascot quality, playful cheerful energy, crystal clear surface reflections",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, slime, creature, translucent, gel, happy face, dot eyes, colorful, rainbow, glossy, shiny, bouncy, grass, meadow, flowers, cute, kawaii, RPG, monster, simple, round, anime coloring",
+      "negative": "solid rock, metal, wooden, rigid, sharp edges, crystal, hard, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, human",
+      "subjects": [
+        "a crystal-clear gel body with rainbow refractions and objects suspended inside",
+        "a happy jiggly slime bouncing on a meadow with tiny flowers bending beneath it",
+        "a cluster of colorful baby slimes nestled together on a mossy stone",
+        "a translucent slime stretching upward with glossy surface highlights catching sunlight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_07_unicorn": {
+      "name": "Celestial Unicorn",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, celestial unicorn of divine grace, spiraling crystalline horn refracting prismatic light, flowing mane and tail made of woven starlight and nebula colors, pure iridescent white coat with subtle galaxy pattern, graceful mid-gallop pose across midnight meadow, magical sparkle trail from hooves, fantasy dreamscape with aurora sky, ethereal divine beauty radiating from within",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, unicorn, horse, crystal horn, prismatic, starlight mane, nebula, galaxy, white coat, iridescent, galloping, meadow, night, aurora, sparkle, trail, hooves, magical, divine, graceful, fantasy, anime coloring",
+      "negative": "regular horse, donkey, zebra, cow, goat, plain animal, mule, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, rider",
+      "subjects": [
+        "a spiraling crystalline horn refracting prismatic light into a shower of color",
+        "a flowing mane woven from starlight and nebula colors trailing in the wind",
+        "a sparkle trail left by hooves galloping across a midnight meadow",
+        "an iridescent white coat shimmering with subtle galaxy patterns in moonlight"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_08_tanuki": {
+      "name": "Tanuki Yokai",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, playful tanuki raccoon dog yokai mid-transformation, large leaf balanced on head, mischievous toothy grin, round jolly belly, sake jug slung over shoulder, shapeshifter caught between forms with magical smoke, japanese countryside shrine setting, autumn leaves drifting, chubby adorable proportions, warm earthy color palette, folklore illustration quality",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, tanuki, raccoon dog, leaf on head, mischievous, grin, round belly, sake bottle, shapeshifter, magical smoke, shrine, autumn, autumn leaves, chubby, cute, japanese folklore, yokai, warm colors, brown fur, anime coloring",
+      "negative": "regular raccoon, dog, cat, squirrel, normal woodland animal, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, humanoid",
+      "subjects": [
+        "a large magical leaf balanced atop a round furry head surrounded by transformation smoke",
+        "a straw-wrapped sake jug slung over a plump shoulder with autumn leaves drifting past",
+        "a jolly round belly and mischievous toothy grin peeking from behind a shrine lantern",
+        "swirling shapeshifter smoke with the half-formed outline of a tanuki emerging"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_09_fairy_dragon": {
+      "name": "Fairy Dragon",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, tiny fairy dragon no larger than a hummingbird, delicate iridescent butterfly-pattern wings catching sunlight, miniature adorable dragon body perched on a blooming rose, sparkling gem-like scales shifting color in light, whimsical enchanted garden setting, morning dew drops on petals, magical companion creature, intricate wing membrane detail, warm sunbeam spotlight",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, dragon, fairy, tiny, miniature, butterfly wings, iridescent, perched, rose, flower, sparkling, gem scales, colorful, garden, morning, dew, sunlight, cute, whimsical, magical, companion, detailed wings, anime coloring",
+      "negative": "large dragon, wyvern, dinosaur, lizard, snake, crocodile, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, large creature",
+      "subjects": [
+        "a hummingbird-sized dragon perched on a blooming rose with dew-kissed petals",
+        "delicate butterfly-pattern wings catching sunlight with iridescent membrane detail",
+        "sparkling gem-like scales shifting color as a tiny dragon curls around a flower stem",
+        "a miniature dragon in flight leaving a trail of glittering dust through a garden"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_10_oni": {
+      "name": "Oni Demon",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, powerful oni demon of japanese mythology, massive curved horns and wild flame-red hair, muscular imposing build with tiger-striped loincloth, iron-studded kanabo war club resting on shoulder, fierce war-cry expression showing fangs, surrounded by hellfire and storm clouds, standing on mountain peak, intimidating yet honorable warrior presence, traditional ukiyo-e influenced color palette",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, oni, demon, horns, red skin, muscular, tiger stripe, loincloth, kanabo, club, fangs, fierce, war cry, fire, storm, mountain, powerful, intimidating, japanese mythology, warrior, red hair, wild hair, anime coloring",
+      "negative": "angel, fairy, gentle elf, cute mascot, friendly ghost, kind, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, human, cute, kawaii",
+      "subjects": [
+        "a massive iron-studded kanabo war club resting against a storm-weathered rock",
+        "curved demon horns wreathed in hellfire with wild flame-red hair whipping in wind",
+        "a tiger-striped loincloth and sandaled feet planted on a cracked mountain peak",
+        "a fierce fanged visage emerging from billowing storm clouds and hellish flame"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_11_cat_spirit": {
+      "name": "Nekomata",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, beautiful detailed eyes, no humans, mystical nekomata two-tailed cat yokai, elegant elongated feline form with supernatural poise, twin tails with ghostly blue flame tips, piercing golden slit-pupil eyes glowing in darkness, spectral will-o-wisps orbiting gracefully, traditional japanese veranda at night with paper lanterns, mysterious yet alluring presence, split tail detail, ink-wash painting atmosphere",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, nekomata, cat, two tails, split tail, yokai, ghostly, blue fire, will-o-wisp, golden eyes, slit pupils, elegant, feline, supernatural, japanese veranda, paper lantern, night, darkness, mysterious, graceful, sitting, anime coloring",
+      "negative": "normal cat, kitten, dog, hamster, regular pet, stuffed toy, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, catgirl, humanoid",
+      "subjects": [
+        "twin forked tails with ghostly blue flame tips curling elegantly in darkness",
+        "piercing golden slit-pupil eyes glowing from the shadows of a paper lantern veranda",
+        "spectral will-o-wisps orbiting an elongated feline silhouette on a moonlit rooftop",
+        "a nekomata's paw print left glowing with faint blue fire on a wooden floor"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    },
+    "cr_12_water_dragon": {
+      "name": "Sea Serpent",
+      "subcategory": "creatures",
+      "modifiers": "masterpiece, best quality, extremely detailed, official art, no humans, magnificent sea dragon leviathan gliding through abyssal ocean depths, enormous serpentine body with flowing silk-like translucent fins, bioluminescent scales pulsing in deep blue and emerald patterns, ancient barnacle-encrusted crown of coral horns, underwater kingdom ruins visible below, deep sea pressure atmosphere with suspended particles, primordial ocean deity majesty, otherworldly deep-sea color palette",
+      "modifiers_animagine": "masterpiece, best quality, very aesthetic, absurdres, no humans, sea serpent, water dragon, leviathan, underwater, ocean, deep sea, serpentine, fins, bioluminescent, scales, blue, emerald, coral, horns, ruins, abyssal, particles, majestic, ancient, enormous, swimming, anime coloring",
+      "negative": "fire dragon, land dragon, flying dragon, ice, stone, metal, realistic, western, 3d render",
+      "negative_animagine": "nsfw, lowres, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, person, character, land creature",
+      "subjects": [
+        "flowing silk-like translucent fins trailing through abyssal ocean currents",
+        "bioluminescent scales pulsing in deep blue and emerald patterns in the dark deep",
+        "an ancient crown of barnacle-encrusted coral horns atop a serpentine head",
+        "a colossal serpentine body gliding above sunken kingdom ruins on the ocean floor"
+      ],
+      "settings": {
+        "cfg_boost": 0,
+        "steps_boost": 0
+      }
+    }
+  }
+}

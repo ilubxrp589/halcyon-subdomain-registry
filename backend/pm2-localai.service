@@ -1,0 +1,33 @@
+[Unit]
+Description=PM2 process manager
+Documentation=https://pm2.keymetrics.io/
+After=network.target
+# Wait for GPU drivers to be ready
+After=nvidia-persistenced.service
+# Restart limits - max 5 restarts in 300 seconds
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=forking
+User=localai
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+Environment=PATH=/home/localai/.nvm/versions/node/v24.12.0/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+Environment=PM2_HOME=/home/localai/.pm2
+PIDFile=/home/localai/.pm2/pm2.pid
+
+# Robust restart configuration
+Restart=always
+RestartSec=10
+
+# Give GPU processes time to cleanup
+TimeoutStopSec=30
+
+ExecStart=/home/localai/.nvm/versions/node/v24.12.0/lib/node_modules/pm2/bin/pm2 resurrect
+ExecReload=/home/localai/.nvm/versions/node/v24.12.0/lib/node_modules/pm2/bin/pm2 reload all
+ExecStop=/home/localai/.nvm/versions/node/v24.12.0/lib/node_modules/pm2/bin/pm2 kill
+
+[Install]
+WantedBy=multi-user.target

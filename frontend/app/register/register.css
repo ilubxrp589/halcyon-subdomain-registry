@@ -1,0 +1,418 @@
+/* Register Page - Marquee & Showcase Styles */
+
+/* ========================
+   MARQUEE ANIMATIONS
+   ======================== */
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -4px;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+
+.marquee-container:first-child {
+  margin-top: 0;
+}
+
+.marquee-row {
+  display: flex;
+  width: fit-content;
+  will-change: transform;
+}
+
+.marquee-left {
+  animation: marquee-left var(--duration, 80s) linear infinite;
+}
+
+.marquee-right {
+  animation: marquee-left var(--duration, 80s) linear infinite;
+}
+
+/* Hover effects disabled for cleaner marquee experience */
+
+/* ========================
+   SHOWCASE CARDS
+   ======================== */
+
+.showcase-card {
+  width: var(--card-size, 220px);
+  height: var(--card-size, 220px);
+  flex-shrink: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect disabled for cleaner marquee experience */
+
+/* ========================
+   GRADIENT FADES
+   ======================== */
+
+.gradient-fade-left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background: linear-gradient(to right, hsl(var(--background)), transparent);
+  z-index: 15;
+  pointer-events: none;
+}
+
+.gradient-fade-right {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background: linear-gradient(to left, hsl(var(--background)), transparent);
+  z-index: 15;
+  pointer-events: none;
+}
+
+/* ========================
+   GLASSMORPHIC PANEL
+   ======================== */
+
+.glassmorphic-panel {
+  position: relative;
+  z-index: 20;
+}
+
+.glassmorphic-panel::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 17px;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(230, 179, 77, 0.3),
+    rgba(212, 160, 23, 0.1),
+    rgba(230, 179, 77, 0.3)
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* ========================
+   REGISTER PAGE LAYOUT
+   ======================== */
+
+.register-page {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.register-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.register-gallery-top {
+  flex-shrink: 0;
+}
+
+.register-search-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  min-height: 280px;
+  position: relative;
+}
+
+/* ========================
+   BEHIND-PANEL MARQUEE
+   ======================== */
+
+.behind-panel-marquee {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* Fade out cards in center using mask */
+.behind-panel-marquee .marquee-container {
+  mask-image: linear-gradient(
+    to right,
+    black 0%,
+    black 20%,
+    transparent 35%,
+    transparent 65%,
+    black 80%,
+    black 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    black 0%,
+    black 20%,
+    transparent 35%,
+    transparent 65%,
+    black 80%,
+    black 100%
+  );
+}
+
+/* Blur zone overlay for extra depth effect */
+.behind-panel-blur-zone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(520px, 90vw);
+  height: 260px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 6;
+  pointer-events: none;
+  mask-image: radial-gradient(ellipse 100% 100% at center, black 20%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse 100% 100% at center, black 20%, transparent 70%);
+}
+
+.register-gallery-bottom {
+  flex-shrink: 0;
+}
+
+/* ========================
+   HALCYON GRADIENT TEXT
+   ======================== */
+
+.text-halcyon-gradient {
+  background: linear-gradient(135deg, #E6B34D, #D4A017);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ========================
+   HALCYON COLORS (CSS Variables)
+   ======================== */
+
+.from-halcyon-teal {
+  --tw-gradient-from: #D4A017;
+}
+
+.to-halcyon-green {
+  --tw-gradient-to: #E6B34D;
+}
+
+.bg-halcyon-teal\/10 {
+  background-color: rgba(212, 160, 23, 0.1);
+}
+
+.border-halcyon-teal\/30 {
+  border-color: rgba(212, 160, 23, 0.3);
+}
+
+.text-halcyon-green {
+  color: #E6B34D;
+}
+
+.text-halcyon-teal {
+  color: #D4A017;
+}
+
+/* ========================
+   RESPONSIVE ADJUSTMENTS
+   ======================== */
+
+@media (max-width: 768px) {
+  .showcase-card {
+    --card-size: 160px;
+  }
+
+  .gradient-fade-left,
+  .gradient-fade-right {
+    width: 80px;
+  }
+
+  .marquee-left,
+  .marquee-right {
+    --duration: 60s;
+  }
+
+  .register-search-area {
+    padding: 0.5rem;
+    min-height: 260px;
+  }
+
+  /* Hide behind-panel marquee on mobile - too cramped */
+  .behind-panel-marquee,
+  .behind-panel-blur-zone {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .showcase-card {
+    --card-size: 120px;
+  }
+
+  .gradient-fade-left,
+  .gradient-fade-right {
+    width: 40px;
+  }
+
+  .register-search-area {
+    min-height: 240px;
+  }
+}
+
+/* ========================
+   FADE IN ANIMATIONS
+   ======================== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+/* ========================
+   LOADING SKELETON
+   ======================== */
+
+.showcase-skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* ========================
+   WALLET CONNECT HINT
+   ======================== */
+
+.wallet-hint {
+  background: rgba(212, 160, 23, 0.1);
+  border: 1px solid rgba(212, 160, 23, 0.2);
+  border-radius: 10px;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.wallet-hint-icon {
+  color: #D4A017;
+}
+
+/* ========================
+   TIER BADGES
+   ======================== */
+
+.tier-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tier-badge-ultra_premium {
+  background: rgba(192, 192, 192, 0.15);
+  color: #C0C0C0;
+  border: 1px solid rgba(192, 192, 192, 0.3);
+}
+
+.tier-badge-premium {
+  background: rgba(255, 215, 0, 0.15);
+  color: #FFD700;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.tier-badge-standard_plus {
+  background: rgba(183, 110, 121, 0.15);
+  color: #B76E79;
+  border: 1px solid rgba(183, 110, 121, 0.3);
+}
+
+.tier-badge-standard {
+  background: rgba(205, 127, 50, 0.15);
+  color: #CD7F32;
+  border: 1px solid rgba(205, 127, 50, 0.3);
+}

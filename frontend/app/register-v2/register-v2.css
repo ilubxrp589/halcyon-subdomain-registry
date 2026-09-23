@@ -1,0 +1,360 @@
+/* Register V2 Page Styles */
+@import "../register/register.css";
+
+/* ========================
+   3-ROW IMAGE BACKGROUND
+   ======================== */
+
+.v2-image-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 61px;
+  overflow: hidden;
+  padding: 60px 0 0 0;
+}
+
+/* Darken overlay so images don't overpower the UI */
+.v2-image-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: hsl(var(--background) / 0.15);
+  pointer-events: none;
+}
+
+/* ========================
+   CENTER BLUR ZONE
+   ======================== */
+
+.v2-center-blur {
+  position: fixed;
+  top: calc(50% + 32px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(700px, 92vw);
+  height: 250px;
+  background: radial-gradient(ellipse 100% 100% at center, hsl(var(--background) / 0.6) 60%, hsl(var(--background) / 0.2) 85%, transparent 100%);
+  border-radius: 2rem;
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ========================
+   FLOATING CONTENT OVERLAY
+   ======================== */
+
+.v2-content-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 65px;
+  pointer-events: none;
+}
+
+.v2-content-overlay > * {
+  pointer-events: auto;
+}
+
+/* ========================
+   STEP PANEL GLASSMORPHISM
+   ======================== */
+
+.v2-step-panel {
+  background: hsl(var(--background) / 0.92);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid hsl(var(--halcyon-teal) / 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px hsl(var(--halcyon-teal) / 0.1);
+  padding: 1.5rem;
+}
+
+.v2-step-panel-active {
+  border-color: hsl(var(--halcyon-teal) / 0.5);
+  box-shadow: 0 8px 32px hsl(var(--halcyon-teal) / 0.15),
+              0 0 30px hsl(var(--halcyon-teal) / 0.08);
+}
+
+/* ========================
+   STEP PROGRESS INDICATOR
+   ======================== */
+
+.v2-step-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 1rem;
+}
+
+.v2-step-circle {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.v2-step-circle-active {
+  background: linear-gradient(135deg, hsl(var(--halcyon-teal)), hsl(var(--halcyon-green)));
+  color: white;
+  box-shadow: 0 0 16px hsl(var(--halcyon-teal) / 0.5);
+}
+
+.v2-step-circle-completed {
+  background: hsl(var(--halcyon-green) / 0.2);
+  color: hsl(var(--halcyon-green));
+  border: 2px solid hsl(var(--halcyon-green) / 0.5);
+}
+
+.v2-step-circle-pending {
+  background: hsl(var(--muted));
+  color: hsl(var(--muted-foreground));
+  border: 2px solid hsl(var(--border));
+}
+
+.v2-step-connector {
+  width: 2.5rem;
+  height: 2px;
+  transition: background 0.3s ease;
+}
+
+.v2-step-connector-active {
+  background: linear-gradient(to right, hsl(var(--halcyon-teal)), hsl(var(--halcyon-green)));
+}
+
+.v2-step-connector-pending {
+  background: hsl(var(--border));
+}
+
+/* ========================
+   FADE GALLERY LAYOUT
+   ======================== */
+
+.fade-gallery-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade-gallery-row {
+  display: flex;
+  justify-content: center;
+}
+
+.fade-slot {
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.fade-slot-border {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 2px;
+  background: linear-gradient(135deg, hsl(var(--halcyon-teal) / 0.25), hsl(var(--halcyon-green) / 0.25));
+}
+
+.fade-slot-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  background: hsl(var(--background) / 0.8);
+}
+
+
+/* ========================
+   YEAR PILL BUTTONS
+   ======================== */
+
+.v2-year-pill {
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--muted) / 0.5);
+  color: hsl(var(--foreground));
+  cursor: pointer;
+}
+
+.v2-year-pill:hover {
+  border-color: hsl(var(--halcyon-teal) / 0.5);
+  background: hsl(var(--halcyon-teal) / 0.1);
+}
+
+.v2-year-pill-active {
+  background: linear-gradient(135deg, hsl(var(--halcyon-teal)), hsl(var(--halcyon-green)));
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 4px 12px hsl(var(--halcyon-teal) / 0.3);
+}
+
+/* ========================
+   SEARCH RESULTS
+   ======================== */
+
+.v2-result-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid hsl(var(--border) / 0.5);
+  background: hsl(var(--background) / 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.v2-result-row-available {
+  cursor: pointer;
+}
+
+.v2-result-row-available:hover {
+  transform: translateY(-1px);
+  border-color: hsl(var(--halcyon-teal) / 0.4);
+  box-shadow: 0 4px 16px hsl(var(--halcyon-teal) / 0.1);
+  background: hsl(var(--halcyon-teal) / 0.05);
+}
+
+.v2-result-row-taken {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* ========================
+   PROGRESS BAR
+   ======================== */
+
+.v2-progress-bar {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: hsl(var(--muted));
+  overflow: hidden;
+}
+
+.v2-progress-fill {
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(to right, hsl(var(--halcyon-teal)), hsl(var(--halcyon-green)));
+  transition: width 0.5s ease;
+}
+
+@keyframes v2-pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 8px hsl(var(--halcyon-teal) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px hsl(var(--halcyon-teal) / 0.6);
+  }
+}
+
+.v2-pulse-glow {
+  animation: v2-pulse-glow 2s ease-in-out infinite;
+}
+
+/* ========================
+   PRICE BOX
+   ======================== */
+
+.v2-price-box {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: hsl(var(--background) / 0.6);
+  border: 1px solid hsl(var(--border) / 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* ========================
+   MISC
+   ======================== */
+
+.v2-shimmer-pill {
+  height: 2rem;
+  border-radius: 9999px;
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 0%,
+    hsl(var(--muted-foreground) / 0.1) 50%,
+    hsl(var(--muted)) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes v2-scale-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.v2-success-check {
+  animation: v2-scale-in 0.5s ease-out;
+}
+
+/* ========================
+   RESPONSIVE
+   ======================== */
+
+@media (max-width: 768px) {
+  .v2-step-panel {
+    padding: 1rem;
+  }
+
+  .v2-step-connector {
+    width: 1.5rem;
+  }
+
+  .v2-step-circle {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.75rem;
+  }
+
+  .v2-center-blur {
+    width: 100vw;
+    height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .v2-step-panel {
+    padding: 0.75rem;
+  }
+
+  .v2-step-connector {
+    width: 1rem;
+  }
+
+  .v2-center-blur {
+    height: 450px;
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "category": "rendering",
+  "description": "Image rendering and illustration styles",
+  "styles": {
+    "photorealistic": {
+      "id": "photorealistic",
+      "name": "Photorealistic",
+      "prompt": "photorealistic {prompt} . hyperrealistic, hyperdetailed, analog style, soft lighting, subsurface scattering, realistic, heavy shadow, masterpiece, best quality, ultra realistic, 8k, golden ratio, intricate, high detail, film photography, soft focus",
+      "negative": "anime, cartoon, painting, drawing, illustration, ugly, deformed, noisy, blurry",
+      "settings": {
+        "cfg": 5,
+        "steps": 20,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "comic_book": {
+      "id": "comic_book",
+      "name": "Comic Book",
+      "prompt": "comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed, bold outlines, dynamic action",
+      "negative": "photograph, deformed, glitch, noisy, realistic, stock photo",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "cartoon": {
+      "id": "cartoon",
+      "name": "Cartoon",
+      "prompt": "adorable 3D character {prompt} . 3D render, adorable character, 3D art, cute, stylized, cartoon style",
+      "negative": "ugly, deformed, noisy, blurry, low contrast, grunge, sloppy, unkempt, photograph, photo, realistic",
+      "settings": {
+        "cfg": 5,
+        "steps": 28,
+        "sampler": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "ghibli": {
+      "id": "ghibli",
+      "name": "Studio Ghibli",
+      "prompt": "(Studio Ghibli style, Art by Hayao Miyazaki:1.2) {prompt} . anime style, manga style, hand drawn, cinematic, sharp focus, humorous illustration, big depth of field, masterpiece, concept art, vivid colors, simplified style, soft shading, playful",
+      "negative": "photorealistic, 3D, CGI, western animation, ugly, deformed, noisy, blurry",
+      "settings": {
+        "cfg": 5,
+        "steps": 28,
+        "sampler": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "kawaii": {
+      "id": "kawaii",
+      "name": "Kawaii",
+      "prompt": "kawaii style {prompt} . cute, adorable, brightly colored, cheerful, anime influence, highly detailed, pastel colors, round shapes",
+      "negative": "dark, scary, realistic, monochrome, abstract, ugly, horror",
+      "settings": {
+        "cfg": 5,
+        "steps": 25,
+        "sampler": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1
+      },
+      "lora": null
+    },
+    "fantasy_art": {
+      "id": "fantasy_art",
+      "name": "Fantasy Art",
+      "prompt": "ethereal fantasy concept art of {prompt} . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
+      "negative": "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white",
+      "settings": {
+        "cfg": 5,
+        "steps": 32,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1
+      },
+      "lora": null
+    }
+  }
+}
