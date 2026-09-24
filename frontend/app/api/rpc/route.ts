@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
  * RPC Proxy for Coston2/Flare
  *
  * Solves CORS issue: browsers block direct RPC calls to coston2-api.flare.network
- * when the page is served from a non-standard origin (e.g., http://10.0.0.39:3000).
+ * when the page is served from a non-standard origin (e.g., http://192.0.2.39:3000).
  * This proxy forwards JSON-RPC requests through our Next.js server.
  *
  * Only allows read-only methods — no signing/sending transactions through this proxy.

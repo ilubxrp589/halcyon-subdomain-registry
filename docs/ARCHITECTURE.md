@@ -41,11 +41,11 @@ High-level view of the HSR ecosystem showing all major components and their inte
 ┌─────────────────┐ ┌──────────────┐ ┌─────────┐ ┌────────────────────────┐
 │ FLARE (Coston2) │ │ DNS          │ │ STORAGE │ │ GPU CLUSTER            │
 │                 │ │              │ │         │ │                        │
-│ V1 Legacy (7)   │ │ volume-      │ │ IPFS /  │ │ m3060 (10.0.0.97)     │
+│ V1 Legacy (7)   │ │ volume-      │ │ IPFS /  │ │ m3060 (192.0.2.97)     │
 │  NFT · Escrow   │ │ resolver     │ │ Pinata  │ │  RTX 3060 :8188       │
 │  Marketplace    │ │ BIND 9.20    │ │         │ │  RTX 3060 :8189       │
 │  Resolver       │ │ + dnsdist    │ │ Image   │ │                        │
-│  Oracle · DNS   │ │              │ │ Cache   │ │ mosana1 (10.0.0.67)    │
+│  Oracle · DNS   │ │              │ │ Cache   │ │ mosana1 (192.0.2.67)    │
 │  Treasury       │ │ hsd          │ │         │ │  RTX 3080 :8188       │
 │                 │ │ (Handshake   │ │         │ │  RTX 3080 :8189       │
 │ V2 Staking (13) │ │  full node)  │ │         │ │                        │
@@ -505,10 +505,10 @@ flowchart TB
 | hsd (RPC) | 12037 | HTTP | Name lookups |
 | PostgreSQL | 5432 | TCP | |
 | Redis | 6379 | TCP | |
-| ComfyUI (m3060 GPU0) | 8188 | HTTP | 10.0.0.97, RTX 3060 |
-| ComfyUI (m3060 GPU1) | 8189 | HTTP | 10.0.0.97, RTX 3060 |
-| ComfyUI (mosana1 GPU0) | 8188 | HTTP | 10.0.0.67, RTX 3080 |
-| ComfyUI (mosana1 GPU1) | 8189 | HTTP | 10.0.0.67, RTX 3080 |
+| ComfyUI (m3060 GPU0) | 8188 | HTTP | 192.0.2.97, RTX 3060 |
+| ComfyUI (m3060 GPU1) | 8189 | HTTP | 192.0.2.97, RTX 3060 |
+| ComfyUI (mosana1 GPU0) | 8188 | HTTP | 192.0.2.67, RTX 3080 |
+| ComfyUI (mosana1 GPU1) | 8189 | HTTP | 192.0.2.67, RTX 3080 |
 | volume-resolver (BIND) | 5300 | DNS | Docker container |
 | volume-resolver (DoH) | 800 | HTTP | dnsdist, Docker container |
 | Caddy (DoH) | 443 | HTTPS | dns.halcyon-names.io |

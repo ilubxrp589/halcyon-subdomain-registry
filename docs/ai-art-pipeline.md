@@ -6,16 +6,16 @@ HSR generates unique artwork for each subdomain NFT using Stable Diffusion model
 
 ## Hardware
 
-- **m3060** (10.0.0.97): 2x RTX 3060 12GB — primary render station
-- **mosana1** (10.0.0.67): 2x RTX 3080 10GB — secondary render station
+- **m3060** (192.0.2.97): 2x RTX 3060 12GB — primary render station
+- **mosana1** (192.0.2.67): 2x RTX 3080 10GB — secondary render station
 - Each GPU runs a separate ComfyUI instance
 - 4 total instances for parallel generation
 
 ```
-m3060 GPU0:   10.0.0.97:8188  (RTX 3060 12GB)
-m3060 GPU1:   10.0.0.97:8189  (RTX 3060 12GB)
-mosana1 GPU0: 10.0.0.67:8188  (RTX 3080 10GB)
-mosana1 GPU1: 10.0.0.67:8189  (RTX 3080 10GB)
+m3060 GPU0:   192.0.2.97:8188  (RTX 3060 12GB)
+m3060 GPU1:   192.0.2.97:8189  (RTX 3060 12GB)
+mosana1 GPU0: 192.0.2.67:8188  (RTX 3080 10GB)
+mosana1 GPU1: 192.0.2.67:8189  (RTX 3080 10GB)
 ```
 
 ## Generation Logic

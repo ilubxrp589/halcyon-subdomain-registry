@@ -47,10 +47,10 @@ Step 1: Check art generation queue
   → If not queued: event listener missed the mint event.
 
 Step 2: Check ComfyUI status (4 instances across 2 machines)
-  → curl http://10.0.0.97:8188/system_stats   # m3060 GPU0 (RTX 3060)
-  → curl http://10.0.0.97:8189/system_stats   # m3060 GPU1 (RTX 3060)
-  → curl http://10.0.0.67:8188/system_stats   # mosana1 GPU0 (RTX 3080)
-  → curl http://10.0.0.67:8189/system_stats   # mosana1 GPU1 (RTX 3080)
+  → curl http://192.0.2.97:8188/system_stats   # m3060 GPU0 (RTX 3060)
+  → curl http://192.0.2.97:8189/system_stats   # m3060 GPU1 (RTX 3060)
+  → curl http://192.0.2.67:8188/system_stats   # mosana1 GPU0 (RTX 3080)
+  → curl http://192.0.2.67:8189/system_stats   # mosana1 GPU1 (RTX 3080)
   → If any return error: restart that ComfyUI instance.
 
 Step 3: Check GPU availability

@@ -31,10 +31,10 @@ import {
 
 // GPU machine configuration - keys match dashboard API response
 const GPU_MACHINES = [
-  { key: "3080", ip: "10.0.0.67", label: "3080 x2", gpuNames: ["GPU0", "GPU1"] },
-  { key: "3080x2", ip: "10.0.0.220", label: "3080 x2", gpuNames: ["GPU2", "GPU3"] },
-  { key: "3060x2", ip: "10.0.0.249", label: "3060 x2", gpuNames: ["GPU4", "GPU5"] },
-  { key: "3060x2-97", ip: "10.0.0.97", label: "3060 x2", gpuNames: ["GPU6", "GPU7"] },
+  { key: "3080", ip: "192.0.2.67", label: "3080 x2", gpuNames: ["GPU0", "GPU1"] },
+  { key: "3080x2", ip: "192.0.2.220", label: "3080 x2", gpuNames: ["GPU2", "GPU3"] },
+  { key: "3060x2", ip: "192.0.2.249", label: "3060 x2", gpuNames: ["GPU4", "GPU5"] },
+  { key: "3060x2-97", ip: "192.0.2.97", label: "3060 x2", gpuNames: ["GPU6", "GPU7"] },
 ];
 
 function GPUStatusCard({

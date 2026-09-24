@@ -1250,10 +1250,10 @@ router.post('/admin/pm2/logs/:name', adminReadOnly, async (req, res) => {
 
 // Remote machine configurations for process monitoring
 const REMOTE_MACHINES = {
-  '10.0.0.67': { user: 'mosana1', label: 'Render Station 1 (3080x2)' },
-  '10.0.0.220': { user: 'render1x3080', label: 'Render Station 2 (3080x2)' },
-  '10.0.0.249': { user: 'nosana4', label: 'Render Station 3 (3060x2)' },
-  '10.0.0.97': { user: 'm3060', label: 'Render Station 4 (3060x2)' },
+  '192.0.2.67': { user: 'mosana1', label: 'Render Station 1 (3080x2)' },
+  '192.0.2.220': { user: 'render1x3080', label: 'Render Station 2 (3080x2)' },
+  '192.0.2.249': { user: 'nosana4', label: 'Render Station 3 (3060x2)' },
+  '192.0.2.97': { user: 'm3060', label: 'Render Station 4 (3060x2)' },
 };
 
 // Systemd services to monitor on remote machines
@@ -1513,7 +1513,7 @@ router.post('/admin/infra/dns-check', adminReadOnly, async (req, res) => {
 router.post('/admin/infra/server-stats', adminReadOnly, async (req, res) => {
   try {
     const { stdout } = await execAsync(
-      `ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no 10.0.0.67 'echo "---MEM---" && free -m && echo "---DISK---" && df -h / && echo "---LOAD---" && cat /proc/loadavg && echo "---UPTIME---" && uptime -p'`,
+      `ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no 192.0.2.67 'echo "---MEM---" && free -m && echo "---DISK---" && df -h / && echo "---LOAD---" && cat /proc/loadavg && echo "---UPTIME---" && uptime -p'`,
       { timeout: 10000 }
     );
 
@@ -1554,7 +1554,7 @@ router.post('/admin/infra/server-stats', adminReadOnly, async (req, res) => {
 router.post('/admin/infra/remote-gpus', adminReadOnly, async (req, res) => {
   try {
     const { stdout } = await execAsync(
-      `ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no mosana1@10.0.0.67 'nvidia-smi --query-gpu=index,name,temperature.gpu,fan.speed,utilization.gpu,memory.used,memory.total,power.draw,power.limit,clocks.gr,clocks.mem --format=csv,noheader,nounits'`,
+      `ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no mosana1@192.0.2.67 'nvidia-smi --query-gpu=index,name,temperature.gpu,fan.speed,utilization.gpu,memory.used,memory.total,power.draw,power.limit,clocks.gr,clocks.mem --format=csv,noheader,nounits'`,
       { timeout: 10000 }
     );
     const gpus = stdout.trim().split('\n').map(line => {
@@ -1574,7 +1574,7 @@ router.post('/admin/infra/remote-gpus', adminReadOnly, async (req, res) => {
         clockMem: parseInt(p[10]),
       };
     }).filter(Boolean);
-    res.json({ gpus, machine: '10.0.0.67', label: '2x RTX 3080' });
+    res.json({ gpus, machine: '192.0.2.67', label: '2x RTX 3080' });
   } catch (error) {
     console.error('Remote GPU stats error:', error);
     res.status(500).json({ error: error.message });

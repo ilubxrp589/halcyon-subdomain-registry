@@ -100,7 +100,7 @@ Secondary Sale (marketplace resale):
 
 ## Scaling Plan
 
-Current: Single server (localai, 10.0.0.39) with local PostgreSQL, volume-resolver (Docker), hsd, Caddy (DoH/HTTPS). GPU rendering distributed across m3060 (2x RTX 3060) and mosana1 (2x RTX 3080).
+Current: Single server (localai, 192.0.2.39) with local PostgreSQL, volume-resolver (Docker), hsd, Caddy (DoH/HTTPS). GPU rendering distributed across m3060 (2x RTX 3060) and mosana1 (2x RTX 3080).
 Planned: AWS ECS Fargate (API), RDS PostgreSQL (Multi-AZ), ElastiCache Redis, separate render station for AI art
 
 ## Networks

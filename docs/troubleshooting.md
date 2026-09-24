@@ -14,7 +14,7 @@ This doc captures problems that have been encountered. Update this whenever a ne
 - SDXL and Juggernaut XL handle 1024x1024 fine on 12GB
 
 **ComfyUI instance won't start**
-- Render stations: m3060 (10.0.0.97, 2x RTX 3060) and mosana1 (10.0.0.67, 2x RTX 3080)
+- Render stations: m3060 (192.0.2.97, 2x RTX 3060) and mosana1 (192.0.2.67, 2x RTX 3080)
 - Check if another process is holding the port: `lsof -i :8188`
 - Check GPU is visible: `nvidia-smi`
 - Check CUDA version matches PyTorch: `python -c "import torch; print(torch.cuda.is_available())"`

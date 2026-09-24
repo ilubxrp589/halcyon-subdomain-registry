@@ -7690,7 +7690,7 @@ router.use('/defaults', defaultsRoutes);
 // =============================================================
 
 /**
- * Get public resolver (Unbound on 10.0.0.67) health and stats
+ * Get public resolver (Unbound on 192.0.2.67) health and stats
  * GET /resolver/status
  */
 router.get('/resolver/status', async (req, res) => {
@@ -7698,7 +7698,7 @@ router.get('/resolver/status', async (req, res) => {
     // Test resolver with a dig query
     const dnsAlive = await new Promise((resolve) => {
       const resolver = new dns.Resolver();
-      resolver.setServers(['10.0.0.67']);
+      resolver.setServers(['192.0.2.67']);
       const timeout = setTimeout(() => resolve(false), 3000);
       resolver.resolve4('google.com', (err, addresses) => {
         clearTimeout(timeout);
@@ -7711,7 +7711,7 @@ router.get('/resolver/status', async (req, res) => {
     try {
       const { exec: execCb } = await import('child_process');
       stats = await new Promise((resolve, reject) => {
-        execCb('ssh -i /home/localai/.ssh/id_ed25519 -o ConnectTimeout=3 -o StrictHostKeyChecking=no mosana1@10.0.0.67 "unbound-control stats_noreset"',
+        execCb('ssh -i /home/localai/.ssh/id_ed25519 -o ConnectTimeout=3 -o StrictHostKeyChecking=no mosana1@192.0.2.67 "unbound-control stats_noreset"',
           { timeout: 5000 },
           (err, stdout) => {
             if (err) return resolve(null);
@@ -7738,7 +7738,7 @@ router.get('/resolver/status', async (req, res) => {
 
     res.json({
       running: dnsAlive,
-      server: '10.0.0.67',
+      server: '192.0.2.67',
       queries: totalQueries,
       cacheHits,
       cacheMisses,
@@ -7929,7 +7929,7 @@ router.post('/admin/parallel-demo/start', auth.verifyWallet, auth.verifyAdmin, a
     const fanMachines = ['3080', '3080x2', '3060x2', '3060x2-97'];
     for (const machine of fanMachines) {
       try {
-        await fetch('http://10.0.0.67:8085/api/fan', {
+        await fetch('http://192.0.2.67:8085/api/fan', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ machine, speed: 100 }),
@@ -8079,7 +8079,7 @@ router.post('/admin/parallel-demo/start', auth.verifyWallet, auth.verifyAdmin, a
             const fanMachines = ['3080', '3080x2', '3060x2', '3060x2-97'];
             for (const machine of fanMachines) {
               try {
-                await fetch('http://10.0.0.67:8085/api/fan', {
+                await fetch('http://192.0.2.67:8085/api/fan', {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify({ machine, speed: 'auto' }),
@@ -8154,8 +8154,8 @@ router.post('/admin/parallel-demo/gpu-stats', auth.verifyAdminReadAuth, async (r
   try {
     // Fetch from GPU dashboard
     const [statsRes, jobsRes] = await Promise.all([
-      fetch('http://10.0.0.67:8085/api/stats').then(r => r.json()).catch(() => null),
-      fetch('http://10.0.0.67:8085/api/jobs').then(r => r.json()).catch(() => null),
+      fetch('http://192.0.2.67:8085/api/stats').then(r => r.json()).catch(() => null),
+      fetch('http://192.0.2.67:8085/api/jobs').then(r => r.json()).catch(() => null),
     ]);
 
     res.json({

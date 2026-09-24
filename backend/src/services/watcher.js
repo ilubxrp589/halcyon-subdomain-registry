@@ -14,9 +14,9 @@ import { exec } from 'child_process';
 const HNS_RESOLVERS = [
   // Authoritative (required for propagated status)
   { name: 'Local HNS', ip: '127.0.0.1', port: 5349, isLocal: true, required: true },
-  { name: 'Local PDNS', ip: '10.0.0.39:5300', isPDNS: true, required: true },
+  { name: 'Local PDNS', ip: '192.0.2.39:5300', isPDNS: true, required: true },
   // External (informational only, uses TCP due to UDP issues)
-  { name: 'Public Resolver (Unbound)', ip: '10.0.0.67', isDNS: true, required: false },
+  { name: 'Public Resolver (Unbound)', ip: '192.0.2.67', isDNS: true, required: false },
   { name: 'HDNS.io', ip: '103.196.38.38', useTcp: true, required: false },
 ];
 
@@ -472,9 +472,9 @@ class WatcherService {
       const activeTlds = await this.getActiveTlds();
       const testTld = activeTlds[0] || 'cryptofans';
 
-      // Query local PDNS (10.0.0.39) for SOA record
+      // Query local PDNS (192.0.2.39) for SOA record
       const result = await this.queryResolver(
-        { ip: '10.0.0.39:5300', isPDNS: true },
+        { ip: '192.0.2.39:5300', isPDNS: true },
         `ns1.${testTld}`
       );
       testResolution = !!result; // SOA exists = working

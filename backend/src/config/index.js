@@ -131,7 +131,7 @@ export const config = {
   // Example: FLUX_EXTRA_SERVERS=http://192.168.1.100:8188,http://192.168.1.101:8188
   fluxMultiGPU: {
     enabled: process.env.FLUX_MULTI_GPU_ENABLED !== 'false',
-    // All GPUs are remote - no local GPUs on 10.0.0.39
+    // All GPUs are remote - no local GPUs on 192.0.2.39
     // 4x RTX 3080 (.67, .220) + 2x RTX 3060 (.249)
     servers: [
       ...(process.env.FLUX_EXTRA_SERVERS

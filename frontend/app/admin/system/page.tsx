@@ -489,7 +489,7 @@ export default function SystemPage() {
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <Server className="w-5 h-5 text-primary" />
-              <CardTitle className="text-base">Remote Server (10.0.0.67)</CardTitle>
+              <CardTitle className="text-base">Remote Server (192.0.2.67)</CardTitle>
             </div>
           </CardHeader>
           <CardContent className="space-y-3">

@@ -38,7 +38,7 @@ const config = {
     // Checks to run
     checks: {
       icannDomains: ['google.com', 'cloudflare.com'],
-      authSubdomain: { name: 'testzone', expectedIp: '10.0.0.39' },
+      authSubdomain: { name: 'testzone', expectedIp: '192.0.2.39' },
       dohEndpoint: 'https://dns.halcyon-names.io/resolve?name=google.com&type=A',
       dotHost: '127.0.0.1',
       dotPort: 853,

@@ -2,12 +2,12 @@
  * SDXL Multi-GPU Service
  * Manages parallel image generation across multiple ComfyUI servers
  *
- * All GPUs are remote (no local GPUs on 10.0.0.39):
+ * All GPUs are remote (no local GPUs on 192.0.2.39):
  *
- * 10.0.0.67 - 2x RTX 3080 10GB
- * 10.0.0.220 - 2x RTX 3080 10GB
- * 10.0.0.249 - 2x RTX 3060 12GB
- * 10.0.0.97 - 2x RTX 3060 12GB
+ * 192.0.2.67 - 2x RTX 3080 10GB
+ * 192.0.2.220 - 2x RTX 3080 10GB
+ * 192.0.2.249 - 2x RTX 3060 12GB
+ * 192.0.2.97 - 2x RTX 3060 12GB
  *
  * Total: 8 GPUs (4x 3080 + 4x 3060)
  */
@@ -29,8 +29,8 @@ import { MONOCHROME_STYLES, stripColorFromModifiers, CONDENSED_MODIFIER_STYLES, 
 
 // All GPUs are remote - fallback to .67 if config not set
 const SERVERS = config.fluxMultiGPU?.servers || [
-  { url: 'http://10.0.0.67:8188', name: 'GPU0', isDisplayGPU: false },
-  { url: 'http://10.0.0.67:8189', name: 'GPU1', isDisplayGPU: false },
+  { url: 'http://192.0.2.67:8188', name: 'GPU0', isDisplayGPU: false },
+  { url: 'http://192.0.2.67:8189', name: 'GPU1', isDisplayGPU: false },
 ];
 
 // Display GPU protection settings

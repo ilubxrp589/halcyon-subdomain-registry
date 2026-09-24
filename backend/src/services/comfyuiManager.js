@@ -46,7 +46,7 @@ const CONFIG = {
   restartCooldown: 60000,
 };
 
-// GPU Server definitions - All remote GPUs (no local GPUs on 10.0.0.39)
+// GPU Server definitions - All remote GPUs (no local GPUs on 192.0.2.39)
 // 4x RTX 3080 (.67 and .220) + 4x RTX 3060 (.249 and .97)
 const GPU_SERVERS = [
   {
@@ -56,7 +56,7 @@ const GPU_SERVERS = [
     name: '3080 @ .67',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.67:8188'
+    url: 'http://192.0.2.67:8188'
   },
   {
     id: 'gpu1-remote',
@@ -65,7 +65,7 @@ const GPU_SERVERS = [
     name: '3080-GPU1 @ .67',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.67:8189'
+    url: 'http://192.0.2.67:8189'
   },
   {
     id: 'gpu2-remote',
@@ -74,7 +74,7 @@ const GPU_SERVERS = [
     name: '3080 @ .220',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.220:8188'
+    url: 'http://192.0.2.220:8188'
   },
   {
     id: 'gpu3-remote',
@@ -83,7 +83,7 @@ const GPU_SERVERS = [
     name: '3080-GPU1 @ .220',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.220:8189'
+    url: 'http://192.0.2.220:8189'
   },
   {
     id: 'gpu4-remote',
@@ -92,7 +92,7 @@ const GPU_SERVERS = [
     name: '3060 @ .249',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.249:8188'
+    url: 'http://192.0.2.249:8188'
   },
   {
     id: 'gpu5-remote',
@@ -101,7 +101,7 @@ const GPU_SERVERS = [
     name: '3060-GPU1 @ .249',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.249:8189'
+    url: 'http://192.0.2.249:8189'
   },
   {
     id: 'gpu6-remote',
@@ -110,7 +110,7 @@ const GPU_SERVERS = [
     name: '3060 @ .97',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.97:8188'
+    url: 'http://192.0.2.97:8188'
   },
   {
     id: 'gpu7-remote',
@@ -119,7 +119,7 @@ const GPU_SERVERS = [
     name: '3060-GPU1 @ .97',
     isDisplayGPU: false,
     isRemote: true,
-    url: 'http://10.0.0.97:8189'
+    url: 'http://192.0.2.97:8189'
   },
 ];
 

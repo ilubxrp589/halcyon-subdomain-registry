@@ -2,7 +2,7 @@
 
 ## Completed Work
 
-### 10.0.0.249 (nosana4) - 2x RTX 3060 12GB - FULLY SET UP
+### 192.0.2.249 (nosana4) - 2x RTX 3060 12GB - FULLY SET UP
 - LACT fan control installed and configured with aggressive curve
 - ComfyUI installed with PyTorch CUDA 12.4
 - PM2 ecosystem config for 2 GPU instances (ports 8188, 8189)
@@ -11,7 +11,7 @@
 - Added to HSR backend (comfyuiManager.js, .env FLUX_EXTRA_SERVERS)
 
 ### HSR Backend Updates
-- Removed local GPU references (no GPUs on 10.0.0.39 anymore)
+- Removed local GPU references (no GPUs on 192.0.2.39 anymore)
 - Updated comfyuiManager.js - now 6 remote GPUs (gpu0-gpu5)
 - Updated config/index.js - removed local GPU definitions
 - Updated sdxlMultiGPU.js - removed local GPU refs, updated fallbacks
@@ -19,13 +19,13 @@
 - Updated .env FLUX_EXTRA_SERVERS to include all 6 remote GPUs
 - Backend restarted, local comfyui PM2 processes deleted
 
-### GPU Dashboard (10.0.0.67:8085)
+### GPU Dashboard (192.0.2.67:8085)
 All 6 GPUs showing with RPM:
-- 10.0.0.67: 2x RTX 3080 (gpu0, gpu1)
-- 10.0.0.220: 2x RTX 3080 (gpu2, gpu3)
-- 10.0.0.249: 2x RTX 3060 (gpu4, gpu5)
+- 192.0.2.67: 2x RTX 3080 (gpu0, gpu1)
+- 192.0.2.220: 2x RTX 3080 (gpu2, gpu3)
+- 192.0.2.249: 2x RTX 3060 (gpu4, gpu5)
 
-## In Progress - 10.0.0.97 (nosana2)
+## In Progress - 192.0.2.97 (nosana2)
 
 ### Status: USER REINSTALLING UBUNTU
 - Had 2x RTX 3060 detected
@@ -49,14 +49,14 @@ All 6 GPUs showing with RPM:
 
 | Machine | GPUs | VRAM | Status |
 |---------|------|------|--------|
-| 10.0.0.67 | 2x RTX 3080 | 20GB | Online |
-| 10.0.0.220 | 2x RTX 3080 | 20GB | Online |
-| 10.0.0.249 | 2x RTX 3060 | 24GB | Online |
-| 10.0.0.97 | 2x RTX 3060 | 24GB | Reinstalling |
+| 192.0.2.67 | 2x RTX 3080 | 20GB | Online |
+| 192.0.2.220 | 2x RTX 3080 | 20GB | Online |
+| 192.0.2.249 | 2x RTX 3060 | 24GB | Online |
+| 192.0.2.97 | 2x RTX 3060 | 24GB | Reinstalling |
 
 ## Key Files Modified
 
-### Dashboard (10.0.0.67)
+### Dashboard (192.0.2.67)
 - `/home/mosana1/gpu-dashboard.py` - REMOTE_HOSTS, MACHINES dicts
 
 ### HSR Backend
@@ -67,10 +67,10 @@ All 6 GPUs showing with RPM:
 - `/home/localai/Desktop/HSR/backend/src/config/index.js` - removed local GPU config
 
 ## Credentials Reference
-- 10.0.0.67: mosana1 (SSH key)
-- 10.0.0.220: render1x3080 / REDACTED
-- 10.0.0.249: nosana4 / REDACTED
-- 10.0.0.97: (new creds after reinstall)
+- 192.0.2.67: mosana1 (SSH key)
+- 192.0.2.220: render1x3080 / REDACTED
+- 192.0.2.249: nosana4 / REDACTED
+- 192.0.2.97: (new creds after reinstall)
 
 ## LACT Config Template
 ```yaml

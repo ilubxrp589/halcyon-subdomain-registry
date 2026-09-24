@@ -24,7 +24,7 @@ haproxy (port 80, inside container)
 
 BIND 9.20 (port 5300)
     ├── Own authoritative zones (testzone, cryptomusic, cryptofans, etc.)
-    └── Handshake TLDs → root_proxy (127.2.0.x) → hsd (10.0.0.39:5349)
+    └── Handshake TLDs → root_proxy (127.2.0.x) → hsd (192.0.2.39:5349)
 ```
 
 ### Components

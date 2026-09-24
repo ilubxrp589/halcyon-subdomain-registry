@@ -1,6 +1,6 @@
 /**
  * GPU Dashboard Service
- * Proxies hardware-level nvidia-smi data from the GPU dashboard at 10.0.0.67:8085
+ * Proxies hardware-level nvidia-smi data from the GPU dashboard at 192.0.2.67:8085
  * with 5s cache TTL to avoid hammering on every 15s admin poll.
  */
 
@@ -11,7 +11,7 @@ class GpuDashboardService {
     this.jobsCache = null;
     this.jobsCacheTime = 0;
     this.cacheTTL = 5000; // 5s
-    this.baseUrl = 'http://10.0.0.67:8085';
+    this.baseUrl = 'http://192.0.2.67:8085';
     this.timeout = 3000; // 3s
   }
 

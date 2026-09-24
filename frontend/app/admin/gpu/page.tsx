@@ -21,10 +21,10 @@ import {
 
 // Machine display names and order
 const MACHINE_CONFIG: Record<string, { label: string; order: number; color: string }> = {
-  "3080": { label: "10.0.0.67 (3080)", order: 0, color: "#4488ff" },
-  "3080x2": { label: "10.0.0.220 (3080x2)", order: 1, color: "#44aaff" },
-  "3060x2": { label: "10.0.0.249 (3060x2)", order: 2, color: "#44ddaa" },
-  "3060x2-97": { label: "10.0.0.97 (3060x2)", order: 3, color: "#88dd44" },
+  "3080": { label: "192.0.2.67 (3080)", order: 0, color: "#4488ff" },
+  "3080x2": { label: "192.0.2.220 (3080x2)", order: 1, color: "#44aaff" },
+  "3060x2": { label: "192.0.2.249 (3060x2)", order: 2, color: "#44ddaa" },
+  "3060x2-97": { label: "192.0.2.97 (3060x2)", order: 3, color: "#88dd44" },
 };
 
 interface GPUData {

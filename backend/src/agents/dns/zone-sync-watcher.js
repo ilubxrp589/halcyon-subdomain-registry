@@ -181,10 +181,10 @@ class ZoneSyncWatcher {
 
         // Match zone record lines: label [TTL] [class] type value
         // Examples:
-        //   keeper IN A 10.0.0.39
+        //   keeper IN A 192.0.2.39
         //   jimmy IN TXT "owner=0x..."
         //   @ IN NS ns1.cryptofans.
-        //   ns1 IN A 10.0.0.39
+        //   ns1 IN A 192.0.2.39
         const match = trimmed.match(/^(\S+)\s+(?:\d+\s+)?(?:IN\s+)?(\w+)\s+(.+)/);
         if (!match) continue;
 

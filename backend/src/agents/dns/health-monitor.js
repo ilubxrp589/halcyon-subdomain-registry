@@ -4,7 +4,7 @@
  * Runs 9 health checks every 60 seconds:
  * 1. ICANN resolution (google.com, cloudflare.com)
  * 2. HNS TLD resolution (SOA for active TLDs)
- * 3. Auth zone subdomain (keeper.cryptomusic → 10.0.0.39)
+ * 3. Auth zone subdomain (keeper.cryptomusic → 192.0.2.39)
  * 4. ICANN priority (com NS must contain gtld-servers.net)
  * 5. DoH endpoint (JSON API via HTTPS)
  * 6. DoT endpoint (TCP connect to port 853)

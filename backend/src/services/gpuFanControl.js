@@ -5,7 +5,7 @@
  * - Spins fans to 100% when work queue has jobs
  * - Reduces fans to idle speed when queue is empty
  *
- * All GPUs are now remote (no local GPUs on 10.0.0.39)
+ * All GPUs are now remote (no local GPUs on 192.0.2.39)
  * Remote machines (.67, .220, .249) use LACT for fan control via the dashboard
  */
 
@@ -37,7 +37,7 @@ const CONFIG = {
   // Remote GPUs (.67)
   remote: {
     enabled: process.env.REMOTE_FAN_CONTROL !== 'false',
-    host: process.env.REMOTE_GPU_HOST || '10.0.0.67',
+    host: process.env.REMOTE_GPU_HOST || '192.0.2.67',
     user: process.env.REMOTE_GPU_USER || 'mosana1',
     gpuCount: parseInt(process.env.REMOTE_GPU_COUNT) || 2,
     fanCount: parseInt(process.env.REMOTE_GPU_FAN_COUNT) || 4,
@@ -101,7 +101,7 @@ class GPUFanControlService {
   }
 
   startLocalQueuePoller() {
-    // No local GPUs on 10.0.0.39 - all GPUs are remote now
+    // No local GPUs on 192.0.2.39 - all GPUs are remote now
     // Fan control is handled by LACT on remote machines via the dashboard
     console.log('[GPUFanControl] Local queue poller disabled - no local GPUs');
     return;
@@ -164,20 +164,20 @@ class GPUFanControlService {
     // GPU endpoints grouped by machine for per-machine fan control
     const machineGpuUrls = {
       '3080': [
-        'http://10.0.0.67:8188/queue',   // GPU0
-        'http://10.0.0.67:8189/queue',   // GPU1
+        'http://192.0.2.67:8188/queue',   // GPU0
+        'http://192.0.2.67:8189/queue',   // GPU1
       ],
       '3080x2': [
-        'http://10.0.0.220:8188/queue',  // GPU2
-        'http://10.0.0.220:8189/queue',  // GPU3
+        'http://192.0.2.220:8188/queue',  // GPU2
+        'http://192.0.2.220:8189/queue',  // GPU3
       ],
       '3060x2': [
-        'http://10.0.0.249:8188/queue',  // GPU4
-        'http://10.0.0.249:8189/queue',  // GPU5
+        'http://192.0.2.249:8188/queue',  // GPU4
+        'http://192.0.2.249:8189/queue',  // GPU5
       ],
       '3060x2-97': [
-        'http://10.0.0.97:8188/queue',   // GPU6
-        'http://10.0.0.97:8189/queue',   // GPU7
+        'http://192.0.2.97:8188/queue',   // GPU6
+        'http://192.0.2.97:8189/queue',   // GPU7
       ],
     };
 
@@ -384,7 +384,7 @@ class GPUFanControlService {
   // --- Combined operations ---
 
   // Dashboard API URL for all GPU fan control
-  static DASHBOARD_API = 'http://10.0.0.67:8085/api/fan';
+  static DASHBOARD_API = 'http://192.0.2.67:8085/api/fan';
   static ALL_MACHINES = ['3080', '3080x2', '3060x2', '3060x2-97'];
 
   /**
@@ -463,15 +463,15 @@ class GPUFanControlService {
 
   // Map server URLs to machine names for per-GPU fan control
   static URL_TO_MACHINE = {
-    '10.0.0.67': '3080',
-    '10.0.0.220': '3080x2',
-    '10.0.0.249': '3060x2',
-    '10.0.0.97': '3060x2-97',
+    '192.0.2.67': '3080',
+    '192.0.2.220': '3080x2',
+    '192.0.2.249': '3060x2',
+    '192.0.2.97': '3060x2-97',
   };
 
   /**
    * Get machine name from a server URL
-   * @param {string} serverUrl - Server URL like "http://10.0.0.67:8188"
+   * @param {string} serverUrl - Server URL like "http://192.0.2.67:8188"
    * @returns {string|null} Machine name or null
    */
   getMachineFromUrl(serverUrl) {

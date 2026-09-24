@@ -14,7 +14,7 @@ import { exec as execCb } from 'child_process';
 
 const ZONE_DIR = process.env.DNS_ZONE_DIR || '/home/localai/volume-resolver-data/auth_zones';
 const CONTAINER = 'volume-resolver';
-const NS_IP = '10.0.0.39';
+const NS_IP = '192.0.2.39';
 const DEFAULT_TTL = 300;
 
 // Infrastructure labels that are part of the zone header, not subdomain records

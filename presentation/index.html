@@ -599,11 +599,11 @@
     <h2>Running from home</h2>
     <table>
       <tr><th>Machine</th><th>IP</th><th>GPU</th><th>Role</th></tr>
-      <tr><td><strong>localai (main)</strong></td><td>10.0.0.39</td><td>3x RTX 3060</td><td>Everything: Backend, Frontend, DB, HNS Node, PowerDNS, ComfyUI</td></tr>
-      <tr><td>mosana1</td><td>10.0.0.67</td><td>RTX 3080</td><td>Render station, Unbound DNS resolver</td></tr>
-      <tr><td>render1x3080</td><td>10.0.0.220</td><td>RTX 3080</td><td>Render station</td></tr>
-      <tr><td>nosana4</td><td>10.0.0.249</td><td>RTX 3060</td><td>Render station</td></tr>
-      <tr><td>m3060</td><td>10.0.0.97</td><td>RTX 3060</td><td>Render station</td></tr>
+      <tr><td><strong>localai (main)</strong></td><td>192.0.2.39</td><td>3x RTX 3060</td><td>Everything: Backend, Frontend, DB, HNS Node, PowerDNS, ComfyUI</td></tr>
+      <tr><td>mosana1</td><td>192.0.2.67</td><td>RTX 3080</td><td>Render station, Unbound DNS resolver</td></tr>
+      <tr><td>render1x3080</td><td>192.0.2.220</td><td>RTX 3080</td><td>Render station</td></tr>
+      <tr><td>nosana4</td><td>192.0.2.249</td><td>RTX 3060</td><td>Render station</td></tr>
+      <tr><td>m3060</td><td>192.0.2.97</td><td>RTX 3060</td><td>Render station</td></tr>
     </table>
     <h2 style="margin-top:30px">Services (PM2 managed)</h2>
     <table>
@@ -763,7 +763,7 @@
     <h2>Prove DNS Resolution <span style="font-size:12px; color:#666; font-weight:normal;">(the mic drop moment)</span></h2>
     <div class="cmd" onclick="copyCmd(this)" title="Click to copy">
       <span class="copy-hint">click to copy</span>
-      <span class="prompt">$</span> dig @10.0.0.39 -p 5300 lilxerp.cryptomusic A
+      <span class="prompt">$</span> dig @192.0.2.39 -p 5300 lilxerp.cryptomusic A
     </div>
 
     <h2>Check HNS Node Status</h2>
@@ -819,7 +819,7 @@
 
     <div class="qa">
       <div class="q">"Does DNS actually resolve in a normal browser?"</div>
-      <div class="a">Yes, if you're using an HNS-aware resolver (NextDNS, HDNS.io, or our Unbound resolver at 10.0.0.67). Without that, you need a bridge. Same as how .onion needs Tor. The resolution is real — dig it in terminal and you get an A record back.</div>
+      <div class="a">Yes, if you're using an HNS-aware resolver (NextDNS, HDNS.io, or our Unbound resolver at 192.0.2.67). Without that, you need a bridge. Same as how .onion needs Tor. The resolution is real — dig it in terminal and you get an A record back.</div>
     </div>
 
     <div class="qa">

@@ -33,6 +33,7 @@ ROOT = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=Tr
 # Local-only files. Matched with fnmatch, where * also crosses "/".
 EXCLUDE = [
     ".claude/*",                 # Claude Code state: settings.local.json holds wallet keys
+    "*/.claude/*",               # nested copies too (docs/.claude slipped through 09-23)
     "*CLAUDE.md",                # internal AI working notes, one in most folders
     "*CLAUDE-CODE-BRAIN.md",
     "FIRST-RUN-PROMPTS.md",
@@ -58,6 +59,9 @@ ENV_DEFAULT = re.compile(rb"(process\.env\.([A-Za-z0-9_]+)\s*(?:\|\||\?\?)\s*)([
 PY_DEFAULT = re.compile(rb"((?:os\.environ\.get|os\.getenv)\(\s*[\"']([A-Za-z0-9_]+)[\"']\s*,\s*)([\"'])(.*?)\3")
 ASSIGN = re.compile(rb"(\b" + SECRET_IDENT + rb"[\"']?\s*[:=]\s*)([\"'`])([^\"'`\s]{6,})\2", re.I)
 PW_WORD = rb"(?i)((?:pass(?:word|wd)?|pwd|secret|credential)[^\n]{0,30}?)"
+# the home LAN: shown as the RFC 5737 documentation range, last octet kept so
+# the machine references stay consistent with each other
+LAN_IP = re.compile(rb"\b10\.0\.0\.([0-9]{1,3})\b")
 
 # What must not survive (checked on the finished tree)
 GATE = [
@@ -76,6 +80,7 @@ GATE = [
     ("discord-webhook", re.compile(rb"(discord(?:app)?\.com/api/webhooks/[0-9]+/[A-Za-z0-9_-]{20,})")),
     ("url-password", URL_PW),
     ("secret-assignment", ASSIGN),
+    ("lan-ip", LAN_IP),
 ]
 # the well-known Foundry/Hardhat test phrase, public by design, and an NFT art
 # prompt that happens to be twelve short words
@@ -151,7 +156,8 @@ def scrub(data, lits, found):
     data = ENV_DEFAULT.sub(env_default, data)
     data = PY_DEFAULT.sub(env_default, data)
     data = URL_PW.sub(url_pw, data)
-    return ASSIGN.sub(assign, data)
+    data = ASSIGN.sub(assign, data)
+    return LAN_IP.sub(rb"192.0.2.\1", data)
 
 
 def read_all(entries):
@@ -215,7 +221,7 @@ def main():
         for name, rx in GATE if not p.startswith(VENDORED) else ():
             for m in rx.finditer(data):
                 v = m.group(m.lastindex or 0)
-                if v in ALLOW or not usable(v):
+                if name != "lan-ip" and (v in ALLOW or not usable(v)):
                     continue
                 problems.add((name, p, v[:3].decode(errors="replace") + f"…({len(v)})"))
 
